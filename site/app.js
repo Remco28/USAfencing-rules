@@ -82,7 +82,7 @@
   function slotChip(label, text) {
     var wrap = el("div", "slot");
     wrap.appendChild(el("span", "lbl", label));
-    var concise = (text || "—").replace(/^(?:1st|2nd|3rd) (?:call|time):\s*/i, "");
+    var concise = (text || "—").replace(/^(?:1st|2nd|3rd) (?:call|time):\s*/i, "").replace(/\s*\(footnote[^)]*\)/gi, "").replace(/\s*\(≥3rd\)/g, "");
     wrap.appendChild(el("div", "chip " + chipClass(text || ""), concise));
     return wrap;
   }
@@ -121,30 +121,10 @@
     var top = el("div", "off-top");
     top.appendChild(el("span", "grp", offense.section === "preamble" ? "Calls & passivity" : offense.section.replace(/^(\d)(?:st|nd|rd|th) Group$/, "Group $1")));
     weapons(offense).forEach(function (weapon) { top.appendChild(el("span", "badge", weapon)); });
-    if (offense.annuls_touch) top.appendChild(el("span", "badge annul", offense.id === "g1-jostling" ? "* See chart note" : "* Touch annulled"));
-    if (offense.team_special) top.appendChild(el("span", "badge team", "+ Team penalty"));
-    if (offense.superscript) top.appendChild(el("span", "badge", "Note " + offense.superscript));
     card.appendChild(top);
-    if (offense.superscript && DATA.legend) {
-      var noteKeys = offense.superscript.split(/[\\/ ]+/);
-      var noteLines = noteKeys.map(function (key) {
-        var note = DATA.legend.footnotes.filter(function (item) { return item.key === key; })[0];
-        return note ? note.text : "";
-      }).filter(Boolean);
-      if (noteLines.length) {
-        var noteDetails = document.createElement("details");
-        noteDetails.className = "entry-note";
-        noteDetails.appendChild(el("summary", null, "Chart note " + offense.superscript));
-        if (offense.id === "g1-jostling") {
-          noteDetails.appendChild(el("p", null, "The asterisk appears after ‘disorderly fencing’ in the chart. It may apply only to that offense, not mask removal or undressing."));
-        }
-        noteLines.forEach(function (line) { noteDetails.appendChild(el("p", null, line)); });
-        card.appendChild(noteDetails);
-      }
-    }
 
     card.appendChild(el("h3", null, offense.one_liner || offense.offense_official));
-    if (offense.one_liner && norm(offense.one_liner).replace(/[.*]/g, "").trim() !== norm(offense.offense_official).replace(/[.*]/g, "").trim()) card.appendChild(el("p", "off-name", offense.offense_official));
+    if (offense.one_liner && norm(offense.one_liner).replace(/[.*]/g, "").trim() !== norm(offense.offense_official).replace(/[.*]/g, "").trim()) card.appendChild(el("p", "off-name", offense.offense_official.replace(/\s*[+*]/g, "")));
     if (offense.explainer && offense.id !== "presence" && offense.id !== "unwillingness") card.appendChild(el("p", "expl", offense.explainer));
 
     if (offense.passivity) {
@@ -188,6 +168,17 @@
         escalation.appendChild(slotChip((offense.id === "presence" ? "Third call" : "Third or later offense"), offense.pen_third));
       }
       card.appendChild(escalation);
+    }
+
+    if (offense.effects && offense.effects.length) {
+      var effects = el("div", "entry-effects");
+      offense.effects.forEach(function (effect) {
+        var paragraph = el("p", "entry-effect");
+        paragraph.appendChild(el("strong", null, effect.title + ". "));
+        paragraph.appendChild(document.createTextNode(effect.text));
+        effects.appendChild(paragraph);
+      });
+      card.appendChild(effects);
     }
 
     if (update && !offense.passivity) {
@@ -301,7 +292,8 @@
       if (!query) return true;
       var update = DATA.updates[offense.id] || {};
       var currentText = [update.summary || ""].concat(update.individual || [], update.team || [], update.notes || []).join(" ");
-      var searchable = norm([currentText, offense.offense_official, offense.one_liner, offense.explainer, (offense.articles || []).join(" "), offense.section, offense.section.replace(/^(\d)(?:st|nd|rd|th) Group$/, "Group $1"), offense.section === "preamble" ? "calls passivity" : ""].join(" "));
+      var effectText = (offense.effects || []).map(function (effect) { return effect.title + " " + effect.text; }).join(" ");
+      var searchable = norm([effectText, currentText, offense.offense_official, offense.one_liner, offense.explainer, (offense.articles || []).join(" "), offense.section, offense.section.replace(/^(\d)(?:st|nd|rd|th) Group$/, "Group $1"), offense.section === "preamble" ? "calls passivity" : ""].join(" "));
       return query.split(/\s+/).every(function (part) { return searchable.indexOf(part) !== -1; });
     }));
   }
@@ -408,16 +400,16 @@
     var host = document.getElementById("dispute-results");
     host.innerHTML = "";
     if (!disputeFam) {
-      host.appendChild(el("p", "dispute-note", "Select a card to see chart entries that include it. Passivity has its own P-red → P-black sequence; see the updated t.124 guide."));
+      host.appendChild(el("p", "dispute-note", "Select a card to see the situations that can lead to it. Passivity has its own P-red → P-black sequence; see the updated t.124 guide."));
       return;
     }
     var list = sortByChart(DATA.offenses.filter(function (offense) { return matchesCard(offense, disputeFam); }));
     if (!list.length) {
-      host.appendChild(el("p", "empty-state", "No matching penalties in the chart."));
+      host.appendChild(el("p", "empty-state", "No matching penalties."));
       return;
     }
     var selected = DISPUTE_CARDS.filter(function (item) { return item.fam === disputeFam; })[0];
-    host.appendChild(el("h2", "dispute-results-title", selected.label + " · " + list.length + " chart entries"));
+    host.appendChild(el("h2", "dispute-results-title", selected.label + " · " + list.length + " situations"));
     var cards = el("div", "learn-list");
     list.forEach(function (offense) { cards.appendChild(offenseCard(offense)); });
     host.appendChild(cards);
@@ -449,12 +441,12 @@
     if (!DATA.legend) return;
     legendHost.innerHTML = "";
     var cardSummaries = {
-      "Yellow Card": "Warning; valid across the bout.",
+      "Yellow Card": "A warning that lasts for the bout. After a Red card for any reason, another Group 1 offense brings Red instead of Yellow.",
       "Red Card": "Penalty touch for the opponent.",
-      "Black Card": "Exclusion; check the chart note for scope.",
+      "Black Card": "Exclusion from an event, a tournament, or the venue. Each entry explains the scope that applies.",
       "P-yellow": "Old warning card for passivity; removed from USA Fencing events on Oct. 1, 2026.",
       "P-red": "Penalty hit for unwillingness to fight.",
-      "P-black": "Loss of the bout or match for unwillingness to fight."
+      "P-black": "Loss of the bout or team match for passivity. The loser keeps the corresponding placing and points; this is different from exclusion for misconduct."
     };
     DATA.legend.cards.forEach(function (item) {
       var row = el("div", "legend-row");
@@ -462,7 +454,7 @@
       var copy = el("div", "legend-copy");
       copy.appendChild(el("p", null, cardSummaries[item.card] || item.meaning));
       var detail = document.createElement("details");
-      detail.appendChild(el("summary", null, item.card.indexOf("P-") === 0 ? "Historical chart wording" : "Chart wording"));
+      detail.appendChild(el("summary", null, item.card.indexOf("P-") === 0 ? "Earlier official definition" : "Official definition"));
       detail.appendChild(el("p", null, item.meaning));
       copy.appendChild(detail);
       row.appendChild(copy);
@@ -470,24 +462,17 @@
     });
     var footnoteHost = document.getElementById("footnote-list");
     footnoteHost.innerHTML = "";
-    var footnoteSummaries = {
-      "*": "Touch by the fencer at fault is annulled.",
-      "+": "Team Yellow; a later Group 1 offense by any teammate draws Red.",
-      "1": "Exclusion from the competition.",
-      "2": "Exclusion from the tournament.",
-      "3": "Expulsion from the venue.",
-      "4": "Immediate exclusion or expulsion is possible in serious cases."
-    };
-    DATA.legend.footnotes.forEach(function (item) {
-      var row = el("div", "legend-row");
-      row.appendChild(el("div", "chip neutral", item.key));
-      var copy = el("div", "legend-copy");
-      copy.appendChild(el("p", null, footnoteSummaries[item.key] || item.text));
-      var detail = document.createElement("details");
-      detail.appendChild(el("summary", null, "Chart wording"));
-      detail.appendChild(el("p", null, item.text));
-      copy.appendChild(detail);
-      row.appendChild(copy);
+    [
+      ["Touch cancelled", "A touch scored by the fencer committing the offense does not count."],
+      ["Team warning", "A Yellow warning applies to the whole match. Any teammate committing a later Group 1 offense receives Red."],
+      ["Event exclusion", "The fencer cannot continue in this competition."],
+      ["Tournament exclusion", "The person cannot take part in other events at the tournament."],
+      ["Venue removal", "The person must leave the competition venue."],
+      ["Immediate action", "For some serious offenses, the referee can exclude or expel immediately. The entry tells you when this exception applies."]
+    ].forEach(function (item) {
+      var row = el("div", "consequence-definition");
+      row.appendChild(el("h3", null, item[0]));
+      row.appendChild(el("p", null, item[1]));
       footnoteHost.appendChild(row);
     });
   }

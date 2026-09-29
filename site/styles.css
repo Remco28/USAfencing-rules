@@ -246,3 +246,10 @@ details.entry-note p { margin: 0 0 9px; color: #46534b; font-size: .74rem; }
 .active-filters { margin: 3px 0 0; color: var(--green-dark); font-size: .76rem; }
 .filter-panel { margin: -7px 0 18px; padding: 4px 15px 15px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 #view-lookup .page-heading { padding-top: 12px; padding-bottom: 14px; }
+
+/* Consequences belong with the penalty, without source-note codes. */
+.entry-effects { margin: 10px 0; padding: 0 0 0 10px; border-left: 2px solid #b9cbbd; }
+.entry-effect { margin: 6px 0; color: #38463e; font-size: .82rem; line-height: 1.45; }
+.entry-effect strong { color: var(--ink); }
+.consequence-definition h3 { margin: 14px 0 3px; font-size: .9rem; }
+.consequence-definition p { margin: 0; }

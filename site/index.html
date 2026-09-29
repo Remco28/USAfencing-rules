@@ -31,13 +31,13 @@
       <div class="shortcut-grid" id="card-key"></div>
     </section>
     <section class="browse-section" aria-labelledby="browse-title">
-      <div class="section-heading"><div><p class="eyebrow">Browse by situation</p><h2 id="browse-title">The penalty chart</h2></div><button class="text-button" type="button" data-open-view="lookup">Search all 41 entries <span aria-hidden="true">→</span></button></div>
+      <div class="section-heading"><div><p class="eyebrow">Browse by situation</p><h2 id="browse-title">Penalties by situation</h2></div><button class="text-button" type="button" data-open-view="lookup">Search all 41 entries <span aria-hidden="true">→</span></button></div>
       <div id="learn-sections"></div>
     </section>
   </section>
 
   <section class="view" id="view-lookup" aria-label="Search penalties" hidden>
-    <div class="page-heading"><p class="eyebrow">Penalty chart · 41 entries</p><h1>Find a penalty</h1><p>Search the chart, or narrow it by penalty group, card or weapon.</p></div>
+    <div class="page-heading"><p class="eyebrow">41 penalty situations</p><h1>Find a penalty</h1><p>Search situations and rules, or narrow the results by penalty group, card or weapon.</p></div>
     <div class="search-wrap">
       <label class="search-label" for="search">Search penalties and rule citations</label>
       <div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try ‘mask’, ‘late’ or ‘t.119’" autocomplete="off"></div>
@@ -49,7 +49,7 @@
       <p class="active-filters" id="active-filters" hidden></p>
     </div>
     <div class="filter-panel" id="filter-panel" hidden>
-      <fieldset class="filter-set"><legend>Penalty group</legend><div class="chip-row" id="group-filters" role="group" aria-label="Filter by penalty group"></div><p class="filter-hint">Groups are the chart’s penalty categories, not rounds. Group 1 usually starts with a warning; Group 2 with a penalty touch; Group 3 covers conduct and venue rules; Group 4 brings immediate exclusion. Calls & passivity have separate procedures.</p></fieldset>
+      <fieldset class="filter-set"><legend>Penalty group</legend><div class="chip-row" id="group-filters" role="group" aria-label="Filter by penalty group"></div><p class="filter-hint">Groups are penalty categories, not rounds. Group 1 usually starts with a warning; Group 2 with a penalty touch; Group 3 covers conduct and venue rules; Group 4 brings immediate exclusion. Calls & passivity have separate procedures.</p></fieldset>
       <fieldset class="filter-set"><legend>Card</legend><div class="chip-row" id="card-filters" role="group" aria-label="Filter by card shown"></div></fieldset>
       <fieldset class="filter-set"><legend>Weapon</legend><div class="chip-row" id="weapon-filters" role="group" aria-label="Filter by weapon"></div></fieldset>
     </div>
@@ -57,7 +57,7 @@
   </section>
 
   <section class="view" id="view-dispute" aria-label="Browse by card" hidden>
-    <div class="page-heading"><p class="eyebrow">At the strip</p><h1>Browse by card</h1><p>Choose the card to see chart entries that include it. The penalty depends on the offense and its history.</p></div>
+    <div class="page-heading"><p class="eyebrow">At the strip</p><h1>Browse by card</h1><p>Choose a card to find the situations that can lead to it. The penalty depends on the offense and its history.</p></div>
     <div class="dispute-grid" id="dispute-cards"></div>
     <div id="dispute-results" aria-live="polite" aria-atomic="false"></div>
   </section>
@@ -81,7 +81,7 @@
         </div>
       </section>
       <section class="about-card"><p class="eyebrow">Cards</p><h2>What each card means</h2><div id="legend-list"></div></section>
-      <section class="about-card"><p class="eyebrow">Chart notes</p><h2>Symbols and footnotes</h2><div id="footnote-list"></div></section>
+      <section class="about-card"><p class="eyebrow">Consequences</p><h2>What happens beyond the card</h2><div id="footnote-list"></div></section>
       <section class="about-card about-wide"><p class="eyebrow">Checking a call</p><h2>Read the cited rule</h2>
         <p>Open an entry and select <strong>Show rule text</strong> to see its citation and excerpt. Updated entries label older excerpts as historical and link the current official sources. Plain summaries are a guide; the official wording controls.</p>
       </section>

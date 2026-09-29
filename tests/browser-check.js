@@ -43,7 +43,7 @@
   }
   click('[data-view="learn"]');
   await navigator.serviceWorker.ready;
-  const cache = await caches.open('fencing-penalties-v7');
+  const cache = await caches.open('fencing-penalties-v8');
   const cached = (await cache.keys()).map(r=>new URL(r.url).pathname);
   check('current update cached', cached.includes(new URL('data/updates.json', document.baseURI).pathname));
   check('all diagrams precached', cached.filter(p=>p.includes('/figures/')).length === 8);

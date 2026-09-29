@@ -19,7 +19,8 @@
     "explainer": "The referee calls the fencer or team member to the strip. Repeated failure to appear can lead to elimination.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "unwillingness",
@@ -42,7 +43,8 @@
     "explainer": "Effective Oct. 1, 2026, the P-card sequence is P-red, then P-black. The November 2025 chart row below still shows the superseded sequence.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": true
+    "passivity": true,
+    "effects": []
   },
   {
     "id": "g1-leaving-strip",
@@ -67,7 +69,8 @@
       "1",
       "2"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-corps-a-corps",
@@ -89,7 +92,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-turning-back",
@@ -111,7 +120,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-covering-target",
@@ -140,7 +155,13 @@
       "5",
       "6"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-electrical-equipment",
@@ -162,7 +183,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-crossing-side",
@@ -187,7 +214,13 @@
       "1",
       "2"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-delaying",
@@ -209,7 +242,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-equipment-conforming",
@@ -234,7 +268,8 @@
     "explainer": "Includes faulty equipment and a missing spare weapon or body cord.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-straighten-weapon",
@@ -258,7 +293,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-dragging-point",
@@ -281,7 +317,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-sabre-guard",
@@ -306,7 +343,13 @@
     "figure_refs": [
       "6"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-refusal-obey",
@@ -333,7 +376,8 @@
       "3b",
       "3c"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-hair",
@@ -355,7 +399,8 @@
     "explainer": "Fasten hair so it does not cover valid target, hide the name or nationality, or need adjusting during the bout.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-jostling",
@@ -377,14 +422,20 @@
       "t.126"
     ],
     "one_liner": "Jostling, disorderly fencing, early mask removal or undressing.",
-    "explainer": "The chart lists each offense under Group 1. Its asterisk follows ‘disorderly fencing’; check the rule text for when a touch is annulled.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "3a",
       "3b",
       "3c"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancellation for disorderly fencing",
+        "text": "A touch scored by the fencer committing an irregular action is cancelled (t.121.2). Early mask removal and dressing or undressing have separate rules; this cancellation does not automatically apply to every action in this entry."
+      }
+    ]
   },
   {
     "id": "g1-abnormal-action",
@@ -406,7 +457,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g1-unjustified-appeal",
@@ -434,7 +491,8 @@
       "3b",
       "3c"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g1-strip-enclosure",
@@ -453,13 +511,19 @@
       "t.132.2"
     ],
     "one_liner": "Entering the strip enclosure without permission.",
-    "explainer": "This is a team penalty: the Yellow applies to the whole team match. A later Group 1 offense by any team member draws Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "1",
       "2"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Warning applies to the whole team",
+        "text": "The Yellow warning lasts for the full team match. Any teammate committing a later Group 1 offense in that match receives Red."
+      }
+    ]
   },
   {
     "id": "g2-nonweapon-arm",
@@ -482,7 +546,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g2-medical",
@@ -504,7 +574,8 @@
     "explainer": "The doctor must confirm the medical reason for the interruption.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g2-control-mark",
@@ -526,7 +597,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g2-dropping-weapon",
@@ -548,7 +625,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g2-name-colors",
@@ -570,7 +648,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g2-deliberate-off-target",
@@ -596,7 +675,13 @@
       "5",
       "6"
     ],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g2-dangerous-action",
@@ -620,7 +705,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g3-disturbing-order",
@@ -640,10 +731,20 @@
       "t.137.2"
     ],
     "one_liner": "Fencer disturbing order on the strip.",
-    "explainer": "Immediate exclusion is possible in serious cases.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      },
+      {
+        "title": "Immediate action in serious cases",
+        "text": "The referee may order immediate exclusion from the event."
+      }
+    ]
   },
   {
     "id": "g3-dishonest",
@@ -665,7 +766,17 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      },
+      {
+        "title": "Touch cancelled",
+        "text": "Any touch scored by the fencer committing this offense is cancelled."
+      }
+    ]
   },
   {
     "id": "g3-publicity",
@@ -687,7 +798,13 @@
     "explainer": "See the cited publicity code.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      }
+    ]
   },
   {
     "id": "g3-spectator-disturbance",
@@ -712,10 +829,20 @@
       "t.168"
     ],
     "one_liner": "Venue disturbance or smoking, including by spectators.",
-    "explainer": "The entry applies to people not on the strip and includes smoking or vaping in the competition hall. A warning may be followed by expulsion from the venue.",
+    "explainer": "Applies to people not on the strip, including spectators. Smoking and vaping in the competition hall are included.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Removal from the venue",
+        "text": "A Black card requires the person to leave the competition venue."
+      },
+      {
+        "title": "Immediate action in serious cases",
+        "text": "The referee may order immediate removal from the venue."
+      }
+    ]
   },
   {
     "id": "g3-warming-up",
@@ -737,7 +864,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g3-antisporting",
@@ -759,7 +887,8 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": []
   },
   {
     "id": "g4-electronic-comms",
@@ -782,7 +911,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from the event or tournament",
+        "text": "A Black card can exclude the fencer from this event or the whole tournament. An event is one competition; a tournament can contain several events."
+      }
+    ]
   },
   {
     "id": "g4-falsified-marks",
@@ -806,7 +941,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      }
+    ]
   },
   {
     "id": "g4-manifest-cheating",
@@ -829,7 +970,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from the whole tournament",
+        "text": "A Black card excludes the person from all events at this tournament."
+      }
+    ]
   },
   {
     "id": "g4-refusal-to-fence",
@@ -851,7 +998,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      }
+    ]
   },
   {
     "id": "g4-sportsmanship",
@@ -876,7 +1029,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from the event or tournament",
+        "text": "A Black card can exclude the fencer from this event or the whole tournament. An event is one competition; a tournament can contain several events."
+      }
+    ]
   },
   {
     "id": "g4-salute-refusal",
@@ -898,7 +1057,13 @@
     "explainer": "The salute is to the opponent, referee and audience.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      }
+    ]
   },
   {
     "id": "g4-collusion",
@@ -921,7 +1086,13 @@
     "explainer": "Includes agreeing to help another competitor by giving away touches.",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      }
+    ]
   },
   {
     "id": "g4-violent-actions",
@@ -943,7 +1114,13 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from this event",
+        "text": "A Black card ends the fencer’s participation in this competition."
+      }
+    ]
   },
   {
     "id": "g4-doping",
@@ -965,6 +1142,12 @@
     "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
-    "passivity": false
+    "passivity": false,
+    "effects": [
+      {
+        "title": "Exclusion from the whole tournament",
+        "text": "A Black card excludes the person from all events at this tournament."
+      }
+    ]
   }
 ]

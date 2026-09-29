@@ -110,3 +110,13 @@ See `docs/RULE-UPDATES-2026-10.md` for the completed primary-source audit.
 `rule_updates(offense_id, content_json)` holds current guidance for t.124, t.72
 and t.20, exported to `site/data/updates.json`. Original chart cells and excerpts
 remain November 2025 transcriptions; the UI labels changed excerpts historical.
+
+## Standalone consequences — September 29, 2026
+
+Source superscripts and penalty cells remain unchanged. `entry_effects` stores
+plain meanings for exclusion scope (event, tournament, venue), serious-case
+immediate action, touch cancellation and team-wide Yellow warnings. These export
+as `effects` on each offense. Mixed scope 1/2 stays “event or tournament”; the UI
+does not invent a choice rule. Jostling's cancellation is limited using t.121.2;
+mask removal and undressing are not automatically assigned cancellation.
+The main app displays consequences beside penalties and omits source-note numbers.

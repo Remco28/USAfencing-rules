@@ -302,11 +302,11 @@ PLAIN = {
     "g1-refusal-obey": ("Refusing to obey the referee.", ""),
     "g1-hair": ('Hair does not conform to the rules.', 'Fasten hair so it does not cover valid target, hide the name or nationality, or need adjusting during the bout.'),
     "g1-jostling": ("Jostling, disorderly fencing, early mask removal or undressing.",
-        "The chart lists each offense under Group 1. Its asterisk follows ‘disorderly fencing’; check the rule text for when a touch is annulled."),
+        ""),
     "g1-abnormal-action": ("Abnormal action, brutal touch or deliberate fall.", ""),
     "g1-unjustified-appeal": ('Unjustified appeal of a decision on a point of fact.', 'A point of fact is what the referee saw happen. The cited rules explain which appeals are permitted.'),
     "g1-strip-enclosure": ("Entering the strip enclosure without permission.",
-        "This is a team penalty: the Yellow applies to the whole team match. A later Group 1 offense by any team member draws Red."),
+        ""),
     "g2-nonweapon-arm": ("Using the non-weapon arm or hand.", ""),
     "g2-medical": ("Medical interruption not confirmed by a doctor.",
         "The doctor must confirm the medical reason for the interruption."),
@@ -316,12 +316,12 @@ PLAIN = {
     "g2-deliberate-off-target": ("Deliberate touch not on the opponent.", ""),
     "g2-dangerous-action": ("Dangerous action or a blow with the guard or pommel.", ""),
     "g3-disturbing-order": ("Fencer disturbing order on the strip.",
-        "Immediate exclusion is possible in serious cases."),
+        ""),
     "g3-dishonest": ("Dishonest fencing.", ""),
     "g3-publicity": ("Offense against the publicity code.",
         "See the cited publicity code."),
     "g3-spectator-disturbance": ("Venue disturbance or smoking, including by spectators.",
-        "The entry applies to people not on the strip and includes smoking or vaping in the competition hall. A warning may be followed by expulsion from the venue."),
+        "Applies to people not on the strip, including spectators. Smoking and vaping in the competition hall are included."),
     "g3-warming-up": ("Training without conforming fencing equipment.", ""),
     "g3-antisporting": ("Anti-sporting behavior.", ""),
     "g4-electronic-comms": ('Receiving electronic communication during a bout.', ''),
@@ -407,6 +407,33 @@ def base_ref(ref):
     return f"{book}.{num}"
 
 
+def entry_effects(offense):
+    """Plain consequences derived from the source markers, preserved separately."""
+    effects = []
+    keys = set(re.findall(r"[1-4]", offense.get("superscript", "")))
+    if "1" in keys and "2" in keys:
+        effects.append(("Exclusion from the event or tournament", "A Black card can exclude the fencer from this event or the whole tournament. An event is one competition; a tournament can contain several events."))
+    elif "2" in keys:
+        effects.append(("Exclusion from the whole tournament", "A Black card excludes the person from all events at this tournament."))
+    elif "1" in keys:
+        effects.append(("Exclusion from this event", "A Black card ends the fencer’s participation in this competition."))
+    elif "3" in keys:
+        effects.append(("Removal from the venue", "A Black card requires the person to leave the competition venue."))
+    elif offense["pen_first"] == "Black":
+        effects.append(("Exclusion from this event", "A Black card ends the fencer’s participation in this competition."))
+    if "4" in keys:
+        scope = "removal from the venue" if "3" in keys else "exclusion from the event"
+        effects.append(("Immediate action in serious cases", "The referee may order immediate " + scope + "."))
+    if offense.get("annuls"):
+        if offense["id"] == "g1-jostling":
+            effects.append(("Touch cancellation for disorderly fencing", "A touch scored by the fencer committing an irregular action is cancelled (t.121.2). Early mask removal and dressing or undressing have separate rules; this cancellation does not automatically apply to every action in this entry."))
+        else:
+            effects.append(("Touch cancelled", "Any touch scored by the fencer committing this offense is cancelled."))
+    if offense.get("team"):
+        effects.append(("Warning applies to the whole team", "The Yellow warning lasts for the full team match. Any teammate committing a later Group 1 offense in that match receives Red."))
+    return effects
+
+
 def main():
     DBDIR.mkdir(parents=True, exist_ok=True)
     SITE_DATA.mkdir(parents=True, exist_ok=True)
@@ -427,6 +454,7 @@ def main():
             source TEXT, file TEXT, related TEXT);
         CREATE TABLE card_legend(card TEXT PRIMARY KEY, meaning TEXT);
         CREATE TABLE footnotes(key TEXT PRIMARY KEY, text TEXT);
+        CREATE TABLE entry_effects(offense_id TEXT, sort INTEGER, title TEXT, text TEXT, PRIMARY KEY(offense_id, sort));
         CREATE TABLE plain(offense_id TEXT PRIMARY KEY, one_liner TEXT, explainer TEXT, status TEXT);
     """)
     cur.execute("INSERT INTO meta VALUES('version','November 2025')");
@@ -442,6 +470,10 @@ def main():
             (o["id"], o["section"], o["sort"], o["offense_official"], o["as_printed"],
              json.dumps(o["articles"]), o["pen_first"], o["pen_second"], o["pen_third"],
              o["annuls"], o["team"], o["superscript"], o["notes"]))
+
+    for offense in OFFENSES:
+        for index, (title, text) in enumerate(entry_effects(offense)):
+            cur.execute("INSERT INTO entry_effects VALUES(?,?,?,?)", (offense["id"], index, title, text))
 
     articles_txt, spans, order = parse_rules_articles(BUILD / "rules.txt")
 
@@ -503,6 +535,7 @@ def main():
         d["plain_status"] = p[3] if p else "missing"
         d["figure_refs"] = FIGURE_LINKS.get(d["id"], [])
         d["passivity"] = bool(offense_source.get("passivity", False))
+        d["effects"] = [dict(title=title, text=text) for title, text in cur.execute("SELECT title, text FROM entry_effects WHERE offense_id=? ORDER BY sort", (d["id"],))]
         offenses_json.append(d)
     (SITE_DATA / "offenses.json").write_text(json.dumps(offenses_json, indent=2, ensure_ascii=False))
     art_rows = cur.execute("SELECT ref, base_ref, book, excerpt, verified, source_lines FROM articles").fetchall()
