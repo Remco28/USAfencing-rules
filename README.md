@@ -22,7 +22,8 @@ The app retrieves reference information; it does not issue rulings.
 
 This static site is compatible with GitHub Pages. Repository:
 [Remco28/USAfencing-rules](https://github.com/Remco28/USAfencing-rules).
-Local preview is available below; publishing the repository does not itself deploy Pages.
+GitHub Pages automatically publishes validated changes from `main` to
+https://penalties.teamremco.org once DNS is configured. See [deployment setup](docs/DEPLOYMENT.md).
 
 ## Run and verify
 
@@ -90,6 +91,13 @@ beside its HTML guide. Files are packaged locally and are not uploaded.
 
 ## Deployment
 
-Deploy `site/` as a GitHub Actions Pages artifact. No frontend build or package
-installation is required. Branch-based Pages only accepts the root or `docs/`,
-so it cannot select `site/` directly.
+`.github/workflows/pages.yml` rebuilds the data, verifies checked-in exports, runs
+search and JavaScript checks, and publishes only `site/` through GitHub Pages.
+Every push to `main` deploys; manual runs are also available. No paid GitHub plan
+or frontend dependencies are required for this public repository.
+
+The custom domain is `penalties.teamremco.org`. In the `teamremco.org` DNS zone,
+add `CNAME penalties → remco28.github.io` (no repository path or URL scheme).
+The custom domain is configured in Pages settings, not a CNAME file: custom
+Actions deployments use that setting. Enable Enforce HTTPS when GitHub finishes
+issuing the certificate. [Deployment and recovery](docs/DEPLOYMENT.md).

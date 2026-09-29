@@ -1,5 +1,11 @@
 # Project changes
 
+## GitHub Pages publishing
+
+Added validated automatic Pages deployments from main, uploading only site/.
+The public repository uses penalties.teamremco.org as its custom domain; DNS
+and HTTPS setup are documented in DEPLOYMENT.md.
+
 ## Reviewed search — September 29, 2026
 
 Added a per-entry vocabulary, ranked retrieval, conservative typo/prefix matching,

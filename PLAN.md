@@ -26,6 +26,6 @@ from actual examples; matching is not a ruling or universal language understandi
 
 - Process human feedback and add verified aliases with regression examples.
 - Compare new official revisions and update only affected guidance/vocabulary.
-- Deploy the static site with a GitHub Actions Pages artifact if publishing is desired.
+- GitHub Pages deployment is configured for penalties.teamremco.org; complete DNS and HTTPS provisioning, then verify the custom-domain site.
 
 Implementation and maintenance details: docs/SEARCH.md. Saved changes: docs/CHANGELOG.md.
