@@ -1,0 +1,74 @@
+[
+  {
+    "key": "1",
+    "num": 1,
+    "part": "",
+    "caption": "Strip for Semi-Finals and Finals (maximum height 50 cm)",
+    "source": "pdf p.23 (book p.8), crop 0-57%",
+    "file": "site/figures/fig-1.png",
+    "related": "t.18-t.22"
+  },
+  {
+    "key": "2",
+    "num": 2,
+    "part": "",
+    "caption": "Standard Strip for all three weapons",
+    "source": "pdf p.24 (book p.9), crop 0-52%",
+    "file": "site/figures/fig-2.png",
+    "related": "t.18-t.22"
+  },
+  {
+    "key": "3a",
+    "num": 3,
+    "part": "a",
+    "caption": "Referee signals and commands (part 1: on guard, play, halt, point in line, hits)",
+    "source": "pdf p.41 raster (build/fig-004.png)",
+    "file": "site/figures/fig-3a.png",
+    "related": "t.47-t.63"
+  },
+  {
+    "key": "3b",
+    "num": 3,
+    "part": "b",
+    "caption": "Referee signals and commands (part 2: calls, positions, penalties)",
+    "source": "pdf p.42 raster (build/fig-005.png)",
+    "file": "site/figures/fig-3b.png",
+    "related": "t.47-t.63"
+  },
+  {
+    "key": "3c",
+    "num": 3,
+    "part": "c",
+    "caption": "Referee signals and commands (part 3: technical touch, video review, cards, winner)",
+    "source": "pdf p.43 raster (build/fig-006.png)",
+    "file": "site/figures/fig-3c.png",
+    "related": "t.47-t.63"
+  },
+  {
+    "key": "4",
+    "num": 4,
+    "part": "",
+    "caption": "Valid target in foil",
+    "source": "pdf p.49 raster (build/fig-007.png); blue = conductive target",
+    "file": "site/figures/fig-4.png",
+    "related": "t.53-t.56"
+  },
+  {
+    "key": "5",
+    "num": 5,
+    "part": "",
+    "caption": "Valid target in épée",
+    "source": "pdf p.54 raster (build/fig-008.png); whole body is target",
+    "file": "site/figures/fig-5.png",
+    "related": "t.57-t.62"
+  },
+  {
+    "key": "6",
+    "num": 6,
+    "part": "",
+    "caption": "Valid target in sabre",
+    "source": "pdf p.57 raster (build/fig-009.png); blue = mask, arms, trunk",
+    "file": "site/figures/fig-6.png",
+    "related": "sabre target"
+  }
+]

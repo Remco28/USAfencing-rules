@@ -1,0 +1,54 @@
+{
+  "cards": [
+    {
+      "card": "Yellow Card",
+      "meaning": "Warning (valid for bout, whether one or several encounters). If a fencer commits an offense in the First Group after having been penalized with a Red Card, for whatever reason, the fencer receives a further Red Card."
+    },
+    {
+      "card": "Red Card",
+      "meaning": "Penalty Touch"
+    },
+    {
+      "card": "Black Card",
+      "meaning": "Exclusion from competition."
+    },
+    {
+      "card": "P-yellow",
+      "meaning": "P-yellow (warning)"
+    },
+    {
+      "card": "P-red",
+      "meaning": "P-red (penalty hit)"
+    },
+    {
+      "card": "P-black",
+      "meaning": "P-black (loss of the bout or match). In both individual and team competitions, fencers and team who have lost the bout/match following the award of a P-black card will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points."
+    }
+  ],
+  "footnotes": [
+    {
+      "key": "*",
+      "text": "Annulment of any touch scored by the fencer at fault"
+    },
+    {
+      "key": "+",
+      "text": "Special Yellow Card for the whole team and valid for the whole team match. If, during the same team match, a fencer commits an offence of the 1st group the Referee penalizes with a Red Card each time."
+    },
+    {
+      "key": "1",
+      "text": "Exclusion from competition"
+    },
+    {
+      "key": "2",
+      "text": "Exclusion from tournament"
+    },
+    {
+      "key": "3",
+      "text": "Expulsion from venue"
+    },
+    {
+      "key": "4",
+      "text": "In serious cases, the referee may exclude/expel immediately"
+    }
+  ]
+}

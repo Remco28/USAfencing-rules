@@ -1,0 +1,530 @@
+[
+  {
+    "ref": "Publicity Code",
+    "base_ref": "PUBLICITY",
+    "book": "publicity",
+    "excerpt": "                               Fencers’ Publicity Code\nThe Publicity Code was adopted by the 64th Ordinary Congress of the FIE on 21 May 1983, under the\npresidency of Mr. Gian Carlo Brusati, MH. The proposed text, drawn up by Mr. Jacques\nHochstaetter, President of the Special Committee on Publicity, had previously been submitted for\napproval to the IOC. The latter, in its letter of approval of 12 April 1983, confirmed that the FIE\nPublicity Code conformed to the existing rules on amateurism.\n\n\n[...]\n       Individual contract (cf. p.7, p.8)\np.14\n       In the case of failure to observe the rules relating to an individual contract the penalty is the\n       suspension of the fencer concerned. Should the fencer, at the end of the period of suspension,\n       again break these rules, the fencer loses amateur status and their license is withdrawn. See the\n       Disciplinary Code of the FIE (Chapter VII of the FIE Statutes).\n       Mark not conforming to the regulations (cf. p.10.1.a-g)\np.15\n       Obligation to change immediately the article of equipment; and warning, then application of\n       penalties as provided for in Articles t.158-162, t.168, t.170/3rd group.\n       Advertising on clothing (cf. p.12.2.a-b)\np.16\n       Obligation to change immediately the article of equipment; and application of penalties as\n       provided for in Articles t.114, t.118, t.120/3rd group or t.108.\n       Advertising not conforming to the Rules or not authorized (cf. p.12.3.a-e)\np.17\n       1.   Obligation to remove the offending article from view and a warning.\n       2.   In the case of repetition of the offense during the competition, application of penalties as\n            provided for in Articles t.158-162, t.168, t.170/3rd group.\n       Leg-bands and self-adhesive badges (cf. p.13.1, p.13.2)",
+    "verified": 0,
+    "source_lines": "rules.txt:6935-6942+7176-7195"
+  },
+  {
+    "ref": "m.5.5.d",
+    "base_ref": "m.5",
+    "book": "material",
+    "excerpt": "1.   The convex face of the guard must have a shape and surface which is both smooth and\n           not too bright. It must be so made that it can neither hold nor catch the opponent’s point.\n           It must not have a raised rim.\n      2.\n           a)   For foil and épée, inside the guard there must be a cushion (padding) sufficiently\n                wide to protect the electric wires from the fencer’s fingers. The padding on the inside\n                of the guard must be less than 2 cm thick and must be arranged in such a way as not\n                to increase the protection which the guard affords the hand.\n           b)   The connections must be so arranged that it is impossible for the fencer to break or\n                make contacts while fencing.\n           c)   On foils, the wire must be protected by an insulating sheath.\n           d)   On épées, the two wires must be protected by two insulating sheaths, one on each\n                wire.\n           e)   Both the wire and the insulating sheath must go right up to the socket.\n           f)   In no case may uninsulated wires project beyond the point where they are attached\n                to the socket (cf. m.29, m.31).\n      3.   Any system of attachment inside the guard is allowed, provided that it conforms to the\n           following requirements.\n           a)   It must be easy to detach or attach the bodycord.\n           b)   It must be possible to check it by a simple method such as using a penknife or a coin.\n           c)   It must be easy to apply the pointe d’arrêt of the opponent’s weapon to the ground\n                circuit connected to the blade.\n           d)   It must have a security device which makes it impossible for the contact to be broken\n                during the bout. In the absence of a security device being fitted to the weapon, a\n                security device must be fitted to the plug of the bodycord.\n           e)   It must ensure the complete connection of the electric wires; it must be impossible for\n                even a momentary break of contact to occur while the plugs are connected.\n           f)   It must not include any part which allows electrical contact to be made between the\n                plug sockets.\n      4.\n           a)   The maximum electrical resistance allowed for foil and épée is 2 Ω.\n           b)   Those who wish to assemble electric weapons, but who are not equipped to\n                undertake electrical tests, are advised that the limits for the electrical resistance for\n                the circuits laid down for each weapon have been fixed so that they can be attained\n                by anyone who is reasonably careful.\n           c)   They are advised:\n\n\n                i)   thoroughly to de-oxidize the external surface of the guard and the connecting\n                     surfaces inside it;\n                ii) not to damage the insulation of the wires, especially where they pass along\n                    the groove in the blade at the point and at the guard; iii) to avoid\n                    accumulations of glue in the groove of the blade.\n      Equipment and Checking of Weapons\n      5.\n           a)   In foil and épée, only traditional or homologated pointes d’arrêt are accepted. No\n                other kind of pointe d’arrêt, notably new ones that are not homologated, will be\n                accepted at the weapon control.\n                In order to make the identification easier, please note that a traditional pointe d’arrêt\n                has two screws to fix the tip of the pointe d’arrêt to the base, the whole is in metal\n                and there is no plastic in the base.\n                To make the checking of weapons easier and allow the complete observation of the\n                tip and its base, foil fencers are requested to present their foils at the weapon control\n                with bare points not covered with adhesive tape over the first 15 cm.\n\n\n      In USA Fencing competitions, there is no requirement that the pointe d’arrêt must be homologated.\n\n\n           b)   In order that the registering of hits by the contact of the point on the opponent be\n                correctly registered by the scoring device, the pointes d’arrêt must be clean. The\n                electrical resistance measured in ohms must not exceed the limit of 2 ohms (m.5.4.a).\n           c)   The blades and the guards in épée, foil and sabre must be totally of metal. Apart from\n                in sabre where the part of the guard next to the pommel is insulated (insulating\n                sheath), their exteriors must not be covered by any material (plastic or other).\n                The guard may not feature any advertising. This is also the case for the insulated part\n                of the sabre guard.\n           d)   Any fencer or other person who tries to register touches in a way that does not\n                comply with the rules, either with the weapon or by manipulating the scoring device,\n                will be excluded from the competition or from the competition zone and, after\n                identification, will be liable to further penalty.\n\n\n\n\n                                                 FOIL\n      Weight",
+    "verified": 0,
+    "source_lines": "rules.txt:4795-4874"
+  },
+  {
+    "ref": "o.107",
+    "base_ref": "o.107",
+    "book": "organisation",
+    "excerpt": "1.   Doping is forbidden by the FIE. Any breaking of this rule will incur disciplinary action.\n        2.   Doping is defined as the occurrence of one or more of the anti-doping rule violations set\n             forth in Articles 2.1 to 2.8 of the FIE Anti-Doping Rules.\n        3.   The FIE has committed itself to the WADA Anti-Doping Code. The FIE Anti-Doping Rules\n             are based on the WADA ‘Models of Best Practice’ and adopt in their entirety the\n             ‘mandatory clauses’ of the above document. The FIE also adopts in full the WADA\n             ‘Prohibited Classes of Substances and Prohibited Methods’ document.\n        4.   The FIE reserves the right to conduct doping control during competitions — that is, at any\n             competition organized under its control — as well as out-of-competition.\n        5.   The athletes who participate in FIE competitions undertake to respect the FIE anti-doping\n             Rules, to use neither prohibited substances nor prohibited methods and to agree to submit\n             to any anti-doping control, whether in- or out-of-competition;\n        6.   All the details concerning the doping controls at official FIE competitions, as well as out-\n             of-competition, are to be found in the articles of the Anti-Doping Rules of the FIE.\n        7.   The penalties and consequences of the penalties arising from violations of the anti-doping\n             rules are those laid down in the Anti-Doping-Rules of the FIE.\n        8.   Fencers found to have contravened these anti-doping rules will be subject to the\n             procedures provided for in the Anti-Doping Rules. The publication of test results and\n             decisions relating to application of penalties will be announced by the Central Office of\n             the FIE, which alone has the right to bring them to the notice of all member federations.\n        9.   Doping offences committed and penalized in any of the member countries of the FIE will\n             be taken into account and the penalties (‘sanctions’) will be applied by all member\n             countries of the FIE.\n        10. Modification of the FIE Anti-Doping Rules falls within the competence of the Executive\n            Committee.\n\n\n\n\n        PART D: PROCEDURES AFTER THE COMPETITIONS\n\n                                               Chapter 1\n                                                Ranking\n        Official FIE Individual Ranking",
+    "verified": 0,
+    "source_lines": "rules.txt:4347-4382"
+  },
+  {
+    "ref": "t.101.5",
+    "base_ref": "t.101",
+    "book": "technical",
+    "excerpt": "1.   Any attack properly executed (cf. t.9.1) must be parried, or completely avoided, and the\n             phrase must be followed through.\n        2.   The attack is correctly carried out when the extending of the arm, with the point or the\n             cutting edge continuously threatening the valid target, precedes the initiation of the lunge.\n        3.   An attack with a lunge is correctly carried out:\n             a)   in a simple attack (cf. t.9.1) when the beginning of the extending of the arm\n                  precedes the launching of the lunge and the touch arrives at the latest when the\n                  front foot touches the strip;\n             b)   in a compound attack (cf. t.10) when the beginning of the extending of the arm, on\n                  the first feint (cf. t.103), precedes the launching of the lunge and the touch arrives at\n                  the latest when the front foot touches the strip.\n        4.   An attack with an advance-lunge is correctly carried out:\n             a)   in a simple attack (cf. t.9.1) when the beginning of the extending of the arm precedes\n                  the advance and when the touch arrives at the latest when the front foot touches the\n                  strip;\n             b)   in a compound attack (cf. t.10) when the beginning of the extending of the arm for the\n                  first feint (cf. t.103) precedes the advance, followed by the lunge, and the touch\n                  arrives at the latest when the front foot touches the strip.\n        5.   The flèche and any forward movement in which the rear foot completely passes the\n             front foot is forbidden. Any offense will be penalized as specified in the 1st group (cf.\n             t.158-162, t.165, t.170). Any touch scored by the fencer at fault will be annulled. However,\n             any touch correctly executed by their opponent is valid.",
+    "verified": 0,
+    "source_lines": "rules.txt:2015-2038"
+  },
+  {
+    "ref": "t.108",
+    "base_ref": "t.108",
+    "book": "technical",
+    "excerpt": "1.   Fencers must observe strictly and faithfully the Rules and the Statutes of the FIE, the\n             particular rules for the competition in which they are engaged, the traditional customs of\n             courtesy and integrity and the instructions of the officials.\n        2.   In particular they will subscribe, in an orderly, disciplined and sporting manner, to the\n             following provisions; all breaches of these rules may entail punishments by the competent\n             disciplinary authorities after, or even without, prior warning, according to the facts and\n             circumstances (cf. t.158–t.170).",
+    "verified": 0,
+    "source_lines": "rules.txt:2140-2147"
+  },
+  {
+    "ref": "t.108.2",
+    "base_ref": "t.108",
+    "book": "technical",
+    "excerpt": "1.   Fencers must observe strictly and faithfully the Rules and the Statutes of the FIE, the\n             particular rules for the competition in which they are engaged, the traditional customs of\n             courtesy and integrity and the instructions of the officials.\n        2.   In particular they will subscribe, in an orderly, disciplined and sporting manner, to the\n             following provisions; all breaches of these rules may entail punishments by the competent\n             disciplinary authorities after, or even without, prior warning, according to the facts and\n             circumstances (cf. t.158–t.170).",
+    "verified": 0,
+    "source_lines": "rules.txt:2140-2147"
+  },
+  {
+    "ref": "t.109",
+    "base_ref": "t.109",
+    "book": "technical",
+    "excerpt": "Everybody taking part in or present at a fencing competition must respect the FIE statutes and\n        rules, including but not limited to the FIE Ethical Code and Safeguarding Policy. They must\n        remain orderly and must not disturb the smooth running of the competition. During bouts\n        no one is allowed to go near the strips, to give advice to the fencers, to criticize the Referee\n        or the judges, to insult them or to attempt to influence them in any way. Even the team\n        captain must remain in the space assigned and may only intervene in the situations and in the\n        manner provided for in Article t.130 of the Rules. The Referee must stop immediately any\n        activity which disturbs the smooth running of the bout which the Referee is refereeing (cf.\n        t.137.1-3).\n        Any person who, for any reason, threatens or insults an official commits an offence of the 4 th\n        group and is penalized according to Article t.169.\n        Any person present who witnesses a breach of the FIE Ethical Code or the Safeguarding Policy\n        must report this to the Safeguarding Officer if present, or to the Supervisor or to the Bout\n        Committee.",
+    "verified": 0,
+    "source_lines": "rules.txt:2148-2162"
+  },
+  {
+    "ref": "t.110",
+    "base_ref": "t.110",
+    "book": "technical",
+    "excerpt": "Smoking in competition halls is forbidden. Smoking will be considered as a disturbance of the\n        smooth running of the competition (cf. t.111).\n\n\n        Any breach of these Rules will be punished as laid down in Articles t.158-162, t.167, t.168\n        t.170, for the offenses of the 3rd group.",
+    "verified": 0,
+    "source_lines": "rules.txt:2163-2170"
+  },
+  {
+    "ref": "t.111",
+    "base_ref": "t.111",
+    "book": "technical",
+    "excerpt": "The Referee and/or the Bout Committee, on their own authority or at the request of an official\n        delegate of the FIE or of the Organizing Committee, can decide to expel from the competition\n        venue, with or without a warning, any person who by gestures, attitude or language or by\n        breaching the FIE Safeguarding Policy disturbs the good order or smooth running of the event.\n        The Competitors\n        Pledge of Honor",
+    "verified": 0,
+    "source_lines": "rules.txt:2171-2177"
+  },
+  {
+    "ref": "t.112",
+    "base_ref": "t.112",
+    "book": "technical",
+    "excerpt": "By the mere fact of entering a fencing competition, the fencers pledge their honor to observe\n        the Rules and the decisions of the officials, to be respectful towards the referees and judges\n        and to scrupulously obey the orders and injunctions of the Referee (cf. t.158-162, t.165, t.170).\n        Refusing to Fence an Opponent",
+    "verified": 0,
+    "source_lines": "rules.txt:2178-2182"
+  },
+  {
+    "ref": "t.113",
+    "base_ref": "t.113",
+    "book": "technical",
+    "excerpt": "1.   No fencer (individual or team) may take part in an official competition if they refuse to\n             fence against any other fencer whatsoever (individual or team) correctly entered in the\n             event. Should this rule be broken, the penalties specified for offenses of the 4 th group will\n             be applied (cf. t.158-162, t.169, t.170).\n        2.   The FIE shall consider whether there are grounds, and to what extent, for taking sanctions\n             against the national federation to which the disqualified competitor belongs (cf. FIE\n             Statutes 1.2.4 and Rules Article t.120).\n        Presence on Time",
+    "verified": 0,
+    "source_lines": "rules.txt:2183-2191"
+  },
+  {
+    "ref": "t.115.2",
+    "base_ref": "t.115",
+    "book": "technical",
+    "excerpt": "1.   When presenting themselves to fence a bout, the fencers must arrive on the strip\n             completely ready to fence—regulation clothing, jacket fastened, sword-hand gloved and\n             holding the weapon, bodycord connected to the plug inside the guard. The mask should\n             be carried in the unarmed hand.\n        2.   Before the start of the bout, the fencers’ hair must be fastened and placed inside the\n             clothing and/or mask in such a way as to ensure that:\n             — It does not cover a valid surface (and thus prevent a touch from being scored);\n             — It does not conceal the name and nationality of the fencer;\n             — It does not need to be put back in place during the bout, thus interrupting it.\n\n             In the case of violation of this rule, the Referee will apply the penalties for 1 st group\n             offenses (t.158-162, t.165, t.170).",
+    "verified": 0,
+    "source_lines": "rules.txt:2198-2211"
+  },
+  {
+    "ref": "t.116",
+    "base_ref": "t.116",
+    "book": "technical",
+    "excerpt": "Under no circumstances should the fencers dress or undress in public except in the case of an\n        accident duly recognized by the doctor on duty or by the representative of the Medical\n        Commission (cf. t.87, t.158-162, t.165, t.170). Any infringement will be sanctioned for the\n        offenses of the 1st group.",
+    "verified": 0,
+    "source_lines": "rules.txt:2212-2216"
+  },
+  {
+    "ref": "t.117",
+    "base_ref": "t.117",
+    "book": "technical",
+    "excerpt": "Placing the weapon on the strip to straighten it                   t.76.2; t.90.2;",
+    "verified": 0,
+    "source_lines": "rules.txt:2830-2831"
+  },
+  {
+    "ref": "t.119",
+    "base_ref": "t.119",
+    "book": "technical",
+    "excerpt": "During the course of the competition, individual or team, if a fencer does not present\n        themself on the strip, ready to fence, when ordered to do so by the Referee:\n        a.   The fencer or team member not present will be penalized with a Yellow Card;\n        b.   A second call will be made, one minute after the first call, followed by a Red Card for the\n             fencer or team member not present;\n        c.   A third and last call will be made, one minute after the second call, followed by the\n             elimination from the competition for the fencer not present in an individual\n             competition or for the whole team in a team competition.",
+    "verified": 0,
+    "source_lines": "rules.txt:2232-2240"
+  },
+  {
+    "ref": "t.121",
+    "base_ref": "t.121",
+    "book": "technical",
+    "excerpt": "1.   The competitors must fence faithfully and strictly according to the rules laid down in\n             these Rules. All breaches of these rules will incur the penalties laid down hereinafter (cf.\n             t.158-162, t.170).\n\n\n        2.    All bouts must preserve the character of a courteous and frank encounter. All irregular\n              actions (flèche attack which finishes with a collision jostling the opponent, disorderly\n              fencing, irregular movements on the strip, touches achieved with violence, blows struck\n              with the guard, an intentional fall down to avoid the touch) or anti-sporting behavior are\n              strictly forbidden (cf. t.158-162, t.170). Should such an offense occur, any touch scored by\n              the fencer at fault is annulled.",
+    "verified": 0,
+    "source_lines": "rules.txt:2245-2257"
+  },
+  {
+    "ref": "t.121.2",
+    "base_ref": "t.121",
+    "book": "technical",
+    "excerpt": "1.   The competitors must fence faithfully and strictly according to the rules laid down in\n             these Rules. All breaches of these rules will incur the penalties laid down hereinafter (cf.\n             t.158-162, t.170).\n\n\n        2.    All bouts must preserve the character of a courteous and frank encounter. All irregular\n              actions (flèche attack which finishes with a collision jostling the opponent, disorderly\n              fencing, irregular movements on the strip, touches achieved with violence, blows struck\n              with the guard, an intentional fall down to avoid the touch) or anti-sporting behavior are\n              strictly forbidden (cf. t.158-162, t.170). Should such an offense occur, any touch scored by\n              the fencer at fault is annulled.",
+    "verified": 0,
+    "source_lines": "rules.txt:2245-2257"
+  },
+  {
+    "ref": "t.122",
+    "base_ref": "t.122",
+    "book": "technical",
+    "excerpt": "Before the beginning of each bout, the two fencers must perform a fencer’s salute to their\n        opponent, to the Referee and to the spectators. Equally, when the final touch has been scored,\n        the bout has not ended until the two fencers have saluted each other, the Referee and the\n        spectators: to this end, they must remain still while the Referee is making a decision; when the\n        Referee has given the decision, they must return to their on guard line, perform a fencer’s\n        salute and shake hands with their opponent. If either or both of the two fencers refuse to\n        comply with these rules, the Referee will penalize the offending fencer(s) as specified for\n        offenses of the 4th group (cf. t.158-162, t.169, t.170).",
+    "verified": 0,
+    "source_lines": "rules.txt:2258-2268"
+  },
+  {
+    "ref": "t.123",
+    "base_ref": "t.123",
+    "book": "technical",
+    "excerpt": "During or after a bout, even if the fencer has already left the strip, any act against the spirit of\n        sportsmanship such as violently or dangerously throwing one’s mask (or any other piece of\n        equipment) will be penalized as specified in Article t.169 (cf. t.108.1, 2 and t.109), for the\n        offenses of the 4th group.\n\n        Unwillingness to Fence (Non-combativity)",
+    "verified": 0,
+    "source_lines": "rules.txt:2269-2276"
+  },
+  {
+    "ref": "t.124.1",
+    "base_ref": "t.124",
+    "book": "technical",
+    "excerpt": "There is unwillingness to fight when there is one minute of fencing without a hit or without a\n        hit scored off the target. In the event of unwillingness to fight, the Referee will immediately\n        call “Halt!” as a decision of “fact” (cf. t.136.2).\n\n        1. Individual events - Direct Elimination\n\n              P-yellow and P-red cards are awarded to both fencers simultaneously, starting with a P-\n              yellow card, followed by a P-red card. The P-black card is awarded as described in 1c)\n              below.\n\n              a) When, for the first time, there is one minute of unwillingness to fight, the Referee\n              sanctions both fencers with a P-yellow card.\n\n              b) When, for the second time, there is one minute of unwillingness to fight, the Referee\n              sanctions both fencers with a P-Red card.\n\n               c) When, for the third time, there is one minute of unwillingness to fight, a P-black card is\n               awarded as follows:\n             i.    If the scores of the two fencers are equal, the referee sanctions the fencer with the\n                   lower initial seeding in the competition with a P-black card. The fencer with the\n                   higher initial seeding in the competition wins the bout.\n        ii.     If the scores of the two fencers are not equal, the referee sanctions the fencer with\n                the lower score with a P-black card. The fencer with the higher score wins the bout.\n\n      2. Team events\n\n          P-yellow and P-red cards are awarded to the two teams simultaneously, starting with a P-\n          yellow card and followed by a P-red card. The P-black card is awarded as described in 2c\n          below.\n\n          a) When, for the first time, there is one minute of unwillingness to fight, the Referee\n          sanctions both teams with a P-yellow card.\n\n          b) When, for the second time, there is one minute of unwillingness to fight, the Referee\n          sanctions one or both teams with a P-Red card.\n\n          c) When, for the third time, there is one minute of unwillingness to fight, a P-black card is\n          awarded as follows:\n\n         i.      If the scores for the two teams are equal, the referee sanctions the team with the\n                 lower initial seeding in the competition with a P-black card. The team with the\n                 higher initial seeding in the competition wins the match.\n        ii.      If the scores of the two teams are not equal, the referee sanctions the team with the\n                 lower score with a P-black card. The team with the higher score wins the match.\n\n\n      3. In Both Individual and Team Events\n\n          a.    The P-yellow (warning), P-red (penalty hit) and P-black (the possible losing of a\n                bout or match) cards received during any one bout or match (during all 9 relays)\n                are valid only for that bout or match. They are not transferable to the following\n                bout or match.\n\n                No P-card (yellow, red or black) may be awarded in individual competitions at 14-\n                14 or in team matches at 44-44.\n\n      In USA Fencing competitions, no P-card (yellow, red, or black) may be awarded in individual\n      competitions at 9-9 in 10 touch bouts\n\n\n\n          b.    In both individual and team competitions, fencers and teams who have lost the\n                bout/match following the award of a P-black card will be ranked in the final\n                results of the competition as having lost the bout/match. They receive the\n                corresponding points.\n          c.    In both individual and team competitions, the period/relay continues after the\n                awarding of a P-yellow or a P-red card.\n\n             d.     The minute starts again after each hit, each hit off the target, each hit annulled, each\n                    penalty hit, and at the beginning of each period or relay.\n             e.     The referee must record these P-yellow, P-red and P-black cards separately on the\n                    score sheet. The sanctions awarded for unwillingness to fight are not cumulative\n                    with any other sanction awarded.\n             f.     In both individual and team competitions, if, at the end of the regulation time,\n                    there is equality of scores, article t.124 does not apply and articles t.40.3 and t.41.5\n                    will apply.",
+    "verified": 0,
+    "source_lines": "rules.txt:2277-2356"
+  },
+  {
+    "ref": "t.124.2",
+    "base_ref": "t.124",
+    "book": "technical",
+    "excerpt": "There is unwillingness to fight when there is one minute of fencing without a hit or without a\n        hit scored off the target. In the event of unwillingness to fight, the Referee will immediately\n        call “Halt!” as a decision of “fact” (cf. t.136.2).\n\n        1. Individual events - Direct Elimination\n\n              P-yellow and P-red cards are awarded to both fencers simultaneously, starting with a P-\n              yellow card, followed by a P-red card. The P-black card is awarded as described in 1c)\n              below.\n\n              a) When, for the first time, there is one minute of unwillingness to fight, the Referee\n              sanctions both fencers with a P-yellow card.\n\n              b) When, for the second time, there is one minute of unwillingness to fight, the Referee\n              sanctions both fencers with a P-Red card.\n\n               c) When, for the third time, there is one minute of unwillingness to fight, a P-black card is\n               awarded as follows:\n             i.    If the scores of the two fencers are equal, the referee sanctions the fencer with the\n                   lower initial seeding in the competition with a P-black card. The fencer with the\n                   higher initial seeding in the competition wins the bout.\n        ii.     If the scores of the two fencers are not equal, the referee sanctions the fencer with\n                the lower score with a P-black card. The fencer with the higher score wins the bout.\n\n      2. Team events\n\n          P-yellow and P-red cards are awarded to the two teams simultaneously, starting with a P-\n          yellow card and followed by a P-red card. The P-black card is awarded as described in 2c\n          below.\n\n          a) When, for the first time, there is one minute of unwillingness to fight, the Referee\n          sanctions both teams with a P-yellow card.\n\n          b) When, for the second time, there is one minute of unwillingness to fight, the Referee\n          sanctions one or both teams with a P-Red card.\n\n          c) When, for the third time, there is one minute of unwillingness to fight, a P-black card is\n          awarded as follows:\n\n         i.      If the scores for the two teams are equal, the referee sanctions the team with the\n                 lower initial seeding in the competition with a P-black card. The team with the\n                 higher initial seeding in the competition wins the match.\n        ii.      If the scores of the two teams are not equal, the referee sanctions the team with the\n                 lower score with a P-black card. The team with the higher score wins the match.\n\n\n      3. In Both Individual and Team Events\n\n          a.    The P-yellow (warning), P-red (penalty hit) and P-black (the possible losing of a\n                bout or match) cards received during any one bout or match (during all 9 relays)\n                are valid only for that bout or match. They are not transferable to the following\n                bout or match.\n\n                No P-card (yellow, red or black) may be awarded in individual competitions at 14-\n                14 or in team matches at 44-44.\n\n      In USA Fencing competitions, no P-card (yellow, red, or black) may be awarded in individual\n      competitions at 9-9 in 10 touch bouts\n\n\n\n          b.    In both individual and team competitions, fencers and teams who have lost the\n                bout/match following the award of a P-black card will be ranked in the final\n                results of the competition as having lost the bout/match. They receive the\n                corresponding points.\n          c.    In both individual and team competitions, the period/relay continues after the\n                awarding of a P-yellow or a P-red card.\n\n             d.     The minute starts again after each hit, each hit off the target, each hit annulled, each\n                    penalty hit, and at the beginning of each period or relay.\n             e.     The referee must record these P-yellow, P-red and P-black cards separately on the\n                    score sheet. The sanctions awarded for unwillingness to fight are not cumulative\n                    with any other sanction awarded.\n             f.     In both individual and team competitions, if, at the end of the regulation time,\n                    there is equality of scores, article t.124 does not apply and articles t.40.3 and t.41.5\n                    will apply.",
+    "verified": 0,
+    "source_lines": "rules.txt:2277-2356"
+  },
+  {
+    "ref": "t.125",
+    "base_ref": "t.125",
+    "book": "technical",
+    "excerpt": "The fencer, whether on or off the strip, must keep their mask on until the Referee calls halt.\n        The fencer may under no circumstances address the Referee until the Referee has made their\n        decision (cf. t.158-162, t.165, t.170). Any infringement will be sanctioned for the offenses of the\n        1st group",
+    "verified": 0,
+    "source_lines": "rules.txt:2357-2363"
+  },
+  {
+    "ref": "t.126",
+    "base_ref": "t.126",
+    "book": "technical",
+    "excerpt": "------------------------------------------\n\n\n        There is no text available for t.126",
+    "verified": 0,
+    "source_lines": "rules.txt:2364-2371"
+  },
+  {
+    "ref": "t.128",
+    "base_ref": "t.128",
+    "book": "technical",
+    "excerpt": "Competitors must fence to their utmost ability in a sportsmanlike manner until the end of the\n        competition in order to obtain the best possible classification, without giving away touches or\n        seeking to be favored by being given touches by anyone (cf. t.158-162, t.169, t.170) , for the\n        offenses of the 4th group.\n\n        The Team Manager",
+    "verified": 0,
+    "source_lines": "rules.txt:2379-2386"
+  },
+  {
+    "ref": "t.132.2",
+    "base_ref": "t.132",
+    "book": "technical",
+    "excerpt": "In team competitions, there must be enclosures reserved for the team members. Only the team\n        captain and one coach have the right to be with the team fencers inside the team enclosures,\n        which must be clearly marked out.\n        1.   During team matches, the team members not actually fencing must remain within their\n             Team Enclosure.\n        2.   During team competitions, no one has the right to enter the Strip Enclosure without the\n             Referee’s permission. In the case of such an offense, the Referee will penalize the\n             offending team as provided for in Articles t.158-162, t.165, t.170. A warning imposed on a\n             team is valid for the complete team match. Should a fencer, within the same match,\n             commit another offense from the 1st group, the Referee will penalize the fencer on each\n             occasion with a red card.\n        The Spectators",
+    "verified": 0,
+    "source_lines": "rules.txt:2427-2439"
+  },
+  {
+    "ref": "t.133",
+    "base_ref": "t.133",
+    "book": "technical",
+    "excerpt": "Spectators are obliged not to interfere with the good order of a competition, to do nothing\n        which may tend to influence the fencers or the Referee, and to respect the decisions of the\n      latter even when they do not agree with them. They must obey any instructions which the\n      Referee may deem it necessary to give them (cf. t.109-110, t.167-168, t.170, penalties for the\n      offenses of the 3rd group).\n\n\n\n\n                                                Chapter 2\n             The Disciplinary Authorities and their Competence\n        Preamble",
+    "verified": 0,
+    "source_lines": "rules.txt:2440-2455"
+  },
+  {
+    "ref": "t.137.2",
+    "base_ref": "t.137",
+    "book": "technical",
+    "excerpt": "1.   The Referee is responsible not only for the direction of the bout, the judging of touches\n             and the checking of equipment, but equally for the maintenance of order in the bouts\n             which they are refereeing (cf. t.47.2.i).\n        2.   In the capacity as director of the bout and arbiter of touches, the Referee can, in\n             accordance with the Rules, penalize the competitors, either by refusing to award a touch\n             which they have in fact made on the opponent, or by awarding against them a touch\n             which they have not in fact received, or by excluding them from the competition in which\n             the Referee is refereeing, according to the circumstances, with or without prior warning.\n             In these circumstances, and if the Referee has judged on a matter of fact, the Referee’s\n             decisions are irrevocable (cf. t.172).\n        3.   By reason of the right of jurisdiction which they have over all the fencers who participate\n             in, or are present at a competition which they are refereeing, the Referee can also propose\n             to the Bout Committee the expulsion from the venue of the competition of the spectators,\n             coaches, instructors and other persons who accompany the competitors (cf. t.158-162,\n             t.167, t.170).\n        4.   Finally, the Referee may recommend to the Bout Committee all other penalties which the\n             Referee considers appropriate (exclusion from the whole competition, suspension or\n             disqualification) (cf. t.139.3).",
+    "verified": 0,
+    "source_lines": "rules.txt:2482-2501"
+  },
+  {
+    "ref": "t.137.3",
+    "base_ref": "t.137",
+    "book": "technical",
+    "excerpt": "1.   The Referee is responsible not only for the direction of the bout, the judging of touches\n             and the checking of equipment, but equally for the maintenance of order in the bouts\n             which they are refereeing (cf. t.47.2.i).\n        2.   In the capacity as director of the bout and arbiter of touches, the Referee can, in\n             accordance with the Rules, penalize the competitors, either by refusing to award a touch\n             which they have in fact made on the opponent, or by awarding against them a touch\n             which they have not in fact received, or by excluding them from the competition in which\n             the Referee is refereeing, according to the circumstances, with or without prior warning.\n             In these circumstances, and if the Referee has judged on a matter of fact, the Referee’s\n             decisions are irrevocable (cf. t.172).\n        3.   By reason of the right of jurisdiction which they have over all the fencers who participate\n             in, or are present at a competition which they are refereeing, the Referee can also propose\n             to the Bout Committee the expulsion from the venue of the competition of the spectators,\n             coaches, instructors and other persons who accompany the competitors (cf. t.158-162,\n             t.167, t.170).\n        4.   Finally, the Referee may recommend to the Bout Committee all other penalties which the\n             Referee considers appropriate (exclusion from the whole competition, suspension or\n             disqualification) (cf. t.139.3).",
+    "verified": 0,
+    "source_lines": "rules.txt:2482-2501"
+  },
+  {
+    "ref": "t.137.4",
+    "base_ref": "t.137",
+    "book": "technical",
+    "excerpt": "1.   The Referee is responsible not only for the direction of the bout, the judging of touches\n             and the checking of equipment, but equally for the maintenance of order in the bouts\n             which they are refereeing (cf. t.47.2.i).\n        2.   In the capacity as director of the bout and arbiter of touches, the Referee can, in\n             accordance with the Rules, penalize the competitors, either by refusing to award a touch\n             which they have in fact made on the opponent, or by awarding against them a touch\n             which they have not in fact received, or by excluding them from the competition in which\n             the Referee is refereeing, according to the circumstances, with or without prior warning.\n             In these circumstances, and if the Referee has judged on a matter of fact, the Referee’s\n             decisions are irrevocable (cf. t.172).\n        3.   By reason of the right of jurisdiction which they have over all the fencers who participate\n             in, or are present at a competition which they are refereeing, the Referee can also propose\n             to the Bout Committee the expulsion from the venue of the competition of the spectators,\n             coaches, instructors and other persons who accompany the competitors (cf. t.158-162,\n             t.167, t.170).\n        4.   Finally, the Referee may recommend to the Bout Committee all other penalties which the\n             Referee considers appropriate (exclusion from the whole competition, suspension or\n             disqualification) (cf. t.139.3).",
+    "verified": 0,
+    "source_lines": "rules.txt:2482-2501"
+  },
+  {
+    "ref": "t.147",
+    "base_ref": "t.147",
+    "book": "technical",
+    "excerpt": "Although a competitor may in fact have touched their opponent on the target, this touch may\n        be disallowed, either because it did not arrive during the period of time during which fencing\n        is allowed, or because the competitor had crossed the boundaries of the strip, or because of\n        defects in the electrical equipment, or because violence was involved in the making of the\n        touch, or because of other reasons as laid down in the Rules (according to the Technical Rules).\n        Award of a touch which has not in fact been received",
+    "verified": 0,
+    "source_lines": "rules.txt:2596-2602"
+  },
+  {
+    "ref": "t.149.1",
+    "base_ref": "t.149",
+    "book": "technical",
+    "excerpt": "1.   A competitor who, while fencing, commits certain violent or vindictive actions against\n             their opponent, or who does not fence to their utmost ability, or who profits from a\n             fraudulent agreement with their opponent, may be excluded from the competition.\n        2.   A competitor who is excluded from a competition may not continue to take part in that\n             competition, even if already qualified for promotion to the next round. The competitor\n             loses the right to their individual classification and the place that they occupied remains\n             unfilled; but the points obtained by the fencer up to the moment of their expulsion remain\n             valid for the classification of the team in the team event, providing that the competitor\n             actually takes part in that team event.\n        Disciplinary penalties\n        Exclusion from the competition",
+    "verified": 0,
+    "source_lines": "rules.txt:2610-2621"
+  },
+  {
+    "ref": "t.168",
+    "base_ref": "t.168",
+    "book": "technical",
+    "excerpt": "Any person not on the strip who disturbs the order of the competition receives:\n\n        1.   On the first infringement, a warning, indicated by a Yellow Card, valid for the whole of\n             the competition, which must be noted on the bout scoresheet and recorded by the Bout\n             Committee;\n        2.   At the second infringement during the same competition a Black Card.\n\n        3.   In the most serious cases concerning disturbance either on or off the strip, the Referee may\n             exclude or expel the person at fault immediately.\n\n        The Fourth Group of offenses",
+    "verified": 0,
+    "source_lines": "rules.txt:2770-2783"
+  },
+  {
+    "ref": "t.172",
+    "base_ref": "t.172",
+    "book": "technical",
+    "excerpt": "1.   No appeal can be made against the decision of the Referee regarding a point of fact,\n             except as permitted in o.105 and t.60-63 for video refereeing (cf. t.136.1/2, t.137).\n\n        2.   If a fencer infringes this principle, casting doubt on the decision of the Referee on a point\n             of fact during the bout, the fencer will be penalized according to the Rules (cf. t.158-162,\n             t.165, t.170), for the offenses of the 1st group. But if the Referee is ignorant of or\n             misunderstands a definite rule, or applies it in a manner contrary to the Rules, an appeal\n             on this matter may be entertained. A point of fact includes, but is not limited to, any\n             ruling by the referee analyzing what happened on the strip, such as the validity or priority\n             of a hit, whether a fencer left the side or end of the strip or if a person’s behavior is a\n             Group 3 or Group 4 offence.",
+    "verified": 0,
+    "source_lines": "rules.txt:2926-2939"
+  },
+  {
+    "ref": "t.173",
+    "base_ref": "t.173",
+    "book": "technical",
+    "excerpt": "This appeal must be made:\n\n        1.   in individual events, by the fencer;\n\n        2.   in team events, by the fencer or the team captain.\n\n             This appeal should be made courteously but without formality, and should be made\n             verbally to the Referee immediately and before any decision is made regarding a\n             subsequent touch.",
+    "verified": 0,
+    "source_lines": "rules.txt:2940-2950"
+  },
+  {
+    "ref": "t.174",
+    "base_ref": "t.174",
+    "book": "technical",
+    "excerpt": "If the Referee maintains their opinion, the Head Referee has authority to settle an appeal (cf.\n        t.141). If such an appeal is deemed to be unjustified, the fencer will be penalized in accordance\n        with Articles t.158-162, t.165, t.170.\n        Other protests and appeals",
+    "verified": 0,
+    "source_lines": "rules.txt:2951-2955"
+  },
+  {
+    "ref": "t.20.2",
+    "base_ref": "t.20",
+    "book": "technical",
+    "excerpt": "1.   Fencers arm, equip and clothe themselves and fence at their own responsibility and at\n             their own risk.\n\n        2.   It is obligatory for any fencer who warms up or trains with another fencer on site at a\n             USA Fencing competition (including in the training halls linked to the competition) to\n             wear fencing clothing and equipment which conforms with the USA Fencing\n             regulations.\n\n             Any person giving a lesson must wear at least a fencing master’s plastron, as well as a\n             fencing glove and a mask conforming to the regulations.\n\n             Any fencer taking a lesson must wear at least a mask and a glove.\n\n             The Supervisor of the competition or a member of the Bout Committee must penalize any\n             person not respecting this rule with a yellow card, followed by a black card in case of a\n             repeated infringement.\n\n        3.   The safety measures specified in the Rules and in the standards contained in the\n             Appendix to them and the methods of control laid down in the present Rules (cf. Material\n             Rules) are only designed to increase the fencers’ safety and cannot guarantee it. They\n             cannot, therefore, whatever the manner in which they are applied, impart responsibility\n             to the FIE, or to the organizers of competitions, to the officials or personnel who carry out\n             such organization, or to those who may cause an accident.\n\n\n\n\n                                             Chapter 5\n                                              Fencing\n       Method of holding the weapon",
+    "verified": 0,
+    "source_lines": "rules.txt:785-817"
+  },
+  {
+    "ref": "t.23.6",
+    "base_ref": "t.23",
+    "book": "technical",
+    "excerpt": "1.   The start of the bout is signaled by the word “Fence.” No movement made or initiated\n            before the word “Fence” is counted.\n       2.   The bout stops on the word “Halt,” except in the case of special events occurring which\n            modify the regular and normal conditions of the bout (cf. t.44.1/2).\n       3.   As soon as the order “Halt” has been given, a competitor may not start a new action; only\n            the movement which has begun before the order was given remains valid. Everything\n            which takes place afterwards is entirely non-valid (But cf. t.44.1/2).\n       4.   If a competitor stops before the word “Halt,” and is touched, the touch is valid.\n       5.   The order “Halt” is also given if the fencing of the competitors is dangerous, confused, or\n            contrary to the Rules, if one of the competitors is disarmed or leaves the strip (cf. t.33,\n            t.58).\n       6.   The Referee may not allow a fencer to leave the strip, save in exceptional circumstances. If\n            a competitor does so without permission, the competitor is liable to incur the penalties\n            enumerated in Articles t.158-162, t.165, t.170, for the offenses in the 1st group.\n       Fencing at close quarters",
+    "verified": 0,
+    "source_lines": "rules.txt:871-886"
+  },
+  {
+    "ref": "t.25.2",
+    "base_ref": "t.25",
+    "book": "technical",
+    "excerpt": "1.   Corps à corps is said to exist when the two competitors are in contact; when this occurs\n            the Referee must stop the bout (cf. t.32, t.26).\n\n       2.   In all three weapons it is forbidden for a fencer to cause corps à corps intentionally to\n            avoid being touched, or to jostle the opponent. Should such an offense occur, the Referee\n            will penalize the fencer at fault as specified in Articles t.158-162, t.165, t.170 for the\n            offenses in the 1st group and any touch scored by the fencer at fault is annulled.\n       3.   A fencer who either by a flèche attack or by advancing vigorously brings about a corps à\n            corps even several times in succession (without brutality or violence) does not transgress\n            the basic conventions of fencing and commits no fault thereby (cf. t.32).\n       Corps à corps and flèche attacks",
+    "verified": 0,
+    "source_lines": "rules.txt:891-903"
+  },
+  {
+    "ref": "t.26.1",
+    "base_ref": "t.26",
+    "book": "technical",
+    "excerpt": "1.   The “flèche ending systematically in a corps à corps” referred to in this article must not be\n            confused with the “flèche resulting in a shock which jostles the opponent” which is\n            considered as an act of intentional brutality in all three weapons and is punished as such\n            (cf. t.121.2, t.170), for the offenses of the 2nd group.\n       2.   On the other hand the “flèche which is made by running, even going past the opponent,”\n            and without a corps à corps is not forbidden: the Referee should not call “Halt” too soon,\n            in order not to annul a possible riposte; if, when making such a running flèche without\n            touching the opponent, the fencer who makes the flèche crosses the lateral boundaries of\n            the strip, they must be punished as laid down in Article t.35.3.\n       Displacing the target and passing the opponent",
+    "verified": 0,
+    "source_lines": "rules.txt:904-914"
+  },
+  {
+    "ref": "t.27.2",
+    "base_ref": "t.27",
+    "book": "technical",
+    "excerpt": "1.   Displacing the target and ducking are allowed even if during the action the unarmed\n            hand and/or the knee of the back leg comes into contact with the strip.\n       2.   It is forbidden to turn one’s back on one’s opponent during the bout. Should such an\n            offense occur, the Referee will penalize the fencer at fault as specified in Articles t.158-162,\n            t.165, t.170, for the offenses of the 1st group and any touch scored by the fencer at fault is\n            annulled.",
+    "verified": 0,
+    "source_lines": "rules.txt:915-921"
+  },
+  {
+    "ref": "t.29.1",
+    "base_ref": "t.29",
+    "book": "technical",
+    "excerpt": "1.   The use of the non-sword hand and arm to carry out an offensive or defensive action is\n            forbidden (cf. t.158-162, t.166, t.170). Should such an offense occur, the touch scored by the\n            fencer at fault is annulled and the latter will be penalized as specified for offenses of the\n            2nd group (red card).\n       2.   If a fencer substitutes a non-valid part of their target for a valid part, either by covering it\n            or by any abnormal movement, the Referee must penalize the fencer by applying the\n            penalties specified in Articles t.158-162, t.165, t.170) , for the offenses of the 1st group and\n            any touch scored by the fencer at fault is annulled.\n       3.   During the bout, the fencer must not, under any circumstances, take hold of any part of\n            the electrical equipment with the non-sword hand; the referee imposes the penalties for\n            the offenses of the 1st group (cf. t.158-162, t.165, t.170); any touch scored by the fencer at\n            fault is annulled.",
+    "verified": 0,
+    "source_lines": "rules.txt:935-950"
+  },
+  {
+    "ref": "t.29.2",
+    "base_ref": "t.29",
+    "book": "technical",
+    "excerpt": "1.   The use of the non-sword hand and arm to carry out an offensive or defensive action is\n            forbidden (cf. t.158-162, t.166, t.170). Should such an offense occur, the touch scored by the\n            fencer at fault is annulled and the latter will be penalized as specified for offenses of the\n            2nd group (red card).\n       2.   If a fencer substitutes a non-valid part of their target for a valid part, either by covering it\n            or by any abnormal movement, the Referee must penalize the fencer by applying the\n            penalties specified in Articles t.158-162, t.165, t.170) , for the offenses of the 1st group and\n            any touch scored by the fencer at fault is annulled.\n       3.   During the bout, the fencer must not, under any circumstances, take hold of any part of\n            the electrical equipment with the non-sword hand; the referee imposes the penalties for\n            the offenses of the 1st group (cf. t.158-162, t.165, t.170); any touch scored by the fencer at\n            fault is annulled.",
+    "verified": 0,
+    "source_lines": "rules.txt:935-950"
+  },
+  {
+    "ref": "t.29.3",
+    "base_ref": "t.29",
+    "book": "technical",
+    "excerpt": "1.   The use of the non-sword hand and arm to carry out an offensive or defensive action is\n            forbidden (cf. t.158-162, t.166, t.170). Should such an offense occur, the touch scored by the\n            fencer at fault is annulled and the latter will be penalized as specified for offenses of the\n            2nd group (red card).\n       2.   If a fencer substitutes a non-valid part of their target for a valid part, either by covering it\n            or by any abnormal movement, the Referee must penalize the fencer by applying the\n            penalties specified in Articles t.158-162, t.165, t.170) , for the offenses of the 1st group and\n            any touch scored by the fencer at fault is annulled.\n       3.   During the bout, the fencer must not, under any circumstances, take hold of any part of\n            the electrical equipment with the non-sword hand; the referee imposes the penalties for\n            the offenses of the 1st group (cf. t.158-162, t.165, t.170); any touch scored by the fencer at\n            fault is annulled.",
+    "verified": 0,
+    "source_lines": "rules.txt:935-950"
+  },
+  {
+    "ref": "t.30",
+    "base_ref": "t.30",
+    "book": "technical",
+    "excerpt": "1.   If during a bout the Referee notices that one of the fencers is making use of the non-sword\n            arm and/or hand, or is protecting or covering the valid target with a non-valid surface,\n            the Referee can call for the help of two neutral judges who will be designated by the Head\n            Referee.\n       2.   These judges, one on each side of the strip, will watch all aspects of the bout and will\n            indicate, by raising their hand or when asked by the Referee, if the non-sword arm or\n            hand has been used, or if the fencer has protected or covered the valid target with a non-\n            valid surface (cf. t.49, t.72, t.158-162, t.165, t.170).\n       3.   The Referee may also make the fencers change places so that the fencer committing this\n            fault does not have their back to the Referee.\n       Ground gained or lost",
+    "verified": 0,
+    "source_lines": "rules.txt:951-962"
+  },
+  {
+    "ref": "t.30.1",
+    "base_ref": "t.30",
+    "book": "technical",
+    "excerpt": "1.   If during a bout the Referee notices that one of the fencers is making use of the non-sword\n            arm and/or hand, or is protecting or covering the valid target with a non-valid surface,\n            the Referee can call for the help of two neutral judges who will be designated by the Head\n            Referee.\n       2.   These judges, one on each side of the strip, will watch all aspects of the bout and will\n            indicate, by raising their hand or when asked by the Referee, if the non-sword arm or\n            hand has been used, or if the fencer has protected or covered the valid target with a non-\n            valid surface (cf. t.49, t.72, t.158-162, t.165, t.170).\n       3.   The Referee may also make the fencers change places so that the fencer committing this\n            fault does not have their back to the Referee.\n       Ground gained or lost",
+    "verified": 0,
+    "source_lines": "rules.txt:951-962"
+  },
+  {
+    "ref": "t.35.3",
+    "base_ref": "t.35",
+    "book": "technical",
+    "excerpt": "1.   If a competitor crosses one of the lateral boundaries of the strip with one or two feet, they\n            must retreat one meter from the point where they left the strip, and if they go off the strip\n            during an attack, must return to the position occupied when they started their attack and\n            then retreat a further meter (but cf. t.29).\n       2.   If the exercise of this penalty places a competitor with both feet beyond the rear limit of\n            the strip, that competitor is considered as having been touched.\n       3.   A competitor who crosses one of the lateral boundaries of the strip with one or both feet—\n            e.g., when making a flèche—to avoid being touched will be penalized as specified in\n            Articles t.158-162, t.165, t.170, for the offenses of the 1st group. Any touch made by the\n            offending fencer is annulled.\n       Leaving the strip accidentally",
+    "verified": 0,
+    "source_lines": "rules.txt:993-1004"
+  },
+  {
+    "ref": "t.43.2",
+    "base_ref": "t.43",
+    "book": "technical",
+    "excerpt": "1.   The fencers may ask how much time they have left to fence each time that the\n            fencing is interrupted.\n       2.   Any fencer who attempts improperly to cause or to prolong interruptions to the\n            bout is penalized as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            1st group.",
+    "verified": 0,
+    "source_lines": "rules.txt:1110-1115"
+  },
+  {
+    "ref": "t.45.3",
+    "base_ref": "t.45",
+    "book": "technical",
+    "excerpt": "1.   For any injury or other medical reason which occurs in the course of a bout and which is\n            properly attested by the designated sports medicine professional on duty, the Referee will\n            allow a break in the bout lasting no longer than 5 minutes. Only the doctor and/or\n            medical provider on duty can determine the length of time of treatment required when\n            a medical time-out is granted. This break should be timed from the point when the\n            designated sports medicine professional gave their opinion. This break should be strictly\n            reserved for the requisite treatment. If the designated sports medicine professional\n            considers, before or at the end of the 5-minute break, that the fencer is incapable of\n            continuing the bout, the fencer must withdraw (individual events) and/or be replaced, if\n            possible (team events) (cf. o.99.6.a/b).\n            If the athlete retires and a medical withdrawal is determined, the designated sports\n            medicine professional on duty must fully complete the medical withdrawal form and\n            submit it to the Bout Committee for its inclusion into the final report.\n            All breaks for a medical reason must be noted on the score-sheet for the bout, the pool, or\n            the match.\n       2.   During the remainder of the same day, a fencer cannot be allowed a further break unless\n            as a result of a different injury or other medical reason.\n       3.   Should a fencer demand a break which is deemed by the delegate of the designated sports\n            medicine professional on duty to be unjustified, the Referee will penalize that fencer as\n            specified in Articles t.158-162, t.166, t.170, for the offenses of the 2nd group.\n\n\n\n      4.   In team events a fencer judged unable to continue the bout by the designated sports\n           medicine professional on duty may, nevertheless, on the advice of the same designated\n           sports medicine professional, fence in subsequent matches on the same day.\n      5.   The Bout Committee may modify the order of bouts in a pool in order to ensure the\n           efficient running of the competition (cf. o.71.1).\n\n\n\n\n                                                Chapter 6\n                       Refereeing and the Judging of touches",
+    "verified": 0,
+    "source_lines": "rules.txt:1127-1163"
+  },
+  {
+    "ref": "t.55.2",
+    "base_ref": "t.55",
+    "book": "technical",
+    "excerpt": "1.   The Referee will disregard touches which are registered as a result of actions:\n            — started before the word “Fence” or after the word “Halt” (cf. t.23.1/3);\n            — which are made on any object other than the opponent or their equipment.\n       2.   A competitor who intentionally causes the apparatus to register a touch by placing their\n            point on the ground or on any surface other than that of their opponent will be penalized\n            as specified in Articles t.158-162, t.166, t.170, for the offenses of the 2nd group.",
+    "verified": 0,
+    "source_lines": "rules.txt:1297-1303"
+  },
+  {
+    "ref": "t.56.11",
+    "base_ref": "t.56",
+    "book": "technical",
+    "excerpt": "The Referee must also apply the following rules:\n       1.   Only the last touch made before the fault was established can be annulled and then only if\n            it is the competitor against whom the hit was registered who is placed at a disadvantage\n            by the failure.\n       2.   The failure must be established by tests made immediately after the bout was stopped,\n            under the supervision of the Referee and without changing anything whatever of the\n            equipment in use.\n       3.   A competitor who makes any modification in or who changes their equipment without\n            being asked by the Referee to do so, before the Referee has given their decision, loses all\n            right to the annulment of the touch.\n       4.   If the bout has effectively recommenced, a competitor cannot claim the annulment of a\n            touch awarded against themself before the said recommencement of the bout.\n       5.   With these tests, one is trying only to establish whether there is material possibility of a\n            mistake in the judgement as a result of a fault. The location of a fault found in the\n            equipment (including the equipment of the competitors) is of no importance for this\n            possible annulment.\n\n\n\n       6.   It is not necessary that the failure found should repeat itself each time a test is made; but\n            it is essential that the fault should be manifested to the Referee without the possibility of\n            doubt at least once during the tests made by the Referee or under their supervision.\n       7.   When a competitor against whom a touch has been registered has broken their blade, the\n            touch must be annulled unless the breaking of the blade has occurred clearly after the\n            touch has been registered.\n       8.   The Referee must pay particular attention to touches which are not registered or which\n            are registered abnormally. Should such defects be repeated, the Referee must ask a\n            member of the SEMI Commission or an expert technician on duty to verify that the\n            equipment conforms to the Rules.\n       9.   The Referee must ensure that nothing is altered in the competitor’s equipment or in the\n            whole of the electrical apparatus before the expert carries out the check.\n       10. Touch made during or after a fall must be annulled.\n       11. A competitor who intentionally drops their weapon during the fencing phrase will be\n           penalized as specified in Articles t.166, t.170. However, a hit scored by the opponent is\n           valid, provided that the action was started before the ‘Halt!’.",
+    "verified": 0,
+    "source_lines": "rules.txt:1304-1340"
+  },
+  {
+    "ref": "t.64.6",
+    "base_ref": "t.64",
+    "book": "technical",
+    "excerpt": "Before the start of each pool, team match or bout by direct elimination, the Referee must\n       assemble all the competitors and verify that (cf. t.47.2.c):\n       1.   in all weapons, the FIE guarantee label is present on the fencers’ equipment (clothing,\n            masks);\n\n\n       In USA Fencing competitions, the use of an FIE homologated uniform and mask is not required.\n\n\n       2.   in foil, the conductive jacket conforms to the provision of Article m.28 when each\n            competitor is in the on guard position;\n\n       3.   in épée, the material from which the clothing is made has not too smooth a surface, and\n            the competitor is wearing a jacket conforming to the regulations;\n       4.   in sabre, the conductive jacket conforms to the provision of Article m.34 when each\n            competitor is in the on guard position;\n       5.   in all three weapons, each fencer is wearing, under the jacket, a regulation protective\n            under-plastron, made of cloth which can resist 800 Newtons;\n\n\n       In USA Fencing competitions, the protective plastron must:\n       1) have at least two layers;\n       2) include a sleeve down to the elbow without opening or seam in the region of the armpit;3)\n          ensure the best possible protection. It may be fixed to the jacket without being entirely sewn in;\n       3) it does not need to be constructed of 800 Newton material.\n\n\n       6.   in all three weapons, the fencer is not equipped with any electronic communication\n            equipment which would allow a person off the strip to communicate with the fencer\n            during the bout.",
+    "verified": 0,
+    "source_lines": "rules.txt:1420-1451"
+  },
+  {
+    "ref": "t.71",
+    "base_ref": "t.71",
+    "book": "technical",
+    "excerpt": "If a fencer appears on the strip:\n       — with only one regulation weapon conforming with the Rules (cf. t.144, t.115); or\n       — with only one regulation bodycord; or\n       — with only one regulation mask cord; or\n       — with a weapon or a bodycord which does not work or which does not conform with the\n        Rules; or\n       — without a protective under-plastron (cf. t.64.5 above); or\n       — with a conductive jacket which does not fully cover the valid target; or\n       — with clothing which does not conform with the Rules;\n       the Referee will apply the penalties according to Articles t.158-162, t.165, t.170, for the\n         offenses of the 1st group.\n\n\n\n\n       In FIE competitions, there is an additional requirement that a 2nd security device be securely fixed to the\n       body of the mask.",
+    "verified": 0,
+    "source_lines": "rules.txt:1501-1521"
+  },
+  {
+    "ref": "t.72",
+    "base_ref": "t.72",
+    "book": "technical",
+    "excerpt": "When during a bout an irregularity is found in the equipment which could be caused by\n       conditions during the bout, for example\n       — conductive jacket with holes in which touches are registered as non-valid;\n       — weapon or bodycord no longer functioning;\n       — pressure of the spring in the point too weak;\n       — the travel in the point no longer regulation;\n       the Referee will apply neither warning nor penalty and any touch scored with the equipment\n       that has become defective will be awarded.\n       However, even during the course of a bout, any fencer whose weapon, at the moment the\n       fencer presents themself on guard and ready to fence, has a curve of the blade, which exceeds\n       that permitted (cf. m.8.6, m.16.2, m.23.4) commits an offense in the 1 st group and will be\n       penalized in accordance with Articles t.158-162, t.166, t.170.\n\n\n       In FIE competitions, even during the course of a bout, any fencer whose mask, at the moment they\n       present on guard ready to fence, is not securely held on their head by the 2nd security device, commits an\n       offense in the first groups and will be penalized in accordance with t.158-162, t.165, t.170.",
+    "verified": 0,
+    "source_lines": "rules.txt:1522-1541"
+  },
+  {
+    "ref": "t.73.1.a",
+    "base_ref": "t.73",
+    "book": "technical",
+    "excerpt": "1.   If, when a fencer appears on the strip or during a bout, it is established that the equipment\n            used by the fencer:\n       a)   does not bear the marks applied at the preliminary check, the Referee will:\n            — annul the last touch, if any, scored by the fencer at fault;\n            — penalize the fencer as specified in Articles t.158-162, t.166, t.170, for the offenses of the\n            2nd group.\n       b) does not conform to the Rules in a way not covered by the preliminary check, the Referee\n          will:\n            — penalize the fencer as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            2nd group.\n       c)   has been passed by the preliminary check but is fraudulent; or\n       d) bears the marks of the preliminary check which have been imitated or transferred; or\n       e)   has been willfully altered (i.e. in a manner other than by accidental cause or by conditions\n            during the bout) so that it would not pass a preliminary check;\n       f)has been altered in any way to allow the recording of touches or the nonfunctioning of the\n         apparatus at will; or\n       g) is equipped with electronic communication equipment permitting a person off the strip\n          to communicate with the fencer during the bout;\n       then, in cases c), e), f) and g) above, the Referee must immediately confiscate the equipment\n       (weapon, bodycord and if necessary the conductive jacket, mask, protective under-plastron,\n       jacket, knickers, etc.), and have it examined by the expert on duty.\n       2.   After having obtained the opinion of the expert (a member of the SEMI Commission at\n            the fencing events at the Olympic Games and at World Championships), who has\n            established the facts (cf. m.33ss), the Referee will apply the following sanctions, without\n            prejudice to the application of Article t.137.2/4;\n       — in cases c), e), f) and g), the Referee will penalize the fencer as specified for offenses of the\n         4th group (cf. Articles t.158-162, t.169, t.170).\n       3.   While awaiting the decision of the Referee that bout will be suspended but the other\n            bouts in the pool may continue.",
+    "verified": 0,
+    "source_lines": "rules.txt:1542-1572"
+  },
+  {
+    "ref": "t.73.1.c",
+    "base_ref": "t.73",
+    "book": "technical",
+    "excerpt": "1.   If, when a fencer appears on the strip or during a bout, it is established that the equipment\n            used by the fencer:\n       a)   does not bear the marks applied at the preliminary check, the Referee will:\n            — annul the last touch, if any, scored by the fencer at fault;\n            — penalize the fencer as specified in Articles t.158-162, t.166, t.170, for the offenses of the\n            2nd group.\n       b) does not conform to the Rules in a way not covered by the preliminary check, the Referee\n          will:\n            — penalize the fencer as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            2nd group.\n       c)   has been passed by the preliminary check but is fraudulent; or\n       d) bears the marks of the preliminary check which have been imitated or transferred; or\n       e)   has been willfully altered (i.e. in a manner other than by accidental cause or by conditions\n            during the bout) so that it would not pass a preliminary check;\n       f)has been altered in any way to allow the recording of touches or the nonfunctioning of the\n         apparatus at will; or\n       g) is equipped with electronic communication equipment permitting a person off the strip\n          to communicate with the fencer during the bout;\n       then, in cases c), e), f) and g) above, the Referee must immediately confiscate the equipment\n       (weapon, bodycord and if necessary the conductive jacket, mask, protective under-plastron,\n       jacket, knickers, etc.), and have it examined by the expert on duty.\n       2.   After having obtained the opinion of the expert (a member of the SEMI Commission at\n            the fencing events at the Olympic Games and at World Championships), who has\n            established the facts (cf. m.33ss), the Referee will apply the following sanctions, without\n            prejudice to the application of Article t.137.2/4;\n       — in cases c), e), f) and g), the Referee will penalize the fencer as specified for offenses of the\n         4th group (cf. Articles t.158-162, t.169, t.170).\n       3.   While awaiting the decision of the Referee that bout will be suspended but the other\n            bouts in the pool may continue.",
+    "verified": 0,
+    "source_lines": "rules.txt:1542-1572"
+  },
+  {
+    "ref": "t.73.1.d",
+    "base_ref": "t.73",
+    "book": "technical",
+    "excerpt": "1.   If, when a fencer appears on the strip or during a bout, it is established that the equipment\n            used by the fencer:\n       a)   does not bear the marks applied at the preliminary check, the Referee will:\n            — annul the last touch, if any, scored by the fencer at fault;\n            — penalize the fencer as specified in Articles t.158-162, t.166, t.170, for the offenses of the\n            2nd group.\n       b) does not conform to the Rules in a way not covered by the preliminary check, the Referee\n          will:\n            — penalize the fencer as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            2nd group.\n       c)   has been passed by the preliminary check but is fraudulent; or\n       d) bears the marks of the preliminary check which have been imitated or transferred; or\n       e)   has been willfully altered (i.e. in a manner other than by accidental cause or by conditions\n            during the bout) so that it would not pass a preliminary check;\n       f)has been altered in any way to allow the recording of touches or the nonfunctioning of the\n         apparatus at will; or\n       g) is equipped with electronic communication equipment permitting a person off the strip\n          to communicate with the fencer during the bout;\n       then, in cases c), e), f) and g) above, the Referee must immediately confiscate the equipment\n       (weapon, bodycord and if necessary the conductive jacket, mask, protective under-plastron,\n       jacket, knickers, etc.), and have it examined by the expert on duty.\n       2.   After having obtained the opinion of the expert (a member of the SEMI Commission at\n            the fencing events at the Olympic Games and at World Championships), who has\n            established the facts (cf. m.33ss), the Referee will apply the following sanctions, without\n            prejudice to the application of Article t.137.2/4;\n       — in cases c), e), f) and g), the Referee will penalize the fencer as specified for offenses of the\n         4th group (cf. Articles t.158-162, t.169, t.170).\n       3.   While awaiting the decision of the Referee that bout will be suspended but the other\n            bouts in the pool may continue.",
+    "verified": 0,
+    "source_lines": "rules.txt:1542-1572"
+  },
+  {
+    "ref": "t.73.1.e",
+    "base_ref": "t.73",
+    "book": "technical",
+    "excerpt": "1.   If, when a fencer appears on the strip or during a bout, it is established that the equipment\n            used by the fencer:\n       a)   does not bear the marks applied at the preliminary check, the Referee will:\n            — annul the last touch, if any, scored by the fencer at fault;\n            — penalize the fencer as specified in Articles t.158-162, t.166, t.170, for the offenses of the\n            2nd group.\n       b) does not conform to the Rules in a way not covered by the preliminary check, the Referee\n          will:\n            — penalize the fencer as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            2nd group.\n       c)   has been passed by the preliminary check but is fraudulent; or\n       d) bears the marks of the preliminary check which have been imitated or transferred; or\n       e)   has been willfully altered (i.e. in a manner other than by accidental cause or by conditions\n            during the bout) so that it would not pass a preliminary check;\n       f)has been altered in any way to allow the recording of touches or the nonfunctioning of the\n         apparatus at will; or\n       g) is equipped with electronic communication equipment permitting a person off the strip\n          to communicate with the fencer during the bout;\n       then, in cases c), e), f) and g) above, the Referee must immediately confiscate the equipment\n       (weapon, bodycord and if necessary the conductive jacket, mask, protective under-plastron,\n       jacket, knickers, etc.), and have it examined by the expert on duty.\n       2.   After having obtained the opinion of the expert (a member of the SEMI Commission at\n            the fencing events at the Olympic Games and at World Championships), who has\n            established the facts (cf. m.33ss), the Referee will apply the following sanctions, without\n            prejudice to the application of Article t.137.2/4;\n       — in cases c), e), f) and g), the Referee will penalize the fencer as specified for offenses of the\n         4th group (cf. Articles t.158-162, t.169, t.170).\n       3.   While awaiting the decision of the Referee that bout will be suspended but the other\n            bouts in the pool may continue.",
+    "verified": 0,
+    "source_lines": "rules.txt:1542-1572"
+  },
+  {
+    "ref": "t.73.1.f",
+    "base_ref": "t.73",
+    "book": "technical",
+    "excerpt": "1.   If, when a fencer appears on the strip or during a bout, it is established that the equipment\n            used by the fencer:\n       a)   does not bear the marks applied at the preliminary check, the Referee will:\n            — annul the last touch, if any, scored by the fencer at fault;\n            — penalize the fencer as specified in Articles t.158-162, t.166, t.170, for the offenses of the\n            2nd group.\n       b) does not conform to the Rules in a way not covered by the preliminary check, the Referee\n          will:\n            — penalize the fencer as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            2nd group.\n       c)   has been passed by the preliminary check but is fraudulent; or\n       d) bears the marks of the preliminary check which have been imitated or transferred; or\n       e)   has been willfully altered (i.e. in a manner other than by accidental cause or by conditions\n            during the bout) so that it would not pass a preliminary check;\n       f)has been altered in any way to allow the recording of touches or the nonfunctioning of the\n         apparatus at will; or\n       g) is equipped with electronic communication equipment permitting a person off the strip\n          to communicate with the fencer during the bout;\n       then, in cases c), e), f) and g) above, the Referee must immediately confiscate the equipment\n       (weapon, bodycord and if necessary the conductive jacket, mask, protective under-plastron,\n       jacket, knickers, etc.), and have it examined by the expert on duty.\n       2.   After having obtained the opinion of the expert (a member of the SEMI Commission at\n            the fencing events at the Olympic Games and at World Championships), who has\n            established the facts (cf. m.33ss), the Referee will apply the following sanctions, without\n            prejudice to the application of Article t.137.2/4;\n       — in cases c), e), f) and g), the Referee will penalize the fencer as specified for offenses of the\n         4th group (cf. Articles t.158-162, t.169, t.170).\n       3.   While awaiting the decision of the Referee that bout will be suspended but the other\n            bouts in the pool may continue.",
+    "verified": 0,
+    "source_lines": "rules.txt:1542-1572"
+  },
+  {
+    "ref": "t.73.1.g",
+    "base_ref": "t.73",
+    "book": "technical",
+    "excerpt": "1.   If, when a fencer appears on the strip or during a bout, it is established that the equipment\n            used by the fencer:\n       a)   does not bear the marks applied at the preliminary check, the Referee will:\n            — annul the last touch, if any, scored by the fencer at fault;\n            — penalize the fencer as specified in Articles t.158-162, t.166, t.170, for the offenses of the\n            2nd group.\n       b) does not conform to the Rules in a way not covered by the preliminary check, the Referee\n          will:\n            — penalize the fencer as specified in Articles t.158-162, t.165, t.170, for the offenses of the\n            2nd group.\n       c)   has been passed by the preliminary check but is fraudulent; or\n       d) bears the marks of the preliminary check which have been imitated or transferred; or\n       e)   has been willfully altered (i.e. in a manner other than by accidental cause or by conditions\n            during the bout) so that it would not pass a preliminary check;\n       f)has been altered in any way to allow the recording of touches or the nonfunctioning of the\n         apparatus at will; or\n       g) is equipped with electronic communication equipment permitting a person off the strip\n          to communicate with the fencer during the bout;\n       then, in cases c), e), f) and g) above, the Referee must immediately confiscate the equipment\n       (weapon, bodycord and if necessary the conductive jacket, mask, protective under-plastron,\n       jacket, knickers, etc.), and have it examined by the expert on duty.\n       2.   After having obtained the opinion of the expert (a member of the SEMI Commission at\n            the fencing events at the Olympic Games and at World Championships), who has\n            established the facts (cf. m.33ss), the Referee will apply the following sanctions, without\n            prejudice to the application of Article t.137.2/4;\n       — in cases c), e), f) and g), the Referee will penalize the fencer as specified for offenses of the\n         4th group (cf. Articles t.158-162, t.169, t.170).\n       3.   While awaiting the decision of the Referee that bout will be suspended but the other\n            bouts in the pool may continue.",
+    "verified": 0,
+    "source_lines": "rules.txt:1542-1572"
+  },
+  {
+    "ref": "t.74",
+    "base_ref": "t.74",
+    "book": "technical",
+    "excerpt": "For all official FIE competitions, every fencer must appear on the strip with clothing\n            conforming to the rules as follows:\n       1.   Name and nationality, in accordance with the Rules, on the back of the jacket\n       2.   Wearing their national uniform and logo (cf. m.25.3).\n             In case of violation of this rule, the referee will eliminate the fencer at fault from the\n            event in question.",
+    "verified": 0,
+    "source_lines": "rules.txt:1573-1579"
+  },
+  {
+    "ref": "t.76.2",
+    "base_ref": "t.76",
+    "book": "technical",
+    "excerpt": "1.   The foil is a thrusting weapon only. Offensive actions with this weapon are made\n            therefore only with the point.\n\n       2.   Pushing or letting drag the point of the electric weapon on the electric strip is forbidden\n            during the actual bout (between “Fence” and “Halt”). Placing the point of the weapon on\n            the strip at any time to straighten it is also forbidden. Any breaking of these rules will be\n            punished according to Articles t.158-162, t.165, t.170, for the offenses of the 1st group.\n\n       TARGET\n       Limitation of the target",
+    "verified": 0,
+    "source_lines": "rules.txt:1635-1646"
+  },
+  {
+    "ref": "t.79",
+    "base_ref": "t.79",
+    "book": "technical",
+    "excerpt": "1.   In foil, it is forbidden to protect the target area or to substitute another part of the body\n            for the target area by covering it (cf. t.158-162, t.165, t.170); any touch scored by the fencer\n            at fault is annulled.\n            a) If, during the fencing phrase, there is protection or substitution of a valid surface, the\n            fencer at fault will be penalized as specified for offenses of the 1st group (cf. t.29).\n            b) If, during the fencing phrase, as a result of protection or substitution of a valid surface,\n            a touch correctly given is registered as not valid, the fencer at fault will be penalized as\n            specified for offenses of the 1st group (cf. t.158-162, t.165, t.170) and the touch will be\n            awarded by the Referee.\n            c) However, touches which arrive off the target are counted as valid whenever, by reason\n            of an abnormal position, the fencer has substituted this non-valid target for the valid\n            target.\n       2.   The Referee may question the judges about this, but the Referee alone must decide\n            whether the touch is valid or not.\n       Annulment of a touch",
+    "verified": 0,
+    "source_lines": "rules.txt:1677-1693"
+  },
+  {
+    "ref": "t.90.2",
+    "base_ref": "t.90",
+    "book": "technical",
+    "excerpt": "1.   The épée is a thrusting weapon only. Attacks with this weapon are therefore made only\n            with the point.\n       2.   Pushing or letting the point of the electric weapon drag on the electric strip is forbidden\n            during the actual bout (between “Fence” and “Halt”). Placing the point of the weapon on\n            the strip at any time to straighten it is also forbidden.\n            Any breaking of this rule will be penalized according to Articles t.158-162, t.165, t.170, for\n            the offenses of the 1st group.\n       THE TARGET",
+    "verified": 0,
+    "source_lines": "rules.txt:1871-1879"
+  },
+  {
+    "ref": "t.96.3",
+    "base_ref": "t.96",
+    "book": "technical",
+    "excerpt": "1.   The sabre is a weapon for thrusting and cutting with the cutting edge, the flat and the\n            back of the blade.\n       2.   All touches made with the cutting edge, the flat or the back of the blade are counted as\n            good (cuts and back-cuts).\n       3.   It is forbidden to score a touch with the guard. Any touches registered by hitting with the\n            guard must be annulled, the fencer at fault being penalized as specified in Articles t.158-\n            162, t.165, t.170, for the offenses of the 1st group.\n       4.   Touches through the blade, that is to say those which touch the valid target and the sabre\n            of the opponent at the same time, are valid whenever they arrive clearly on the target.\n       5.   Placing the weapon on the strip at any time to straighten it is forbidden. Any breaking of\n            this rule will be punished according to Articles t.158-162, t.165, t.170, for the offenses of\n            the 1st group.\n       THE TARGET",
+    "verified": 0,
+    "source_lines": "rules.txt:1948-1962"
+  },
+  {
+    "ref": "t.96.5",
+    "base_ref": "t.96",
+    "book": "technical",
+    "excerpt": "1.   The sabre is a weapon for thrusting and cutting with the cutting edge, the flat and the\n            back of the blade.\n       2.   All touches made with the cutting edge, the flat or the back of the blade are counted as\n            good (cuts and back-cuts).\n       3.   It is forbidden to score a touch with the guard. Any touches registered by hitting with the\n            guard must be annulled, the fencer at fault being penalized as specified in Articles t.158-\n            162, t.165, t.170, for the offenses of the 1st group.\n       4.   Touches through the blade, that is to say those which touch the valid target and the sabre\n            of the opponent at the same time, are valid whenever they arrive clearly on the target.\n       5.   Placing the weapon on the strip at any time to straighten it is forbidden. Any breaking of\n            this rule will be punished according to Articles t.158-162, t.165, t.170, for the offenses of\n            the 1st group.\n       THE TARGET",
+    "verified": 0,
+    "source_lines": "rules.txt:1948-1962"
+  },
+  {
+    "ref": "t.97",
+    "base_ref": "t.97",
+    "book": "technical",
+    "excerpt": "1.   Only touches which arrive on the target are counted as valid.\n            The target comprises any part of the body above a horizontal line drawn between the tops\n            of the hip bones and then horizontally around the fencer’s trunk (see Figure 6).\n       2.   In sabre, it is forbidden to protect the target area or to substitute another part of the body\n            for the target area by covering it (cf. t.158-162, t.165, t.170); any touch scored by the fencer\n            at fault is annulled.\n            If, during the fencing phrase, there is protection or substitution of a valid surface, the\n            fencer at fault will be penalized as specified for offenses of the 1st group (cf. t.29).",
+    "verified": 0,
+    "source_lines": "rules.txt:1963-1971"
+  }
+]
