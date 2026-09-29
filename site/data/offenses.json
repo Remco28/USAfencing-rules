@@ -20,6 +20,14 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "late",
+      "no show",
+      "missed call",
+      "not ready",
+      "absent when called",
+      "did not show up"
+    ],
     "effects": []
   },
   {
@@ -44,6 +52,16 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": true,
+    "search_terms": [
+      "not attacking",
+      "no touches",
+      "no hits",
+      "waiting without a touch",
+      "non combativity",
+      "p cards",
+      "passive",
+      "one minute without scoring"
+    ],
     "effects": []
   },
   {
@@ -70,6 +88,11 @@
       "2"
     ],
     "passivity": false,
+    "search_terms": [
+      "leave piste",
+      "walk off strip",
+      "leave without permission"
+    ],
     "effects": []
   },
   {
@@ -93,6 +116,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "body contact",
+      "bumping to avoid a touch",
+      "collide to avoid being hit",
+      "corps a corps"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -121,6 +150,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "turn around",
+      "back to opponent",
+      "turn away"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -156,6 +190,12 @@
       "6"
     ],
     "passivity": false,
+    "search_terms": [
+      "cover target",
+      "hide target",
+      "cover lame",
+      "block valid target"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -184,6 +224,19 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "body cord",
+      "bodycord",
+      "cord",
+      "cable",
+      "electrical wire",
+      "grab cord",
+      "hold cord",
+      "touch cord",
+      "touch body cord",
+      "hold electrical equipment",
+      "grab cable"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -215,6 +268,12 @@
       "2"
     ],
     "passivity": false,
+    "search_terms": [
+      "step off side",
+      "side boundary",
+      "leave side of piste",
+      "avoid hit by leaving side"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -243,6 +302,13 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "stall",
+      "stalling",
+      "waste time",
+      "delay",
+      "prolong interruption"
+    ],
     "effects": []
   },
   {
@@ -269,6 +335,21 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "missing spare cord",
+      "forget spare weapon",
+      "broken body cord",
+      "faulty cord",
+      "disconnected cord",
+      "equipment failure",
+      "body cord",
+      "bodycord",
+      "cable",
+      "mask strap",
+      "secondary safety strap",
+      "missing backup weapon",
+      "missing spare body cord"
+    ],
     "effects": []
   },
   {
@@ -294,6 +375,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "bend blade on floor",
+      "straighten blade on floor",
+      "straighten sword on strip"
+    ],
     "effects": []
   },
   {
@@ -318,6 +404,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "drag tip",
+      "point on floor",
+      "drag blade point"
+    ],
     "effects": []
   },
   {
@@ -344,6 +435,13 @@
       "6"
     ],
     "passivity": false,
+    "search_terms": [
+      "saber",
+      "cross feet",
+      "cross legs",
+      "hit with guard in sabre",
+      "forward crossover"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -377,6 +475,11 @@
       "3c"
     ],
     "passivity": false,
+    "search_terms": [
+      "ignore referee",
+      "disobey referee",
+      "ignore ref instructions"
+    ],
     "effects": []
   },
   {
@@ -400,6 +503,13 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "ponytail",
+      "loose hair",
+      "hair covers target",
+      "hair hides name",
+      "hair not tied back"
+    ],
     "effects": []
   },
   {
@@ -430,6 +540,15 @@
       "3c"
     ],
     "passivity": false,
+    "search_terms": [
+      "remove mask early",
+      "mask off before halt",
+      "take mask off",
+      "undress on strip",
+      "change clothes on strip",
+      "jostle",
+      "disorderly fencing"
+    ],
     "effects": [
       {
         "title": "Touch cancellation for disorderly fencing",
@@ -458,6 +577,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "deliberate fall",
+      "fall to avoid touch",
+      "brutal touch",
+      "irregular movement"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -492,6 +617,12 @@
       "3c"
     ],
     "passivity": false,
+    "search_terms": [
+      "argue with referee",
+      "challenge referee decision",
+      "unjustified protest",
+      "appeal point of fact"
+    ],
     "effects": []
   },
   {
@@ -518,6 +649,12 @@
       "2"
     ],
     "passivity": false,
+    "search_terms": [
+      "enter piste enclosure",
+      "enter strip area",
+      "team enters without permission",
+      "team warning"
+    ],
     "effects": [
       {
         "title": "Warning applies to the whole team",
@@ -547,6 +684,14 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "free hand",
+      "non sword hand",
+      "unarmed hand",
+      "push with free hand",
+      "use other arm",
+      "block with other arm"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -575,6 +720,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "unjustified medical break",
+      "doctor rejects medical reason",
+      "injury break not confirmed"
+    ],
     "effects": []
   },
   {
@@ -598,6 +748,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "missing inspection sticker",
+      "missing control stamp",
+      "equipment check mark",
+      "missing weapon inspection mark"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -626,6 +782,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "drop sword on purpose",
+      "drop weapon deliberately",
+      "let go of weapon intentionally"
+    ],
     "effects": []
   },
   {
@@ -649,6 +810,13 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "name on jacket",
+      "nationality on jacket",
+      "missing uniform name",
+      "national colors",
+      "national colours"
+    ],
     "effects": []
   },
   {
@@ -676,6 +844,11 @@
       "6"
     ],
     "passivity": false,
+    "search_terms": [
+      "hit floor deliberately",
+      "touch not on opponent",
+      "deliberate touch on something else"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -706,6 +879,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "dangerous fencing",
+      "hit with pommel",
+      "blow with guard",
+      "violent fencing action"
+    ],
     "effects": [
       {
         "title": "Touch cancelled",
@@ -735,6 +914,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "disrupt bout",
+      "disrupt competition on strip",
+      "disturbing order"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -767,6 +951,10 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "dishonest fencing",
+      "dishonest behavior during fencing"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -799,6 +987,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "advertising",
+      "sponsor logo",
+      "publicity code",
+      "sponsorship"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -833,6 +1027,15 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "spectator",
+      "parent shouting",
+      "audience disruption",
+      "smoking",
+      "vaping",
+      "e cigarette",
+      "disturbance outside strip"
+    ],
     "effects": [
       {
         "title": "Removal from the venue",
@@ -865,6 +1068,15 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "warmup",
+      "warm up",
+      "practice bout",
+      "training without equipment",
+      "lesson equipment",
+      "coach long pants",
+      "chest protector during lesson"
+    ],
     "effects": []
   },
   {
@@ -888,6 +1100,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "unsporting behavior",
+      "unsportsmanlike behavior",
+      "anti sporting behavior"
+    ],
     "effects": []
   },
   {
@@ -912,6 +1129,13 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "earpiece",
+      "electronic coaching",
+      "receive messages",
+      "communication device",
+      "radio during bout"
+    ],
     "effects": [
       {
         "title": "Exclusion from the event or tournament",
@@ -942,6 +1166,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "fake inspection stamp",
+      "forged control mark",
+      "altered inspection mark",
+      "modified equipment"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -971,6 +1201,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "equipment cheating",
+      "cheating device",
+      "fraudulent equipment"
+    ],
     "effects": [
       {
         "title": "Exclusion from the whole tournament",
@@ -999,6 +1234,11 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "refuse opponent",
+      "will not fence opponent",
+      "refuse entered competitor"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -1030,6 +1270,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "breach sportsmanship",
+      "refuse handshake",
+      "unsportsmanlike conduct",
+      "refuse salute"
+    ],
     "effects": [
       {
         "title": "Exclusion from the event or tournament",
@@ -1058,6 +1304,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "no salute",
+      "skip salute",
+      "refuse salute",
+      "did not salute"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -1087,6 +1339,14 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "fix bout",
+      "match fixing",
+      "agree to lose",
+      "give away touches",
+      "favor opponent",
+      "favour opponent"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -1115,6 +1375,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "vindictive action",
+      "retaliation",
+      "violent action",
+      "attack opponent in anger"
+    ],
     "effects": [
       {
         "title": "Exclusion from this event",
@@ -1143,6 +1409,12 @@
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false,
+    "search_terms": [
+      "anti doping",
+      "prohibited substance",
+      "performance enhancing drugs",
+      "doping violation"
+    ],
     "effects": [
       {
         "title": "Exclusion from the whole tournament",

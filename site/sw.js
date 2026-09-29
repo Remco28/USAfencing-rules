@@ -1,11 +1,12 @@
 /* Offline support: cache the app shell + data + figures on first visit. */
-var CACHE = "fencing-penalties-v9";
+var CACHE = "fencing-penalties-v10";
 var CORE = [
   "./",
   "index.html",
   "favicon.svg",
   "styles.css",
   "app.js",
+  "search.js",
   "data/offenses.json",
   "data/articles.json",
   "data/figures.json",

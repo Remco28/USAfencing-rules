@@ -1,0 +1,555 @@
+{
+  "presence": {
+    "terms": [
+      "late",
+      "no show",
+      "missed call",
+      "not ready",
+      "absent when called",
+      "did not show up"
+    ],
+    "basis": [
+      "t.119"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "unwillingness": {
+    "terms": [
+      "not attacking",
+      "no touches",
+      "no hits",
+      "waiting without a touch",
+      "non combativity",
+      "p cards",
+      "passive",
+      "one minute without scoring"
+    ],
+    "basis": [
+      "t.124.1",
+      "t.124.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-leaving-strip": {
+    "terms": [
+      "leave piste",
+      "walk off strip",
+      "leave without permission"
+    ],
+    "basis": [
+      "t.23.6"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-corps-a-corps": {
+    "terms": [
+      "body contact",
+      "bumping to avoid a touch",
+      "collide to avoid being hit",
+      "corps a corps"
+    ],
+    "basis": [
+      "t.25.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-turning-back": {
+    "terms": [
+      "turn around",
+      "back to opponent",
+      "turn away"
+    ],
+    "basis": [
+      "t.27.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-covering-target": {
+    "terms": [
+      "cover target",
+      "hide target",
+      "cover lame",
+      "block valid target"
+    ],
+    "basis": [
+      "t.29.2",
+      "t.30.1",
+      "t.79",
+      "t.97"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-electrical-equipment": {
+    "terms": [
+      "body cord",
+      "bodycord",
+      "cord",
+      "cable",
+      "electrical wire",
+      "grab cord",
+      "hold cord",
+      "touch cord",
+      "touch body cord",
+      "hold electrical equipment",
+      "grab cable"
+    ],
+    "basis": [
+      "t.29.3"
+    ],
+    "review_note": "t.29.3 concerns taking hold of electrical equipment with the non-sword hand during the bout. Body cord/cable are equipment-category bridges, not an assertion that every contact is an offense."
+  },
+  "g1-crossing-side": {
+    "terms": [
+      "step off side",
+      "side boundary",
+      "leave side of piste",
+      "avoid hit by leaving side"
+    ],
+    "basis": [
+      "t.35.3"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-delaying": {
+    "terms": [
+      "stall",
+      "stalling",
+      "waste time",
+      "delay",
+      "prolong interruption"
+    ],
+    "basis": [
+      "t.43.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-equipment-conforming": {
+    "terms": [
+      "missing spare cord",
+      "forget spare weapon",
+      "broken body cord",
+      "faulty cord",
+      "disconnected cord",
+      "equipment failure",
+      "body cord",
+      "bodycord",
+      "cable",
+      "mask strap",
+      "secondary safety strap",
+      "missing backup weapon",
+      "missing spare body cord"
+    ],
+    "basis": [
+      "t.71",
+      "t.72",
+      "t.73.1.a",
+      "t.117"
+    ],
+    "review_note": "Faulty/missing equipment and required spares; includes the verified t.72 mask safety update. Disconnected cord retrieves equipment context without assigning a penalty."
+  },
+  "g1-straighten-weapon": {
+    "terms": [
+      "bend blade on floor",
+      "straighten blade on floor",
+      "straighten sword on strip"
+    ],
+    "basis": [
+      "t.76.2",
+      "t.90.2",
+      "t.96.5"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-dragging-point": {
+    "terms": [
+      "drag tip",
+      "point on floor",
+      "drag blade point"
+    ],
+    "basis": [
+      "t.76.2",
+      "t.90.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-sabre-guard": {
+    "terms": [
+      "saber",
+      "cross feet",
+      "cross legs",
+      "hit with guard in sabre",
+      "forward crossover"
+    ],
+    "basis": [
+      "t.96.3",
+      "t.101.5"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-refusal-obey": {
+    "terms": [
+      "ignore referee",
+      "disobey referee",
+      "ignore ref instructions"
+    ],
+    "basis": [
+      "t.108",
+      "t.112"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-hair": {
+    "terms": [
+      "ponytail",
+      "loose hair",
+      "hair covers target",
+      "hair hides name",
+      "hair not tied back"
+    ],
+    "basis": [
+      "t.115.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-jostling": {
+    "terms": [
+      "remove mask early",
+      "mask off before halt",
+      "take mask off",
+      "undress on strip",
+      "change clothes on strip",
+      "jostle",
+      "disorderly fencing"
+    ],
+    "basis": [
+      "t.116",
+      "t.121.2",
+      "t.125",
+      "t.126"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-abnormal-action": {
+    "terms": [
+      "deliberate fall",
+      "fall to avoid touch",
+      "brutal touch",
+      "irregular movement"
+    ],
+    "basis": [
+      "t.121.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-unjustified-appeal": {
+    "terms": [
+      "argue with referee",
+      "challenge referee decision",
+      "unjustified protest",
+      "appeal point of fact"
+    ],
+    "basis": [
+      "t.172",
+      "t.173",
+      "t.174"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g1-strip-enclosure": {
+    "terms": [
+      "enter piste enclosure",
+      "enter strip area",
+      "team enters without permission",
+      "team warning"
+    ],
+    "basis": [
+      "t.132.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-nonweapon-arm": {
+    "terms": [
+      "free hand",
+      "non sword hand",
+      "unarmed hand",
+      "push with free hand",
+      "use other arm",
+      "block with other arm"
+    ],
+    "basis": [
+      "t.29.1",
+      "t.30"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-medical": {
+    "terms": [
+      "unjustified medical break",
+      "doctor rejects medical reason",
+      "injury break not confirmed"
+    ],
+    "basis": [
+      "t.45.3"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-control-mark": {
+    "terms": [
+      "missing inspection sticker",
+      "missing control stamp",
+      "equipment check mark",
+      "missing weapon inspection mark"
+    ],
+    "basis": [
+      "t.73.1.a"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-dropping-weapon": {
+    "terms": [
+      "drop sword on purpose",
+      "drop weapon deliberately",
+      "let go of weapon intentionally"
+    ],
+    "basis": [
+      "t.56.11"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-name-colors": {
+    "terms": [
+      "name on jacket",
+      "nationality on jacket",
+      "missing uniform name",
+      "national colors",
+      "national colours"
+    ],
+    "basis": [
+      "t.74"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-deliberate-off-target": {
+    "terms": [
+      "hit floor deliberately",
+      "touch not on opponent",
+      "deliberate touch on something else"
+    ],
+    "basis": [
+      "t.55.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g2-dangerous-action": {
+    "terms": [
+      "dangerous fencing",
+      "hit with pommel",
+      "blow with guard",
+      "violent fencing action"
+    ],
+    "basis": [
+      "t.26.1",
+      "t.121.2",
+      "t.147"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g3-disturbing-order": {
+    "terms": [
+      "disrupt bout",
+      "disrupt competition on strip",
+      "disturbing order"
+    ],
+    "basis": [
+      "t.108.2",
+      "t.137.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g3-dishonest": {
+    "terms": [
+      "dishonest fencing",
+      "dishonest behavior during fencing"
+    ],
+    "basis": [
+      "t.121"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g3-publicity": {
+    "terms": [
+      "advertising",
+      "sponsor logo",
+      "publicity code",
+      "sponsorship"
+    ],
+    "basis": [
+      "Publicity Code"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g3-spectator-disturbance": {
+    "terms": [
+      "spectator",
+      "parent shouting",
+      "audience disruption",
+      "smoking",
+      "vaping",
+      "e cigarette",
+      "disturbance outside strip"
+    ],
+    "basis": [
+      "t.109",
+      "t.110",
+      "t.111",
+      "t.133",
+      "t.137.3",
+      "t.137.4",
+      "t.168"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g3-warming-up": {
+    "terms": [
+      "warmup",
+      "warm up",
+      "practice bout",
+      "training without equipment",
+      "lesson equipment",
+      "coach long pants",
+      "chest protector during lesson"
+    ],
+    "basis": [
+      "t.20.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g3-antisporting": {
+    "terms": [
+      "unsporting behavior",
+      "unsportsmanlike behavior",
+      "anti sporting behavior"
+    ],
+    "basis": [
+      "t.121.2"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-electronic-comms": {
+    "terms": [
+      "earpiece",
+      "electronic coaching",
+      "receive messages",
+      "communication device",
+      "radio during bout"
+    ],
+    "basis": [
+      "t.64.6",
+      "t.73.1.g"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-falsified-marks": {
+    "terms": [
+      "fake inspection stamp",
+      "forged control mark",
+      "altered inspection mark",
+      "modified equipment"
+    ],
+    "basis": [
+      "t.73.1.c",
+      "t.73.1.d",
+      "t.73.1.e"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-manifest-cheating": {
+    "terms": [
+      "equipment cheating",
+      "cheating device",
+      "fraudulent equipment"
+    ],
+    "basis": [
+      "t.73.1.f",
+      "m.5.5.d"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-refusal-to-fence": {
+    "terms": [
+      "refuse opponent",
+      "will not fence opponent",
+      "refuse entered competitor"
+    ],
+    "basis": [
+      "t.113"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-sportsmanship": {
+    "terms": [
+      "breach sportsmanship",
+      "refuse handshake",
+      "unsportsmanlike conduct",
+      "refuse salute"
+    ],
+    "basis": [
+      "t.121.2",
+      "t.122",
+      "t.123",
+      "t.149.1"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-salute-refusal": {
+    "terms": [
+      "no salute",
+      "skip salute",
+      "refuse salute",
+      "did not salute"
+    ],
+    "basis": [
+      "t.122"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-collusion": {
+    "terms": [
+      "fix bout",
+      "match fixing",
+      "agree to lose",
+      "give away touches",
+      "favor opponent",
+      "favour opponent"
+    ],
+    "basis": [
+      "t.128",
+      "t.149.1"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-violent-actions": {
+    "terms": [
+      "vindictive action",
+      "retaliation",
+      "violent action",
+      "attack opponent in anger"
+    ],
+    "basis": [
+      "t.149.1"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  },
+  "g4-doping": {
+    "terms": [
+      "anti doping",
+      "prohibited substance",
+      "performance enhancing drugs",
+      "doping violation"
+    ],
+    "basis": [
+      "o.107"
+    ],
+    "review_note": "Cited offense and existing reference wording; everyday phrases are retrieval aids, not rulings."
+  }
+}

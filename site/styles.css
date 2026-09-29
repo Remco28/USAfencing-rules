@@ -260,3 +260,7 @@ details.entry-note p { margin: 0 0 9px; color: #46534b; font-size: .74rem; }
 .learn-section { scroll-margin-top: calc(var(--header-h) + 16px); }
 .verb > .off-name { margin: 9px 0; font-size: .8rem; }
 .dispute-results-title + .filter-toggle { margin-bottom: 12px; }
+
+.related-heading { grid-column: 1 / -1; margin: 10px 0 0; }
+.related-heading h2 { margin: 0; font-size: 1.05rem; }
+.related-heading p { margin: 5px 0; color: var(--muted); font-size: .82rem; }

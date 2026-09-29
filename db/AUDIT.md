@@ -120,3 +120,14 @@ as `effects` on each offense. Mixed scope 1/2 stays “event or tournament”; t
 does not invent a choice rule. Jostling's cancellation is limited using t.121.2;
 mask removal and undressing are not automatically assigned cancellation.
 The main app displays consequences beside penalties and omits source-note numbers.
+
+## Reviewed search vocabulary
+
+`db/search_terms.json` supplies one reviewed entry per offense, with terms, cited
+basis and review notes. `search_vocabulary` stores these separately from source
+penalties and normative excerpts; `search_terms` exports with each offense.
+The builder checks coverage, duplicate aliases and reference pointers. Search
+tests cover expected rankings, ambiguity, conservative typos, exact citations
+and unknown queries. Search never mutates reference fields or generates rulings.
+The one-time comparison against the pre-search Git snapshot confirmed all
+existing exported offense fields remained unchanged. See docs/SEARCH.md.

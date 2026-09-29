@@ -443,6 +443,7 @@ def main():
     cur = con.cursor()
     cur.executescript("""
         CREATE TABLE meta(key TEXT PRIMARY KEY, value TEXT);
+        CREATE TABLE search_vocabulary(offense_id TEXT PRIMARY KEY, terms_json TEXT, basis_json TEXT, review_note TEXT);
         CREATE TABLE rule_updates(offense_id TEXT PRIMARY KEY, content_json TEXT NOT NULL);
         CREATE TABLE offenses(id TEXT PRIMARY KEY, section TEXT, sort INTEGER,
             offense_official TEXT, as_printed TEXT, articles_json TEXT,
@@ -460,6 +461,14 @@ def main():
     cur.execute("INSERT INTO meta VALUES('version','November 2025')");
     cur.execute("INSERT INTO meta VALUES('source','2025-11_USA_Fencing_Penalty_Chart.pdf + 2025-11_USA_Fencing_Rules (1).pdf')");
     cur.execute("INSERT INTO meta VALUES('transcription','pass1-visual-2026-09-29')");
+
+    vocabulary = json.loads((DBDIR / "search_terms.json").read_text())
+    assert set(vocabulary) == {o["id"] for o in OFFENSES}, "Vocabulary must cover exactly the existing offenses"
+    for o in OFFENSES:
+        entry = vocabulary[o["id"]]
+        assert entry["terms"] and len(set(entry["terms"])) == len(entry["terms"])
+        assert set(entry["basis"]).issubset(set(o["articles"]))
+        cur.execute("INSERT INTO search_vocabulary VALUES(?,?,?,?)", (o["id"], json.dumps(entry["terms"]), json.dumps(entry["basis"]), entry["review_note"]))
 
     for oid, update in RULE_UPDATES.items():
         cur.execute("INSERT INTO rule_updates VALUES(?,?)", (oid, json.dumps(update, ensure_ascii=False)))
@@ -535,6 +544,7 @@ def main():
         d["plain_status"] = p[3] if p else "missing"
         d["figure_refs"] = FIGURE_LINKS.get(d["id"], [])
         d["passivity"] = bool(offense_source.get("passivity", False))
+        d["search_terms"] = json.loads(cur.execute("SELECT terms_json FROM search_vocabulary WHERE offense_id=?", (d["id"],)).fetchone()[0])
         d["effects"] = [dict(title=title, text=text) for title, text in cur.execute("SELECT title, text FROM entry_effects WHERE offense_id=? ORDER BY sort", (d["id"],))]
         offenses_json.append(d)
     (SITE_DATA / "offenses.json").write_text(json.dumps(offenses_json, indent=2, ensure_ascii=False))

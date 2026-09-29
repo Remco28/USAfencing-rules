@@ -20,6 +20,12 @@
   check('citation search', document.querySelectorAll('#lookup-results .off').length === 1);
   search('strap');
   check('search current mask update', document.querySelectorAll('#lookup-results .off').length === 1);
+  search('grabbed my cord');
+  check('everyday cord search', document.querySelector('#lookup-results .off').id === 'off-g1-electrical-equipment');
+  search('missing spare cord');
+  check('missing spare search', document.querySelector('#lookup-results .off').id === 'off-g1-equipment-conforming');
+  search('touching body crod');
+  check('typo search disclosed', document.querySelector('#lookup-results .off').id === 'off-g1-electrical-equipment' && !!document.querySelector('.related-heading'));
   search('');
   click('#group-filters [data-value="4th Group"]');
   check('group filter', document.querySelectorAll('#lookup-results .off').length === 9);
@@ -44,10 +50,11 @@
   }
   click('[data-view="learn"]');
   await navigator.serviceWorker.ready;
-  const cache = await caches.open('fencing-penalties-v9');
+  const cache = await caches.open('fencing-penalties-v10');
   const cached = (await cache.keys()).map(r=>new URL(r.url).pathname);
   check('current update cached', cached.includes(new URL('data/updates.json', document.baseURI).pathname));
   check('all diagrams precached', cached.filter(p=>p.includes('/figures/')).length === 8);
+  check('search engine cached', cached.includes(new URL('search.js', document.baseURI).pathname));
   check('favicon cached', cached.includes(new URL('favicon.svg', document.baseURI).pathname));
   return {passed:results.length, checks:results};
 })();

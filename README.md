@@ -1,112 +1,95 @@
-# USA Fencing — Penalty Quick Reference
+# Fencing Penalties — Quick Reference
 
-A mobile-first, unofficial guide to the November 2025 USA Fencing penalty chart.
-Browse by situation, search by citation, or filter by card and weapon. Each entry
-pairs a plain summary with its chart penalties and cited rule text. It includes the October 1, 2026 USA Fencing updates for individual/team passivity,
-mask safety and warm-up requirements. The static site runs on
-GitHub Pages and can be used offline after it has loaded.
+A mobile-first, unofficial reference for fencers and parents. Find a situation,
+understand the card and its consequences, and open the cited rule when needed.
+Readers do not need the external penalty sheet or its note-number conventions.
+The app retrieves reference information; it does not issue rulings.
 
-## October 2026 update
+## Current behavior
 
-The initial project is saved in Git commit `ff79d50` on the public repository
+- Browse 41 situations, with category shortcuts and clearly explained groups.
+- Search everyday descriptions, equipment names, exact citations and modest typos.
+  Ranked results distinguish related matches. Card/group/weapon filters are strict.
+- The search field stays visible; filters start collapsed and show active selections.
+- Entries integrate touch cancellation, exclusion scope, serious-case exceptions
+  and team warnings beside the penalty progression.
+- Official offense titles and verbatim excerpts are inside expandable details.
+  Shared article excerpts appear once; all cited references remain available.
+- Tabs retain reading positions. By card can open a filtered search.
+- The existing card-bar favicon and eight relevant diagrams are bundled.
+- Everything runs locally in the browser and works offline after a complete online
+  load. No backend, LLM calls, analytics or model downloads.
+
+This static site is compatible with GitHub Pages. Repository:
 [Remco28/USAfencing-rules](https://github.com/Remco28/USAfencing-rules).
-The verified adoption and exact rule-clause mapping are recorded in
-[docs/RULE-UPDATES-2026-10.md](docs/RULE-UPDATES-2026-10.md); research is complete.
-The FIE PDF is kept locally as `FIE_Technical_Rules_August_2026.pdf`, with its
-text in `build/fie-technical-2026.txt`. USA Fencing adoption controls domestic changes.
+Local preview is available below; publishing the repository does not itself deploy Pages.
 
-Rebuild data with `python3 db/build_db.py`. Current guidance is stored in the
-SQLite `rule_updates` table and exported as `site/data/updates.json`. The original
-2025 chart cells and excerpts remain intact for comparison.
+## Run and verify
 
-Preview: `python3 -m http.server 8000 --directory site`, then open
-http://localhost:8000. For human testing, open
-`human_feedback/round-2026-10-beginner-guide/index.html` directly in a browser.
-Export its feedback ZIP before closing and put it beside the guide.
+```sh
+python3 db/build_db.py
+node tests/search.test.cjs
+python3 -m http.server 8000 --directory site
+```
 
-## Official source links
+Open http://localhost:8000. The app needs HTTP to load bundled data; the feedback
+forms below can be opened directly as files. Browser regression checks:
 
-- [USA Fencing Rules for Competition — November 2025 (PDF)](https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt0f86b976c72458f2/690baa8337acae1b6b5ac0d3/2025-11_USA_Fencing_Rules.pdf)
-- [USA Fencing Penalty Chart — November 2025 (PDF)](https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt803f2e6496b433ce/690baa837e4cc4746887c300/2025-11_USA_Fencing_Penalty_Chart.pdf)
-- [USA Fencing Rules & Compliance](https://www.usafencing.org/rules-compliance)
+```sh
+agent-browser open http://localhost:8000
+agent-browser eval --stdin < tests/browser-check.js
+```
 
-## Sources (in this folder)
+## Sources and accuracy
 
-| File | Pages | Notes |
-|------|-------|-------|
-| `2025-11_USA_Fencing_Rules (1).pdf` | 214 | Text layer present (Word for M365, tagged). Normative source. |
-| `2025-11_USA_Fencing_Penalty_Chart.pdf` | 2 | Text layer present + AcroForm. 12 tiny swatch images = card colors. Source for data model. |
-| `USA_Fencing_Athlete_Handbook_2026-27-Sept-27-2026.pdf` | 88 | InDesign, mostly full-page decorative backgrounds. Out of scope for v1. |
+The original November 2025 chart/rulebook transcriptions are preserved. Current
+guidance includes the October 1, 2026 USA Fencing changes for t.124 passivity,
+t.72 mask safety and t.20 warm-up requirements. Changed entries clearly label
+older excerpts as historical. Official rules take precedence.
 
-UI source dates: **November 2025 chart · October 2026 updates**. Changed entries explicitly mark their older excerpts as historical.
+- [November 2025 USA Fencing Rules PDF](https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt0f86b976c72458f2/690baa8337acae1b6b5ac0d3/2025-11_USA_Fencing_Rules.pdf)
+- [November 2025 penalty chart PDF](https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt803f2e6496b433ce/690baa837e4cc4746887c300/2025-11_USA_Fencing_Penalty_Chart.pdf)
+- [USA Fencing October adoption announcement](https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1)
+- [FIE Technical Rules, August 2026](https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf)
+- [USA Fencing rules and resources](https://www.usafencing.org/rules-compliance)
 
-## Locked decisions
+Local PDFs and extracted text remain in the repository, including
+`FIE_Technical_Rules_August_2026.pdf` and `build/fie-technical-2026.txt`.
+[Completed rule audit](docs/RULE-UPDATES-2026-10.md) records the exact clauses and
+verification. Do not repeat discovery without a new revision or concrete discrepancy.
+The athlete handbook remains outside this reference's scope. Diagrams are guidance;
+written rules control. This is a family study reference, not a full-rulebook audit
+or a commercial redistribution project. Source excerpts retain USA Fencing attribution.
 
-1. **Preprocessing: simple text extract.** `pdftotext -layout` (poppler, already installed).
-   No OCR needed — all three PDFs have real text. No `pymupdf`/`marker`/paid tools unless
-   layout proves insufficient.
-2. **Text is normative, diagrams are guidance.** The rulebook itself repeats:
-   _"This diagram is for guidance purposes only. In case of any doubt, the wording
-   of the appropriate text takes precedence."_ Accuracy = text must be exact; figures are aids.
-3. **Diagrams: relevant-only, embedded.** Only 6 figures matter for penalties: Fig 1–2 strips
-   (page-render crops, visually verified with captions), Fig 3 referee signals (3 native rasters),
-   Fig 4–6 valid targets (native rasters, blue = target). Weapon schematics, jackets, gauge
-   excluded per your call. All in `site/figures/` (1.9MB), linked per-offense via `figure_refs`.
-   Mapping verified via contact sheet after a naive guess got 9 slots wrong — see `db/AUDIT.md`.
-4. **Colors carry meaning — store as meaning, not pixels.** Chart swatches →
-   explicit `card: yellow | red | black | p-yellow | p-red | p-black` +
-   `meaning: warning | penalty touch | exclusion | ...`. Labels + icons always accompany
-   color (color-blind safe, print-grayscale safe).
-5. **Accuracy bar: full audit.** Every chart row (`offense | articles[] | 1st | 2nd | 3rd | group | annuls?`)
-   checked cell-by-cell against `chart.txt`. Every `t.xxx` in chart must exist in `rules.txt`.
-   Every `Figure N` caption accounted for. Second-pass diff before calling data good.
-6. **Users:** competitive fencers, coaches and parents. Referees should use the official book.
-7. **Two uses:** a complete reference for study and a quick lookup when a card is shown.
-   Strip-side means look up the call; the page does not issue rulings.
-8. **Content pattern per offense:** concise summary → official offense title →
-   visual `1st → 2nd → 3rd` escalation + chart badges (`*` annuls touch, `+` team special) →
-   collapsible rule excerpt with citation and relevant figure. Rule t.124 passivity includes
-   individual/team escalation, score/seeding conditions and timing exceptions beyond the chart’s
-   P-yellow/P-red/P-black summary; include the full procedure in the UI.
-9. **Format: static site for GitHub Pages, mobile-first.** No native iOS/Android.
-   `HTML + CSS + JS + JSON`, no backend, offline after first load. Browse by situation,
-   search by citation or terms, filter by card/group/weapon, browse by card, and view
-   diagrams or source details.
-10. **Tone: straightforward and concise.** Plain summary first; official offense name and rule text for detail.
-11. **Interface:** large touch targets, readable in bright venues, fast client-side search, piste-inspired colors. Always pair card colors with labels.
-12. **Build location:** `site/` in this repo, GH-Pages-ready.
-13. **Database first, UI second.** `db/penalties.sqlite` (built by `db/build_db.py`) is the source
-    of truth — 41 offenses, 66 cited refs with verbatim excerpts, 16 figures, card legend,
-    footnotes. `site/data/*.json` is regenerated from SQLite on every build, never hand-edited.
-    Any future build (quiz app, ref tool, printables) reads the same DB. Accuracy procedure in
-    `db/AUDIT.md` (visual transcription + automated checks + independent verifier agent).
+## Data and maintenance
 
-## Scope v1
+`db/build_db.py` rebuilds SQLite and all `site/data/*.json`. Keep source
+transcription, plain summaries, current updates, standalone consequences and
+search vocabulary distinct. Never edit generated JSON or SQLite manually.
+Search terms are authored in `db/search_terms.json` and stored in SQLite before export.
+41 offenses, 66 cited-reference records and eight displayed diagrams are bundled.
 
-Penalty chart + linked rule excerpts + figures, with the t.124 passivity procedure needed to explain the P-cards. NOT a full rulebook rewrite. Handbook out of scope.
+- [Search vocabulary, behavior and maintenance](docs/SEARCH.md)
+- [Data audit and source quirks](db/AUDIT.md)
+- [Recent changes and Git checkpoints](docs/CHANGELOG.md)
+- [Current plan](PLAN.md)
 
-## Copyright / freshness
+The initial pre-takeover snapshot is `ff79d50`. Standalone-content and flow passes
+were committed separately. For new rules, extract and compare sources, update
+affected guidance and search terms, rebuild, and rerun checks. Historical rows
+must not silently be presented as current where they conflict with an update.
 
-- Personal, family use only (you + your kids). Per your call: include verbatim rule excerpts
-  with `t.xxx` citations. Show an unofficial-reference notice, version date and link to the
-  official rules on usafencing.org. Do not redistribute commercially.
-- Rulebook footer for reference: © 2025 USA Fencing. Chart states it "is not a substitute
-  for the full texts ... which should be consulted in any case of doubt."
-- Source files cross-checked on 2026-09-29: all 41 chart rows and 51 distinct cited rule-article
-  headings are present. See `db/AUDIT.md` for details and source quirks.
-- Rules update yearly-ish; plan for re-extract + diff when a new November revision drops.
+## Human review
 
-## Finding information
+- Existing app review: `human_feedback/round-2026-10-beginner-guide/index.html`.
+- Search review: `human_feedback/round-2026-10-search/index.html`.
 
-Entries explain touch cancellation, team warnings, exclusion scope and serious-case
-exceptions directly beside the penalties. No external penalty sheet or note-number
-lookup is needed. Official wording remains available inside each entry.
+Open the form, try the described checks, attach or paste screenshots if helpful,
+and export a ZIP before closing. Unexported feedback can be lost. Place the ZIP
+beside its HTML guide. Files are packaged locally and are not uploaded.
 
-Use category shortcuts in Browse to jump to a group. Tabs keep your reading
-position. From By card, “Search these situations” opens Search with that card
-selected, ready to type. Filters start collapsed and the search field stays visible.
+## Deployment
 
-Content changes and navigation changes are saved in separate commits. The
-standalone consequences were checked against the existing source notes; the
-flow pass was checked at phone and desktop sizes, including keyboard focus,
-category jumps, tab returns, retained card filters and deduplicated rule excerpts.
+Deploy `site/` as a GitHub Actions Pages artifact. No frontend build or package
+installation is required. Branch-based Pages only accepts the root or `docs/`,
+so it cannot select `site/` directly.

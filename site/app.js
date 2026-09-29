@@ -12,6 +12,8 @@
   ];
   var GROUP_ORDER = ["preamble", "1st Group", "2nd Group", "3rd Group", "4th Group"];
   var GROUP_SHORT = { preamble: "Calls & passivity", "1st Group": "Group 1", "2nd Group": "Group 2", "3rd Group": "Group 3", "4th Group": "Group 4" };
+  var SEARCH_INDEX = null;
+  var LOOKUP_MATCHES = {};
   var lookupState = { q: "", group: "All", card: "All", weapon: "All" };
   var disputeFam = null;
   var lastFocus = null;
@@ -306,19 +308,21 @@
     var query = norm(lookupState.q).trim();
     var groupQuery = query.match(/\bgroup\s*([1-4])\b/);
     if (groupQuery) query = query.replace(groupQuery[0], "").trim();
-    return sortByChart(DATA.offenses.filter(function (offense) {
+    var candidates = sortByChart(DATA.offenses.filter(function (offense) {
       if (groupQuery && offense.section !== GROUP_ORDER[Number(groupQuery[1])]) return false;
       if (lookupState.group !== "All" && offense.section !== lookupState.group) return false;
       if (lookupState.card !== "All" && !matchesCard(offense, lookupState.card)) return false;
-      if (lookupState.weapon !== "All" && !appliesToWeapon(offense, lookupState.weapon)) return false;
-      if (!query) return true;
-      var update = DATA.updates[offense.id] || {};
-      var currentText = [update.summary || ""].concat(update.individual || [], update.team || [], update.notes || []).join(" ");
-      var effectText = (offense.effects || []).map(function (effect) { return effect.title + " " + effect.text; }).join(" ");
-      var searchable = norm([effectText, currentText, offense.offense_official, offense.one_liner, offense.explainer, (offense.articles || []).join(" "), offense.section, offense.section.replace(/^(\d)(?:st|nd|rd|th) Group$/, "Group $1"), offense.section === "preamble" ? "calls passivity" : ""].join(" "));
-      return query.split(/\s+/).every(function (part) { return searchable.indexOf(part) !== -1; });
+      return lookupState.weapon === "All" || appliesToWeapon(offense, lookupState.weapon);
     }));
+    LOOKUP_MATCHES = {};
+    if (!query) return candidates;
+    var allowed = new Set(candidates.map(function (offense) { return offense.id; }));
+    return PenaltySearch.rank(SEARCH_INDEX, query).filter(function (match) { return allowed.has(match.offense.id); }).map(function (match) {
+      LOOKUP_MATCHES[match.offense.id] = match;
+      return match.offense;
+    });
   }
+
   function renderLookup() {
     var host = document.getElementById("lookup-results");
     host.innerHTML = "";
@@ -329,7 +333,18 @@
       return;
     }
     var cards = el("div", "learn-list");
-    list.forEach(function (offense) { cards.appendChild(offenseCard(offense)); });
+    var relatedHeading = false;
+    list.forEach(function (offense) {
+      var match = LOOKUP_MATCHES[offense.id];
+      if (match && match.related && !relatedHeading) {
+        var heading = el("div", "related-heading");
+        heading.appendChild(el("h2", null, "Related situations"));
+        heading.appendChild(el("p", null, "Some words differ or only part of your description matches. Check the entry’s conditions."));
+        cards.appendChild(heading);
+        relatedHeading = true;
+      }
+      cards.appendChild(offenseCard(offense));
+    });
     host.appendChild(cards);
   }
   function renderFilterStatus() {
@@ -548,6 +563,7 @@
       DATA.figures = parts[2];
       DATA.legend = parts[3];
       DATA.updates = parts[4];
+      SEARCH_INDEX = PenaltySearch.create(DATA.offenses, DATA.updates);
       renderLearn();
       renderFilterChips();
       renderLookup();

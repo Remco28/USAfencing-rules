@@ -1,42 +1,31 @@
-# Build plan — interactive penalty reference
+# Current plan
 
-## Phase 0 — Extract (no guessing)
-1. `pdftotext -layout` all three PDFs → `build/rules.txt`, `build/chart.txt` (handbook extract for completeness only).
-2. `pdfimages -png` rules PDF → `build/figures/` + `build/figures.json` (`figure, caption, page, related articles`).
-3. Inventory check: list all `Figure N` captions found in text vs images extracted; flag gaps.
+## Completed
 
-## Phase 1 — Structure + audit
-4. Hand-transcribe chart into `site/data/chart.json` with schema:
-   `id | group (1-4, plus presence/unwillingness preamble) | offense_plain | offense_official |
-   articles[] | penalties {first, second, third} | card fields | annuls_touch (bool, `*`) |
-   team_special (bool, `+`) | footnotes[] | figure_refs[] | plain_explainer (1 line) |
-   verbatim_excerpts[] {article, quote, rules_txt_line_ref}`
-5. Full audit: second pass cell-by-cell vs `chart.txt`; script-check every `articles[]` entry
-   greps in `rules.txt`; missing-article report must be empty before proceeding. Compare each
-   chart summary with the complete cited rule, particularly t.124 passivity procedures.
-6. Pull verbatim excerpts only for cited articles (not whole chapters) to stay excerpt-only per copyright note in README.
+1. Extract and preserve November 2025 source PDFs/text, audit all 41 penalty rows
+   and 66 cited-reference records, and bundle eight relevant diagrams.
+2. Verify October 2026 USA adoption and FIE t.124, including teams and exceptions;
+   preserve old transcriptions and clearly label historical excerpts.
+3. Make the guide standalone: plain consequences replace numbered footnotes,
+   symbols and references that require the penalty sheet.
+4. Improve mobile flow: sticky compact search, collapsed filters, category jumps,
+   retained tab positions, deduplicated excerpts and By card to Search.
+5. Add reviewed per-offense vocabulary, ranked offline matching, conservative
+   typo handling, exact citations and related-result disclosure.
+6. Rebuild data, check retrieval examples and negative cases, verify browser flows
+   and maintain standalone human feedback forms.
 
-## Phase 2 — Site (static, GH Pages, mobile-first)
-7. `site/`: `index.html`, `styles.css`, `app.js`, `data/chart.json`, `figures/` (optimized copies).
-8. Views: Browse by situation / Lookup (search + card/group/weapon filters) / By-card lookup /
-   Diagrams + About. Show the full t.124 passivity procedure, not only the chart’s P-card ladder;
-   link the November 2025 source PDFs.
-9. Accessibility/perf: labels + icons with every color, keyboard + screen-reader usable,
-   Lighthouse-mobile friendly, works offline after first load, sunlight-readable type.
+## Current human review
 
-## Phase 3 — Verify
-10. Audit report in `build/AUDIT.md`: who checked what, date, remaining doubts (ambiguous cells listed, not silently resolved).
-11. Human spot-check of high-risk rows (`*` annulments, P-cards, Groups 3–4 Black cards) + parent-readability read-through.
-12. `site` builds with no build step (or single `npm run build` if Vite chosen) and deploys to `gh-pages` branch.
+Try natural descriptions, ambiguous equipment words and misspellings. Report
+both missing useful entries and misleading high-ranked entries. Export the
+search round's feedback ZIP before closing its guide. Terms should be refined
+from actual examples; matching is not a ruling or universal language understanding.
 
-## Open questions for build — RESOLVED 2026-09-29
-- Hand-rolled HTML/CSS/JS, zero build step. `site/` deploys as-is.
-- Offline via service worker (`site/sw.js`, cache-first same-origin) + bundled JSON.
-- Figures capped at 1400px wide; `site/figures/` = 1.9MB total.
+## Future work when requested
 
-## Deploy
-- Preview locally: `cd site && python3 -m http.server` → http://localhost:8000
-  (must serve over http; browsers block data JSON on file://).
-- GitHub Pages: deploy the `site/` directory as a Pages artifact via GitHub Actions.
-  Branch deployment only supports the root or `docs/`; it cannot select `site/`.
-  No frontend build command is needed.
+- Process human feedback and add verified aliases with regression examples.
+- Compare new official revisions and update only affected guidance/vocabulary.
+- Deploy the static site with a GitHub Actions Pages artifact if publishing is desired.
+
+Implementation and maintenance details: docs/SEARCH.md. Saved changes: docs/CHANGELOG.md.
