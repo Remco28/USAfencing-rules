@@ -2,13 +2,13 @@
 (function () {
   "use strict";
 
-  var DATA = { offenses: [], articles: {}, figures: [], legend: null };
+  var DATA = { offenses: [], articles: {}, figures: [], legend: null, updates: {} };
   var LEARN_SECTIONS = [
     { title: "Calls and passivity", sub: "Being present when called; actively fencing.", ids: ["presence", "unwillingness"] },
-    { title: "Group 1 · Lower-level offenses", sub: "Typically less serious violations; penalties depend on the specific offense.", ids: ["g1-leaving-strip", "g1-corps-a-corps", "g1-turning-back", "g1-covering-target", "g1-electrical-equipment", "g1-crossing-side", "g1-delaying", "g1-equipment-conforming", "g1-straighten-weapon", "g1-dragging-point", "g1-sabre-guard", "g1-refusal-obey", "g1-hair", "g1-jostling", "g1-abnormal-action", "g1-unjustified-appeal", "g1-strip-enclosure"] },
-    { title: "Group 2 · More serious offenses", sub: "Typically penalized more firmly than Group 1; check each entry.", ids: ["g2-nonweapon-arm", "g2-medical", "g2-control-mark", "g2-dropping-weapon", "g2-name-colors", "g2-deliberate-off-target", "g2-dangerous-action"] },
-    { title: "Group 3 · Conduct and venue offenses", sub: "Misconduct, disruption and some venue rules; check each entry for its penalty.", ids: ["g3-disturbing-order", "g3-dishonest", "g3-publicity", "g3-spectator-disturbance", "g3-warming-up", "g3-antisporting"] },
-    { title: "Group 4 · Most serious offenses", sub: "Can bring immediate exclusion from the competition.", ids: ["g4-electronic-comms", "g4-falsified-marks", "g4-manifest-cheating", "g4-refusal-to-fence", "g4-sportsmanship", "g4-salute-refusal", "g4-collusion", "g4-violent-actions", "g4-doping"] }
+    { title: "Group 1 · Usually a warning first", sub: "A Yellow warning, then Red penalty touches for later offenses in this group. Check the entry for exceptions.", ids: ["g1-leaving-strip", "g1-corps-a-corps", "g1-turning-back", "g1-covering-target", "g1-electrical-equipment", "g1-crossing-side", "g1-delaying", "g1-equipment-conforming", "g1-straighten-weapon", "g1-dragging-point", "g1-sabre-guard", "g1-refusal-obey", "g1-hair", "g1-jostling", "g1-abnormal-action", "g1-unjustified-appeal", "g1-strip-enclosure"] },
+    { title: "Group 2 · Penalty touches", sub: "Red penalty touches from the first offense; a prior Group 1 warning is not needed.", ids: ["g2-nonweapon-arm", "g2-medical", "g2-control-mark", "g2-dropping-weapon", "g2-name-colors", "g2-deliberate-off-target", "g2-dangerous-action"] },
+    { title: "Group 3 · Conduct and venue rules", sub: "Misconduct and disruption. Repetition can lead to exclusion; some entries allow it immediately.", ids: ["g3-disturbing-order", "g3-dishonest", "g3-publicity", "g3-spectator-disturbance", "g3-warming-up", "g3-antisporting"] },
+    { title: "Group 4 · Immediate exclusion", sub: "Can bring immediate exclusion from the competition.", ids: ["g4-electronic-comms", "g4-falsified-marks", "g4-manifest-cheating", "g4-refusal-to-fence", "g4-sportsmanship", "g4-salute-refusal", "g4-collusion", "g4-violent-actions", "g4-doping"] }
   ];
   var GROUP_ORDER = ["preamble", "1st Group", "2nd Group", "3rd Group", "4th Group"];
   var GROUP_SHORT = { preamble: "Calls & passivity", "1st Group": "Group 1", "2nd Group": "Group 2", "3rd Group": "Group 3", "4th Group": "Group 4" };
@@ -102,7 +102,19 @@
     button.addEventListener("click", function () { openLightbox(fig, button); });
     return button;
   }
+  function addUpdateSources(host, update) {
+    var sources = el("div", "update-sources");
+    update.sources.forEach(function (source) {
+      var link = el("a", "inline-link", source.label + " ↗");
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      sources.appendChild(link);
+    });
+    host.appendChild(sources);
+  }
   function offenseCard(offense) {
+    var update = DATA.updates[offense.id];
     var card = el("article", "off " + groupClass(offense.section));
     card.id = "off-" + offense.id;
 
@@ -132,35 +144,33 @@
     }
 
     card.appendChild(el("h3", null, offense.one_liner || offense.offense_official));
-    if (offense.one_liner) card.appendChild(el("p", "off-name", offense.offense_official));
+    if (offense.one_liner && norm(offense.one_liner).replace(/[.*]/g, "").trim() !== norm(offense.offense_official).replace(/[.*]/g, "").trim()) card.appendChild(el("p", "off-name", offense.offense_official));
     if (offense.explainer && offense.id !== "presence" && offense.id !== "unwillingness") card.appendChild(el("p", "expl", offense.explainer));
 
     if (offense.passivity) {
       var passivity = el("div", "passivity-detail");
       passivity.appendChild(el("p", "eyebrow", "Passivity · t.124"));
-      passivity.appendChild(el("p", "passivity-summary", "Passivity is one minute without a hit (or, in foil, an off-target hit). The referee calls Halt."));
-      passivity.appendChild(el("p", "passivity-summary", "Effective Oct. 1, 2026: the P-yellow is removed. This guide shows the current sequence; the November 2025 chart below is outdated for passivity."));
-      var individual = document.createElement("details");
-      individual.appendChild(el("summary", null, "Individual direct-elimination bouts"));
-      var individualSteps = document.createElement("ol");
-      ["First occurrence: both fencers receive P-red, regardless of score.", "Second occurrence: one fencer receives P-black. If scores differ, it goes to the lower-scoring fencer; if tied, to the lower-seeded fencer. The other fencer wins."].forEach(function (step) { individualSteps.appendChild(el("li", null, step)); });
-      individual.appendChild(individualSteps);
-      individual.appendChild(el("p", null, "Applies to individual direct-elimination bouts. Effective at USA Fencing events from Oct. 1, 2026."));
-      var team = document.createElement("details");
-      team.appendChild(el("summary", null, "Team bouts"));
-      var teamSteps = document.createElement("ol");
-      ["Each team receives P-red the first time that team is penalized for passivity.", "When a team has received two P-red cards, its next passivity penalty is P-black. If scores differ, the lower-scoring team gets it; if tied, the lower-seeded team gets it. The other team wins the match."].forEach(function (step) { teamSteps.appendChild(el("li", null, step)); });
-      team.appendChild(teamSteps);
-
-      passivity.appendChild(individual);
-      passivity.appendChild(team);
-      passivity.appendChild(el("p", "passivity-note", "P-red does not stop the period or relay. The one-minute count restarts after a hit (including off-target or annulled hits), a penalty hit, and at the start of each period or relay. P-cards are recorded separately, apply only to this bout or match, and do not combine with other sanctions. See the current USA Fencing rule text for score-specific exceptions and end-of-time situations; the linked November 2025 excerpt is historical."));
+      passivity.appendChild(el("p", "passivity-summary", update.summary));
+      passivity.appendChild(el("p", null, "Current from Oct. 1, 2026 · P-yellow removed."));
+      [["Individual direct elimination (knockout bouts)", update.individual], ["Team matches", update.team]].forEach(function (section) {
+        var detail = document.createElement("details");
+        detail.appendChild(el("summary", null, section[0]));
+        var steps = document.createElement("ol");
+        section[1].forEach(function (step) { steps.appendChild(el("li", null, step)); });
+        detail.appendChild(steps);
+        passivity.appendChild(detail);
+      });
+      var timing = document.createElement("details");
+      timing.appendChild(el("summary", null, "Timing, tied scores and P-card history"));
+      update.notes.forEach(function (note) { timing.appendChild(el("p", null, note)); });
+      passivity.appendChild(timing);
+      addUpdateSources(passivity, update);
       card.appendChild(passivity);
       var pCardEscalation = el("div", "esc two-step");
-      pCardEscalation.setAttribute("aria-label", "Passivity penalty by elapsed minute");
-      pCardEscalation.appendChild(slotChip("1st call", "P-red"));
+      pCardEscalation.setAttribute("aria-label", "Passivity penalty by occurrence");
+      pCardEscalation.appendChild(slotChip("First occurrence", "P-red"));
       pCardEscalation.appendChild(el("span", "esc-arrow", "→"));
-      pCardEscalation.appendChild(slotChip("2nd call", "P-black"));
+      pCardEscalation.appendChild(slotChip("Second occurrence", "P-black"));
       card.appendChild(pCardEscalation);
     } else {
       var escalation = el("div", "esc");
@@ -168,16 +178,23 @@
       escalation.classList.add("esc-" + penaltySteps);
       var progression = offense.id === "presence" ? "call" : "offense";
       escalation.setAttribute("aria-label", "Penalty by " + progression + " count");
-      escalation.appendChild(slotChip("1st " + progression, offense.pen_first));
+      escalation.appendChild(slotChip("First " + progression, offense.pen_first));
       if (offense.pen_second) {
         escalation.appendChild(el("span", "esc-arrow", "→"));
-        escalation.appendChild(slotChip("2nd " + progression, offense.pen_second));
+        escalation.appendChild(slotChip("Second " + progression, offense.pen_second));
       }
       if (offense.pen_third) {
         escalation.appendChild(el("span", "esc-arrow", "→"));
-        escalation.appendChild(slotChip("3rd+ " + progression, offense.pen_third));
+        escalation.appendChild(slotChip((offense.id === "presence" ? "Third call" : "Third or later offense"), offense.pen_third));
       }
       card.appendChild(escalation);
+    }
+
+    if (update && !offense.passivity) {
+      var updatePanel = el("div", "passivity-detail");
+      updatePanel.appendChild(el("p", null, update.summary));
+      addUpdateSources(updatePanel, update);
+      card.appendChild(updatePanel);
     }
 
     if (offense.articles && offense.articles.length) {
@@ -189,7 +206,8 @@
     var details = document.createElement("details");
     details.className = "verb";
     var summary = document.createElement("summary");
-    summary.textContent = "Show rule text";
+    summary.textContent = update ? "Historical rule text · November 2025" : "Show rule text";
+    if (update) details.appendChild(el("p", "src", "These excerpts predate the October 2026 update. Use the current guidance and official sources above for the changed rule."));
     details.appendChild(summary);
     (offense.articles || []).forEach(function (article) {
       var info = DATA.articles[article];
@@ -250,7 +268,7 @@
     [
       { fam: "Y", cls: "y", label: "Yellow", meaning: "Warning" },
       { fam: "R", cls: "r", label: "Red", meaning: "Penalty touch" },      { fam: "B", cls: "b", label: "Black", meaning: "Exclusion" },
-      { fam: "P", cls: "p", label: "Passivity · P-cards", meaning: "First call: P-red · next: P-black" }
+      { fam: "P", cls: "p", label: "Passivity · P-cards", meaning: "P-red → P-black" }
     ].forEach(function (item) {
       var button = el("button", "key-item");
       button.type = "button";
@@ -272,13 +290,18 @@
     return true;
   }
   function filterOffenses() {
-    var query = norm(lookupState.q);
+    var query = norm(lookupState.q).trim();
+    var groupQuery = query.match(/\bgroup\s*([1-4])\b/);
+    if (groupQuery) query = query.replace(groupQuery[0], "").trim();
     return sortByChart(DATA.offenses.filter(function (offense) {
+      if (groupQuery && offense.section !== GROUP_ORDER[Number(groupQuery[1])]) return false;
       if (lookupState.group !== "All" && offense.section !== lookupState.group) return false;
       if (lookupState.card !== "All" && !matchesCard(offense, lookupState.card)) return false;
       if (lookupState.weapon !== "All" && !appliesToWeapon(offense, lookupState.weapon)) return false;
       if (!query) return true;
-      var searchable = norm([offense.offense_official, offense.one_liner, offense.explainer, (offense.articles || []).join(" "), offense.section, offense.section.replace(/^(\d)(?:st|nd|rd|th) Group$/, "Group $1"), offense.section === "preamble" ? "calls passivity" : ""].join(" "));
+      var update = DATA.updates[offense.id] || {};
+      var currentText = [update.summary || ""].concat(update.individual || [], update.team || [], update.notes || []).join(" ");
+      var searchable = norm([currentText, offense.offense_official, offense.one_liner, offense.explainer, (offense.articles || []).join(" "), offense.section, offense.section.replace(/^(\d)(?:st|nd|rd|th) Group$/, "Group $1"), offense.section === "preamble" ? "calls passivity" : ""].join(" "));
       return query.split(/\s+/).every(function (part) { return searchable.indexOf(part) !== -1; });
     }));
   }
@@ -335,7 +358,7 @@
     { fam: "Y", cls: "dy", label: "Yellow card", sub: "Warning" },
     { fam: "R", cls: "dr", label: "Red card", sub: "Penalty touch" },
     { fam: "B", cls: "db", label: "Black card", sub: "Exclusion" },
-    { fam: "P", cls: "dp", label: "Passivity · P-cards", sub: "First call: P-red · next: P-black · t.124" }
+    { fam: "P", cls: "dp", label: "Passivity · P-cards", sub: "P-red → P-black · t.124" }
   ];
   function selectCard(family) {
     disputeFam = family;
@@ -427,7 +450,7 @@
       var copy = el("div", "legend-copy");
       copy.appendChild(el("p", null, cardSummaries[item.card] || item.meaning));
       var detail = document.createElement("details");
-      detail.appendChild(el("summary", null, item.card === "P-yellow" ? "Historical chart wording" : "Chart wording"));
+      detail.appendChild(el("summary", null, item.card.indexOf("P-") === 0 ? "Historical chart wording" : "Chart wording"));
       detail.appendChild(el("p", null, item.meaning));
       copy.appendChild(detail);
       row.appendChild(copy);
@@ -484,12 +507,14 @@
       fetch("data/offenses.json").then(function (response) { if (!response.ok) throw new Error("Could not load penalty data"); return response.json(); }),
       fetch("data/articles.json").then(function (response) { if (!response.ok) throw new Error("Could not load rule excerpts"); return response.json(); }),
       fetch("data/figures.json").then(function (response) { if (!response.ok) throw new Error("Could not load diagrams"); return response.json(); }),
-      fetch("data/legend.json").then(function (response) { if (!response.ok) throw new Error("Could not load card legend"); return response.json(); })
+      fetch("data/legend.json").then(function (response) { if (!response.ok) throw new Error("Could not load card legend"); return response.json(); }),
+      fetch("data/updates.json").then(function (response) { if (!response.ok) throw new Error("Could not load rule updates"); return response.json(); })
     ]).then(function (parts) {
       DATA.offenses = parts[0];
       parts[1].forEach(function (article) { DATA.articles[article.ref] = article; });
       DATA.figures = parts[2];
       DATA.legend = parts[3];
+      DATA.updates = parts[4];
       renderLearn();
       renderFilterChips();
       renderLookup();

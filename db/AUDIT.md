@@ -103,3 +103,10 @@ chart penalties and retain access to the cited rule text.
 - `figures(num, caption, rules_txt_line, file, related)` — 16 rows (Fig 1–16).
 - `card_legend`, `footnotes` (`*`/`+`/`1`–`4`), `meta` (version, source, transcription date).
 - `site/data/*.json` regenerated from SQLite on every build — the site never hand-edits data.
+
+## October 2026 overlays
+
+See `docs/RULE-UPDATES-2026-10.md` for the completed primary-source audit.
+`rule_updates(offense_id, content_json)` holds current guidance for t.124, t.72
+and t.20, exported to `site/data/updates.json`. Original chart cells and excerpts
+remain November 2025 transcriptions; the UI labels changed excerpts historical.

@@ -1,3 +1,9 @@
+# Archived handoff — superseded by completed takeover
+
+The initial snapshot is commit `ff79d50`. Source verification and implementation
+are completed; see [RULE-UPDATES-2026-10.md](RULE-UPDATES-2026-10.md).
+The team claim below was a draft and has been corrected. Do not repeat its research sequence.
+
 # Work in progress: October 2026 fencing-rule and beginner UX update
 
 This handoff describes the unfinished update requested on 2026-09-29. It is intentionally a status document, not a claim that the app changes are complete or fully verified.

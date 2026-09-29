@@ -37,5 +37,6 @@
 ## Deploy
 - Preview locally: `cd site && python3 -m http.server` → http://localhost:8000
   (must serve over http; browsers block data JSON on file://).
-- GitHub Pages: publish the `site/` directory (repo Settings → Pages → deploy from branch,
-  `site/` folder). No build command.
+- GitHub Pages: deploy the `site/` directory as a Pages artifact via GitHub Actions.
+  Branch deployment only supports the root or `docs/`; it cannot select `site/`.
+  No frontend build command is needed.

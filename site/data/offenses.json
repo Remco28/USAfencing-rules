@@ -16,7 +16,7 @@
       "t.119"
     ],
     "one_liner": "Fencer or team member absent when called.",
-    "explainer": "First call: Yellow. Second: Red. Third: elimination.",
+    "explainer": "The referee calls the fencer or team member to the strip. Repeated failure to appear can lead to elimination.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -39,7 +39,7 @@
       "t.124.2"
     ],
     "one_liner": "Unwillingness to fight (passivity).",
-    "explainer": "After one minute without a hit or off-target hit, the referee calls Halt. The procedure differs in individual direct-elimination and team bouts; see the breakdown below. P-cards apply only to that bout or match.",
+    "explainer": "Effective Oct. 1, 2026, the P-card sequence is P-red, then P-black. The November 2025 chart row below still shows the superseded sequence.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": true
@@ -61,7 +61,7 @@
       "t.23.6"
     ],
     "one_liner": "Leaving the strip without permission.",
-    "explainer": "Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "1",
@@ -86,7 +86,7 @@
       "t.25.2"
     ],
     "one_liner": "Body contact to avoid a touch.",
-    "explainer": "The fencer’s touch is annulled. Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -108,7 +108,7 @@
       "t.27.2"
     ],
     "one_liner": "Turning your back to your opponent.",
-    "explainer": "The fencer’s touch is annulled. Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -133,7 +133,7 @@
       "t.97"
     ],
     "one_liner": "Covering or substituting valid target.",
-    "explainer": "The fencer’s touch is annulled. Yellow first; Red for later offenses. Valid target depends on the weapon.",
+    "explainer": "Valid target depends on the weapon; see the linked diagram.",
     "plain_status": "draft",
     "figure_refs": [
       "4",
@@ -159,7 +159,7 @@
       "t.29.3"
     ],
     "one_liner": "Touching or holding electrical equipment.",
-    "explainer": "The fencer’s touch is annulled. Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -181,7 +181,7 @@
       "t.35.3"
     ],
     "one_liner": "Leaving the side of the strip to avoid a touch.",
-    "explainer": "The fencer’s touch is annulled. Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "1",
@@ -206,7 +206,7 @@
       "t.43.2"
     ],
     "one_liner": "Delaying the bout.",
-    "explainer": "Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -231,7 +231,7 @@
       "t.117"
     ],
     "one_liner": "Equipment does not conform or required spares are missing.",
-    "explainer": "This entry covers nonconforming or faulty equipment and a missing spare weapon or body cord. Yellow first, then Red.",
+    "explainer": "Includes faulty equipment and a missing spare weapon or body cord.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -255,7 +255,7 @@
       "t.96.5"
     ],
     "one_liner": "Placing a weapon on the strip to straighten it.",
-    "explainer": "Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -278,7 +278,7 @@
       "t.90.2"
     ],
     "one_liner": "Dragging a weapon point on the strip (foil, épée).",
-    "explainer": "This entry applies to foil and épée. Yellow first, then Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -301,7 +301,7 @@
       "t.101.5"
     ],
     "one_liner": "Illegal guard touch or crossing the feet in sabre.",
-    "explainer": "The chart lists both offenses for sabre and marks the touch as annulled. Yellow first, then Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "6"
@@ -326,7 +326,7 @@
       "t.112"
     ],
     "one_liner": "Refusing to obey the referee.",
-    "explainer": "Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "3a",
@@ -352,7 +352,7 @@
       "t.115.2"
     ],
     "one_liner": "Hair does not conform to the rules.",
-    "explainer": "See the cited rule for the requirements. Yellow first, then Red.",
+    "explainer": "Fasten hair so it does not cover valid target, hide the name or nationality, or need adjusting during the bout.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -403,7 +403,7 @@
       "t.121.2"
     ],
     "one_liner": "Abnormal action, brutal touch or deliberate fall.",
-    "explainer": "The fencer’s touch is annulled. Yellow first; Red for later offenses.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -427,7 +427,7 @@
       "t.174"
     ],
     "one_liner": "Unjustified appeal of a decision on a point of fact.",
-    "explainer": "Yellow for the first offense; Red for later offenses. See the cited rules on appeals.",
+    "explainer": "A point of fact is what the referee saw happen. The cited rules explain which appeals are permitted.",
     "plain_status": "draft",
     "figure_refs": [
       "3a",
@@ -479,7 +479,7 @@
       "t.30"
     ],
     "one_liner": "Using the non-weapon arm or hand.",
-    "explainer": "The fencer’s touch is annulled. Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -501,7 +501,7 @@
       "t.45.3"
     ],
     "one_liner": "Medical interruption not confirmed by a doctor.",
-    "explainer": "The chart lists an immediate Red when a doctor does not confirm the medical reason.",
+    "explainer": "The doctor must confirm the medical reason for the interruption.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -523,7 +523,7 @@
       "t.73.1.a"
     ],
     "one_liner": "Missing equipment control mark.",
-    "explainer": "The fencer’s touch is annulled. Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -545,7 +545,7 @@
       "t.56.11"
     ],
     "one_liner": "Intentionally dropping a weapon during the phrase.",
-    "explainer": "Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -567,7 +567,7 @@
       "t.74"
     ],
     "one_liner": "Missing name or required national colors.",
-    "explainer": "The chart lists an immediate Red for either offense.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -589,7 +589,7 @@
       "t.55.2"
     ],
     "one_liner": "Deliberate touch not on the opponent.",
-    "explainer": "The touch is annulled. Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [
       "4",
@@ -617,7 +617,7 @@
       "t.147"
     ],
     "one_liner": "Dangerous action or a blow with the guard or pommel.",
-    "explainer": "The touch is annulled. Red.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -640,7 +640,7 @@
       "t.137.2"
     ],
     "one_liner": "Fencer disturbing order on the strip.",
-    "explainer": "Red first; immediate exclusion is possible in serious cases. A later offense draws Black.",
+    "explainer": "Immediate exclusion is possible in serious cases.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -662,7 +662,7 @@
       "t.121"
     ],
     "one_liner": "Dishonest fencing.",
-    "explainer": "The fencer’s touch is annulled. Red first; Black for a later offense.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -684,7 +684,7 @@
       "Publicity Code"
     ],
     "one_liner": "Offense against the publicity code.",
-    "explainer": "Red first; a later offense draws Black. See the cited publicity code.",
+    "explainer": "See the cited publicity code.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -734,7 +734,7 @@
       "t.20.2"
     ],
     "one_liner": "Training without conforming fencing equipment.",
-    "explainer": "Warning first; Black for a later offense.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -756,7 +756,7 @@
       "t.121.2"
     ],
     "one_liner": "Anti-sporting behavior.",
-    "explainer": "Red first; Black for a later offense.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -779,7 +779,7 @@
       "t.73.1.g"
     ],
     "one_liner": "Receiving electronic communication during a bout.",
-    "explainer": "A device that lets a fencer receive communication during a bout draws Black. See the chart note for the scope of exclusion.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -803,7 +803,7 @@
       "t.73.1.e"
     ],
     "one_liner": "Falsified inspection marks or modified equipment.",
-    "explainer": "Black.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -826,7 +826,7 @@
       "m.5.5.d"
     ],
     "one_liner": "Manifest cheating with equipment.",
-    "explainer": "Black.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -848,7 +848,7 @@
       "t.113"
     ],
     "one_liner": "Refusing to fence an entered competitor.",
-    "explainer": "The chart lists Black for refusing to fence an individual or team competitor properly entered in the event.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -873,7 +873,7 @@
       "t.149.1"
     ],
     "one_liner": "Offense against sportsmanship.",
-    "explainer": "Black applies. See chart notes for the scope of exclusion.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -895,7 +895,7 @@
       "t.122"
     ],
     "one_liner": "Refusing to salute at the start or end of a bout.",
-    "explainer": "The chart lists Black for refusing to salute the opponent, referee and audience.",
+    "explainer": "The salute is to the opponent, referee and audience.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -918,7 +918,7 @@
       "t.149.1"
     ],
     "one_liner": "Profiting from collusion or favoring an opponent.",
-    "explainer": "Black applies. See chart notes for the scope of exclusion.",
+    "explainer": "Includes agreeing to help another competitor by giving away touches.",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -940,7 +940,7 @@
       "t.149.1"
     ],
     "one_liner": "Violent or vindictive action.",
-    "explainer": "Black applies. See chart notes for the scope of exclusion.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false
@@ -962,7 +962,7 @@
       "o.107"
     ],
     "one_liner": "Doping.",
-    "explainer": "The chart lists Black. See the cited anti-doping rule.",
+    "explainer": "",
     "plain_status": "draft",
     "figure_refs": [],
     "passivity": false

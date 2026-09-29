@@ -228,3 +228,11 @@ details.entry-note p { margin: 0 0 9px; color: #46534b; font-size: .74rem; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Updated rules keep timing detail and source links easy to scan. */
+.esc.esc-1 { grid-template-columns: minmax(0, 1fr); max-width: 210px; }
+.update-sources { display: grid; gap: 7px; margin-top: 10px; font-size: .78rem; }
+.passivity-detail > p { font-size: .82rem; }
+.passivity-detail details summary { min-height: 44px; font-size: .82rem; }
+.passivity-detail details p, .passivity-detail details li { font-size: .82rem; }
+.filter-hint { font-size: .8rem; max-width: 760px; }

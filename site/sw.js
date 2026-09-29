@@ -1,5 +1,5 @@
 /* Offline support: cache the app shell + data + figures on first visit. */
-var CACHE = "fencing-penalties-v4";
+var CACHE = "fencing-penalties-v5";
 var CORE = [
   "./",
   "index.html",
@@ -9,7 +9,16 @@ var CORE = [
   "data/offenses.json",
   "data/articles.json",
   "data/figures.json",
-  "data/legend.json"
+  "data/legend.json",
+  "data/updates.json",
+  "figures/fig-1.png",
+  "figures/fig-2.png",
+  "figures/fig-3a.png",
+  "figures/fig-3b.png",
+  "figures/fig-3c.png",
+  "figures/fig-4.png",
+  "figures/fig-5.png",
+  "figures/fig-6.png"
 ];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(CORE); }).then(function () { return self.skipWaiting(); }));

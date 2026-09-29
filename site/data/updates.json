@@ -1,0 +1,56 @@
+{
+  "unwillingness": {
+    "article": "t.124",
+    "effective": "2026-10-01",
+    "verified": "2026-09-29",
+    "summary": "After one minute of fencing time without a touch, the referee calls Halt. An off-target touch also resets this timer.",
+    "individual": [
+      "First occurrence: both fencers receive P-red. Each opponent gains one penalty touch; fencing continues.",
+      "Second occurrence: the lower-scoring fencer receives P-black and loses the bout. At a tie, the fencer with the lower initial seeding loses."
+    ],
+    "team": [
+      "First occurrence: both teams receive P-red together. Each opponent gains one penalty touch; the relay continues.",
+      "Second occurrence in the match: the lower-scoring team receives P-black and loses the match. At a tie, the team with the lower initial seeding loses."
+    ],
+    "notes": [
+      "Individual: this procedure applies to direct elimination, not pools. Team: P-card history carries across all nine relays in the match.",
+      "The minute restarts after a touch, an off-target or annulled touch, a penalty touch, and at the start of each period or relay. P-cards are separate from ordinary cards and expire after the bout or match.",
+      "No P-card is awarded at 14–14 individually or 44–44 in a team match. If time runs out with a tied score, use the normal tie-breaking procedure instead.",
+      "Initial seeding means the competition’s starting order, not the score in this bout. Check the event’s official seeding; the FIE text bases its order on FIE ranking."
+    ],
+    "sources": [
+      {
+        "label": "USA Fencing adoption · Oct. 1, 2026",
+        "url": "https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1"
+      },
+      {
+        "label": "Current t.124 · FIE PDF, pages 40–41",
+        "url": "https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf#page=40"
+      }
+    ]
+  },
+  "g1-equipment-conforming": {
+    "article": "t.72",
+    "effective": "2026-10-01",
+    "verified": "2026-09-29",
+    "summary": "October 2026 update: a mask must have its secondary safety device or strap, and it must be worn when fencing. USA Fencing now makes the penalty explicit in t.72.",
+    "sources": [
+      {
+        "label": "USA Fencing equipment update",
+        "url": "https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1"
+      }
+    ]
+  },
+  "g3-warming-up": {
+    "article": "t.20",
+    "effective": "2026-10-01",
+    "verified": "2026-09-29",
+    "summary": "October 2026 update: at competitions, practice bouts require full fencing equipment. During lessons, fencers must wear a chest protector and coaches must wear long pants. USA Fencing did not adopt the FIE’s separate knee-covering requirement.",
+    "sources": [
+      {
+        "label": "USA Fencing warm-up update",
+        "url": "https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1"
+      }
+    ]
+  }
+}

@@ -2,9 +2,27 @@
 
 A mobile-first, unofficial guide to the November 2025 USA Fencing penalty chart.
 Browse by situation, search by citation, or filter by card and weapon. Each entry
-pairs a plain summary with its chart penalties and cited rule text. It also explains
-the full individual and team passivity procedure in t.124. The static site runs on
+pairs a plain summary with its chart penalties and cited rule text. It includes the October 1, 2026 USA Fencing updates for individual/team passivity,
+mask safety and warm-up requirements. The static site runs on
 GitHub Pages and can be used offline after it has loaded.
+
+## October 2026 update
+
+The initial project is saved in Git commit `ff79d50` on the public repository
+[Remco28/USAfencing-rules](https://github.com/Remco28/USAfencing-rules).
+The verified adoption and exact rule-clause mapping are recorded in
+[docs/RULE-UPDATES-2026-10.md](docs/RULE-UPDATES-2026-10.md); research is complete.
+The FIE PDF is kept locally as `FIE_Technical_Rules_August_2026.pdf`, with its
+text in `build/fie-technical-2026.txt`. USA Fencing adoption controls domestic changes.
+
+Rebuild data with `python3 db/build_db.py`. Current guidance is stored in the
+SQLite `rule_updates` table and exported as `site/data/updates.json`. The original
+2025 chart cells and excerpts remain intact for comparison.
+
+Preview: `python3 -m http.server 8000 --directory site`, then open
+http://localhost:8000. For human testing, open
+`human_feedback/round-2026-10-beginner-guide/index.html` directly in a browser.
+Export its feedback ZIP before closing and put it beside the guide.
 
 ## Official source links
 
@@ -20,7 +38,7 @@ GitHub Pages and can be used offline after it has loaded.
 | `2025-11_USA_Fencing_Penalty_Chart.pdf` | 2 | Text layer present + AcroForm. 12 tiny swatch images = card colors. Source for data model. |
 | `USA_Fencing_Athlete_Handbook_2026-27-Sept-27-2026.pdf` | 88 | InDesign, mostly full-page decorative backgrounds. Out of scope for v1. |
 
-Version label to display in UI: **November 2025** (footer of chart + rules).
+UI source dates: **November 2025 chart · October 2026 updates**. Changed entries explicitly mark their older excerpts as historical.
 
 ## Locked decisions
 

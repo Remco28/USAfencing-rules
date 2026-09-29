@@ -20,6 +20,55 @@ DB_PATH = DBDIR / "penalties.sqlite"
 # pen_* values are the literal cell contents from the visual. The separate
 # passivity detail in the app supplements the chart row and notes the Oct. 2026 update.
 # ----------------------------------------------------------------------------
+# Current guidance overlays; the 2025 chart transcription stays unchanged.
+RULE_UPDATES = {'unwillingness': {'article': 't.124',
+                   'effective': '2026-10-01',
+                   'verified': '2026-09-29',
+                   'summary': 'After one minute of fencing time without a touch, the referee calls '
+                              'Halt. An off-target touch also resets this timer.',
+                   'individual': ['First occurrence: both fencers receive P-red. Each opponent '
+                                  'gains one penalty touch; fencing continues.',
+                                  'Second occurrence: the lower-scoring fencer receives P-black '
+                                  'and loses the bout. At a tie, the fencer with the lower initial '
+                                  'seeding loses.'],
+                   'team': ['First occurrence: both teams receive P-red together. Each opponent '
+                            'gains one penalty touch; the relay continues.',
+                            'Second occurrence in the match: the lower-scoring team receives '
+                            'P-black and loses the match. At a tie, the team with the lower '
+                            'initial seeding loses.'],
+                   'notes': ['Individual: this procedure applies to direct elimination, not pools. '
+                             'Team: P-card history carries across all nine relays in the match.',
+                             'The minute restarts after a touch, an off-target or annulled touch, '
+                             'a penalty touch, and at the start of each period or relay. P-cards '
+                             'are separate from ordinary cards and expire after the bout or match.',
+                             'No P-card is awarded at 14–14 individually or 44–44 in a team match. '
+                             'If time runs out with a tied score, use the normal tie-breaking '
+                             'procedure instead.',
+                             'Initial seeding means the competition’s starting order, not the '
+                             'score in this bout. Check the event’s official seeding; the FIE text '
+                             'bases its order on FIE ranking.'],
+                   'sources': [{'label': 'USA Fencing adoption · Oct. 1, 2026',
+                                'url': 'https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1'},
+                               {'label': 'Current t.124 · FIE PDF, pages 40–41',
+                                'url': 'https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf#page=40'}]},
+ 'g1-equipment-conforming': {'article': 't.72',
+                             'effective': '2026-10-01',
+                             'verified': '2026-09-29',
+                             'summary': 'October 2026 update: a mask must have its secondary '
+                                        'safety device or strap, and it must be worn when fencing. '
+                                        'USA Fencing now makes the penalty explicit in t.72.',
+                             'sources': [{'label': 'USA Fencing equipment update',
+                                          'url': 'https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1'}]},
+ 'g3-warming-up': {'article': 't.20',
+                   'effective': '2026-10-01',
+                   'verified': '2026-09-29',
+                   'summary': 'October 2026 update: at competitions, practice bouts require full '
+                              'fencing equipment. During lessons, fencers must wear a chest '
+                              'protector and coaches must wear long pants. USA Fencing did not '
+                              'adopt the FIE’s separate knee-covering requirement.',
+                   'sources': [{'label': 'USA Fencing warm-up update',
+                                'url': 'https://www.usafencing.org/news/2026/september/20/p-yellow-card-eliminated-at-usa-fencing-events-beginning-oct-1'}]}}
+
 OFFENSES = [
     # ---- preamble ----
     dict(id="presence", section="preamble", sort=1,
@@ -251,13 +300,11 @@ PLAIN = {
     "g1-dragging-point": ("Dragging a weapon point on the strip (foil, épée).", ""),
     "g1-sabre-guard": ("Illegal guard touch or crossing the feet in sabre.", ""),
     "g1-refusal-obey": ("Refusing to obey the referee.", ""),
-    "g1-hair": ("Hair does not conform to the rules.",
-        "See the cited rule for the requirements."),
+    "g1-hair": ('Hair does not conform to the rules.', 'Fasten hair so it does not cover valid target, hide the name or nationality, or need adjusting during the bout.'),
     "g1-jostling": ("Jostling, disorderly fencing, early mask removal or undressing.",
         "The chart lists each offense under Group 1. Its asterisk follows ‘disorderly fencing’; check the rule text for when a touch is annulled."),
     "g1-abnormal-action": ("Abnormal action, brutal touch or deliberate fall.", ""),
-    "g1-unjustified-appeal": ("Unjustified appeal of a decision on a point of fact.",
-        "See the cited rules on appeals."),
+    "g1-unjustified-appeal": ('Unjustified appeal of a decision on a point of fact.', 'A point of fact is what the referee saw happen. The cited rules explain which appeals are permitted.'),
     "g1-strip-enclosure": ("Entering the strip enclosure without permission.",
         "This is a team penalty: the Yellow applies to the whole team match. A later Group 1 offense by any team member draws Red."),
     "g2-nonweapon-arm": ("Using the non-weapon arm or hand.", ""),
@@ -277,21 +324,15 @@ PLAIN = {
         "The entry applies to people not on the strip and includes smoking or vaping in the competition hall. A warning may be followed by expulsion from the venue."),
     "g3-warming-up": ("Training without conforming fencing equipment.", ""),
     "g3-antisporting": ("Anti-sporting behavior.", ""),
-    "g4-electronic-comms": ("Receiving electronic communication during a bout.",
-        "A device that lets a fencer receive communication during a bout draws Black. See the chart note for the scope of exclusion."),
+    "g4-electronic-comms": ('Receiving electronic communication during a bout.', ''),
     "g4-falsified-marks": ("Falsified inspection marks or modified equipment.", ""),
     "g4-manifest-cheating": ("Manifest cheating with equipment.", ""),
-    "g4-refusal-to-fence": ("Refusing to fence an entered competitor.",
-        "The chart lists Black for refusing to fence an individual or team competitor properly entered in the event."),
-    "g4-sportsmanship": ("Offense against sportsmanship.",
-        "Black applies. See chart notes for the scope of exclusion."),
-    "g4-salute-refusal": ("Refusing to salute at the start or end of a bout.",
-        "The chart lists Black for refusing to salute the opponent, referee and audience."),
-    "g4-collusion": ("Profiting from collusion or favoring an opponent.",
-        "Black applies. See chart notes for the scope of exclusion."),
+    "g4-refusal-to-fence": ('Refusing to fence an entered competitor.', ''),
+    "g4-sportsmanship": ('Offense against sportsmanship.', ''),
+    "g4-salute-refusal": ('Refusing to salute at the start or end of a bout.', 'The salute is to the opponent, referee and audience.'),
+    "g4-collusion": ('Profiting from collusion or favoring an opponent.', 'Includes agreeing to help another competitor by giving away touches.'),
     "g4-violent-actions": ("Violent or vindictive action.", ""),
-    "g4-doping": ("Doping.",
-        "The chart lists Black. See the cited anti-doping rule."),
+    "g4-doping": ('Doping.', ''),
 }
 
 # figure keys linked per offense (subset of FIGURES above)
@@ -375,6 +416,7 @@ def main():
     cur = con.cursor()
     cur.executescript("""
         CREATE TABLE meta(key TEXT PRIMARY KEY, value TEXT);
+        CREATE TABLE rule_updates(offense_id TEXT PRIMARY KEY, content_json TEXT NOT NULL);
         CREATE TABLE offenses(id TEXT PRIMARY KEY, section TEXT, sort INTEGER,
             offense_official TEXT, as_printed TEXT, articles_json TEXT,
             pen_first TEXT, pen_second TEXT, pen_third TEXT,
@@ -390,6 +432,9 @@ def main():
     cur.execute("INSERT INTO meta VALUES('version','November 2025')");
     cur.execute("INSERT INTO meta VALUES('source','2025-11_USA_Fencing_Penalty_Chart.pdf + 2025-11_USA_Fencing_Rules (1).pdf')");
     cur.execute("INSERT INTO meta VALUES('transcription','pass1-visual-2026-09-29')");
+
+    for oid, update in RULE_UPDATES.items():
+        cur.execute("INSERT INTO rule_updates VALUES(?,?)", (oid, json.dumps(update, ensure_ascii=False)))
 
     for o in OFFENSES:
         cur.execute(
@@ -441,6 +486,8 @@ def main():
     con.commit()
 
     # ---- exports for the static site ----
+    update_rows = {oid: json.loads(content) for oid, content in cur.execute("SELECT * FROM rule_updates")}
+    (SITE_DATA / "updates.json").write_text(json.dumps(update_rows, indent=2, ensure_ascii=False))
     plain_rows = {r[0]: r for r in cur.execute("SELECT * FROM plain")}
     off_rows = cur.execute("SELECT * FROM offenses ORDER BY sort").fetchall()
     cols = [d[0] for d in cur.description]
