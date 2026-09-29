@@ -318,7 +318,19 @@
     list.forEach(function (offense) { cards.appendChild(offenseCard(offense)); });
     host.appendChild(cards);
   }
+  function renderFilterStatus() {
+    var active = [];
+    if (lookupState.group !== "All") active.push(GROUP_SHORT[lookupState.group]);
+    if (lookupState.card !== "All") active.push({ Y: "Yellow", R: "Red", B: "Black", P: "P-cards" }[lookupState.card]);
+    if (lookupState.weapon !== "All") active.push(lookupState.weapon);
+    document.getElementById("filter-toggle").textContent = active.length ? "Filters (" + active.length + ")" : "Filters";
+    var summary = document.getElementById("active-filters");
+    summary.textContent = active.join(" · ");
+    summary.hidden = !active.length;
+    document.getElementById("clear-filters").hidden = !active.length;
+  }
   function renderFilterChips() {
+    renderFilterStatus();
     var groups = document.getElementById("group-filters");
     groups.innerHTML = "";
     ["All"].concat(GROUP_ORDER).forEach(function (group) {
@@ -535,6 +547,23 @@
       });
       var start = (location.hash || "").replace("#/", "") || "learn";
       show(["learn", "lookup", "dispute", "figures", "about"].indexOf(start) !== -1 ? start : "learn");
+      document.getElementById("filter-toggle").addEventListener("click", function () {
+        var panel = document.getElementById("filter-panel");
+        panel.hidden = !panel.hidden;
+        this.setAttribute("aria-expanded", panel.hidden ? "false" : "true");
+        if (!panel.hidden) {
+          var bar = document.querySelector(".search-wrap");
+          var top = document.querySelector(".app-header").getBoundingClientRect().bottom + bar.offsetHeight + 8;
+          var panelTop = panel.getBoundingClientRect().top;
+          if (panelTop < top || panelTop > window.innerHeight - 80) window.scrollBy({ top: panelTop - top, behavior: "instant" });
+        }
+      });
+      document.getElementById("clear-filters").addEventListener("click", function () {
+        lookupState.group = lookupState.card = lookupState.weapon = "All";
+        renderFilterChips();
+        renderLookup();
+        document.getElementById("filter-toggle").focus();
+      });
       document.getElementById("search").addEventListener("input", function (event) {
         lookupState.q = event.target.value;
         renderLookup();

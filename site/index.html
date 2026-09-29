@@ -41,10 +41,17 @@
     <div class="search-wrap">
       <label class="search-label" for="search">Search penalties and rule citations</label>
       <div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try ‘mask’, ‘late’ or ‘t.119’" autocomplete="off"></div>
+      <div class="search-toolbar">
+        <p class="result-count" id="result-count" role="status" aria-live="polite"></p>
+        <button class="filter-toggle" id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">Filters</button>
+        <button class="clear-filters" id="clear-filters" type="button" hidden>Clear filters</button>
+      </div>
+      <p class="active-filters" id="active-filters" hidden></p>
+    </div>
+    <div class="filter-panel" id="filter-panel" hidden>
       <fieldset class="filter-set"><legend>Penalty group</legend><div class="chip-row" id="group-filters" role="group" aria-label="Filter by penalty group"></div><p class="filter-hint">Groups are the chart’s penalty categories, not rounds. Group 1 usually starts with a warning; Group 2 with a penalty touch; Group 3 covers conduct and venue rules; Group 4 brings immediate exclusion. Calls & passivity have separate procedures.</p></fieldset>
       <fieldset class="filter-set"><legend>Card</legend><div class="chip-row" id="card-filters" role="group" aria-label="Filter by card shown"></div></fieldset>
       <fieldset class="filter-set"><legend>Weapon</legend><div class="chip-row" id="weapon-filters" role="group" aria-label="Filter by weapon"></div></fieldset>
-      <p class="result-count" id="result-count" role="status" aria-live="polite"></p>
     </div>
     <div id="lookup-results"></div>
   </section>
