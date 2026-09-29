@@ -15,6 +15,8 @@
   var lookupState = { q: "", group: "All", card: "All", weapon: "All" };
   var disputeFam = null;
   var lastFocus = null;
+  var currentView = null;
+  var viewScroll = {};
 
   function el(tag, cls, text) {
     var node = document.createElement(tag);
@@ -124,7 +126,6 @@
     card.appendChild(top);
 
     card.appendChild(el("h3", null, offense.one_liner || offense.offense_official));
-    if (offense.one_liner && norm(offense.one_liner).replace(/[.*]/g, "").trim() !== norm(offense.offense_official).replace(/[.*]/g, "").trim()) card.appendChild(el("p", "off-name", offense.offense_official.replace(/\s*[+*]/g, "")));
     if (offense.explainer && offense.id !== "presence" && offense.id !== "unwillingness") card.appendChild(el("p", "expl", offense.explainer));
 
     if (offense.passivity) {
@@ -197,18 +198,27 @@
     var details = document.createElement("details");
     details.className = "verb";
     var summary = document.createElement("summary");
-    summary.textContent = update ? "Historical rule text · November 2025" : "Show rule text";
-    if (update) details.appendChild(el("p", "src", "These excerpts predate the October 2026 update. Use the current guidance and official sources above for the changed rule."));
+    summary.textContent = update ? "Historical rule text · November 2025" : "Rule wording and sources";
     details.appendChild(summary);
-    (offense.articles || []).forEach(function (article) {
-      var info = DATA.articles[article];
+    details.appendChild(el("p", "off-name", "Official offense: " + offense.offense_official.replace(/\s*[+*]/g, "")));
+    if (update) details.appendChild(el("p", "src", "These excerpts predate the October 2026 update. Use the current guidance and official sources above for the changed rule."));
+    var excerptGroups = {};
+    (offense.articles || []).forEach(function (ref) {
+      var info = DATA.articles[ref];
+      var key = info ? info.base_ref : ref;
+      if (!excerptGroups[key]) excerptGroups[key] = { refs: [], info: info };
+      excerptGroups[key].refs.push(ref);
+    });
+    Object.keys(excerptGroups).forEach(function (key) {
+      var group = excerptGroups[key];
+      var info = group.info;
       var block = el("div", "verb-block");
-      block.appendChild(el("h4", null, article));
+      block.appendChild(el("h4", null, group.refs.join(" · ")));
       if (info && info.excerpt) {
         block.appendChild(el("pre", null, info.excerpt));
-        block.appendChild(el("div", "src", offense.passivity && article.indexOf("t.124") === 0 ? "Historical source: November 2025 USA Fencing Rules. Its P-yellow sequence was superseded on Oct. 1, 2026; use the current guidance above." : "Source: November 2025 USA Fencing Rules."));
+        block.appendChild(el("div", "src", offense.passivity ? "Historical source: November 2025 USA Fencing Rules. Use the current guidance above for passivity." : "Source: November 2025 USA Fencing Rules."));
       } else {
-        block.appendChild(el("p", null, "No excerpt available. Check the official rulebook for " + article + "."));
+        block.appendChild(el("p", null, "No excerpt available. Check the official rulebook for " + group.refs.join(", ") + "."));
       }
       details.appendChild(block);
     });
@@ -241,8 +251,20 @@
     host.innerHTML = "";
     var byId = {};
     DATA.offenses.forEach(function (offense) { byId[offense.id] = offense; });
-    LEARN_SECTIONS.forEach(function (section) {
+    var jumps = document.getElementById("section-jumps");
+    jumps.innerHTML = "";
+    LEARN_SECTIONS.forEach(function (section, index) {
       var wrap = el("section", "learn-section");
+      wrap.id = "browse-category-" + index;
+      var jump = el("button", "fchip", ["Calls & passivity", "Group 1 · Warnings", "Group 2 · Penalty touches", "Group 3 · Conduct", "Group 4 · Exclusion"][index]);
+      jump.type = "button";
+      jump.addEventListener("click", function () {
+        wrap.scrollIntoView({ block: "start", behavior: "instant" });
+        var heading = wrap.querySelector("h3");
+        heading.tabIndex = -1;
+        heading.focus({ preventScroll: true });
+      });
+      jumps.appendChild(jump);
       var heading = el("div", "section-heading");
       var title = el("div");
       title.appendChild(el("h3", null, section.title));
@@ -410,6 +432,18 @@
     }
     var selected = DISPUTE_CARDS.filter(function (item) { return item.fam === disputeFam; })[0];
     host.appendChild(el("h2", "dispute-results-title", selected.label + " · " + list.length + " situations"));
+    var refine = el("button", "filter-toggle", "Search these situations");
+    refine.type = "button";
+    refine.addEventListener("click", function () {
+      lookupState = { q: "", group: "All", card: disputeFam, weapon: "All" };
+      document.getElementById("search").value = "";
+      renderFilterChips();
+      renderLookup();
+      viewScroll.lookup = 0;
+      show("lookup");
+      document.getElementById("search").focus({ preventScroll: true });
+    });
+    host.appendChild(refine);
     var cards = el("div", "learn-list");
     list.forEach(function (offense) { cards.appendChild(offenseCard(offense)); });
     host.appendChild(cards);
@@ -478,6 +512,8 @@
   }
 
   function show(view) {
+    if (currentView && currentView !== view) viewScroll[currentView] = window.scrollY;
+    currentView = view;
     ["learn", "lookup", "dispute", "figures", "about"].forEach(function (name) {
       document.getElementById("view-" + name).hidden = (name !== view);
     });
@@ -488,7 +524,7 @@
       else tab.removeAttribute("aria-current");
     });
     if (location.hash !== "#/" + view) history.replaceState(null, "", "#/" + view);
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: viewScroll[view] || 0, behavior: "instant" });
   }
   function showDataError(err) {
     var main = document.getElementById("main");

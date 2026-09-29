@@ -253,3 +253,10 @@ details.entry-note p { margin: 0 0 9px; color: #46534b; font-size: .74rem; }
 .entry-effect strong { color: var(--ink); }
 .consequence-definition h3 { margin: 14px 0 3px; font-size: .9rem; }
 .consequence-definition p { margin: 0; }
+
+/* Navigation shortcuts and compact entry details. */
+.group-jumps { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 20px; }
+.group-jumps .fchip { min-height: 40px; }
+.learn-section { scroll-margin-top: calc(var(--header-h) + 16px); }
+.verb > .off-name { margin: 9px 0; font-size: .8rem; }
+.dispute-results-title + .filter-toggle { margin-bottom: 12px; }

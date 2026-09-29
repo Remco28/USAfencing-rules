@@ -12,6 +12,7 @@
   check('score exceptions retained', passivity.textContent.includes('14–14') && passivity.textContent.includes('44–44'));
   check('no repeated presence explainer', !document.querySelector('#learn-sections #off-presence .expl'));
   click('[data-view="lookup"]');
+  if (!document.querySelector('#clear-filters').hidden) click('#clear-filters');
   if (document.querySelector('#filter-panel').hidden) click('#filter-toggle');
   search('Group 2');
   check('search Group 2', document.querySelectorAll('#lookup-results .off').length === 7);
@@ -43,7 +44,7 @@
   }
   click('[data-view="learn"]');
   await navigator.serviceWorker.ready;
-  const cache = await caches.open('fencing-penalties-v8');
+  const cache = await caches.open('fencing-penalties-v9');
   const cached = (await cache.keys()).map(r=>new URL(r.url).pathname);
   check('current update cached', cached.includes(new URL('data/updates.json', document.baseURI).pathname));
   check('all diagrams precached', cached.filter(p=>p.includes('/figures/')).length === 8);

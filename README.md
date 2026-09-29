@@ -95,3 +95,18 @@ Penalty chart + linked rule excerpts + figures, with the t.124 passivity procedu
 - Source files cross-checked on 2026-09-29: all 41 chart rows and 51 distinct cited rule-article
   headings are present. See `db/AUDIT.md` for details and source quirks.
 - Rules update yearly-ish; plan for re-extract + diff when a new November revision drops.
+
+## Finding information
+
+Entries explain touch cancellation, team warnings, exclusion scope and serious-case
+exceptions directly beside the penalties. No external penalty sheet or note-number
+lookup is needed. Official wording remains available inside each entry.
+
+Use category shortcuts in Browse to jump to a group. Tabs keep your reading
+position. From By card, “Search these situations” opens Search with that card
+selected, ready to type. Filters start collapsed and the search field stays visible.
+
+Content changes and navigation changes are saved in separate commits. The
+standalone consequences were checked against the existing source notes; the
+flow pass was checked at phone and desktop sizes, including keyboard focus,
+category jumps, tab returns, retained card filters and deduplicated rule excerpts.
