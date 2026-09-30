@@ -33,7 +33,7 @@
   check(document.documentElement.scrollWidth<=innerWidth,'no horizontal overflow');
   await navigator.serviceWorker.ready;
   check((await navigator.serviceWorker.getRegistrations()).some(r=>r.scope.endsWith('/scoring/')),'scoring worker scope');
-  const cache=await caches.open('fencing-scoring-v2');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
+  const cache=await caches.open('fencing-scoring-v3');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
   query('');await settle();
   return {passed:passed.length,checks:passed};
 })()

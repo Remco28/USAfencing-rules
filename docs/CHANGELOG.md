@@ -35,3 +35,8 @@ Distinct blue interface, remembered weapon, compact search, bounded diagrams,
 optional fact notes, exact source validation, review procedure and reciprocal
 links. Separate service-worker scopes protect each guide’s cached content.
 See `SCORING.md` for coverage, audit and maintenance.
+
+## Scoring navigation — September 30, 2026
+
+Removed the redundant bottom Search button. The pinned search field remains
+available on all scoring screens; bottom navigation has three destinations.

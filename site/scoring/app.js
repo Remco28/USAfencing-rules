@@ -86,7 +86,6 @@
   input.addEventListener('input', search);
   document.getElementById('search-form').addEventListener('submit', function (e) { e.preventDefault(); search(); });
   document.getElementById('clear-search').addEventListener('click', function () { input.value = ''; search(); input.focus(); });
-  document.getElementById('focus-search').addEventListener('click', function () { homeScroll=0; location.hash='/'; window.scrollTo({top:0,behavior:'instant'}); input.focus(); });
   document.addEventListener('click', function (e) {
     var w = e.target.closest('[data-weapon], [data-switch]'); if (w) setWeapon(w.dataset.weapon || w.dataset.switch);
     var categoryButton = e.target.closest('[data-category]'); if (categoryButton) { category = categoryButton.dataset.category; render(); }
