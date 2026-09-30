@@ -1,0 +1,47 @@
+m.29
+       1.
+             a)    The conductive wires of the bodycord (the fencers’ personal equipment) must be
+                   well insulated electrically from each other, twisted or joined together, and not
+                   affected by humidity.
+             b)    This bodycord has a connecting plug at each end. In the absence of a security device
+                   being fixed to the weapon, a security device must be fitted to the plug of the
+                   bodycord.
+             c)    The electrical resistance of each of these conductive wires (plug to plug and plug to
+                   crocodile clip) must not exceed 1 Ω.
+       2.
+             a)    At the reel end the three-pin male plug, which must comply with the conditions of
+                   manufacture and assembly laid down in Article m.55, will be attached to the wires in
+                   the following manner:
+                   —     the pin at 15 mm from the center pin to the conductive jacket;
+                   —     the central pin to the wire in the weapon;
+                   —
+                   the pin at 20 mm from the center pin to the foil ground circuit or the conductive
+                   strip.
+USA Fencing Rules for Competition              140                               Version: November 2025
+           b)   The wire which joins the rear connection of the bodycord to the conductive jacket by
+                a crocodile clip must be separate for at least 40 cm. This wire must be soldered to the
+                crocodile clip and this soldering must not be covered by any insulation or any
+                material whatsoever. However, any method of fixing which presents the same
+                guarantees as soldering may be used, provided it has been accepted by the SEMI
+                Commission.
+           c)   The crocodile clip must be robust and ensure perfect contact with the conductive
+                jacket. Its width at the point of contact must be at least 10 mm; the inside of the clip
+                must leave a free space at least 8 mm long by 3 mm high. It must be clipped onto the
+                back of the conductive jacket on the sword-arm side.
+      3.
+           a)   At the end nearest the foil, inside the guard, any method of attachment is allowed
+                but the method adopted must always conform to the specification laid down in
+                Article m.5.
+           b)   In addition, the pins of the plug must in no circumstances be able to touch the metal
+                part of the guard.
+           c)   The wire from the point will be protected by an insulated sheath from the place
+                where it enters the guard right up to the insulated connection on the plug socket.
+                Under no circumstances may the non-insulated wire extend beyond this insulated
+                plug connection (cf. m.5, m.9).
+
+
+
+
+USA Fencing Rules for Competition                  141                              Version: November 2025
+                                       RULES SPECIFIC TO ÉPÉE
+       Mask

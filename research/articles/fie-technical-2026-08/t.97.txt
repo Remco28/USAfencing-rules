@@ -1,0 +1,10 @@
+t.97
+      1       Only hits which arrive on the target are counted as valid.
+              The target comprises any part of the body above a horizontal line drawn between the top of the
+              hip bones and then horizontally round the fencer’s trunk (see Figure 6).
+      2       At sabre, it is forbidden to protect the target area or to substitute another part of the body for
+              the target area, by covering it (cf. t.158-162, t.165, t.170); any hit scored by the fencer at fault
+              is annulled.
+
+              If, during the fencing phrase, there is protection or substitution of a valid surface, the fencer at
+              fault will be penalised as specified for offences of the 1 st group (cf. also t.29).

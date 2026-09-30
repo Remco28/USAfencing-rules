@@ -1,0 +1,77 @@
+o.70
+       When there are several fencers from the same country in a pool:
+
+  1    If they do not form the majority of the competitors in the pool, they must fence off the bouts
+       between themselves before meeting competitors of another nationality.
+
+  2    If they form the majority of the competitors in the pool, the Directoire Technique may establish a
+       special order of bouts, departing as little as possible from the principle laid down in 3.a) below, in
+       order to obviate excessive fatigue or delays for the competitors who form the minority in the pool.
+  3    Examples of the order of fencers of the same nationality in a pool of six:
+
+  a)   When a pool contains, among its six fencers,
+
+       - two fencers of the same nationality A, or
+       - two fencers of the same nationality A and two of the same nationality B
+       - two fencers of the same nationality A, two of the same nationality B and two of the same
+       nationality C
+       the fencers’ names are placed on the pool sheet in such a way that those of the same nationality
+       fence each other in their first bout and the order of bouts of a pool of six is that shown in Article
+       o.69 above.
+  b)   When a pool contains among its six fencers,
+
+       - three fencers of the same nationality A, or
+       - three fencers of the same nationality A and two fencers of the same nationality B, or
+       - three fencers of the same nationality A and three fencers of the same nationality B, the
+       order will be as follows:
+
+               1–2      6–4     4–2
+               4–5      2–5     3–6
+               2–3      1–4     5–1
+               5–6      5–3     3–4
+               3–1      1–6     6–2
+
+       the fencers’ names are placed on the pool sheet in the following way:
+       - the fencers of nationality A are given numbers 1, 2 and 3;
+       - the fencers of nationality B are given numbers 4 and 5 or 4, 5 and 6.
+                                                    24
+                                                                                                 August 2026
+
+
+
+  c)   When a pool contains among its six fencers four fencers of the same nationality A and two
+       others of different nationalities, the four fencers of nationality A are placed on the pool sheet as 1,
+       2, 3 and 4 and the order of bouts in the pool is as follows:
+         3–1      1–2      4–5
+         4–2      3–4      6–2
+         1–4      1–6      5–1
+         2–3      2–5      6–4
+         5–6      3–6      5–3
+
+  4    Example of the order of fencers of the same nationality in a pool of seven:
+
+  a)   When this pool contains, among the seven fencers,
+
+       - two fencers of nationality A, or
+       - two fencers of nationality A and two fencers of nationality B, or
+       - two fencers of nationality A, two fencers of nationality B and two fencers of nationality C,
+       the fencers of the same nationality are listed on the pool sheet so that they fence their first bout
+       against each other while following the order of fights laid down in Article o.69 above for a pool of
+       seven fencers.
+  b)   When the pool contains, among the seven fencers,
+
+       - three fencers of nationality A, or
+       - three fencers of nationality A and two fencers of nationality B, or
+       - three fencers of nationality A, two fencers of nationality B and two fencers of nationality
+       C
+       the three fencers of nationality A must be listed 1, 2 and 3 on the pool sheet, the two fencers of
+       nationality B, 4 and 5, and the two fencers of nationality C, 6 and 7.
+       The order of bouts for the pool of seven, detailed in Article o.69, is no longer valid and must be
+       replaced by the following order:
+         1–2     6–2      1–4
+         4–5     3–4      2–7
+         6–7     7–5      5–3
+         3–1     1–6      6–4
+         4–7     4–2      7–1
+         2–3     7–3      2–5
+         5–1     5–6      3–6

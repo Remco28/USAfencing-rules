@@ -40,3 +40,12 @@ See `SCORING.md` for coverage, audit and maintenance.
 
 Removed the redundant bottom Search button. The pinned search field remains
 available on all scoring screens; bottom navigation has three destinations.
+
+## Shared scoring research — September 30, 2026
+
+Organized preserved source PDFs/text into a versioned `research/` library. Added
+the current domestic Operations Manual and FIE Material/Organisation PDFs,
+archived official guidance/directory pages, and indexed complete source articles
+with page/line locators. Added a practical scoring-topic inventory, draft search
+terms, publication limits and findings, including a domestic appeal-route issue
+to resolve before the next content pass. Runtime rule/case data is unchanged.

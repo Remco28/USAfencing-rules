@@ -1,0 +1,24 @@
+o.68
+       1.   The pools are composed taking account of the initial seeding in the competition, which is
+            based on the latest official FIE ranking, and by drawing lots among fencers who are not in
+            the ranking. The pools are composed using the following method:
+USA Fencing Rules for Competition                     91                                Version: November 2025
+              Pool                                   A            B            C
+
+
+              Fencer Ranked                          1            2            3
+                                                     6            5            4
+                                                     7            8            9
+                                                     12           11          10
+                                                     13           14          15
+                                                     18           17          16
+                                                     19           20          21
+
+
+       2.    The allocation of fencers in the pools must be made in such a way as to place fencers of
+             the same nationality in different pools, as far as possible. If a fencer is placed in a pool
+             where there is already a fencer of the same nationality, the fencer is moved one or more
+             places down the ranking until they are placed in a pool without a fencer of the same
+             nationality. If this is not possible, the fencer must remain in the original pool.
+       3.    The order of fencers on the pool sheet is decided by drawing lots.
+       4.    The pools must be fenced up to the last bout.

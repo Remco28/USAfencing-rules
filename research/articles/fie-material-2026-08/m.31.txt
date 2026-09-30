@@ -1,0 +1,39 @@
+m.31. 1. a)   The conductive wires of the bodywire must be well insulated from each other,
+              insensitive to humidity, and either joined or twisted together.
+
+          b) The maximum electrical resistance allowed for each of these conductive
+             wires from plug to plug is 1 ohm.
+      2. The bodywire has a connecting plug which must be made of a transparent
+                                                                                 34
+FIE                                                           August 2026
+
+         material at each end. In the absence of a security device being fitted to the
+         weapon, a security device must be fitted to the plug of the bodywire.
+
+      3. At the spool end, a three-pin male plug is connected to the wire as follows:
+
+           a) the pin 15 mm from the centre pin to whichever wire is most directly
+              connected to the pointe d’arrêt;
+
+           b) the centre pin to the other wire on the épée;
+
+           c) the pin 20 mm from the centre pin to the épée’s earth circuit and to the
+              conductive piste.
+
+      4. This plug must conform to the conditions of manufacture and mounting specified
+          in Article m.55.
+
+      5. Inside the guard the choice of system is free but the system chosen must comply
+           with the conditions of Article m.5.
+
+      6. In addition, the pins of the plug must not on any account permit contact with the
+         metal of the guard.
+
+      7. The two wires coming from the tip must be protected by two insulating sheaths,
+         one for each wire, from the point where they enter the guard right up to the two
+         insulated connections on the plug socket. In no case may uninsulated wires extend
+         beyond the plug connections (cf. m.5, m.9).
+
+      RULES SPECIFIC TO SABRE
+
+      Mask

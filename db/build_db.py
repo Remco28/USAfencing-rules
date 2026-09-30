@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "build"
+RULES_TEXT = ROOT / "research/extracted/usa-rules-2025-11.txt"
 DBDIR = ROOT / "db"
 SITE_DATA = ROOT / "site" / "data"
 DB_PATH = DBDIR / "penalties.sqlite"
@@ -484,7 +485,7 @@ def main():
         for index, (title, text) in enumerate(entry_effects(offense)):
             cur.execute("INSERT INTO entry_effects VALUES(?,?,?,?)", (offense["id"], index, title, text))
 
-    articles_txt, spans, order = parse_rules_articles(BUILD / "rules.txt")
+    articles_txt, spans, order = parse_rules_articles(RULES_TEXT)
 
     # collect every distinct cited ref
     cited = {}
@@ -499,7 +500,7 @@ def main():
         if base == "PUBLICITY":
             # Appendix D header (scope) + operative penalty clause. The chart's
             # Red -> Black matches "penalties as provided for in ... t.170/3rd group".
-            lines = (BUILD / "rules.txt").read_text(encoding="utf-8", errors="replace").replace("\x0c", "").split("\n")
+            lines = (RULES_TEXT).read_text(encoding="utf-8", errors="replace").replace("\x0c", "").split("\n")
             head = lines[6934:6942]  # appendix title + adoption note (1-indexed 6935-6942)
             # find the operative penalty clause dynamically
             anchor = next(i for i, l in enumerate(lines) if "failure to observe the rules relating to an individual contract" in l)
@@ -568,7 +569,7 @@ def main():
     plain_missing = [o["id"] for o in OFFENSES if o["id"] not in PLAIN]
     empty_excerpts = cur.execute("SELECT ref FROM articles WHERE excerpt=''").fetchall()
     # ---- self-checks: pointers must match grep-visible headings ----
-    raw_lines = (BUILD / "rules.txt").read_text(encoding="utf-8", errors="replace").replace("\x0c", "").split("\n")
+    raw_lines = (RULES_TEXT).read_text(encoding="utf-8", errors="replace").replace("\x0c", "").split("\n")
     bad_ptr = []
     for ref, base, src in cur.execute("SELECT ref, base_ref, source_lines FROM articles"):
         if base == "PUBLICITY":

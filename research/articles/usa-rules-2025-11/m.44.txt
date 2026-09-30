@@ -1,0 +1,20 @@
+m.44
+       1.   All electrical judging equipment includes, in addition to the equipment provided by the
+            fencers themselves, the material provided by the organizers of a competition, which is:
+       2.   The central judging apparatus, with extension lamps (cf. m.51, m.59, Appendix B);
+       3.   The reels, with cables and connections, or cables suspended overhead (cf. m.55);
+       4.   The conductive strip which neutralizes touches made on the ground (cf. m.57);
+       5.   The source of electrical current should be 12V DC via AC/DC converter or through
+            VRLA (valve-regulated lead-acid) batteries (cf. m.58);
+       6.   For finals of official competitions of the FIE, a clock which counts down the time and
+            which can be linked to the apparatus which controls the audible signal and the electrical
+            registering of touches (cf. m.51, Appendix B).
+       7.   The wireless apparatus is optional at the Veteran World Championships.
+
+
+
+
+USA Fencing Rules for Competition                 150                             Version: November 2025
+                                             Chapter 1
+                                      Scoring Apparatus
+       Authorized designs

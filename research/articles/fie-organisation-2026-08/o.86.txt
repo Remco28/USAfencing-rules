@@ -1,0 +1,14 @@
+o.86
+        1     The preliminary phase consists of one round of pools, from which 20%–30% of the participants
+              in the pools are eliminated, based on the indices of all competing in them, and a preliminary direct
+              elimination table. For Grand Prix competitions, the number of fencers eliminated on the indices of
+              the pools must be 30%
+.
+        2     After the round of pools, the 16 fencers ranked highest on the general index (cf o.73) are
+              exempt from the preliminary direct elimination table. Should there be a tie between two or more
+              fencers for the 16th place, there will be a barrage for 5 hits to decide who is ranked 16th.
+              Following the barrage, the ranking of the fencers is determined according to V, HS-HR, HS.
+        3     The remainder of the fencers qualifying from the pools will make up a preliminary integral direct
+              elimination table. This will be based on the indices of the fencers in all the pools (in the case of
+              a tie on indices, the fencers will be separated by drawing lots). This table, be it complete or
+              incomplete, will be fenced until only 32 fencers remain.

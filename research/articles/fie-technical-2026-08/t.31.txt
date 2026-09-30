@@ -1,0 +1,4 @@
+t.31
+          When the order ‘Halt!’ is given, ground gained is held until a hit has been given. When
+          competitors are replaced on guard, each fencer should retire an equal distance in order
+          to keep fencing distance (cf. t.22.3/4).

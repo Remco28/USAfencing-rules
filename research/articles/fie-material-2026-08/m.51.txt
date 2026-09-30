@@ -1,0 +1,77 @@
+m.51. 1. A hit made on the conductive piste or on the metallic parts of the weapon must
+         not be registered by the apparatus, nor may it prevent the registering of a hit made
+         simultaneously by the opponent. At foil a hit made on a part of the foil may
+         register if an uninsulated part of the weapon of the fencer is in contact with his
+         conductive jacket.
+
+      2. The apparatus must not have any device whereby anyone other than the person
+         detailed to supervise it can interrupt its working during a bout.
+
+      3. Hits are registered by light signals. The signal lamps must be placed on the top of
+         the apparatus, in order that they may be visible to the Referee, the competitors and
+         the superintendent of the apparatus. They must be so positioned that they show
+         clearly from which side the hit was made. It must be possible to attach extension
+         lamps to the exterior of the apparatus, in order to increase the visibility of the
+         signals.
+
+         At foil, when using the apparatus it should be noted that:
+
+         a)        If a non-valid hit has been scored the apparatus will not register a
+         possible valid hit scored on the same side of the apparatus.
+
+         b)       The apparatus does not indicate whether there is any priority in time
+         between two or more hits which it registers simultaneously.
+
+
+
+      4. Once the signal lamps are alight, they must so remain until the apparatus is reset,
+         without having any tendency to go out or flicker either when subsequent hits are
+         made or if the apparatus is subjected to vibrations.
+
+      5. The visual signals must be accompanied by audible signals (cf. Annexe B).
+
+      6. The resetting switches must be placed either on top of or on the front part of the
+         apparatus.
+
+      7.a) For official competitions of the FIE (cf. t.1) the source of power must always be
+         secured through external batteries or UPS (Uninterruptible power supply) in order
+         not to interrupt the load during the match if any interruption occurs in the normal
+         electricity supply. The wiring of the apparatus to be powered in this way must be
+         designed so that it is impossible for the apparatus to become connected by mistake
+         directly to the mains supply.
+
+
+                                                                               44
+FIE                                                         August 2026
+
+          b) All fencing salles, clubs, etc., and the organisers of training sessions or
+             competitions involving weapons using electrical equipment, may use the
+
+              current supplied by the mains on condition that they adhere strictly to the
+              technical standards laid down on the subject by their countries and
+              international communities.
+
+      8. During the last 10 seconds of each period in an individual bout and of each bout in
+         a team match, the clock must show: the time to a tenth of second when the scoring
+         apparatus is running and to a hundredth of second when the scoring apparatus is
+         stopped. The timer should be provided with a remote start/stop device (see Annex
+         B for technical specifications).
+
+      9. For the finals of official competitions of the FIE, the clock must be equipped with
+         a system which connects it to some external extension clocks displaying large
+         luminous numbers, and with another system for the connection of the audible
+         signal. These two connection systems must be separated from the circuits situated
+         inside the central judging apparatus by means of opto-couplers (cf. t.32, m.44).
+
+      10. When the cable connecting the audible-signal apparatus to the clock is
+          disconnected, the audible-signal apparatus must emit a sound of between 80 and
+          100 decibels (measured at the centre line of the piste) lasting between 2 and 3
+          seconds, but the central judging apparatus must not be blocked and the clock must
+          not be stopped (cf. t.32, m.44, m.51/9).
+
+      11. For official FIE competitions (cf. t.1) the apparatus must obligatorily be powered
+          through external batteries or UPS (Uninterruptible power supply) with minimum 5
+          minutes backup time
+
+
+      Number and quality of judging apparatuses

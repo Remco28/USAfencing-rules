@@ -1,0 +1,22 @@
+m.11
+       1.   The diameter of the pointe d’arrêt is between 5.5 mm and 7 mm; the diameter of the body
+            of the barrel including its exterior insulation must not be more than 0.3 mm less than that
+            of the pointe d’arrêt.
+       2.   The pointe d’arrêt must be cylindrical; its front surface is flat and perpendicular to its
+            axis.
+            Its edge will either be rounded with a radius of 0.5 mm or have a chamfer of 0.5 mm at
+            45°.
+       3.   The pressure required on the pointe d’arrêt, in order to break the contact and cause the
+            apparatus to register a touch, must be more than 500 g, that is to say that this weight must
+            be lifted by the spring of the point. The weight of 500 g supplied by the Organizing
+            Committee may have a tolerance of ± 2 g, i.e., 498–502 g.
+       4.   The course or travel of the pointe d’arrêt required to cause the electrical apparatus to
+            register a touch, called the lighting stroke, may be infinitesimal: the total travel of the
+            pointe d’arrêt must not be greater than 1 mm. The gauge used should have a tolerance of
+            a maximum of ± 0.05 mm.
+       5.   The pointe d’arrêt must be retained in the barrel in at least two places equidistant from
+            each other, or by any other method which has been approved by the SEMI Commission of
+            the FIE.
+       6.   When not depressed the pointe d’arrêt is in contact with the main body of the foil. When
+            a touch is made, this contact must be broken.
+       Method of affixing the barrel

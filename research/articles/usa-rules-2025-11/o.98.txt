@@ -1,0 +1,9 @@
+o.98
+       1.   The competition is run by integral direct elimination with a direct elimination table
+            which may be incomplete.
+       2.   At the Junior and Open World Championships the teams will occupy the places in the
+            table according to the most recent official team ranking of the FIE. The teams that are not
+            classified will occupy the last places in the table, and will be separated by drawing of lots.
+       3.   At the Open and Junior World Championships, all places in the table up to 16th place will
+            be fought for. From 17th place onwards teams will be classified, within each round of the
+            table, according to their initial place in the table.

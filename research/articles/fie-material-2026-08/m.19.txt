@@ -1,0 +1,91 @@
+m.19. 1. The electric button is completed by a pointe d’arrêt which must conform to
+          the following specifications.
+         It must be easy to apply the pointe d’arrêt of the opponent’s weapon to the
+         earth circuit connected to the blade.
+
+          a) The pointe d’arrêt is cylindrical. Its front surface is flat and
+              perpendicular to its axis. Its edge will either be rounded with a radius of
+              0.5 mm or have a chamfer of 0.5 mm at 45° (see Figure 10).
+
+
+                                                                                            18
+FIE                                                                                     August 2026
+
+
+
+
+                        Figure 10. Epée: details of the electric button
+      This diagram is for guidance purposes only. In case of any doubt the wording of the appropriate text takes precedence
+
+
+
+
+      b) The diameter of the crown of the pointe d’arrêt is 8 mm with a
+         tolerance of
+         ± 0.05 mm. The diameter of the base must not be less than 7.7 mm.
+      c) The flange (collar) which guides the pointe d’arrêt as well as the
+         insulating washer must be sufficiently recessed in relation to the crown
+         (it is recommended that it be reduced in diameter by 0.3–0.5 mm in
+         relation to the crown) so that it shall not be possible to cause a hit to be
+         registered merely by sliding the depressed pointe d’arrêt against the
+         convex surface of the guard (see Figure 11) (cf. t.67.a).
+
+
+
+
+                                                                                                                              19
+FIE                                                                                     August 2026
+
+
+
+
+                              Figure 11. Epée: details of tip of point
+      This diagram is for guidance purposes only. In case of any doubt the wording of the appropriate text takes precedence
+
+
+
+
+                                                                                                                              20
+FIE                                                            August 2026
+
+
+
+
+      2. The pressure required on the pointe d’arrêt in order to complete the circuit
+         in the épée, and thus cause the apparatus to register a hit, must be more than
+         750 g, that is to say that this weight must be lifted by the spring of the point.
+
+      3. The weight used to check competitors’ épées on the piste consists of a
+         metal cylinder drilled part of the way along its axis with a hole parallel to its
+         sides; this hole, into which is inserted the end of the blade, must have an
+         insulating lining to prevent its metallic parts coming into contact with the
+         earthed mass of the épée which might then give a false result to the test.
+
+         This weight of 750 g may have a tolerance of ± 3 g, i.e. 747–753 g.
+      4. a) The course or travel of the pointe d’arrêt required to complete the
+            circuit in the épée and thus cause the apparatus to register a hit, called
+            the lighting stroke, must be greater than 1 mm. The further course
+            which the pointe d’arrêt may travel must be less than 0.5 mm. (This
+            requirement is just as essential as that for the lighting stroke). The
+            gauge used should have a tolerance of a maximum of +/- 0.05mm.
+
+          b) The total course or travel of the point must be greater than 1.5 mm (cf.
+             t.68.3). The gauge used should have a tolerance of a maximum of +/-
+             0.05mm.
+
+          c) Adjusting the lighting stroke by means of screws or any other
+             external fixing device, once the point has been assembled on the
+             weapon, is forbidden (cf t.44.3).
+
+          d) An external screw or similar fixing device is only allowed if it is
+             actually part of the assembling of the point.
+
+          e) The head of the screw or fixing device must never project beyond the
+             flat top surface of the point and its housing in the flat surface may not
+             exceed 2 mm in diameter.
+
+      5. The pointe d’arrêt must be retained in the button at at least two points
+         equally spaced, or by any other system approved by the SEMI Committee
+         of the FIE.
+
+      Method of affixing the button

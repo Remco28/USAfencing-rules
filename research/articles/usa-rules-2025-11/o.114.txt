@@ -1,0 +1,13 @@
+o.114
+The age groups in veteran competitions are:
+a) Age group 40-49: Must be at least 40 years old and less than 50 years old in the year of the
+competition.
+b) Age group 50-59: Must be at least 50 years old and less than 60 years old in the year of the
+competition.
+c) Age group 60-69: Must be at least 60 years old and less than 70 years old in the year of the
+competition.
+d) Age group 70+: Must be at least 70 years old in the year of the competition.
+USA Fencing Rules for Competition                 112                              Version: November 2025
+                              Pre-Competition procedures
+                                      PROGRAMMING
+        VETERANS WORLD CHAMPIONSHIPS

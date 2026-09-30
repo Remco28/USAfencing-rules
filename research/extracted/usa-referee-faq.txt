@@ -1,0 +1,88 @@
+Referee FAQs And Guidelines
+Current USA Fencing National Referee Pay Scale 
+National Rating	Honorarium Per Service Day
+R1	$140
+N2	$140
+N1	$165
+FIE B	$165
+FIE A	$165
+Rules And Frequently Asked Questions For Referees 
+USA Fencing Guidance On Conflicts Of Interest For Referees
+
+Maintaining the integrity of officiating is essential to the fairness and credibility of fencing competitions. Referees are expected to uphold the highest standards of impartiality, ensuring that all bouts are adjudicated without bias. This document provides guidance on recognizing, managing, and addressing conflicts of interest, both real and perceived, in USA Fencing competitions.
+
+READ THE DOCUMENT
+, OPENS IN A NEW TAB
+New National Referee FAQ
+
+This FAQ provides essential information for referees preparing to work their first National level Tournament. It covers expectations, event assignments, travel and compensation guidelines, code of conduct, and tips for continued growth and success in the role. Whether you're preparing for your first national tournament or looking to better understand your responsibilities, this resource is here to support your transition.
+
+READ THE DOCUMENT
+, OPENS IN A NEW TAB
+Rules Context
+
+Two rules provide additional context for this discussion. t.96 appears in the section of the technical rules specific to sabre conventions and is titled “method of making a touch.” t.121 is in the general section of disciplinary rules for competitions and is titled “fencing etiquette.” The text below is from the current . Other than Americanization of terms, the current are nearly identical, with the addition of language in t.96.3 specifying violations of the rule should be penalized as an offense of the first group.
+
+
+
+
+t.96.3
+
+It is forbidden to score a touch with the guard. Any touches registered by hitting with the guard must be annulled, the fencer at fault being penalized as specified in Articles t.158-162, t.165, t.170.
+
+t.121.2
+
+All bouts must preserve the character of a courteous and frank encounter.  All irregular actions (flèche attack which finishes with a collision jostling the opponent, disorderly fencing, irregular movements on the strip, touches achieved with violence, blows struck with the guard, an intentional fall down to avoid the touch) or anti-sporting behavior are strictly forbidden (cf. t.158-162, t.170). Should such an offense occur, any touch scored by the fencer at fault is annulled.
+
+While the infraction group is not explicitly listed in these rules, each cross-references t.170, which is the rule that provides the penalty chart table. In t.170, t.96.3 appears in the section for infractions of the 1st group (yellow card on first offense within the group, and red cards thereafter, with the warning represented by the yellow card valid for the current bout), while t.121.2 appears in the section for infractions of the 2nd group (red card on the first and subsequent offenses). Each is marked with a notation calling for annulment of any touch scored by the fencer at fault.
+
+Commonly Asked Questions
+
+1. Q: Didn’t the FIE recently change t.96.3?
+
+A: Yes, twice. At the 2023 FIE Congress, the FIE modified a number of rules to explicitly indicate which penalty group is associated with an infraction. As part of this, language was added to t.96.3 indicating infractions should be penalized as an offense of the 2nd group. The group listed was an error and no equivalent change was made to t.170, where the infraction remained listed in the 1st group. At the 2024 FIE Congress, t.96.3 was updated again to correct this error and indicate infractions should be penalized as an offence in the 1st group.
+
+2. Q: This note specifies it applies to sabre competitions. I referee foil and/or epee. Should I change how I referee?
+
+A: The guidance from the FIE has been specifically to sabre referees and t.96 is a rule in the sabre-specific part of the technical rules. The scenario at the core of the guidance – incidental contact between a bell guard and mask – is relatively common in sabre and relatively rare in the other two weapons. This note is intended to guide refereeing practice in USA Fencing domestic sabre competitions and not foil or epee competitions.
+
+3. Q: What about red cards for a blow with the bell guard?
+
+A: t.121.2, which is applicable to all weapons, prohibits “blows struck with the guard.” Infractions of this rule are penalized in the 2nd group (red card on each instance). The key interpretation here hinges on the definition of a “blow.” Current convention is that a “blow” with the bell guard implies a fairly high degree of force involved.
+
+Severe contact (a “blow”) with the bell guard should be penalized as a 2nd group penalty. This is a rare situation that typically involves either deliberate intent or substantial lack of control over one’s actions. This level of lack of control is much more common at lower competitive levels where athletes may have incompletely developed technique and distance control. This rule should only be invoked if the referee believes something dangerous or violent has occurred as part of the fencing action.
+
+4. Q: The note specifies follow through to the mask. What about other parts of the body?
+
+A: The guidance the FIE has been providing to referees has specifically focused on follow through where the bell guard makes contact with the opponent’s mask. Equivalent actions where there is light, incidental contact with other parts of the opponent (e.g., shoulder, arm, or torso) are not typically penalized.
+
+5. Q: What if the opponent causes the contact? That is, if after a correctly executed attack, the opponent collapses distance and initiates contact between their mask and the bell guard?
+
+A: This is a judgment call for the referee, looking at which fencer is “at fault” or has caused the situation to occur. A fencer should be penalized for inadequate technique or care, such that their bell guard makes contact with their opponent’s mask; however, a fencer should not be penalized if the contact is primarily the result of their opponent's action.
+
+6. Q: What if the action isn’t a follow through but the bell guard is the part of the weapon that makes the initial contact?
+
+A: In sabre, the bell guard is electrically indistinguishable from the rest of the weapon (i.e., the blade). Therefore, if the bell guard makes contact with the opponent’s lamé, the scoring machine will treat it the same as if the blade had made contact (i.e., a cut has arrived). While this is a rare situation, it is possible and does happen. In this case, the fencer whose bell guard has scored a touch has violated t.96.3 and should be penalized accordingly (1st group). This is true regardless of what portion of the valid target has been scored upon (i.e., any of mask, electrical jacket, or glove cuff).
+
+7. Q: Why are there differences between the FIE Rules and the USA Fencing Rules?
+
+A: USA Fencing maintains a distinct rulebook covering domestic competitions to incorporate US terminology and spelling conventions and to retain the flexibility to modify rules designed for international competitions to better suit the needs of USA Fencing domestic competitions and athletes. Most USA Fencing rules mirror the equivalent FIE rules, however there are inevitable delays in incorporating changes made by the FIE into the USA Fencing Rules. Referees in USA Fencing domestic competitions should use the USA Fencing Rules when there are differences.
+
+In the scenarios described in this note, there are no meaningful differences in the rules between the FIE and USA Fencing. This note is intended to better align interpretation and implementation of the rules between international and domestic competition.
+
+
+
+A Brief Rules Interpretation Note on Hits with the Bell Guard in Sabre 
+
+Date: February 2025
+
+Applicability: USA Fencing domestic sabre competitions
+
+
+
+
+This brief note is intended to provide guidance to USA Fencing sabre referees to better align domestic calls with international refereeing practices regarding penalties assessed when a fencer follows through on a cut and makes contact between their bell guard and their opponent’s mask. For the past several seasons, the FIE has been offering guidance to sabre referees to treat this situation as a rule infraction in the 1st group. The first instance a fencer commits an infraction in the 1st group in a bout, the fencer is penalized with a yellow card (warning), while subsequent infractions in the same bout are penalized on each instance with a red card (penalty touch).
+
+The USA Fencing Referees’ Commission is offering similar guidance to referees of USA Fencing sabre competitions, to align rules enforcement domestically and internationally. This provides a consistent competition environment for athletes, coaches, referees, and spectators across levels and between tournaments.
+
+See above articles and rules for more details

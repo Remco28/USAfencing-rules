@@ -1,0 +1,17 @@
+o.67
+  1    In all competitions for which the formula includes a round of pools, these pools consist of 7
+       fencers if the number of participants is divisible by 7. Otherwise the pools are of 7 and 6. In no
+       case may the pools be of fewer than 6 fencers.
+
+       If, however, as the result of the absence of one or more fencers, one or more pools were to be
+       reduced to 5 or fewer fencers, the Directoire Technique must add to these pools one or more
+       fencers from other pools of 7 fencers in the same round of pools, taking into account the initial
+       ranking of the fencer(s) being replaced.
+
+       Depending on the number of participants, the pool round may take place over several rounds.
+       The Directoire Technique must then provide for each pool round, pools of 7 and 6 (if applicable)
+       in order to balance one or more pools in the event of fencers absent at roll call in pools of 6.
+  2    At World Cup and Grand Prix competitions the organising country may add the necessary
+       number of fencers of their own nationality for all the pools to consist of 7 fencers.
+
+       Composition of pools

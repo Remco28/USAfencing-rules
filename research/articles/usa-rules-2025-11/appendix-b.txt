@@ -1,0 +1,192 @@
+APPENDIX B TO THE MATERIAL RULES
+                       Characteristics of Scoring apparatus
+      The installation of a clock and a system for showing the score are both obligatory for the
+      homologation of scoring apparatuses; they must be visible to the spectators.
+
+                                               A. Foil
+                 1. The Central Judging Apparatus (cf. m.51)
+      Principles
+      1.   The apparatus registers when a break occurs in the circuit of the foil, that is to say that the
+           electrical current which is circulating permanently in the foil circuit is broken when a
+           touch is made.
+      2.   The apparatus will show a red signal on one side and a green signal on the other when a
+           touch is registered on target; white signals will indicate touches off the target on either
+           side.
+      3.   The audible signals will consist either of a short ring, or of a continuous note which will
+           be automatically limited to two seconds. Either sort of sound will occur whenever a visual
+           signal appears. The sound signal must be identical for both sides of the apparatus.
+      4.   After registering a touch, whether on target or off target, the apparatus must no longer be
+           able to register a subsequent touch on target on the same side of the apparatus.
+      5.   No priority must be indicated between a touch registered against one competitor and a
+           touch registered against their opponent.
+      6.   After a period of time of 300 milliseconds (± 25 milliseconds tolerance) after the first touch
+           signaled by the apparatus (this period of time bears no relationship to “fencing time”
+           which is the basis of judging according to the conventions governing foil fencing), the
+           latter must ignore all signals for subsequent touches. b)
+      Sensitivity and regularity
+      1.   Any touch must cause a signal whatever the resistance of the circuits external to the
+           apparatus. The duration of the break of contact which must always ensure that a signal is
+           registered must be 14 milliseconds (± 1 ms of tolerance).
+           Depending on the increase in the resistance, the apparatus may register:
+               1)   a valid touch only;
+               2)   a valid touch and a non-valid touch simultaneously;
+               3)   a non-valid touch only.
+           The resistance must always be less than 500 ohms for 1) and 2).
+      2.   The registering of a valid touch must be guaranteed when there is a break of contact of 13
+           to 15 milliseconds, when the exterior resistance is between of 0 and 500 ohms.
+     3. The contact time is the same for valid and non-valid touches.
+USA Fencing Rules for Competition              182                                   Version: November 2025
+           A break of contact of duration of 14 milliseconds (± 1 ms) must always ensure that a signal
+           is registered, when the exterior resistance is between 0 and 200 ohms.
+      4.   The apparatus must be capable of supporting an increase in the resistance in the closed
+           circuit of the foils of up to 200 ohms, without causing a “non-valid” signal to register.
+      5.   Even if the resistance of the foil earth circuit is increased up to 100 ohms, none of the
+           following irregular phenomena must occur:
+           —   that touches are registered on the guard or on the strip;
+           —   that it is possible to obtain the registration of a touch merely by contact of the blade
+               or the pointe d’arrêt (without depressing it) on the conductive jacket of either
+               competitor.
+      6.   When the blades are in contact, irrespective of the resistance in ohms between them, the
+           apparatus must be capable of registering normally the touches exchanged, valid and non-
+           valid.
+      7.   A specification for tests of apparatus under different conditions will be supplied on
+           request by the SEMI Commission of the FIE.
+      8.   A specification for tests also includes the control of functioning of the yellow lamps.
+      9.   The Congress of the FIE has authorized this Commission to modify or complete the above
+           requirements whenever technical improvements allow the construction of apparatus
+           which can ensure the better operation of the electrical foil judging apparatus.
+
+
+
+
+USA Fencing Rules for Competition                  183                              Version: November 2025
+          A.2. Anti-Blocking Type Central Judging Apparatus
+This apparatus must conform to the requirements of the rules set out in Articles m.44–m.51 inclusive,
+as well as paragraphs a) “Principles” and b) “Sensitivity and regularity” above, with the exception of
+point 6 of paragraph b).
+Even if a fault in the insulation in a fencer’s equipment causes a short between their conductive jacket
+and their weapon, the apparatus should still be capable of registering both valid and non-valid
+touches.
+Depending on the resistance of the return circuit of the opponent’s foil, the apparatus must register a
+valid touch up to 200 ohms and non-valid touches above this value.
+The apparatus must be equipped with two yellow lamps regulated as follows. The yellow lamp
+on the side of either fencer must automatically light up and remain alight as soon as the resistance
+between the conductive jacket of that fencer and their weapon is less than 450 ohms. When this
+resistance is in excess of 475 ohms, the yellow lamp should never light up.
+These yellow lamps serve only to indicate insulation faults.
+If one or both of the yellow lamps remain lit up, the Referee must stop the bout and call the technical
+experts on duty to eliminate the fault.
+The yellow lamps must not indicate any contact between the fencer’s conductive jacket and the
+conductive strip.
+
+
+
+
+USA Fencing Rules for Competition                 184                              Version: November 2025
+                                               B. Épée
+Principle
+      The apparatus registers when contact is established between the wires forming the circuit in
+      the épée, thus completing the circuit.
+Timing
+      The apparatus must register only the first touch which is made. If the interval of time
+      between two touches is less than 40 milliseconds (1/25th of a second), the apparatus must
+      register a double touch (both signal lamps must light up simultaneously). When the interval
+      is greater than 50 milliseconds (1/20th of a second) the apparatus must register only one touch
+      (only one signal lamp is lit). The tolerance allowed for timing the apparatus is that between
+      these two limits (1/25th and 1/20th of a second).
+Sensitivity
+      When the external resistance is normal, that is 10 ohms, the apparatus must register touches
+      when these are made with a duration of contact of 2–10 milliseconds. With an exceptional
+      external resistance of 100 ohms the apparatus must still register a touch, but without any
+      specific duration of contact.
+      The apparatus must not register signals of less than 2 milliseconds duration.
+Non-registration
+      The apparatus must not register touches which are made on the earthed material (on the
+      guard or on the conductive strip), even when there is a resistance of 100 ohms in the earth
+      circuit. e)
+Visual signals
+      1.    Visual signals include at least two signal lamps on each side of the apparatus, so designed
+            that if one lamp does not function it does not prevent the other from lighting up nor cause
+            an excessive current through the latter.
+      2.    The signal lamps should give a red signal on one side of the apparatus and a green signal
+            on the other.
+      3.    The apparatus should have a pilot light to show that it is switched on. This light should be
+            dim and not colored.
+      4.    The apparatus may include lights which indicate shorts. These should be orange in color.
+      5.    The light-bulbs which show when touches are registered are usually covered with
+            translucent shades. It must, however, be possible to remove these shades and use naked
+            lights, when the light conditions in the locality make it desirable to do so (strong sunlight
+            or, exceptionally, in the open air). f)
+Audible signals
+      The apparatus must have a loud sound signal. The apparatus may include a device which
+      allows the sound signal to be stopped before the apparatus is reset.
+
+
+
+USA Fencing Rules for Competition                  185                               Version: November 2025
+                                               C. Sabre
+Principles
+      1.     The apparatus works by contact between any uninsulated part of the sabre and the
+             conductive surface of the opposing fencer’s jacket, glove and mask.
+      2.     For touches made on these valid conductive surfaces, the apparatus shows a red light on
+             one side and a green light on the other.
+             If the guard or blade of a fencer’s sabre is in contact with the conductive surface of their
+             own equipment (signaled by a yellow light), a valid touch made by that fencer must still
+             register.
+      3.     The audible signal will consist of either one short ring or a continuous note lasting 1–2
+             seconds, simultaneous with the light signals. The sound will be the same for both sides of
+             the apparatus.
+      4.     Touches made on non-conductive surfaces must not be signaled.
+      5.     The apparatus must be equipped with two yellow lamps, one on each side, which will
+             indicate a contact between the guard or blade of a fencer’s sabre and the conductive
+             surface of their own equipment.
+      6.     The apparatus must be equipped with two white lamps, identical to those on a foil
+             apparatus, which if permanently illuminated, accompanied by a sound signal, indicate
+             any abnormal electrical change in circuits B and C of the fencer at fault.
+      7.     The apparatus must not signal a touch made by the blade whipping over to touch the
+             opponent while in contact with their blade or guard.
+      8.     After a touch has been registered, a subsequent touch made by the other fencer will only
+             be registered if it occurs within a maximum delay of 170 milliseconds (± 10 ms of
+             tolerance).
+      9.     When the two blades touch, all the other rules should be strictly applied.
+      10. The SEMI Commission of the FIE reserves the right to change the rules governing the
+          apparatus, either to simplify or to improve its performance.
+Sensitivity and regularity
+      1.     The duration of contact during which a signal should be ensured should be 0.1–1
+             milliseconds. These times may be varied in the light of experience and of laboratory tests
+             carried out by the SEMI Commission.
+             An apparatus will be rejected if a touch can be registered with a duration of contact of less
+             than 0.1 milliseconds (time subject to modification).
+      2.     The apparatus should allow an increase in the exterior resistance of the connections up to
+             100 ohms without any drawbacks.
+      3.     Should a fault in the insulation, down to 0 ohms, cause a leakage of current between a
+             fencer’s valid conductive surface and their weapon, the apparatus should still be capable
+             of registering all touches exchanged. The insulation fault will be signaled by the
+
+
+USA Fencing Rules for Competition                   186                              Version: November 2025
+           illumination of the yellow lamp on the side of the fencer whose equipment is at fault
+           when the resistance is 0–450 ohms.
+           The registering of a valid touch on the guard or blade of the fencer at fault will be allowed
+           provided that the electrical resistance between the guard or the blade and the valid
+           surface is less than 250 ohms.
+      4.   The apparatus should still function when the blades are in contact, or if there is contact
+           between the blades and the guards, or between the two guards.
+      5.   If the contact between the blade and the opponent’s target takes place “through the
+           blade,” the apparatus:
+           —   will register the touch between 0 and 4 ms (+ 1 ms);
+           —   will prevent the touch being registered between 4 and 15 ms (+ 5 ms), on condition
+               that the contact between the two blades is not interrupted more than a maximum of
+               10 times in the interval.
+      6.   Should there be a touch made by the whipping over of the blade which has not been
+           signaled, whatever method has been used to prevent the signaling, after 15 ms (± 5 ms)
+           from the contact of the blade with the valid target (the time for the registering of the whip)
+           and unless there has been another touch, the apparatus should allow the normal
+           registering of any subsequent touches.
+      7.   A break in the control circuit (defined as more than 250 ohms) for 3 ms ± 2 ms will be
+           signaled by the illumination of the white lamp on the side of the fencer at fault.
+
+
+
+
+USA Fencing Rules for Competition                 187                              Version: November 2025

@@ -1,0 +1,6 @@
+t.151
+      1   A competitor who is excluded from a tournament will no longer be allowed to participate in any
+          competition during that tournament, either at the same weapon or another.
+      2   When this penalty is imposed on a team, the position of each member of that team must be
+          examined individually, and the members of that team may, according to the circumstances,
+          have different penalties imposed on them (cf. t.130).

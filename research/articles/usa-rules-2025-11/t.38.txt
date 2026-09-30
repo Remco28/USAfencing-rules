@@ -1,0 +1,29 @@
+t.38
+       In the pools a bout ends when:
+USA Fencing Rules for Competition                   15                               Version: November 2025
+       1.   One of the fencers has scored 5 touches.
+            a)   In this case the score registered on the scoresheet is the final score of the bout (V–n,
+                 where n = the number of touches scored by the losing fencer).
+            b)   In épée, if the two fencers reach a score of 4–4, they must fence for a deciding touch,
+                 up to the time limit. Any double touch will not be counted (and the fencers will
+                 therefore remain where they are on the strip).
+       2.   Three minutes of effective fencing time have passed.
+            a)   If when the time limit expires there is a difference of at least one touch between the
+                 scores of the two fencers, the fencer who has scored the greater number of touches is
+                 declared winner. The score registered on the scoresheet is the actual score achieved in
+                 the bout (VN – n, where N = the number of touches scored by the winning fencer and
+                 n = the number of touches scored by the losing fencer).
+            b)   If at the end of regulation time the scores are equal, the fencers fence for a deciding
+                 touch, with a maximum time limit of one minute. Before the fencing recommences,
+                 the Referee draws lots to decide who will be the winner if scores are still equal at the
+                 end of the extra minute.
+
+
+       In épée, during this minute, when double touches occur, points will not be awarded, the score will not
+       change, and the fencers will retain their respective positions on the strip.
+
+
+            c)   In this case the score registered on the scoresheet is always the actual score achieved
+                 in the bout:
+                 — VN – n if a deciding touch is scored within the time limit for the bout.
+                 —    V4–4 or V3–3 or V2–2 or V1–1 or V0–0 if the winner is designated by drawing lots.

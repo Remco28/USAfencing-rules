@@ -1,0 +1,32 @@
+m.55. 1. The maximum electrical resistance of each wire of the spool, measured from
+          socket to socket, must be 3 ohms.
+
+      2. There must be no interruption of electrical contact even when the spool is being
+         rotated at full speed. To ensure this the contact rings must have double brushes.
+         The wire connected to the earth circuit of the weapon will be connected to the
+         frame of the spool.
+
+      3. The spools must allow 20 m of cable to be unwound without straining the springs.
+
+      4. The socket which terminates the spool cable, and is designed to receive the plug of
+         the bodywire at the fencer’s back, must include a safety device which fulfils the
+         following requirements:
+
+           — that it is impossible to use it unless the plug is correctly put in;
+
+           — that it is impossible for it to become separated during the bout;
+
+           — that it is possible for the competitor to verify that the two foregoing
+             requirements are satisfied.
+
+      5. The resistance of each of the three wires in the connecting cables must not exceed
+         2.5 ohms.
+
+      6. The plugs used to connect the bodywire to the spool wire and the connecting
+         cables to the spools and to the apparatus must have three pins of 4 mm diameter
+         arranged in a straight line. The outer pins must be spaced 15 and 20 mm
+         respectively from the centre pin. The bodywire and the connecting cables have
+         plugs, the spool wires and the central electrical apparatus have sockets to them.
+
+      7. The use of suspended cables instead of spools is permitted, provided that the
+         conditions already mentioned are satisfied.

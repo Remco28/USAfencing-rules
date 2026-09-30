@@ -1,0 +1,8 @@
+o.80
+       1.   In each round of the direct elimination table (256, 128, 64, 32, 16, 8 or 4), the bouts are
+            always called in the order of the bout plan, starting at the top and ending at the bottom.
+       2.   This rule must also be applied for each quarter of the table, when the direct elimination is
+            taking place simultaneously on 4 or 8 strips.
+       3.   A fencer must always be allowed a rest period of ten minutes between two consecutive
+            bouts.
+       The final

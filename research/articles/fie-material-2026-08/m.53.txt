@@ -1,0 +1,31 @@
+m.53. 1. Having chosen the manufacturer with which it wants to deal, the Organising
+         Committee of a World Championship immediately advises the President of the
+         SEMI Committee of the FIE who in turn contacts this firm to obtain, as soon as
+         possible, a prototype of the desired model.
+
+          The control of the fencing apparatuses must be done before the competition using a
+          checking device that is able to verify that the fencing apparatuses fulfil all
+          requirements related to reaction times and electrical resistances.
+
+      2. The report on the checking of the apparatus is always presented to the
+         manufacturer by the President of the Committee within one month of the apparatus
+         being received.
+
+      3. There are then two possibilities:
+
+           a) The proposed apparatus is accepted by the Committee, in which case the other
+              apparatuses can be manufactured like the prototype.
+
+           b) The apparatus does not conform to the requirements, in which case it must be
+              modified and re-submitted to the Committee for a new examination.
+
+      4. When all the apparatuses are ready and before they are sent out, the President of
+         the SEMI Committee must be notified, so that he can document the checking of
+         the apparatuses before they leave the factory. Each apparatus comes with a test
+         report giving the different specifications concerning the registering time in
+         milliseconds and the resistance in ohms of the external circuits before registering a
+         non-valid hit.
+
+
+          The person in charge of verification ticks off every apparatus and makes a note of
+          its number.

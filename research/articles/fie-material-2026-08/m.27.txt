@@ -1,0 +1,23 @@
+m.27.1. The mesh of the mask must not extend below the chin. It must be insulated
+      internally and externally by a plastic material resistant to impact.
+
+      2. The part of the bib that is beneath a horizontal line 1.5 - 2 cm below the chin, must
+         be entirely covered with a material that has the same conductive characteristics as
+         the conductive jacket.
+
+      3. Means of connection: the electrical contact between the conductive jacket and the
+         bib of the mask must be ensured by means of a white coloured or clear covered
+         wire with two crocodile clips. The wire must be attached to the bib of the mask
+         with one crocodile clip and to the jacket with the other. This wire must be between
+         30cm and 40cm long.
+
+          A coiled mask wire is not allowed.
+
+         The crocodile clips, the design and size of which must conform to the conditions
+         laid down in Article m.29.2(c), must be soldered to the ends of the wire. In
+         addition, the electrical resistance in this wire (between the two crocodile clips)
+         must not exceed 1 ohm.
+
+
+
+      Conductive jacket

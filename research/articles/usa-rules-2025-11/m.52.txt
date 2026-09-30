@@ -1,0 +1,17 @@
+m.52
+       1.   For official FIE competitions, the organizing committee must provide a minimum
+            number of electrical judging apparatus equal to the number of strips plus at least two
+            spare apparatus. All the apparatus must be in perfect working order, and of a type
+            approved for the World Championships.
+       2.   As soon as a member federation is selected to organize an official FIE competition, it
+            would do well to contact the President of the SEMI Commission immediately in order to
+            obtain the names of manufacturers whose electrical apparatus is accepted by the
+            Commission.
+       3.   The Organizing Committee usually prefers combined apparatus, which can be used for all
+            three weapons. The Organizing Committee must choose a manufacturer who will provide
+            good quality equipment for the smooth technical running of competitions; this equipment
+            must be approved by the SEMI Commission.
+       4.   For official FIE competitions (cf. t.1), the apparatus must obligatorily be powered through
+            external batteries or UPS (uninterruptible power supply) with minimum 5 minutes
+            backup time.
+       Checking of apparatus

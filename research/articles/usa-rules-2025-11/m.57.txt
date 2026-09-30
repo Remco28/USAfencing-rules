@@ -1,0 +1,40 @@
+m.57
+       1.    The conductive strip must be made from metal, metallic mesh or some substance that is
+             conductive. The resistance of the strip, from one end to the other, must not exceed 5 Ω.
+       2.    The conductive strip must cover the whole of the length and breadth of the strip including
+             its extensions, in order to neutralize floor touches.
+       3.
+             a)    When the strip is mounted on a platform the conductive surface must cover the
+                   whole width of the platform.
+             b)    The platform must not exceed 50 cm in height, and must be wider than the fencing
+                   strip itself by at least 25 cm on each side. Each end of the podium must be equipped
+                   with a gentle slope right down to ground level.
+       4.    Because the amount of wire which the reels can carry is limited, the conductive strip is
+             designed for use on a strip 14 m long; an extension of 1.5–2 m is added at each end of the
+             strip to allow the fencer crossing the rear limits of the strip to retire on an even and
+             unvarying surface. The conductive strip must therefore have a length of 17–18 m.
+       5.
+            a)    It is preferable to lay the conductive strip on a wooden base with some flexible
+                  material between. It must be provided with some device which enables it to be kept
+                  well stretched.
+            b)    The wooden bases are 12–15 cm above ground level. Their sides must not be sloping.
+            c)    It is preferable to have a metal strip, screwed down if possible, which will keep down
+                  the edges of the conductive strip along the entire length of the base on both sides.
+            d)    Strips made of metallic mesh must never be placed directly on a floor of reinforced
+                  concrete or tiles.
+       6.    The paint used to draw the lines on the conductive strip must not prevent its electrical
+             conductibility, so that a touch made on it at a point where a line occurs is also neutralized.
+       7.    The organizers must have equipment for the immediate repair of the strip available on the
+             spot.
+       8.    There must be no roller or any sort of obstacle at the ends of the conductive strips which
+             could prevent the fencers from retreating normally.
+       9.    Strips used in the World Championships and in the Olympic Games must be tested before
+             competition by SEMI Commission Delegates using the Slip-Meter.
+       10. The specifications of the Slip-Meter must fulfill the specifications defined in the
+           homologation manual.
+
+
+
+USA Fencing Rules for Competition                    156                              Version: November 2025
+                                             Chapter 4
+                               Source of Electrical Current

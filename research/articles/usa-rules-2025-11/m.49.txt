@@ -1,0 +1,4 @@
+m.49
+            The approval of an apparatus by the SEMI Commission as well as its acceptance implies
+            no guarantee against possible faults of construction, or against its use with a source of
+            electrical current other than batteries (cf. m.58).

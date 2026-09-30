@@ -1,0 +1,7 @@
+t.92
+       When both competitors are touched, and the apparatus registers both these touches as
+       valid, there is a double touch, that is to say a touch is scored for each competitor.
+
+
+USA Fencing Rules for Competition                   39                               Version: November 2025
+       The annulment of touches

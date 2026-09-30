@@ -1,0 +1,23 @@
+m.32
+       1.   The metal mesh of the mask must not be insulated and must ensure electrical
+            conductivity.
+       2.   The bib and any trim must be entirely covered with conductive material with the same
+            electrical characteristics as the conductive jacket.
+       3.   The trim may also be made of conductive material.
+       4.   The electrical contact between the conductive jacket and the mask must be ensured by
+            means of a wire and one or two crocodile clips. The wire must be attached, either by
+            means of a crocodile clip or by being soldered, to the mesh of the mask, and must be
+            between 30 cm and 40 cm long. In the case of a coiled cable, the maximum length of the
+            free cable must not exceed 25 cm in length, with a tolerance of ± 5 cm.
+       5.   The electrical resistance between the crocodile clip and any point on the mask must be
+            less than 5 Ω. The crocodile clip, the design and size of which must conform with the
+            conditions laid down in Article m.29, must be soldered to the other end of the wire. In
+            addition, the electrical resistance in this wire (between crocodile clip and crocodile clip or
+            crocodile clip and soldering) must not exceed 1 Ω. The wire must be white colored or
+            clear.
+
+
+       At USA Fencing tournaments, there is no restriction on the color of the mask cord. It may be any color.
+
+
+       Glove

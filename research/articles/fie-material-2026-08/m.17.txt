@@ -1,0 +1,14 @@
+m.17 1. The guard, which must have a circular edge, must be able to pass through a
+         cylindrical gauge having a diameter of 13.5 cm and a length of 15 cm, the
+         blade being parallel to the axis of the cylinder. The depth of the guard (the
+         distance between lines B and C) must be between 3 cm and 5.5 cm (cf.
+         m.3).
+
+      2. The total length between lines A and C must never be greater than 95.5 cm
+         (cf. m.3).
+
+      3. Eccentric mounting is allowed provided the distance between the centre of
+         the guard and the point where the blade passes through the guard does not
+         exceed 3.5 cm.
+
+      Electric wires

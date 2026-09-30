@@ -1,0 +1,66 @@
+Notification:                                                    fencers. See the table below for a breakdown of the
+ 1. Local sanctioned tournaments must be adver-                  pool sizes to be used.
+ tised for a minimum of fourteen days in order to                • For seeding, rather than using rating followed by
+ have rating changes processed by the National                   both birth year and month as was previously an-
+ Office. Club or division websites, social media, and            nounced, fencers will be seeded first by their rating
+ public online tournament registration platforms                 and then by birth year only. All unrated fencers will
+ are all valid methods of advertising. If the tourna-            be seeded according to birth year and then ran-
+ ment is size restricted, as defined in the Competi-             domly for fencers that have the same birth year.
+ tion Types below, it must be published 30 days in               • In the event of an absolute tie at the break point
+ advance for rating changes to be processed by the               for the two pools, the fencers placed in the top and
+ National Office.                                                bottom pool will be randomly determined. In Fenc-
+  2. Format must be announced when published.                    ing Time, this will be done by the software. This
+                                                                 will be done to avoid a barrage, as this was not
+  3. Format must be announced at the start of the                determined to be a developmentally appropriate
+  tournament.                                                    format for the Y8 category.
+  4. Must meet divisional rules for sanctioning.                 • After the first round, the second set of pools will
+                                                                 be constructed based on results from the first
+Consequences for failure to follow                               round, with the top N fencers in the first pool. The
+the above rules:                                                 next group is placed in the second pool, and the
+  1. Division can remove sanction and void any rat-              third in the pool after that (if applicable), until all
+  ings potentially earned.                                       pools have been constructed.
+  2. Regional tournament organizers who fail to                  • Athletes then fence against the other fencers in
+  follow the rules should be reviewed by the National            their pool to determine final placement.
+  Office and possibly be eliminated from consider-               • Athletes in the top pool will fence off for places
+  ation for holding an event the following year.                 1-N.
+  3. Divisions who chronically fail to follow the rules          • Athletes in the second pool will fence off for plac-
+  for qualifiers should be reviewed by the Tourna-               es N+1 through (2N).
+  ment Committee and the National Office, who may             • In the top pool, there is a 4th place. Ordinarily we
+  require an observer be assigned for future such             do not fence off to 4th, but in this format, a fencer can
+  events, all expenses to be covered by the division.         finish in 4th place.
+
+Approval of tournament formats not listed above:              SHARKS & MINNOWS
+Tournament Committee subcommittee may be em-
+paneled to hear proposed new tournament formats in
+                                                              TOURNAMENT FORMAT
+                                                              This tournament format is two rounds of pools, fol-
+two steps:
+                                                              lowed by a direct elimination tableau. The first round
+  1. Provisional approval to judge effectiveness.
+                                                              of pools is seeded per normal USA Fencing tourna-
+  2. As appropriate, addition to above approved tour-         ment standards.
+  nament list.                                                    Example (Fencers A-Q, seeded in order)
+                                                                  Pool 1: A, F, G, L, M, R
+                                                                  Pool 2: B, E, H, K, N, Q
+Y8 DEVELOPMENTAL FORMAT
+                                                                  Pool 3: C, D, I, J, O, P
+The proposal approved by the Board of Directors also
+entailed a new competition format that was recom-
+                                                              The second round of pools contains two types, the
+mended by the YDRT for Y8 only.
+                                                              “shark” and “minnow” pools. The shark pool is the
+This format will be recommended for use by all Y8
+                                                              top-seeded fencers to come out of the first round.
+competition organizers for the 2025-26 season, with
+                                                                Example (Fencers A-Q, seeded in order)
+it becoming a required format beginning in 2025-26.
+                                                                “Sharks”
+The format will be referred to as the Youth Develop-
+                                                                Pool 1: A, B, C, D, E, F
+mental Format and will be run as follows:
+                                                                “Minnows”
+  • Fencers will compete in two rounds of pools with            Pool 2: G, J, K, N, O, R
+  no direct elimination.                                        Pool 3: H, I, L, M, P, Q
+  • Instead of 7- or 8-fencer pools, the Y8/Youth
+  Developmental format will use pools of 5 and 6
+                                    84 | USA FENCING | Athlete Handbook | 2026-2027

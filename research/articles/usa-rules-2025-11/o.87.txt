@@ -1,0 +1,17 @@
+o.87
+       1.   The main phase consists of an integral direct elimination table, which is fenced on four
+            strips, one quarter of the table per strip. The first round of the table of 64 may, however, if
+            required for the organization of the competition, be fenced on eight strips. Grand Prix
+            competitions must be fenced on (only) four strips.
+       2.   The seeded fencers exempted from the preliminary phase occupy places 1–16 in this
+            table, drawing lots in pairs in the order of their official FIE classification.
+       3.   Should one of the 16 exempted fencers who had been entered not present themself to
+            fence (cf. o.85) their position in the table will remain empty and their federation will be
+            required to pay to the FIE a fine (cf. o.31, table of financial penalties and fines) unless
+            their absence is caused by circumstances duly justified as being outside their control.
+       4.   The 16 fencers who have the highest indices after the round of pools and who are thus
+            exempt from the preliminary direct elimination table will take places 17–32, classified in
+            the order of their indices (in the case of a tie on indices, the fencers will be separated by
+            drawing lots).
+       5.   The 32 fencers qualifying from the preliminary direct elimination table will occupy
+            places 33–64, classified according to their indices after the round of pools.

@@ -1,0 +1,26 @@
+t.41
+       1.   Each “lap” (bout) of the relay match consists of five touches (5, 10, 15, 20, etc.);
+            Exceptionally, a relay may end at more than 5, 10, 15 etc. if a fencer scores a valid last hit
+            of the relay and is at the same time awarded an additional penalty hit: in this case both
+            hits will be counted; the maximum time for each bout is 3 minutes.
+       2.   The first two opponents fence until one or both have scored five touches, within the time
+            limit of 3 minutes.
+            The next two opponents fence until one or both of their scores has reached ten touches,
+            within the time limit of 3 minutes, and so on with successive bouts, cumulatively, of five
+            touches.
+       3.   If by the expiration of 3 minutes of fencing time the intended score for the bout has not
+            been achieved, the next two fencers take up the score where it was left off and fence up to
+            the maximum score intended for their bout as normal, within the time limit of 3 minutes.
+       4.   The winning team is that which first reaches the maximum score of 45 touches, or that
+            which has scored the greatest number of touches after the expiration of regulation time.
+       5.   If at the end of regulation time for the last bout the scores are equal, the match continues
+            for a deciding touch, with a maximum time limit of one minute, fought for by the fencers
+            of the last bout in the match. Before the fencing recommences the Referee draws lots to
+            decide who will be the winner if scores are still equal at the end of the extra minute.
+
+
+       In épée, during this minute, when double touches occur, points will not be awarded, the score will not
+       change, and the fencers will retain their respective positions on the strip.
+
+
+       Veterans

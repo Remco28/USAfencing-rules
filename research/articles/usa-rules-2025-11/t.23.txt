@@ -1,0 +1,16 @@
+t.23
+       1.   The start of the bout is signaled by the word “Fence.” No movement made or initiated
+            before the word “Fence” is counted.
+       2.   The bout stops on the word “Halt,” except in the case of special events occurring which
+            modify the regular and normal conditions of the bout (cf. t.44.1/2).
+       3.   As soon as the order “Halt” has been given, a competitor may not start a new action; only
+            the movement which has begun before the order was given remains valid. Everything
+            which takes place afterwards is entirely non-valid (But cf. t.44.1/2).
+       4.   If a competitor stops before the word “Halt,” and is touched, the touch is valid.
+       5.   The order “Halt” is also given if the fencing of the competitors is dangerous, confused, or
+            contrary to the Rules, if one of the competitors is disarmed or leaves the strip (cf. t.33,
+            t.58).
+       6.   The Referee may not allow a fencer to leave the strip, save in exceptional circumstances. If
+            a competitor does so without permission, the competitor is liable to incur the penalties
+            enumerated in Articles t.158-162, t.165, t.170, for the offenses in the 1st group.
+       Fencing at close quarters

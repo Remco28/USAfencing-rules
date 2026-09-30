@@ -26,7 +26,7 @@ Diagrams do not establish facts, resolve priority or replace rule wording.
 ## Sources and audit
 
 Domestic source: preserved November 2025 USA Fencing rulebook and
-`build/rules.txt`. USA Fencing's official rules page still identifies that edition
+`research/extracted/usa-rules-2025-11.txt`. USA Fencing's official rules page still identifies that edition
 as its current full rulebook (checked September 30, 2026). The completed
 October-update audit is shared at `RULE-UPDATES-2026-10.md`; those findings are not
 rediscovered or silently extrapolated to every international change.
@@ -102,3 +102,13 @@ conditions, missing vocabulary, weapon selection, fast lookup and review wording
 
 These checks do not certify every explanation as an official interpretation.
 Human review of the conditions and procedural wording is part of this release.
+
+## Research phase
+
+The shared [source library](../research/README.md) now has pinned publisher
+documents, complete extracts and a cited [scenario inventory](../research/scoring/INVENTORY.md).
+Read [research findings](../research/scoring/FINDINGS.md) before expanding content.
+In particular, the 2026–27 Operations Manual gives a more detailed domestic
+on-strip protest route than the original guide's blanket Head Referee wording.
+That procedure needs reconciliation and revision; the original release checks
+validated the implementation, not completeness of procedural interpretation.

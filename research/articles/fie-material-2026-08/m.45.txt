@@ -1,0 +1,7 @@
+m.45. Only electrical apparatus designed with wires connecting the fencers to the central
+      apparatus and registering hits by light signals with auxiliary sound signals are
+      authorised, except for apparatus without wires using encoded waves authorised by the
+      SEMI. This excludes other apparatus based on wireless waves and those which
+      register sound signals only.
+
+      Approval of designs of apparatus

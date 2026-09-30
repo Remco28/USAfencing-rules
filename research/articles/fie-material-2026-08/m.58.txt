@@ -1,0 +1,19 @@
+m.58. 1. The apparatus must be based on a 12 volt supply (± 5%) or, if the sources of current
+          for each side of the apparatus are separate, on 2 x 12 volts or 2 x 6 volts. (The
+          separation of the supply for each side of the apparatus is recommended because it
+          can simplify a number of problems met in the construction of apparatus for foil.)
+
+
+      2. The apparatus may include warning lights to indicate that it is switched on. Such
+         lights should be colourless.
+
+       3. If the apparatus is constructed to operate with dry batteries, it must be equipped
+       with a voltmeter or some other device enabling the power in the batteries to be
+       checked at any moment. However, the apparatus must always be equipped with a
+       socket, to allow it to be powered either by 12 V DC via AC/DC converter or through
+       VRLA batteries.
+
+      4. Generally, if the apparatus is powered by batteries or UPS (Uninterruptible power
+         supply), the minimum backup time for the external batteries or UPS is 5 minutes.
+
+                           CHAPTER 5. EXTENSION LAMPS

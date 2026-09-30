@@ -1,0 +1,5 @@
+t.65
+       1.   In pools, this checking must be done at the roll call of the fencers. For bouts in the direct
+            elimination and the finals this checking must be done in the assembly area.
+       2.   For bouts in the direct elimination and the finals this checking must be done in the
+            assembly area.

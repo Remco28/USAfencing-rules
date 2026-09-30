@@ -39,3 +39,12 @@ Review the first collection using `human_feedback/round-2026-10-scoring/index.ht
 Use real searches and referee feedback to expand verified cases. Detailed foil and
 sabre priority, final-score/time outcomes and complete video procedure remain
 outside the initial scope; add them only with a clause audit and retrieval tests.
+
+## Scoring research phase completed
+
+Collected and organized official sources under `research/`; extracted the full
+USA technical rules and scoring material/organization context; built a cited
+scenario inventory with facts, draft terms, limits and open questions. See
+`research/scoring/FINDINGS.md`. Next decisions follow the research review.
+The on-strip appeal route needs reconciliation with the 2026–27 Operations
+Manual before expanding procedural advice. Published cases remain unchanged.

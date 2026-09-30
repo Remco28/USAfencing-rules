@@ -1,0 +1,6 @@
+t.10
+            The action is simple when it is executed in one movement and is:
+            —    either direct (in the same line),
+            —    or indirect (in another line).
+            The action is compound when it is executed in several movements.
+       The riposte

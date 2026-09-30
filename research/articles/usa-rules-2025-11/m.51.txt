@@ -1,0 +1,50 @@
+m.51
+       1.   A touch made on the conductive strip or on the metallic parts of the weapon must not be
+            registered by the apparatus, nor may it prevent the registering of a touch made
+            simultaneously by the opponent. In foil, a touch made on a part of the foil may register if
+            an uninsulated part of the weapon of the fencer is in contact with their conductive jacket.
+       2.   The apparatus must not have any device whereby anyone other than the person detailed
+            to supervise it can interrupt its working during a bout.
+       3.   Touches are registered by visual signals. The signal lamps must be placed on the top of
+            the apparatus, in order that they may be visible to the Referee, the competitors and the
+            superintendent of the apparatus. They must be so positioned that they show clearly from
+            which side the touch was made. Arrangements must be made so that extension lamps can
+            be added to the exterior of the apparatus, in order to increase the visibility of the signals.
+       4.   Once the signal lamps are alight, they must so remain until the apparatus is reset, without
+            their having any tendency to go out or flicker either when subsequent touches are made
+            or if the apparatus is subjected to vibrations.
+       5.   The visual signals must be accompanied by audible signals (cf. Appendix B).
+       6.   The resetting switches must be placed either on top of or on the front part of the
+            apparatus.
+       7.
+            a)   For official competitions of the FIE (cf. t.1), the source of power must always be
+                 secured through external batteries or UPS (uninterruptible power supply) in order
+                 not to interrupt the load during the match if any interruption occurs in the normal
+                 electricity supply. The wiring of the apparatus to be powered in this way must be
+                 designed so that it is impossible for the apparatus to become connected by mistake
+                 directly to the mains supply.
+            b)   All fencing salles, clubs, etc., and the organizers of training sessions or competitions
+                 involving weapons using electrical equipment, may use the current supplied by the
+                 mains on condition that they adhere strictly to the technical standards laid down on
+                 the subject by their countries and international communities.
+       8.
+            a)   If the clock is not incorporated in the electrical judging apparatus, the apparatus
+                 must have a system for linking in an external clock. This clock must be powered by
+                 electricity from a 12 volt battery. A disconnection of the wiring which links the clock
+                 to the apparatus must cause, simultaneously, the blocking of the apparatus which
+                 registers touches, in a manner which preserves what it has registered up to that point,
+                 and the stopping of the clock.
+            b)   To allow the apparatus to be used when it is not connected to the clock, there must
+                 be a switch in the interior of the apparatus which can change its operating mode (cf.
+                 t.32, m.44).
+       9. For the finals of official competitions of the FIE, the clock must be equipped with a
+          system which connects it to some external extension clocks displaying large luminous
+USA Fencing Rules for Competition                 152                              Version: November 2025
+            numbers, and with another system for the connection of the audible signal. These two
+            connection systems must be separated from the circuits situated inside the central
+            judging apparatus by means of opto-couplers (cf. t.32, m.44).
+       10. When the cable connecting the audible-signal apparatus to the clock is disconnected, the
+           audible-signal apparatus must emit a sound of between 80 and 100 decibels (measured at
+           the center line of the strip) lasting between 2 and 3 seconds, but the central judging
+           apparatus must not be blocked and the clock must not be stopped (cf. t.32, m.44, m.51.9).
+       Number and quality of judging apparatus

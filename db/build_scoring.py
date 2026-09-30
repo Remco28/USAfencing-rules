@@ -10,7 +10,7 @@ def normalized(text):
 
 def build():
     data = json.loads((ROOT / "db/scoring_cases.json").read_text())
-    text = (ROOT / "build/rules.txt").read_text()
+    text = (ROOT / "research/extracted/usa-rules-2025-11.txt").read_text()
     # Printed headers are extraction artifacts, not rule wording.
     text = re.sub(r"USA Fencing Rules for Competition[^\n]*", "", text)
     articles = {}

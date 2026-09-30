@@ -1,0 +1,25 @@
+t.98
+FIE
+                                                          33
+                                                                                                    August 2026
+
+
+               A hit which arrives on a non-valid part of the target is not counted as a hit; it is not registered
+               by the apparatus, it does not stop the fencing phrase and does not annul any subsequent hits.
+               However, a hit which arrives following a fencing fault or after going over the lateral boundary of the
+               piste with both feet is not counted as a valid hit, but it stops the fencing phrase and therefore
+               annuls any subsequent hit.
+
+
+
+
+                                                     Figure 6 Valid target at sabre
+
+               This diagram is for guidance purposes only. In case of any doubt the wording of the
+               appropriate text takes precedence.
+
+
+
+
+              JUDGING OF HITS
+              MATERIALITY AND ANNULMENT OF HITS

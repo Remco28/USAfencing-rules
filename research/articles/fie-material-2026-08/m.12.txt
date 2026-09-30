@@ -1,0 +1,42 @@
+m.12. 1. The base of the button must be screwed onto the end of the blade, which
+         must be cut and threaded for this purpose respecting the following
+         conditions.
+
+      2 Normally, only fixing by metal-to-metal is allowed. However, fixing by any
+        material of great mechanical strength may be authorised after approval by
+        the SEMI Commission of the FIE.
+
+      3 All methods of soldering or brazing or in general any heating which may
+        affect the temper of the blade are forbidden.
+
+
+
+                                                                                          14
+FIE                                                            August 2026
+
+
+
+
+        4 The end of the blade before cutting the thread must not have a diameter at
+          any point of less than 3.5 mm, and this without anything being wrapped
+          round it, a process which is strictly forbidden.
+
+        5 The diameter of the core of the thread must not be less than 2.7 mm
+          (thread SI 3.5 x 0.60). The threading must be very tight.
+
+        6 The part of the blade on which the button is fixed should be of a length of
+          7–8mm entirely covered by the button. It is recommended that only the half
+          of this length at the extremity of the blade be threaded. For the other half
+          the button will have a smooth surface of 3.5 mm diameter into which it
+          should take some force for the corresponding part of the blade to be
+          introduced.
+
+        7   At the point at which the wire passes into the button, the width of the
+            groove must not exceed 0.5 mm, and its depth must not exceed 0.6 mm
+            measured on the diameter of the core of the thread, in order to weaken as
+            little as possible the section of the blade.
+
+        8   Only the members of the SEMI Committee of the FIE or the Directoire
+            Technique can require the verification of the above points.
+
+        The insulation of the button, the blade and the handle

@@ -131,3 +131,12 @@ tests cover expected rankings, ambiguity, conservative typos, exact citations
 and unknown queries. Search never mutates reference fields or generates rulings.
 The one-time comparison against the pre-search Git snapshot confirmed all
 existing exported offense fields remained unchanged. See docs/SEARCH.md.
+
+## Source-library relocation — September 30, 2026
+
+Publisher PDFs and full text now live under `research/`; source IDs/legacy paths
+and SHA-256 hashes are in `research/sources.json`. The rulebook extract bytes and
+line positions are unchanged. Existing `rules.txt:<lines>` source pointers mean
+`research/extracted/usa-rules-2025-11.txt`. Builder input paths were updated;
+this organization change must leave all penalty and scoring runtime exports
+unchanged. `build/fig-*.png` remains the legacy extracted image staging area.

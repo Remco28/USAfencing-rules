@@ -51,6 +51,14 @@ agent-browser open http://localhost:8000
 agent-browser eval --stdin < tests/browser-check.js
 ```
 
+## Research library
+
+Source documents now live in [`research/`](research/README.md), organized by
+publisher and edition, with URLs, hashes, complete text, article/page locators
+and a [scoring research inventory](research/scoring/INVENTORY.md). Read the
+[findings and unresolved issues](research/scoring/FINDINGS.md) before expanding
+the guide. Research candidates are separate from published app content.
+
 ## Sources and accuracy
 
 The original November 2025 chart/rulebook transcriptions are preserved. Current
@@ -64,11 +72,12 @@ older excerpts as historical. Official rules take precedence.
 - [FIE Technical Rules, August 2026](https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf)
 - [USA Fencing rules and resources](https://www.usafencing.org/rules-compliance)
 
-Local PDFs and extracted text remain in the repository, including
-`FIE_Technical_Rules_August_2026.pdf` and `build/fie-technical-2026.txt`.
+Local PDFs and extracted text remain in the versioned `research/` library, including
+`research/sources/fie/2026-08-technical.pdf` and `research/extracted/fie-technical-2026-08.txt`.
 [Completed rule audit](docs/RULE-UPDATES-2026-10.md) records the exact clauses and
 verification. Do not repeat discovery without a new revision or concrete discrepancy.
-The athlete handbook remains outside this reference's scope. Diagrams are guidance;
+The athlete handbook contributes domestic scoring-format and scoresheet-procedure context;
+ratings and athlete-selection systems remain outside the apps' scope. Diagrams are guidance;
 written rules control. This is a family study reference, not a full-rulebook audit
 or a commercial redistribution project. Source excerpts retain USA Fencing attribution.
 
@@ -93,6 +102,7 @@ must not silently be presented as current where they conflict with an update.
 ## Human review
 
 - Existing app review: `human_feedback/round-2026-10-beginner-guide/index.html`.
+- Research review: `human_feedback/round-2026-09-30-scoring-research/index.html`.
 - Scoring review: `human_feedback/round-2026-10-scoring/index.html`.
 - Search review: `human_feedback/round-2026-10-search/index.html`.
 

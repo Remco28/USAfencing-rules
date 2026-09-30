@@ -1,0 +1,22 @@
+m.55
+       1.   The maximum electrical resistance of each wire of the reel, measured from socket to
+            socket, must be 3 Ω.
+       2.   There must be no interruption of electrical contact even when the reel is being rotated at
+            full speed. To ensure this, the contact rings must have double brushes. The wire connected
+            to the blade of the weapon will be connected to the frame of the reel.
+       3.   The reels must allow 20 m of cable to be unwound without straining the springs.
+       4.   The socket which terminates the reel cable, and is designed to receive the plug of the
+            bodycord at the fencer’s back, must include a safety device which fulfills the following
+            requirements:
+            —   that it is impossible to use it unless the plug is correctly put in;
+            —   that it is impossible for it to become separated during the bout;
+            —   that it is possible for the competitor to verify that the two foregoing requirements are
+                satisfied.
+       5.   The resistance of each of the three wires in the connecting cables must not exceed 2.5 Ω.
+       6.   The plugs used to connect the bodycord to the reel wire and the connecting cables to the
+            reels and to the apparatus must have three pins of 4 mm diameter arranged in a straight
+            line. The external pins must be spaced 15 and 20 mm respectively from the center pin. The
+            bodycord and the connecting cables have plugs, the reel wires and the central electrical
+            apparatus have sockets to them.
+       7.   The use of suspended cables instead of reels is permitted, provided that the conditions
+            already mentioned are satisfied.

@@ -1,0 +1,11 @@
+t.44
+       1.   At the expiration of the regulation fencing time, the clock must automatically set off a
+            loud audible signal, and automatically cut off the scoring apparatus, without canceling
+            touches registered before the disconnection. The bout stops with the audible signal.
+       2.   If the clock is not linked to the scoring apparatus, the timekeeper must shout “Halt” (or
+            operate a sound signal) which stops the bout; in this case, even a “coup lancé” is not valid.
+       3.   Should there be a failure of the clock or an error by the timekeeper, the Referee must
+            estimate how much fencing time is left.
+       4.   When the wireless apparatus is used, no touches registered after the end of fencing time
+            will be awarded, even if a light is showing on the wireless apparatus.
+       Injuries or other medical reason, withdrawal of a competitor

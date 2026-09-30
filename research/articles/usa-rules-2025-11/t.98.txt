@@ -1,0 +1,18 @@
+t.98
+       A touch which arrives on a non-valid part of the target is not counted as a touch; it is not
+       registered by the apparatus, it does not stop the fencing phrase and does not annul any
+       subsequent touches. However, a hit which arrives following a fencing fault or after going over
+       the lateral boundary of the strip with both feet is not counted as a valid hit, but it stops the
+       fencing phrase and therefore annuls any subsequent hit.
+
+
+
+
+USA Fencing Rules for Competition                    41                                Version: November 2025
+                                    Figure 6. Valid target in sabre
+
+This diagram is for guidance purposes only. In case of any doubt, the wording of the appropriate
+text takes precedence.
+
+        JUDGING OF TOUCHES IN SABRE
+        Materiality and annulment of touches

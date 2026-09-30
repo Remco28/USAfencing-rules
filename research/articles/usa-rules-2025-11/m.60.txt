@@ -1,0 +1,16 @@
+m.60
+       1.        The exterior lamps of high intensity may be connected to the main electrical supply, but in
+                 this case the signals of the recording apparatus have to be separated from the circuits of
+                 these lamps by phototransistors or by opto-couplers.
+       2.        Visual indicators recording the number of touches scored by each fencer are obligatory.
+                 These illuminated indicators may operate direct from the main electrical supply.
+       3.        For World Championship and Grand Prix finals and Masters, it is obligatory to make use
+                 of a display board of the type shown in the drawing in Appendix C, providing
+                 instantaneous information on the fencers’ names, the score, the time and other matters
+                 necessary for a good understanding of the bout.
+       4.        This scoreboard must, if possible, be used for A Grade finals as well.
+
+
+
+
+USA Fencing Rules for Competition                         158                             Version: November 2025

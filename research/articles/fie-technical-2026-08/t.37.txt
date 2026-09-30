@@ -1,0 +1,17 @@
+t.37
+      1   Duration of the bout is held to mean the effective duration, that is the total of the intervals of
+          time between the orders ‘Play!’ and ‘Halt!’.
+
+      2    The duration of the bout is controlled by the Referee or by a time-keeper. For the finals of all
+           official competitions, as well as for all bouts for which a chronometer is visible to the spectators,
+           the chronometer must be so placed that it is visible to the two fencers on the piste and to the
+           Referee.
+
+      3   The same bout or relay cannot be restarted after the bout or relay is finished in accordance with
+
+FIE
+                                                          13
+                                                                                               August 2026
+
+
+           t.122, even if a formal mistake has been made.

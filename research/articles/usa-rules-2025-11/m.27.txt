@@ -1,0 +1,17 @@
+m.27
+       1.   The mesh of the mask must not extend below the chin. It must be insulated internally and
+            externally by a plastic material resistant to impact.
+       2.   The part of the bib that is beneath a horizontal line 1.5–2 cm below the chin, must be
+            entirely covered with a material that has the same conductive characteristics as the
+            conductive jacket.
+       3.   The electrical contact between the conductive jacket and the mask must be ensured by
+            means of a white-colored or clear covered wire and two crocodile clips (cf m.32.4). The
+            wire must be attached to the bib of the mask with one crocodile clip and to the jacket with
+            the other. This wire must be between 30 cm and 40 cm long. In the case of a coiled wire,
+            the maximum length of the free cable must not exceed 25 cm with a tolerance of ± 5 cm.
+
+
+       At USA Fencing tournaments, there is no restriction on the color of the mask cord. It may be any color.
+
+
+       Conductive jacket (over-jacket or plastron) and conductive t-shirt

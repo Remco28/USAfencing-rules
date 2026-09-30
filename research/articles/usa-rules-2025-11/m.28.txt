@@ -1,0 +1,51 @@
+m.28
+       1.   The conductive surface of the conductive over-jacket which is worn over the protective
+            jacket must cover the valid target of the fencer (cf. t.77) entirely and without omission
+            when in the on-guard position. The jacket must have a conductive flap, minimum 2 cm by
+            3 cm, near the middle of the back, just below the collar, to which the crocodile clip from
+            the mask can be attached.
+       2.   Whatever the means of fastening used, the conductive material must cover a sufficient
+            area to ensure that it covers the valid target in all positions of the fencer. The overlap must
+            always be on the sword-arm side.
+       3.   The interior of conductive jackets must be electrically insulated by a lining or by an
+            adequate treatment of the conductive lamé material.
+       4.   The conductive collar must have a minimum height of 3 cm and the foil conductive jacket
+            must have a conductive flap, minimum 2 cm by 3 cm near the middle of the back, just
+            below the collar, to which the crocodile clip from the mask can be attached.
+       5.   The lamé material used must be of conductive thread in both warp and weft. As regards
+            electrical conductibility it must conform to the following requirements.
+            a)   The electrical resistance measured between any two points of the lamé material must
+                 not be greater than 5 Ω. The resistance will be measured by using a 500 g conductive
+
+
+USA Fencing Rules for Competition                     138                               Version: November 2025
+                metal weight which has a hemispherical end with a radius of 4 mm. This weight,
+                placed on this end and moved about on the lamé, must maintain continuous contact
+                with a maximum resistance of 5 Ω.
+           b)   In no circumstances must the use of a conductive jacket be allowed if it has holes in it,
+                or patches of oxidation or other defects which may prevent the registration of a valid
+                touch.
+           c)   A conductive jacket which is considered to be unusable will be so marked with a
+                very visible colored paint by an authorized armorer.
+      6.   The conductive jacket must be so made that when it is laid flat there is a straight line
+           between the point of junction of the lines of the groin and the two points corresponding to
+           the tops of the hip bones (ilium).
+      7.   The band of non-conductive material passing between the legs must be at least 3 cm wide
+           (see Figure 14).
+      8.   For compliance of T-shirt electric resistance with wireless manufacturer requirements -
+           maximum electric resistance:
+           a)   between any two points of the electrically conductive belt on the t-shirt (including
+                both flaps for crocodile clip connection) should not be more than 15 Ω.
+           b)   between any two points on the electrically conductive fabric-belt portion of the t-shirt
+                (including both flaps for the crocodile clip connection) and any point of the
+                electrically conductive fabric on the sleeves or on the neck, should not be more than
+                50 Ω.
+           c)   these checks must be carried out by a wireless equipment manufacturer.
+
+
+
+
+USA Fencing Rules for Competition                  139                             Version: November 2025
+                                           Figure 14. Foil: conductive jacket
+  This diagram is for guidance purposes only. In case of any doubt, the wording of the appropriate text takes precedence.
+       Bodycord and attachment plugs

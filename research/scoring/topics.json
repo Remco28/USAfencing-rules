@@ -1,0 +1,2645 @@
+{
+  "schema": 1,
+  "reviewed_on": "2026-09-30",
+  "scope": "Research candidates and issues; not runtime rulings or publication approval.",
+  "topics": [
+    {
+      "id": "on-guard",
+      "title": "Where do fencers restart?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.22"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.31"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.32"
+        }
+      ],
+      "finding": "Restart position depends on a scored touch, period start, ground held, contact or passing; correct fencing distance can affect a rear-line result.",
+      "facts": [
+        "Was a touch awarded?",
+        "Why was fencing stopped?",
+        "Was one foot already behind the rear line?"
+      ],
+      "search_terms": [
+        "restart",
+        "on guard",
+        "distance",
+        "moved back",
+        "reset position"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "fence-halt",
+      "title": "Touch before Fence or after Halt",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.23"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.55"
+        }
+      ],
+      "finding": "A new action cannot start after Halt; a movement already begun can remain valid subject to the specific stopping rule.",
+      "facts": [
+        "When did the action start?",
+        "Which stopping condition applied?"
+      ],
+      "search_terms": [
+        "late hit",
+        "after stop",
+        "before fence"
+      ],
+      "priority": "high",
+      "status": "existing-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "time-expiry",
+      "title": "Touch as time expires",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.39"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.44"
+        }
+      ],
+      "finding": "Expiration of time is a distinct stop: linked clock preserves already registered touches; an unlinked timekeeper stop does not allow a launched hit to continue.",
+      "facts": [
+        "Was the clock connected to the apparatus?",
+        "Was registration before cutoff?",
+        "Was wireless apparatus used?"
+      ],
+      "search_terms": [
+        "buzzer",
+        "zero seconds",
+        "after time",
+        "last second",
+        "time expired"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "close-quarters",
+      "title": "Close distance and blades that cannot be used",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.24"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.25"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.58"
+        }
+      ],
+      "finding": "Close quarters is permitted while weapons can be wielded correctly; corps à corps and inability to analyze the phrase cause a stop.",
+      "facts": [
+        "Was there body contact?",
+        "Could weapons be used correctly?"
+      ],
+      "search_terms": [
+        "too close",
+        "crowded",
+        "corps a corps",
+        "body contact"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "contact-intent",
+      "title": "Contact to avoid a hit versus ordinary contact",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.25"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.26"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.121"
+        }
+      ],
+      "finding": "Intentional corps à corps to avoid a hit, jostling and brutal contact have different disciplinary consequences from ordinary contact.",
+      "facts": [
+        "Who caused contact?",
+        "Was avoidance, jostling or violence established?"
+      ],
+      "search_terms": [
+        "bumped",
+        "collision",
+        "jostle",
+        "ran into",
+        "body check"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Share reviewed consequences with the penalty guide; do not infer intent from the search phrase."
+    },
+    {
+      "id": "passing",
+      "title": "Passed opponent and turning hit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.27"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.28"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.101"
+        }
+      ],
+      "finding": "Passing and passed fencers have different immediate-hit rights; complete passing triggers Halt, and sabre separately prohibits forward crossing.",
+      "facts": [
+        "Which fencer passed?",
+        "Touch during or after passing?",
+        "Weapon?"
+      ],
+      "search_terms": [
+        "fleche",
+        "ran past",
+        "turn around",
+        "behind opponent"
+      ],
+      "priority": "high",
+      "status": "existing",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "ducking",
+      "title": "Ducked or touched the strip with a hand or knee",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.27"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "Ducking and target displacement are allowed; a touch during or after a fall is a separate annulment rule.",
+      "facts": [
+        "Was it a duck or a fall?",
+        "Was the touch during/after the fall?"
+      ],
+      "search_terms": [
+        "duck",
+        "knee on floor",
+        "hand on strip",
+        "fell down"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "back-turn",
+      "title": "Turned the back on the opponent",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.27"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.28"
+        }
+      ],
+      "finding": "Turning the back is forbidden, but an immediate turning hit by the fencer who was passed has an explicit passing exception.",
+      "facts": [
+        "Who was passed?",
+        "Timing of turn and touch?"
+      ],
+      "search_terms": [
+        "turned back",
+        "facing away",
+        "spun around"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "free-hand",
+      "title": "Non-weapon hand, arm or electrical equipment",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.29"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.30"
+        }
+      ],
+      "finding": "Using the free arm offensively/defensively and taking hold of electrical equipment are separately described offenses; cancellation accompanies them.",
+      "facts": [
+        "What did the hand do?",
+        "Was target covered or equipment held?"
+      ],
+      "search_terms": [
+        "grabbed cord",
+        "free hand",
+        "blocked with arm",
+        "held wire"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Penalty guide already covers much of this; link shared information rather than creating conflicting copies."
+    },
+    {
+      "id": "side-one-foot",
+      "title": "One foot off the side",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.33"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.35"
+        }
+      ],
+      "finding": "A completely off-side foot triggers Halt; an action begun before Halt can retain validity when only one foot is off.",
+      "facts": [
+        "Was the foot completely outside?",
+        "One foot or both?",
+        "Action start relative to Halt?"
+      ],
+      "search_terms": [
+        "one foot out",
+        "toe outside",
+        "side line"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "side-both-feet",
+      "title": "Both feet off the side",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.33"
+        }
+      ],
+      "finding": "Both feet off annuls subsequent actions subject to the simple/immediate opponent-hit exception; épée and convention weapons differ.",
+      "facts": [
+        "Which fencer left?",
+        "Was the opponent still on with at least one foot?",
+        "Was the response simple and immediate?"
+      ],
+      "search_terms": [
+        "both feet out",
+        "off piste double",
+        "hit outside strip"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "side-ground",
+      "title": "Side exit near the rear line",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.22"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.34"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.35"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.36"
+        }
+      ],
+      "finding": "The required retreat and attack-start position can place both feet beyond the rear line; accidental exits have an exception.",
+      "facts": [
+        "Exit location?",
+        "Attack start?",
+        "Both feet behind after repositioning?",
+        "Accidental cause?"
+      ],
+      "search_terms": [
+        "one metre",
+        "one meter",
+        "off side point",
+        "lost ground"
+      ],
+      "priority": "high",
+      "status": "existing",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "rear-exit",
+      "title": "Crossed the rear line",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.34"
+        }
+      ],
+      "finding": "A touch is awarded against a competitor when both feet cross the rear limit completely.",
+      "facts": [
+        "Both feet or one?",
+        "Which is the rear limit rather than end of conductive runoff?"
+      ],
+      "search_terms": [
+        "back line",
+        "end of strip",
+        "one foot behind"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "avoid-exit",
+      "title": "Left the side to avoid a hit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.26"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.35"
+        }
+      ],
+      "finding": "Avoiding a hit by leaving the side carries a separate first-group penalty and annulment; not every side exit establishes avoidance.",
+      "facts": [
+        "Was avoidance established by the referee?",
+        "Was this accidental?"
+      ],
+      "search_terms": [
+        "jumped off",
+        "escaped hit",
+        "ran off side"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "accidental-exit",
+      "title": "Forced or accidental boundary exit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.36"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.25"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.121"
+        }
+      ],
+      "finding": "An involuntary accidental exit such as jostling incurs no boundary penalty; the contact itself may involve a different offense.",
+      "facts": [
+        "Accidental cause?",
+        "Who caused it?"
+      ],
+      "search_terms": [
+        "pushed off",
+        "knocked out",
+        "forced out"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "pool-ending",
+      "title": "Pool score, tied time and deciding hit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.37"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.38"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:41"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:83-85"
+        }
+      ],
+      "finding": "Normal pool bouts end at five or the time limit; tied time has a drawn-priority extra minute. Épée doubles at 4–4 and in the extra minute do not count.",
+      "facts": [
+        "Pool or DE?",
+        "Score?",
+        "Regulation or extra minute?"
+      ],
+      "search_terms": [
+        "four four",
+        "4-4",
+        "5-5",
+        "pool overtime",
+        "priority minute"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "de-ending",
+      "title": "DE score and tie at regulation time",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.39"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.40"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:41"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:83-85"
+        }
+      ],
+      "finding": "Standard DE bouts use 15 touches or nine effective minutes, with a tied extra minute; domestic age formats must be checked separately.",
+      "facts": [
+        "Age category?",
+        "Regulation or extra minute?",
+        "Weapon?"
+      ],
+      "search_terms": [
+        "14-14",
+        "fifteen",
+        "sudden death",
+        "overtime"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-final-double",
+      "title": "Double at the winning score",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.38"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.40"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.92"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.79"
+        }
+      ],
+      "finding": "Pool 4–4 and DE tied final-score situations need their explicit end-of-bout rules, not a universal both-lights-each-scores summary.",
+      "facts": [
+        "Pool, DE or team?",
+        "Actual winning target?",
+        "Regulation or overtime?"
+      ],
+      "search_terms": [
+        "14 14 double",
+        "15 15",
+        "4 4 double",
+        "winning double"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Include 10-touch/youth variants only after format-specific source confirmation; do not infer every adapted score rule by analogy."
+    },
+    {
+      "id": "epee-extra-minute",
+      "title": "Épée doubles in the extra minute",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.38"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.40"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.41"
+        }
+      ],
+      "finding": "USA notes specify no points for doubles in the deciding extra minute, with fencers retaining position.",
+      "facts": [
+        "Is this the deciding extra minute?",
+        "Was there a double or a single valid touch?"
+      ],
+      "search_terms": [
+        "double in overtime",
+        "priority double",
+        "extra minute"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "team-relay",
+      "title": "Team relay target, time and carryover",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.41"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.99"
+        }
+      ],
+      "finding": "Relays have cumulative targets and time limits; an unachieved target carries the actual score into the next relay.",
+      "facts": [
+        "Relay number?",
+        "Actual score and target?",
+        "Did time expire?"
+      ],
+      "search_terms": [
+        "relay",
+        "team score",
+        "next fencer",
+        "ten fifteen"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "team-penalty-limit",
+      "title": "Relay-ending hit and additional penalty hit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.41"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.162"
+        }
+      ],
+      "finding": "The rulebook allows a relay score beyond its usual five-touch increment when a valid last hit and an additional penalty hit occur together.",
+      "facts": [
+        "Was a valid relay-ending hit registered?",
+        "Was an additional penalty awarded at the same time?"
+      ],
+      "search_terms": [
+        "six points relay",
+        "extra penalty point",
+        "relay over target"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "team-order",
+      "title": "Wrong relay order or substitution",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.99"
+        }
+      ],
+      "finding": "Wrong bout order can annul touches scored since the change; replacement rules and announcements also matter.",
+      "facts": [
+        "Actual versus prescribed order?",
+        "When did the substitution occur?"
+      ],
+      "search_terms": [
+        "wrong relay",
+        "wrong fencer",
+        "substitute",
+        "team order"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "International and domestic team formats differ; use current domestic event format before applying o.99 wholesale."
+    },
+    {
+      "id": "veterans-youth",
+      "title": "Veteran and youth format exceptions",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.42"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.39"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:41"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:83-85"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:37-38"
+        }
+      ],
+      "finding": "Veteran 10-touch/two-period formats and domestic youth formats alter the target and sabre break point.",
+      "facts": [
+        "Age category?",
+        "National/local/developmental event?"
+      ],
+      "search_terms": [
+        "ten touch",
+        "veteran",
+        "y10",
+        "y8",
+        "short bout"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "timing-error",
+      "title": "Clock failed or remaining time questioned",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.37"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.43"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.44"
+        }
+      ],
+      "finding": "Effective time, asking for remaining time and a referee estimate after clock/timekeeper failure are separately covered.",
+      "facts": [
+        "Clock fault or timekeeper error?",
+        "What time was displayed?"
+      ],
+      "search_terms": [
+        "broken timer",
+        "clock stopped",
+        "how much time",
+        "timer error"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "injury-break",
+      "title": "Injury, cramp and withdrawal",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.45"
+        }
+      ],
+      "finding": "Medical interruption and withdrawal require the applicable medical procedure; they are not automatic replay/score correction rights.",
+      "facts": [
+        "Medical professional present?",
+        "Interruption authorized?"
+      ],
+      "search_terms": [
+        "injury",
+        "cramp",
+        "medical halt",
+        "withdrawal"
+      ],
+      "priority": "low",
+      "status": "candidate",
+      "publication_limit": "Keep score consequences separate from medical advice; handbook withdrawal classification is its own topic."
+    },
+    {
+      "id": "registered-light",
+      "title": "Lamp registration versus legal validity",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.53"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.54"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.55"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.59"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "appendix-b"
+        }
+      ],
+      "finding": "Apparatus establishes registration; specific rules can annul registered touches. An unregistered normal hit cannot simply be awarded.",
+      "facts": [
+        "What did the apparatus register?",
+        "Any applicable exception or penalty touch?"
+      ],
+      "search_terms": [
+        "light but no point",
+        "hit no light",
+        "ref saw touch"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "objects-floor",
+      "title": "Touched floor or another object",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.55"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.93"
+        }
+      ],
+      "finding": "Touches on objects other than the opponent/equipment are disregarded; intentional false registration is separately penalized.",
+      "facts": [
+        "What surface was established?",
+        "Accidental or deliberate false registration?"
+      ],
+      "search_terms": [
+        "floor",
+        "table",
+        "scoring box",
+        "wall",
+        "false touch"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "floor-test",
+      "title": "Épée floor hit and grounded-strip testing",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.91"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.93"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.57"
+        },
+        {
+          "source": "usa-operations-2026-27",
+          "locator": "pdf:17"
+        }
+      ],
+      "finding": "Observed location and demonstrated ground-circuit failure are distinct evidence. A successful later test does not establish where the original point landed.",
+      "facts": [
+        "Observed target?",
+        "Test result?",
+        "Preserved setup?"
+      ],
+      "search_terms": [
+        "hit floor not foot",
+        "grounded",
+        "strip fault"
+      ],
+      "priority": "high",
+      "status": "existing",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "last-touch-fault",
+      "title": "Which touch can equipment tests cancel?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "Only the last registered touch, with the disadvantaged-fencer and timing requirements, is considered; no blanket replay of earlier touches.",
+      "facts": [
+        "Who was disadvantaged?",
+        "Which last touch?",
+        "Had fencing restarted?"
+      ],
+      "search_terms": [
+        "cancel last point",
+        "earlier point",
+        "replay bout"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "preserve-test",
+      "title": "Preserve equipment and test immediately",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.47"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.57"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.67"
+        }
+      ],
+      "finding": "Tests are immediate, referee-supervised and performed without unauthorized changes. A demonstrated fault need not recur every time; impossible tests have a separate rule.",
+      "facts": [
+        "Who altered equipment?",
+        "When tested?",
+        "Fault demonstrated at least once?",
+        "Why could tests not be performed?"
+      ],
+      "search_terms": [
+        "unplug before test",
+        "changed weapon",
+        "intermittent fault",
+        "cannot test"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "broken-blade",
+      "title": "Blade broke during the touch",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "A broken blade of the fencer hit triggers the specified annulment unless the break clearly occurred after registration.",
+      "facts": [
+        "Whose blade broke?",
+        "Before or after registration?"
+      ],
+      "search_terms": [
+        "broken blade",
+        "snapped sword",
+        "blade break"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "falls",
+      "title": "Touch during or after a fall",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.27"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.121"
+        }
+      ],
+      "finding": "Touches made during/after a fall are annulled; ducking with knee/hand contact and intentional falling to avoid a touch are distinct.",
+      "facts": [
+        "Actual fall?",
+        "Touch timing?",
+        "Intentional avoidance?"
+      ],
+      "search_terms": [
+        "fell",
+        "falling touch",
+        "on ground hit"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "dropped-weapon",
+      "title": "Dropped weapon before Halt",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.23"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        },
+        {
+          "source": "usa-weapon-drop-2025-09-11",
+          "locator": "page"
+        }
+      ],
+      "finding": "Intentional dropping during the action has a second-group sanction; an opponent hit may remain valid if the action began before Halt.",
+      "facts": [
+        "Intentional or accidental?",
+        "When was the opponent action started?"
+      ],
+      "search_terms": [
+        "dropped sword",
+        "lost weapon",
+        "disarmed"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-target",
+      "title": "Épée body, clothing and equipment target",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.90"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.91"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        }
+      ],
+      "finding": "Épée uses the point and whole-body/clothing/equipment target, with guard/ground apparatus and validity exceptions.",
+      "facts": [
+        "Point contact or blade contact?",
+        "Body versus grounded guard/surface?"
+      ],
+      "search_terms": [
+        "foot",
+        "hand",
+        "mask",
+        "shoe",
+        "clothing"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-double",
+      "title": "Registered valid double versus invalid/doubtful double",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.92"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        }
+      ],
+      "finding": "Ordinary doubles score both; valid/invalid and established/doubtful doubles have distinct t.94.5 treatment.",
+      "facts": [
+        "Both lights?",
+        "Invalid touch or equipment doubt?",
+        "Which hit was established?"
+      ],
+      "search_terms": [
+        "double",
+        "doubtful double",
+        "both lights"
+      ],
+      "priority": "high",
+      "status": "existing-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-guard",
+      "title": "Guard hit caused a light",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        }
+      ],
+      "finding": "A guard/strip registration fault differs from oxidation, adhesive, paint or loose-tip exceptions that cannot justify annulment.",
+      "facts": [
+        "What test registered?",
+        "Insulation patches?",
+        "Tip could be tightened/unscrewed by hand?"
+      ],
+      "search_terms": [
+        "guard light",
+        "paint on guard",
+        "rust",
+        "loose tip"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-no-light",
+      "title": "Proper touch failed to register",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.54"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.95"
+        }
+      ],
+      "finding": "Non-registration can justify annulment when tests and exceptions allow; it never creates a missing normal point.",
+      "facts": [
+        "Proper supervised test?",
+        "Which connection/fault?",
+        "Who was disadvantaged?"
+      ],
+      "search_terms": [
+        "no light",
+        "missed double",
+        "tip not working"
+      ],
+      "priority": "high",
+      "status": "existing-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-spurious",
+      "title": "Light from a beat or equipment movement",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "Fortuitous registration unrelated to a proper touch is an equipment-failure scenario requiring controlled tests.",
+      "facts": [
+        "What movement registered?",
+        "Which side?"
+      ],
+      "search_terms": [
+        "beat light",
+        "random light",
+        "phantom touch"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "epee-suppressed",
+      "title": "First light disappeared after second hit",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.94"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "A subsequent opponent touch suppressing the first fencer’s registered touch has an explicit failure clause.",
+      "facts": [
+        "Was one registered touch annulled by the subsequent one?"
+      ],
+      "search_terms": [
+        "light went out",
+        "suppressed double",
+        "second light erased first"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "plug-location",
+      "title": "Unplugged connection and retaining device",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.95"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.55"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.28"
+        }
+      ],
+      "finding": "Body-cord disconnection at hand/back has an exception tied to the back retaining device; connecting-cable faults and later reel tear-out are distinct.",
+      "facts": [
+        "Which plug?",
+        "Retaining device working?",
+        "When disconnected?"
+      ],
+      "search_terms": [
+        "body cord",
+        "reel plug",
+        "broken clip",
+        "unplugged"
+      ],
+      "priority": "high",
+      "status": "existing",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "torn-strip",
+      "title": "Épée point tore the conductive strip",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.95"
+        }
+      ],
+      "finding": "A strip tear caused by a floor hit with simultaneous opponent registration has its own annulment clause.",
+      "facts": [
+        "Did the point tear the strip?",
+        "Simultaneous registration against opponent?"
+      ],
+      "search_terms": [
+        "torn strip",
+        "hole in piste",
+        "ripped grounding"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "foil-target",
+      "title": "Foil target and white light",
+      "weapons": [
+        "foil"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.76"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.77"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.78"
+        }
+      ],
+      "finding": "Foil point touches count on specified target including a bib portion; ordinary off-target stops the phrase without scoring.",
+      "facts": [
+        "Where on target/bib?",
+        "Light color?",
+        "Order of touches?"
+      ],
+      "search_terms": [
+        "white light",
+        "arm",
+        "bib",
+        "off target"
+      ],
+      "priority": "high",
+      "status": "existing-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "foil-substitution",
+      "title": "Covered or substituted foil target",
+      "weapons": [
+        "foil"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.29"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.30"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.79"
+        }
+      ],
+      "finding": "Target covering/substitution has penalty and possible scoring exceptions beyond ordinary off-target rules.",
+      "facts": [
+        "Was target protection/substitution established?",
+        "Proper touch recorded off-target?"
+      ],
+      "search_terms": [
+        "covered lame",
+        "arm over target",
+        "white awarded"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "foil-equipment",
+      "title": "Foil false colored light or missing registration",
+      "weapons": [
+        "foil"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.80"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.81"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "Foil has its own failure list and priority-related exclusions. A permanent off-target or on-target-as-off-target condition does not automatically annul a priority hit.",
+      "facts": [
+        "Which failure was demonstrated?",
+        "Who had priority?",
+        "Fencing restarted?"
+      ],
+      "search_terms": [
+        "foil failed",
+        "colored false",
+        "white instead of red",
+        "permanent white"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "priority-glossary",
+      "title": "Attack, preparation, riposte and fencing time",
+      "weapons": [
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.7"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.8"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.9"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.10"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.11"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.12"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.13"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.14"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.15"
+        }
+      ],
+      "finding": "Priority explanations need the action glossary; fencing time is an action concept, not the electrical lockout interval.",
+      "facts": [
+        "What action did the referee identify?",
+        "Was point-in-line established?"
+      ],
+      "search_terms": [
+        "right of way",
+        "riposte",
+        "remise",
+        "counterattack",
+        "preparation"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Written definitions are source-backed; modern borderline action classification needs current referee interpretation rather than a mechanical rule engine."
+    },
+    {
+      "id": "foil-attack",
+      "title": "Foil simple, compound and advance attacks",
+      "weapons": [
+        "foil"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.83"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.84"
+        }
+      ],
+      "finding": "Arm extension, threat, feints and preparation distinctions are in the written attack conventions.",
+      "facts": [
+        "What preceded the lunge/advance?",
+        "Any bend/pause in compound action?"
+      ],
+      "search_terms": [
+        "foil attack",
+        "bent arm",
+        "marching",
+        "attack preparation"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Do not turn written text into an automatic ruling on a contested video; obtain current official interpretation for borderline preparation."
+    },
+    {
+      "id": "line",
+      "title": "Point in line and failed blade search",
+      "weapons": [
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.15"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.84"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.89"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.102"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.106"
+        }
+      ],
+      "finding": "Preexisting point-in-line and failure to deflect/find the blade can change priority under weapon-specific conventions.",
+      "facts": [
+        "Line established before attack?",
+        "Blade actually deflected?"
+      ],
+      "search_terms": [
+        "point in line",
+        "missed beat",
+        "derobement"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "beats",
+      "title": "Beat on weak versus strong blade",
+      "weapons": [
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.85"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.104"
+        }
+      ],
+      "finding": "Beat location matters: foible and forte are treated differently in the weapon-specific priority rules.",
+      "facts": [
+        "Where did blade contact occur?",
+        "Beat versus parry?"
+      ],
+      "search_terms": [
+        "beat",
+        "forte",
+        "foible",
+        "near guard"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "riposte",
+      "title": "Immediate riposte and delayed renewal",
+      "weapons": [
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.86"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.87"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.89"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.103"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.106"
+        }
+      ],
+      "finding": "A parry creates a riposte opportunity; immediacy, pauses and renewal of attack affect the relevant conventions.",
+      "facts": [
+        "Parry established?",
+        "Immediate riposte or delay?",
+        "Renewal type?"
+      ],
+      "search_terms": [
+        "parry riposte",
+        "delayed riposte",
+        "remise",
+        "redoublement"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "stop-hit",
+      "title": "Stop hit during compound attack",
+      "weapons": [
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.88"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.89"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.105"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.106"
+        }
+      ],
+      "finding": "A stop hit in time against a compound attack has an interval-of-fencing-time condition, unlike a stop hit into a simple attack.",
+      "facts": [
+        "Simple or compound attack?",
+        "Before final movement?"
+      ],
+      "search_terms": [
+        "stop hit",
+        "stop cut",
+        "counterattack in time"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "simultaneous",
+      "title": "Simultaneous attacks versus faulty double",
+      "weapons": [
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.89"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.106"
+        }
+      ],
+      "finding": "Foil/sabre distinguish simultaneous conception/execution from a faulty double action; lights alone do not distinguish them.",
+      "facts": [
+        "Referee’s action analysis?",
+        "Which convention was applied?"
+      ],
+      "search_terms": [
+        "simultaneous attack",
+        "both attack",
+        "two lights"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "sabre-target",
+      "title": "Sabre target and ordinary off-target",
+      "weapons": [
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.96"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.97"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.98"
+        }
+      ],
+      "finding": "Sabre permits cutting/thrusting to its defined target; ordinary non-valid target does not register or stop the phrase.",
+      "facts": [
+        "Target location?",
+        "Other fault/stop condition?"
+      ],
+      "search_terms": [
+        "leg",
+        "waist",
+        "off target",
+        "sabre cut"
+      ],
+      "priority": "high",
+      "status": "existing-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "sabre-guard",
+      "title": "Guard scoring and follow-through mask contact",
+      "weapons": [
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.96"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.121"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.170"
+        },
+        {
+          "source": "usa-referee-faq",
+          "locator": "page"
+        },
+        {
+          "source": "usa-bell-guard-2025-02-12",
+          "locator": "page"
+        }
+      ],
+      "finding": "Official domestic guidance distinguishes incidental follow-through mask contact, scoring with the guard, and a forceful/deliberate blow.",
+      "facts": [
+        "Where was contact?",
+        "Follow-through or initial scoring contact?",
+        "Who caused it?",
+        "Force/violence?"
+      ],
+      "search_terms": [
+        "bell guard",
+        "mask contact",
+        "guard point",
+        "follow through"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Use the detailed February 2025 referee FAQ; it explicitly limits this interpretation to domestic sabre and does not license applying it to épée/foil."
+    },
+    {
+      "id": "sabre-through-blade",
+      "title": "Sabre through-blade hit and whip-over",
+      "weapons": [
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.96"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.51"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "appendix-b"
+        }
+      ],
+      "finding": "Written validity and apparatus suppression of whip-over are distinct; apparatus design does not itself decide priority.",
+      "facts": [
+        "Clearly arrived on target?",
+        "Blade contact?",
+        "Which indication registered?"
+      ],
+      "search_terms": [
+        "whipover",
+        "through blade",
+        "blade contact"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Read Appendix B C together with t.96.4; do not infer registration solely from a spectator’s view."
+    },
+    {
+      "id": "sabre-equipment",
+      "title": "Sabre equipment fault and insulation exception",
+      "weapons": [
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.99"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.24"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.56"
+        }
+      ],
+      "finding": "Sabre has its own tests; nonconforming guard/handle/pommel insulation can prevent annulment even if a weapon hit registers.",
+      "facts": [
+        "What fault was demonstrated?",
+        "Whose insulation was nonconforming?"
+      ],
+      "search_terms": [
+        "sabre fault",
+        "weapon light",
+        "guard insulation"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "sabre-attack",
+      "title": "Sabre attack, forward crossing and priority",
+      "weapons": [
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.101"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.102"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.103"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.104"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.105"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.106"
+        }
+      ],
+      "finding": "Sabre attack timing/threat, blade actions, immediate riposte and forbidden forward crossing form distinct questions.",
+      "facts": [
+        "Which action?",
+        "Foot crossing?",
+        "Touch before front-foot landing?"
+      ],
+      "search_terms": [
+        "sabre fleche",
+        "crossed feet",
+        "attack no",
+        "attack in preparation"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "The official source library does not provide a complete current visual priority curriculum; detailed borderline classification remains a referee-review gap."
+    },
+    {
+      "id": "prebout-check",
+      "title": "Passed equipment check versus a fault during fencing",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.64"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.65"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.66"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.67"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.68"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.69"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.70"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.71"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.72"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.73"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.74"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.75"
+        }
+      ],
+      "finding": "Initial checks and later failures/nonconformity are separate; passing inspection does not prove later equipment correctness.",
+      "facts": [
+        "Preliminary inspection mark?",
+        "Discovered before or during action?",
+        "Accidental fault or deliberate modification?"
+      ],
+      "search_terms": [
+        "passed check",
+        "weapon failed later",
+        "inspection mark"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "t.72 and t.20 updates are already audited; reuse docs/RULE-UPDATES-2026-10.md. USA clothing exceptions require domestic notes."
+    },
+    {
+      "id": "tip-tests",
+      "title": "Foil/épée tip weight, travel and body-cord tests",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.68"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.11"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.19"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.24"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.29"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.31"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.35"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.55"
+        }
+      ],
+      "finding": "Tip force/travel, body cord, conductive target and sabre insulation specifications help explain tests, not retroactively prove an unseen touch.",
+      "facts": [
+        "Weapon?",
+        "Which supervised test and outcome?"
+      ],
+      "search_terms": [
+        "weight test",
+        "shim",
+        "750 grams",
+        "500 grams",
+        "bodycord test"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "grounding",
+      "title": "Conductive strip, runoff and guard grounding",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.18"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.19"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.44"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.55"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.56"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.57"
+        },
+        {
+          "source": "usa-operations-2026-27",
+          "locator": "pdf:17"
+        }
+      ],
+      "finding": "Conductive runoff is not automatically legal fencing area. Circuit grounding and strip boundaries answer different questions.",
+      "facts": [
+        "Marked combat boundary?",
+        "Conductive runoff?",
+        "Electrical test?",
+        "Event level?"
+      ],
+      "search_terms": [
+        "grounding",
+        "runoff",
+        "metal beyond line",
+        "piste resistance"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "box-timing",
+      "title": "Electrical lockout and contact sensitivity",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.44"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.51"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "appendix-b"
+        }
+      ],
+      "finding": "Appendix B gives different apparatus timing/sensitivity for each weapon, including an épée double-timing tolerance band.",
+      "facts": [
+        "Weapon and mode?",
+        "Apparatus registered one or two lights?"
+      ],
+      "search_terms": [
+        "lockout",
+        "milliseconds",
+        "hit first",
+        "double window"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Use the Appendix B entries in the source inventory; never equate an electrical timing band with foil/sabre fencing-time priority."
+    },
+    {
+      "id": "equipment-target-mask",
+      "title": "Conductive bib used in épée",
+      "weapons": [
+        "epee"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.91"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.27"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "m.32"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:39"
+        }
+      ],
+      "finding": "The handbook specifically prohibits foil/sabre conductive-bib masks in épée because they can ground the opponent tip.",
+      "facts": [
+        "Which mask/bib?",
+        "Was a touch tested?"
+      ],
+      "search_terms": [
+        "mask no light",
+        "foil mask in epee",
+        "grounded bib"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "penalty-touch",
+      "title": "Point without a physical registered hit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.148"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.158"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.159"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.160"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.161"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.162"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.165"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.166"
+        }
+      ],
+      "finding": "Rear-line and penalty touches can change the score without an ordinary hit; penalty histories and annulment are separate.",
+      "facts": [
+        "Boundary award or disciplinary penalty?",
+        "Group/history?"
+      ],
+      "search_terms": [
+        "point no light",
+        "yellow red",
+        "penalty hit"
+      ],
+      "priority": "medium",
+      "status": "candidate",
+      "publication_limit": "Reuse the established penalty data and current passivity update rather than duplicate progression logic in scoring."
+    },
+    {
+      "id": "passivity",
+      "title": "Non-combativity changes score and ends a bout",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.124"
+        },
+        {
+          "source": "usa-adoption-2026-09-20",
+          "locator": "page"
+        }
+      ],
+      "finding": "Completed October 2026 research already supplies current passivity guidance and exceptions; November text is historical here.",
+      "facts": [
+        "DE/team format?",
+        "Score and history?"
+      ],
+      "search_terms": [
+        "passivity",
+        "no touch minute",
+        "p red",
+        "p black"
+      ],
+      "priority": "high",
+      "status": "reuse-completed-audit",
+      "publication_limit": "Do not re-research. Reference docs/RULE-UPDATES-2026-10.md and db rule_updates; suppress historical progression as current."
+    },
+    {
+      "id": "end-bout",
+      "title": "Final salute and reopening a completed bout",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.37"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.122"
+        }
+      ],
+      "finding": "The rules distinguish a final scored touch from formal completion; t.37.3 prevents restarting a finished bout/relay even for a formal mistake.",
+      "facts": [
+        "Has the bout/relay finished under t.122?",
+        "Score correction or new fencing?"
+      ],
+      "search_terms": [
+        "bout finished",
+        "after salute",
+        "restart match"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "review-rule",
+      "title": "Rule-application protest versus point of fact",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.136"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.137"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.141"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.172"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.173"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.174"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.175"
+        },
+        {
+          "source": "usa-operations-2026-27",
+          "locator": "pdf:15"
+        },
+        {
+          "source": "usa-operations-directory",
+          "locator": "page"
+        }
+      ],
+      "finding": "Fact disagreement, rule application and other administrative protest are distinct; newer domestic operations text needs reconciliation with t.174.",
+      "facts": [
+        "What accepted fact and definite rule?",
+        "Who requests?",
+        "Event review procedure?",
+        "Unhooked/restarted?"
+      ],
+      "search_terms": [
+        "appeal",
+        "bout committee",
+        "head referee",
+        "dispute call"
+      ],
+      "priority": "high",
+      "status": "needs-resolution",
+      "publication_limit": "Current app’s universal Head Referee wording is incomplete in light of the 2026–27 Operations Manual p.15. Resolve and revise before treating the procedure as comprehensive."
+    },
+    {
+      "id": "official-video",
+      "title": "Official video request, allocation and finality",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.49"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.60"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.61"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.62"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.105"
+        },
+        {
+          "source": "usa-operations-2026-27",
+          "locator": "pdf:19"
+        }
+      ],
+      "finding": "Official video is a separate procedure: requester, allocations, retained successful challenges and final reviewed decision are specified. Domestic availability is not the FIE mandatory-event schedule.",
+      "facts": [
+        "Official system in use?",
+        "Individual/team?",
+        "Remaining requests?"
+      ],
+      "search_terms": [
+        "video review",
+        "challenge",
+        "replay",
+        "phone video"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "recorded-score",
+      "title": "Wrong recorded score or disputed scoresheet",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.73"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.37"
+        },
+        {
+          "source": "usa-handbook-2026-27-09-27",
+          "locator": "pdf:82-83"
+        },
+        {
+          "source": "usa-operations-2026-27",
+          "locator": "pdf:18"
+        }
+      ],
+      "finding": "Domestic handbook and Operations Manual describe scoresheet review, presence/agreement, documentation and deadlines separately from touch-call review.",
+      "facts": [
+        "Transcription error or disputed bout score?",
+        "Both fencers present?",
+        "Review window?",
+        "Which score document?"
+      ],
+      "search_terms": [
+        "wrong score",
+        "scoresheet",
+        "score entered wrong",
+        "pool result"
+      ],
+      "priority": "high",
+      "status": "candidate",
+      "publication_limit": "Use handbook pp.82–83 and Operations Manual p.18; personal video/photo evidence is not accepted as score documentation in the handbook procedure."
+    },
+    {
+      "id": "pool-ranking",
+      "title": "Victories, indicator and touches scored",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.73"
+        }
+      ],
+      "finding": "Pool rankings order victories/bouts, touch differential and touches scored, with draw rules for absolute ties. Domestic format controls promotion.",
+      "facts": [
+        "Pool record?",
+        "Which indicator is tied?",
+        "Event format?"
+      ],
+      "search_terms": [
+        "indicator",
+        "touch differential",
+        "pool tie",
+        "v m"
+      ],
+      "priority": "low",
+      "status": "candidate",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+    },
+    {
+      "id": "classification",
+      "title": "Withdrawal/exclusion effects on pool results",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "refs": [
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "o.74"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.45"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.149"
+        },
+        {
+          "source": "usa-rules-2025-11",
+          "locator": "t.150"
+        }
+      ],
+      "finding": "Withdrawal, ordinary exclusion and passivity loss cannot be conflated; domestic handbook classification rules need their own scope.",
+      "facts": [
+        "Medical/no-show/disciplinary/passivity?",
+        "Pool or DE?"
+      ],
+      "search_terms": [
+        "withdrawal score",
+        "excluded result",
+        "black card pool"
+      ],
+      "priority": "low",
+      "status": "candidate",
+      "publication_limit": "Handbook distinctions and current passivity rules must be read together; do not apply a historical generic black-card paragraph to P-black."
+    }
+  ]
+}

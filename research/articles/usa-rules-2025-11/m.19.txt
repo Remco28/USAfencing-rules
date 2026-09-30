@@ -1,0 +1,45 @@
+m.19
+       1.   The electric barrel is completed by a point (pointe d’arrêt) which must conform to the
+            following specifications
+            a)   The point is cylindrical. Its front surface is flat and perpendicular to its axis. Its edge
+                 will either be rounded with a radius of 0.5 mm or have a chamfer of 0.5 mm at 45°
+                 (see Figure 10).
+            b)   The diameter of the crown of the pointe d’arrêt is 8 mm with a tolerance of ± 0.05
+                 mm. The diameter of the base must not be less than 7.7 mm.
+            c)   The flange (collar) which guides the pointe d’arrêt as well as the insulating washer
+                 must be sufficiently recessed in relation to the crown (it is recommended that it be
+                 recessed in diameter by 0.3–0.5 mm) so that it shall not be possible to cause a touch to
+                 be registered merely by sliding the depressed pointe d’arrêt against the convex
+                 surface of the guard (see Figure 11) (cf. t.67.a).
+       2.   The pressure required on the pointe d’arrêt in order to complete the circuit in the épée,
+            and thus cause the apparatus to register a touch, must be more than 750 g, that is to say
+            that this weight must be lifted by the spring of the point.
+       3.   The weight used to check competitors’ épées on the strip consists of a metal cylinder
+            drilled part of the way along its axis with a hole parallel to its sides; this hole, into which
+            is inserted the end of the blade, must have an insulating lining to prevent its metallic parts
+            coming into contact with the grounded mass of the épée which might then give a false
+            result to the test.
+            This weight of 750 g, which is supplied by the Organizing Committee, may have a
+            tolerance of ± 3 g, i.e., 747–753 g.
+       4.
+            a)   The course or travel of the pointe d’arrêt required to complete the circuit in the épée
+                 and thus cause the apparatus to register a touch, called the lighting stroke, must be
+                 greater than 1 mm. The further course which the pointe d’arrêt may travel must be
+
+
+USA Fencing Rules for Competition                    128                               Version: November 2025
+                 less than 0.5 mm. (This requirement is just as essential as that for the lighting stroke.)
+                 The gauge used should have a tolerance of a maximum of ±0.05 mm.
+            b)   To enable a check to be made on the strip, the total course or travel of the point must
+                 be greater than 1.5 mm (cf. t.43). The gauge used should have a tolerance of a
+                 maximum of ±0.05 mm.
+            c)   Adjusting the lighting stroke by means of screws or any other external fixing device,
+                 once the point has been assembled on the weapon, is forbidden.
+            d)   An external screw or similar fixing device is only allowed if it is actually part of the
+                 assembling of the point
+            e)   The head of the screw or fixing device must never project beyond the flat top surface
+                 of the point and its housing in the flat surface may not exceed 2 mm in diameter.
+       5.   The pointe d’arrêt must be retained in the barrel in at least two points equally spaced, or
+            by any other system approved by the SEMI Commission of the FIE.
+       6.   When there is a touch, the electrical contact must be established.
+       Method of affixing the barrel

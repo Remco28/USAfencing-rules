@@ -10,8 +10,8 @@ revisit these findings only for a new official revision or a concrete discrepanc
   Full article read successfully in Chromium with agent-browser; simple extraction
   returned 403. Board approval September 19; domestic effective date October 1.
 - [FIE Technical Rules, August 2026](https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf).
-  Saved as `FIE_Technical_Rules_August_2026.pdf`; text extracted with
-  `pdftotext -layout` to `build/fie-technical-2026.txt`.
+  Saved as `research/sources/fie/2026-08-technical.pdf`; text extracted with
+  `pdftotext -layout` to `research/extracted/fie-technical-2026-08.txt`.
 
 ## t.124 clause audit
 

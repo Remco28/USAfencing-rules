@@ -1,0 +1,20 @@
+t.13
+  1         The remise
+            A simple and immediate offensive action which follows the original attack, without
+            withdrawing the arm, after the opponent has parried or retreated, when the latter has either
+            quitted contact with the blade without riposting or has made a riposte which is delayed, indirect
+            or compound.
+
+  2       The redoublement
+          A new action, either simple or compound, made against an opponent who has parried without
+          riposting or who has merely avoided the first action by retreating or displacing the target.
+
+  3       The reprise of the attack
+          A new attack executed immediately after a return to the on-guard position.
+
+  4       Counter-time
+          Any action made by the attacker against a stop hit made by his opponent.
+
+
+
+          Defensive actions

@@ -1,0 +1,6 @@
+m.9
+       1.   The guard must be able to pass through a straight cylindrical gauge having a diameter of
+            12 cm and a length of 15 cm, the blade being parallel with the axis of the cylinder.
+       2.   Eccentric mounting is forbidden, that is to say that the blade must pass through the center
+            of the guard. The diameter of the guard must be between 9.5 cm and 12 cm.
+       Electric wire

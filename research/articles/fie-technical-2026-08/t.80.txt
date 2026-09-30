@@ -1,0 +1,16 @@
+t.80
+           The Referee must take into account possible failures of the electrical equipment, in particular:
+
+           He must annul a hit which he has just awarded as a result of a hit signalled as on the valid
+           target (coloured lamp) if he establishes, by tests made under his personal supervision, before the
+           bout has effectively recommenced (the command ‘Play!’) and without any of the equipment in
+           use having been changed (cf. t.47.2/d):
+
+           - either that a hit registered as ‘valid’ against the competitor against whom the hit has been
+           awarded can be made without there being in fact a valid hit;
+           - or that a ‘non-valid’ hit made by the fencer against whom the hit was awarded is not registered
+           by the apparatus;
+           - or that a ‘valid’ hit made by the fencer against whom the hit was awarded does not cause any
+           hit either valid or non-valid to be registered;
+           - or that the registration of hits made by the competitor against whom the hit was awarded
+           does not remain recorded on the apparatus.

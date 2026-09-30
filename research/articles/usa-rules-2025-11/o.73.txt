@@ -1,0 +1,21 @@
+o.73
+       1.   After the pools, a single general ranking will be established of all the fencers who have
+            taken part in the pools, taking account, successively, of the indices V/M, HS - HR, HS.
+            (V = victories; M = bouts; HS = touches scored; HR = touches received.)
+       2.   A summary classification table shall then be made in the following way:
+            a)   The results written up on the summary table will be added up to ascertain the two
+                 indices required.
+            b)   The first index, for the initial classification, shall be obtained by dividing the number
+                 of victories by the number of bouts fought, using the formula V/M.
+            c)   The fencer with the highest index (maximum 1) will be seeded first.
+            d)   In cases of equality in this first index, and to separate fencers with equal first
+                 indices, a second index will be established, using the formula HS - HR, the difference
+                 between the total number of touches scored and touches received.
+            e)   In cases of equality of the two indices V/M and HS - HR, the fencer who has scored
+                 most touches will be seeded highest.
+            f)   In cases of absolute equality between two or more fencers, their seeding order will
+                 be decided by drawing lots.
+       3.   Should there be absolute equality among the last to qualify there will not be a barrage,
+            and the fencers with equal indicators will all qualify, even if they are in excess of the
+            number decided on.
+       Withdrawal

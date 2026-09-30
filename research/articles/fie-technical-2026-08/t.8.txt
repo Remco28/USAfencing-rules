@@ -1,0 +1,4 @@
+t.8
+        Fencing time is the time required to perform one simple fencing action.
+
+        Offensive and defensive actions

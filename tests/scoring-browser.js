@@ -25,7 +25,7 @@
   weapon('sabre');query('leg hit');check(first()==='#/case/sabre-off-target','sabre off-target');
   check(localStorage.getItem('fencing-scoring-weapon')==='sabre','weapon saved');
   location.hash='/review';await settle();
-  check(document.querySelector('#screen').textContent.includes('Head Referee'),'correct review authority');
+  check(document.querySelector('#screen').textContent.includes('Head Referee'),'November rulebook review text present; domestic procedure gap documented');
   check(document.querySelector('#screen').textContent.includes('the fencer or team captain'),'correct requesters');
   weapon('epee');query('ran past');await settle();document.querySelector('.case-card').click();await settle();
   document.querySelector('[data-step="2"]').click();check(document.querySelector('#diagram-caption').textContent.includes('A’s touch made after passing is annulled'),'passing example role distinction');

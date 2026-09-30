@@ -1,0 +1,11 @@
+o.74
+
+  1     A fencer who is not present at the start of the pool is scratched from the pool and is recorded
+        without a classification at the end of the final classification list with the information “Did Not Start”.
+
+  2     A fencer who abandons in the course of a pool is scratched from the pool and is recorded in the
+        list of results with the information ‘Did Not Finish’.
+
+  3.    A fencer who is excluded during the pool phase is scratched from the pool, and his results are
+        annulled as if he had not taken part. The fencer is recorded without a classification at the end of
+        the final classification list with the information “Excluded”.

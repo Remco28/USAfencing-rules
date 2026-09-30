@@ -1,0 +1,25 @@
+m.32. 1. The metal mesh of the mask must not be insulated and must ensure electrical
+          conductivity.
+
+      2. The bib and any trim must be entirely covered with conductive material with the
+         same electrical characteristics as the conductive jacket.
+
+      3. The trim may also be made of conductive material.
+
+      4. The electrical contact between the conductive jacket and the mask must be
+         ensured by means of a white coloured or clear covered wire with two crocodile
+         clips. The wire must be attached to the mask with one crocodile clip and to the
+         jacket with another crocodile clip. This wire must be between 30cm and 40cm
+         long. A coiled mask wire is not allowed.
+
+      5. The electrical resistance between the crocodile clip and any point on the mask
+         must be less than 5 ohms. The crocodile clips, the design and size of which must
+
+                                                                                35
+FIE                                                                                          August 2026
+
+          conform to the conditions laid down in Article m.29.2(c), must be soldered to the
+          ends of the wire. In addition, the electrical resistance in this wire (between the two
+          crocodile clips) must not exceed 1 ohm.
+
+      Glove

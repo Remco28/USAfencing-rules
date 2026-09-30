@@ -1,0 +1,15 @@
+t.40
+
+      1    The bout ends when:
+      -    One of the fencers has scored 15 hits; or
+      -    9 minutes of effective fencing time have passed.
+
+      2    The fencer who has scored the greater number of hits is declared the winner.
+
+      3    If at the end of regulation time the scores are equal, the fencers fence for a deciding hit, with
+           a maximum time limit of one minute. Before the fencing recommences the Referee draws lots to
+           decide who will be the winner if scores are still equal at the end of the extra minute.
+
+      4    In this case the score recorded on the score-sheet is the real score achieved in the bout.
+
+           Team competitions

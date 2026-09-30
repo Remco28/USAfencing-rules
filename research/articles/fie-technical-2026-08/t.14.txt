@@ -1,0 +1,5 @@
+t.14
+          Parries are simple, direct, when they are made in the same line as the attack.
+          They are circular (counter-parries) when they are made in the opposite line to that of the attack.
+
+          The point in line position

@@ -1,0 +1,27 @@
+m.34
+       1.    The fencer must wear, over their jacket, a conductive jacket, the conductive surface of
+             which must cover entirely and without omission the valid surface of the body above a
+             horizontal line which, when the fencer is “on guard,” joins, around the fencer’s trunk, the
+             tops of the two hip bones. In wireless sabre the fencer must wear a conductive t-shirt. The
+             conductive part is made with a conductive fabric with maximum electrical resistance
+             between any two points of electrically conductive t-shirt fabric (including both flaps for
+             crocodile clip connection) should be not more than 15 Ω. These checks must be carried out
+             by a wireless equipment manufacturer.
+       2.    The conductive surface must cover the arms as far as the wrists. The jacket must have a
+             collar which is at least 3 cm high. The jacket must have a conductive flap, minimum 2 cm
+             x 3 cm in the middle of the back, just below the collar, to which the crocodile clip from the
+             mask can be attached.
+       3.    Whatever means of fastening is used, the conductive material must be ample enough to
+             guarantee covering the valid target area in any position.
+       4.    The conductive material (lamé) must satisfy the conditions laid down for testing (cf.
+             m.28).
+       5.    The sleeves of the conductive jacket must be fixed at the wrist by means of an elastic
+             band. There must be a strap passing between the fencer’s legs to keep the jacket in place
+             (see Figure 15).
+
+
+
+USA Fencing Rules for Competition                               144                                       Version: November 2025
+                                      Figure 15. Electric sabre conductive jacket
+       This diagram is for guidance purposes only. In case of any doubt, the wording of the appropriate text takes precedence.
+       Bodycord and plugs

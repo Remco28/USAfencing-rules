@@ -1,0 +1,21 @@
+t.23
+
+      1   The start of the bout is signalled by the word ‘Play!’. No movement made or initiated before the
+          word ‘Play!’ is counted.
+
+      2   The bout stops on the word ‘Halt!’, except in the case of special events occurring which
+          modify the regular and normal conditions of the bout (cf. also t.44.1/2).
+      3   Directly the order ‘Halt!’ has been given, a competitor may not start a new action; only a
+          movement which has been begun before the order was given remains valid. Everything which
+          takes place afterwards is absolutely not valid (But cf. t.44.1/2).
+
+      4   If a competitor stops before the word ‘Halt!’, and is hit, the hit is valid.
+
+      5   The order ‘Halt!’ is also given if the play of the competitors is dangerous, confused, or
+          contrary to the Rules, if one of the competitors is disarmed or steps off the piste (cf. t.33,
+          t.58).
+
+
+
+
+          Fencing at close quarters

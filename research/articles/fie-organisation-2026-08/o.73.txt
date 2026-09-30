@@ -1,0 +1,28 @@
+o.73
+  1    After the pools, a single general ranking is established of all the fencers who have taken part in
+       the pools, taking account, successively, of the indices V/M, HS – HR, HS.
+       (V = victories; M = bouts; HS = hits scored; HR = hits received.)
+
+  2    A summary classification table is then made in the following way:
+
+  a)   The results written up on the summary table are added up to ascertain the two indices required.
+  b)   The first index, for the initial classification, is obtained by dividing the number of victories by the
+       number of bouts fought, using the formula V/M.
+                                                     25
+                                                                                                   August 2026
+
+  c)    The fencer with the highest index (maximum 1) is seeded first.
+  d)    In cases of equality in this first index, and to separate fencers with equal first indices, a second
+        index is established, using the formula HS – HR, the difference between the total number of hits
+        scored and hits received.
+  e)    In cases of equality of the two indices V/M and HS – HR, the fencer who has scored most hits
+        is seeded highest.
+  f)    In cases of absolute equality between two or more fencers, their seeding order is decided by
+        drawing lots.
+
+  3     Should there be absolute equality among the last to qualify there is no barrage, and the
+        fencers with equal indicators are all qualified, even if they are in excess of the number decided
+        on.
+
+
+        Withdrawal
