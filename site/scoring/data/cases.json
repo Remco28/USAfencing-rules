@@ -74,7 +74,8 @@
     "t.22.7": "If no touch is awarded they are replaced in the position that they occupied when the bout was interrupted.",
     "t.22.8": "At the beginning of each period (in a direct elimination bout) and of any additional minute of fencing time, the fencers are placed on guard in the middle of the strip.",
     "USA sabre guard guidance": "A fencer should be penalized for inadequate technique or care, such that their bell guard makes contact with their opponent’s mask; however, a fencer should not be penalized if the contact is primarily the result of their opponent's action.",
-    "USA sabre guard scoring": "In this case, the fencer whose bell guard has scored a touch has violated t.96.3 and should be penalized accordingly (1st group)."
+    "USA sabre guard scoring": "In this case, the fencer whose bell guard has scored a touch has violated t.96.3 and should be penalized accordingly (1st group).",
+    "USA local/division grounding": "Grounded strips are preferred but not required."
   },
   "cases": [
     {
@@ -211,7 +212,8 @@
         "t.56.2",
         "t.56.3",
         "t.56.4",
-        "t.56.6"
+        "t.56.6",
+        "USA local/division grounding"
       ],
       "search_terms": [
         "floor",
@@ -1526,6 +1528,14 @@
       "source": "usa-referee-faq",
       "title": "Referee FAQs and Guidelines | USA Fencing · Live page; embedded bell-guard note February 2025",
       "url": "https://www.usafencing.org/Referee-faq-and-guidelines"
+    },
+    "USA local/division grounding": {
+      "source": "usa-operations-2026-27",
+      "page": 17,
+      "column_start": 0,
+      "column_end": 58,
+      "title": "USA Fencing Operations Manual · August 2026 (2026–27 edition); official page says posted September 10, 2026",
+      "url": "https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt31ccda29e31349e7/USAF_OPsManual_2026_27.pdf#page=17"
     }
   },
   "official_url": "https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt0f86b976c72458f2/690baa8337acae1b6b5ac0d3/2025-11_USA_Fencing_Rules.pdf"

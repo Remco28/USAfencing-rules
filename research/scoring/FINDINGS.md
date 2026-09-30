@@ -218,4 +218,4 @@ article concerns withdrawal. It has been removed. Pool 4–4 and extra-minute ru
 are supported; the collected texts do not explicitly settle regulation DE 14–14
 doubles. That narrower question remains unpublished pending authoritative guidance.
 
-The first implementation expansion publishes 33 bounded situations with 72 verified excerpts. Research topic statuses identify implemented portions. Remaining priority, adapted-format and regulation-DE finishing-double questions are not implied coverage.
+The first implementation expansion publishes 33 bounded situations with 73 verified excerpts. Research topic statuses identify implemented portions. Remaining priority, adapted-format and regulation-DE finishing-double questions are not implied coverage.
