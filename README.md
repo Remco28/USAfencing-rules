@@ -8,8 +8,8 @@ The app retrieves reference information; it does not issue rulings.
 ## Scoring companion
 
 [Fencing Scoring](https://penalties.teamremco.org/scoring/) shares this repository
-and research. Its first collection covers 10 situations across the three weapons,
-with épée equipment cases in most detail. Weapon selection is remembered; entries
+and research. Its expanded collection covers 33 situations across the three weapons,
+including movement, equipment, score/time and review questions, with épée in most detail. Weapon selection is remembered; entries
 explain conditions, source wording and review procedure without automatic rulings.
 See [scoring scope, audit and maintenance](docs/SCORING.md). Both guides link to each other.
 
@@ -122,3 +122,5 @@ add `CNAME penalties → remco28.github.io` (no repository path or URL scheme).
 The custom domain is configured in Pages settings, not a CNAME file: custom
 Actions deployments use that setting. Enable Enforce HTTPS when GitHub finishes
 issuing the certificate. [Deployment and recovery](docs/DEPLOYMENT.md).
+
+The September 30 scoring expansion contains 33 reviewed situations (22 épée, 19 foil, 20 sabre, shared entries counted by weapon). Domestic review guidance is reconciled with current operations and handbook sources. See `human_feedback/round-2026-09-30-scoring-expansion/index.html` for this round’s portable review form; export its ZIP before closing.

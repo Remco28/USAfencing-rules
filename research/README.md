@@ -2,7 +2,7 @@
 
 Browse the [source catalog](SOURCE-CATALOG.md). Start with [Scoring findings](scoring/FINDINGS.md), then the
 [cited research inventory](scoring/INVENTORY.md). These are research artifacts;
-the guide's 10 published situations are still authored separately in
+the guide's published situations are authored separately in
 `db/scoring_cases.json`.
 
 ## Layout

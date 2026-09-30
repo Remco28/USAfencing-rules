@@ -53,7 +53,7 @@ Sources: [t.172](../articles/usa-rules-2025-11/t.172.txt),
 ### “Both lights” needs score and phase context
 
 Ordinary valid épée doubles are only one case. Pool 4–4, deciding extra minutes,
-DE completion and team relay targets have separate clauses. t.41.1 even permits
+tied-time extra minutes and team relay targets have separate clauses; regulation DE finishing doubles remain a narrower unresolved question. t.41.1 even permits
 an extra penalty hit to take a relay beyond the usual increment. We should ask
 for format/score/phase when those conditions affect an explanation, without
 requiring them to find a general entry. Do not silently extrapolate a 15-touch
@@ -217,3 +217,5 @@ article. A research citation to o.79 for finishing doubles was incorrect: that
 article concerns withdrawal. It has been removed. Pool 4–4 and extra-minute rules
 are supported; the collected texts do not explicitly settle regulation DE 14–14
 doubles. That narrower question remains unpublished pending authoritative guidance.
+
+The first implementation expansion publishes 33 bounded situations with 72 verified excerpts. Research topic statuses identify implemented portions. Remaining priority, adapted-format and regulation-DE finishing-double questions are not implied coverage.

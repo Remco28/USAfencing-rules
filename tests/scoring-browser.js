@@ -6,7 +6,7 @@
   const query=q=>{const i=document.querySelector('#search');i.value=q;i.dispatchEvent(new Event('input',{bubbles:true}))};
   const first=()=>document.querySelector('.case-card')?.getAttribute('href');
   location.hash='/';await settle();weapon('epee');query('');
-  check(document.querySelectorAll('.case-card').length===6,'six épée situations');
+  check(document.querySelectorAll('.case-card').length===22,'22 épée situations');
   query('hit floor not foot');check(first()==='#/case/floor-touch','floor lookup');
   document.querySelector('.case-card').click();await settle();
   check(document.querySelector('h1').textContent.includes('floor'),'floor detail route');
@@ -32,11 +32,27 @@
   check(document.querySelector('#screen').textContent.includes('Correct the recorded score'),'scoresheet route separate');
   weapon('epee');query('ran past');await settle();document.querySelector('.case-card').click();await settle();
   document.querySelector('[data-step="2"]').click();check(document.querySelector('#diagram-caption').textContent.includes('A’s touch made after passing is annulled'),'passing example role distinction');
+  query('4 4 double');await settle();check(first()==='#/case/pool-four-all','pool finishing double retrieved');
+  document.querySelector('.case-card').click();await settle();
+  check(document.querySelector('#screen').textContent.includes('score stays 4–4'),'pool exception explained');
+  check(document.querySelector('.related-cases a[href="#/case/overtime"]'),'related overtime linked');
+  document.querySelector('.related-cases a[href="#/case/overtime"]').click();await settle();
+  check(document.querySelector('h1').textContent.includes('extra minute'),'related case route');
+  query('after buzzer');await settle();check(first()==='#/case/time-expired','time-expiry search');
+  document.querySelector('.case-card').click();await settle();
+  check(document.querySelector('#screen').textContent.includes('ordinary exception'),'Halt/time distinction visible');
+  query('wrong pool score');await settle();document.querySelector('.case-card').click();await settle();
+  check(document.querySelector('#screen').textContent.includes('Athlete Handbook'),'domestic source edition visible');
+  check(document.querySelector('.rule-link').href.includes('#page=82'),'domestic source points to physical PDF page');
+  location.hash='/';await settle();query('');
+  document.querySelector('[data-category="Score & time"]').click();
+  check(Array.from(document.querySelectorAll('.case-card .tag')).every(e=>e.textContent==='Score & time'),'category strictly limits results');
+  document.querySelector('[data-category="All"]').click();
   check(document.querySelector('.companion').getAttribute('href')==='../','reciprocal penalty link');
   check(document.documentElement.scrollWidth<=innerWidth,'no horizontal overflow');
   await navigator.serviceWorker.ready;
   check((await navigator.serviceWorker.getRegistrations()).some(r=>r.scope.endsWith('/scoring/')),'scoring worker scope');
-  const cache=await caches.open('fencing-scoring-v4');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
+  const cache=await caches.open('fencing-scoring-v5');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
   query('');await settle();
   return {passed:passed.length,checks:passed};
 })()

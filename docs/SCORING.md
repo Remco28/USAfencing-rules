@@ -4,7 +4,7 @@ The companion lives at `penalties.teamremco.org/scoring/`. Both guides are autho
 in this repository and published by the same Pages workflow. No additional domain,
 deployment repository, backend or paid hosting is required.
 
-## Experience and first collection
+## Experience and current collection
 
 The default is épée. Weapon choice stays visible and is remembered in browser
 localStorage. Search stays visible, categories occupy a small optional row, and
@@ -13,12 +13,11 @@ optional fact notes and the review procedure. Notes never compute a verdict.
 Direct links use `#/case/<id>`; selected weapon is explicit even for shared cases.
 A link to a different weapon's case offers a deliberate weapon switch.
 
-Ten reviewed situations cover six épée, five foil and five sabre uses. The initial
-épée focus includes the four requested scenarios: side exit near the rear line,
-passing and turning, a floor light, and a missing light with a disconnected plug.
-Foil/sabre priority entries explain the role of conventions but do not pretend to
-resolve every attack/counterattack. Complete priority, score/time outcomes and
-video procedure are future content, not implied coverage.
+Thirty-three reviewed situations cover 22 épée, 19 foil and 20 sabre uses; shared
+entries count for each weapon. The four original examples remain, with additional
+movement, equipment, score/time and review cases. Detailed borderline priority,
+regulation DE 14–14 finishing doubles and adapted youth/veteran formats remain
+outside published coverage rather than being inferred from nearby clauses.
 
 The distinct navy/blue interface uses bounded diagrams for boundaries and passing.
 Diagrams do not establish facts, resolve priority or replace rule wording.
@@ -38,6 +37,8 @@ Source excerpts are selected verbatim passages, not complete articles.
 of the preserved USA source and validates IDs, weapon coverage and required fields.
 It exports `site/scoring/data/cases.json`. Do not edit the generated file.
 
+Original cases retained below; expanded coverage is listed in the September 30 section.
+
 | Situation | Sources | Distinction preserved |
 |---|---|---|
 | Side exit | t.22.9, t.33.1, t.34–36 | Side exit costs ground; both feet beyond rear line matters; attack-start and accidental-exit exception. |
@@ -50,7 +51,7 @@ It exports `site/scoring/data/cases.json`. Do not edit the generated file.
 | Foil two lights | t.54.2, t.82 | Registration vs conventions; detailed priority not yet covered. |
 | Sabre two lights | t.54.2, t.100 | Registration vs conventions; detailed priority not yet covered. |
 | Sabre off target | t.98 | Ordinary off-target does not stop the phrase; other stopping faults can. |
-| Review route | t.172–175, t.56 | Facts vs definite rule; individual fencer/team captain; immediate request; Head Referee rather than blanket Bout Committee advice. |
+| Review route | t.172–175, t.56 | Facts vs definite rule; individual fencer/team captain; immediate request; Head Referee screening and domestic Bout Committee review; stay hooked timing; separate score correction. |
 
 Important: clause matching and software tests validate provenance and behavior,
 not every interpretation. Human referee review remains valuable. Future rule
@@ -110,10 +111,29 @@ documents, complete extracts and a cited [scenario inventory](../research/scorin
 Read [research findings](../research/scoring/FINDINGS.md) before expanding content.
 In particular, the 2026–27 Operations Manual gives a more detailed domestic
 on-strip protest route than the original guide's blanket Head Referee wording.
-That procedure needs reconciliation and revision; the original release checks
-validated the implementation, not completeness of procedural interpretation.
+The guide now identifies both source wordings and the domestic route, without claiming an undocumented universal precedence. Event officials identify the applicable procedure.
 
 
 Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Operations Manual and Athlete Handbook alongside the November rulebook. Equipment tests, video, rule application and scoresheet correction are separate. The penalty t.117 extraction collision is fixed with a source-boundary regression check. The unsupported o.79 finishing-double citation was removed; regulation DE 14–14 remains an explicit research gap.
 
 Domestic procedural excerpts now include document title, edition and PDF page. The builder checks pinned article boundaries and, for two-column domestic documents, explicitly selected column ranges with line-end hyphens rejoined. Every excerpt is validated offline before export.
+
+## September 30 expansion
+
+The collection adds rear/side touch validity, falls, broken blades, intermittent
+faults, épée spurious/insulated-guard/torn-strip/doubtful-double cases, pool 4–4
+and extra-minute exceptions, clock expiration, restart positions, team relay
+carryover, foil/sabre equipment distinctions, target boundaries, sabre guard
+guidance, official video and scoresheet correction. There are 72 pinned excerpts.
+Nearby cases link by authored IDs and stay within the selected weapon.
+
+The source builder validates excerpts from indexed rulebook articles and explicitly
+selected domestic columns or archived official webpage text, and rejects missing
+sources and invalid related-case links. The research catalog remains outside
+Pages/offline packaging. Retrieval coverage adds one scenario per new case and
+weapon-exception negatives; browser coverage exercises related links, category
+filtering, domestic document pages and score/time distinctions.
+
+Use `human_feedback/round-2026-09-30-scoring-expansion/index.html` for this review
+round. Answers stay in the open page until ZIP export. Priority interpretation and
+other listed research gaps remain a targeted next phase.

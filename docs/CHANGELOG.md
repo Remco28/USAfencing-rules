@@ -52,3 +52,8 @@ to resolve before the next content pass. Runtime rule/case data is unchanged.
 
 
 Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Operations Manual and Athlete Handbook alongside the November rulebook. Equipment tests, video, rule application and scoresheet correction are separate. The penalty t.117 extraction collision is fixed with a source-boundary regression check. The unsupported o.79 finishing-double citation was removed; regulation DE 14–14 remains an explicit research gap.
+
+
+### Scoring expansion — September 30, 2026
+
+Expanded from 10 to 33 bounded situations, with 72 validated source excerpts. Added movement, weapon-specific equipment exceptions, score/time, official video and scoresheet cases. Added weapon-aware links between related explanations and source title/edition/page labels. Updated retrieval and browser checks. Regulation DE finishing doubles, adapted formats and borderline priority remain documented gaps.

@@ -39,7 +39,7 @@
         "reset position"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -106,7 +106,7 @@
         "time expired"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -350,7 +350,7 @@
         "side line"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -379,7 +379,7 @@
         "hit outside strip"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -450,7 +450,7 @@
         "one foot behind"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -673,7 +673,7 @@
         "extra minute"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -707,7 +707,7 @@
         "ten fifteen"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -739,7 +739,7 @@
         "relay over target"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -851,7 +851,7 @@
         "timer error"
       ],
       "priority": "medium",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1109,7 +1109,7 @@
         "blade break"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1146,7 +1146,7 @@
         "on ground hit"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1346,7 +1346,7 @@
         "phantom touch"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1375,7 +1375,7 @@
         "second light erased first"
       ],
       "priority": "medium",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1441,7 +1441,7 @@
         "ripped grounding"
       ],
       "priority": "medium",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1547,7 +1547,7 @@
         "permanent white"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1864,7 +1864,7 @@
         "sabre cut"
       ],
       "priority": "high",
-      "status": "existing-partial",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -1909,7 +1909,7 @@
         "follow through"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Use the detailed February 2025 referee FAQ; it explicitly limits this interpretation to domestic sabre and does not license applying it to épée/foil."
     },
     {
@@ -1978,7 +1978,7 @@
         "guard insulation"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -2471,8 +2471,8 @@
         "dispute call"
       ],
       "priority": "high",
-      "status": "needs-resolution",
-      "publication_limit": "Current app’s universal Head Referee wording is incomplete in light of the 2026–27 Operations Manual p.15. Resolve and revise before treating the procedure as comprehensive."
+      "status": "implemented-bounded",
+      "publication_limit": "Published guide shows t.174 beside the domestic Head Referee screening / full Bout Committee route and stay-hooked deadline. Event officials identify the applicable event procedure; no undocumented precedence claim."
     },
     {
       "id": "official-video",
@@ -2521,7 +2521,7 @@
         "phone video"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
     },
     {
@@ -2564,7 +2564,7 @@
         "pool result"
       ],
       "priority": "high",
-      "status": "candidate",
+      "status": "implemented-bounded",
       "publication_limit": "Use handbook pp.82–83 and Operations Manual p.18; personal video/photo evidence is not accepted as score documentation in the handbook procedure."
     },
     {

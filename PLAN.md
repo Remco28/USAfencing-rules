@@ -48,3 +48,6 @@ scenario inventory with facts, draft terms, limits and open questions. See
 `research/scoring/FINDINGS.md`. Next decisions follow the research review.
 The on-strip appeal route needs reconciliation with the 2026–27 Operations
 Manual before expanding procedural advice. Published cases remain unchanged.
+
+
+September 30 implementation: reconciliation saved separately (9755fb3); scoring expanded to 33 cases with 72 verified excerpts. Remaining research topics are candidates, not implied published coverage. Review the current expansion round before further priority/format additions.

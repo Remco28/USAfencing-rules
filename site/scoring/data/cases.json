@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "source_date": "November 2025",
   "audited_on": "2026-09-30",
   "sources": {
@@ -49,7 +49,32 @@
     "USA appellate decision": "After deliberation, the decision of the Bout Committee is final and there is no further appeal permitted. There is no appeal of the Bout Committee when it is the appellate body for a referee decision.",
     "USA scoresheet correction": "If both fencers agree, the scoresheet will be changed",
     "USA scoresheet evidence": "Fencer or spectator submitted video or phots are not valid score documents and will not be used by the bout committee.",
-    "USA scoresheet deadline": "If consensus cannot be achieved prior to the end of the standard review period, the score recorded stands and no further protests will be considered."
+    "USA scoresheet deadline": "If consensus cannot be achieved prior to the end of the standard review period, the score recorded stands and no further protests will be considered.",
+    "t.33": "1. When a competitor crosses one of the lateral boundaries of the strip with one or both feet completely off the strip, the Referee must immediately call “Halt.” 2. If the fencer goes off the strip with both feet, the Referee must annul everything that has occurred after the boundary has been crossed, except a touch received by the competitor who has crossed the boundary even after the competitor has crossed it, provided that this touch results from a simple and immediate action. 3. However, a touch scored by the fencer who leaves the strip with one foot only is valid provided that the action was started before the “Halt.” 4. If one of the competitors leaves the strip with both feet, only a touch made by the fencer who remains on the strip with at least one foot, and at épée only, can be counted valid, even in the case of a double touch. For foil and sabre the convention must be applied. Rear limits",
+    "t.38": "In the pools a bout ends when: 1. One of the fencers has scored 5 touches. a) In this case the score registered on the scoresheet is the final score of the bout (V–n, where n = the number of touches scored by the losing fencer). b) In épée, if the two fencers reach a score of 4–4, they must fence for a deciding touch, up to the time limit. Any double touch will not be counted (and the fencers will therefore remain where they are on the strip). 2. Three minutes of effective fencing time have passed. a) If when the time limit expires there is a difference of at least one touch between the scores of the two fencers, the fencer who has scored the greater number of touches is declared winner. The score registered on the scoresheet is the actual score achieved in the bout (VN – n, where N = the number of touches scored by the winning fencer and n = the number of touches scored by the losing fencer). b) If at the end of regulation time the scores are equal, the fencers fence for a deciding touch, with a maximum time limit of one minute. Before the fencing recommences, the Referee draws lots to decide who will be the winner if scores are still equal at the end of the extra minute. In épée, during this minute, when double touches occur, points will not be awarded, the score will not change, and the fencers will retain their respective positions on the strip. c) In this case the score registered on the scoresheet is always the actual score achieved in the bout: — VN – n if a deciding touch is scored within the time limit for the bout. — V4–4 or V3–3 or V2–2 or V1–1 or V0–0 if the winner is designated by drawing lots.",
+    "t.40": "1. The bout ends when: — One of the fencers has scored 15 touches; or — 9 minutes of effective fencing time have passed. 2. The fencer who has scored the greater number of touches is declared the winner. 3. If at the end of regulation time the scores are equal, the fencers fence for a deciding touch, with a maximum time limit of one minute. Before the fencing recommences the Referee draws lots to decide who will be the winner if scores are still equal at the end of the extra minute. In épée, during this minute, when double touches occur, points will not be awarded, the score will not change, and the fencers will retain their respective positions on the strip. 4. In this case the score recorded on the scoresheet is the real score achieved in the bout.",
+    "t.41": "1. Each “lap” (bout) of the relay match consists of five touches (5, 10, 15, 20, etc.); Exceptionally, a relay may end at more than 5, 10, 15 etc. if a fencer scores a valid last hit of the relay and is at the same time awarded an additional penalty hit: in this case both hits will be counted; the maximum time for each bout is 3 minutes. 2. The first two opponents fence until one or both have scored five touches, within the time limit of 3 minutes. The next two opponents fence until one or both of their scores has reached ten touches, within the time limit of 3 minutes, and so on with successive bouts, cumulatively, of five touches. 3. If by the expiration of 3 minutes of fencing time the intended score for the bout has not been achieved, the next two fencers take up the score where it was left off and fence up to the maximum score intended for their bout as normal, within the time limit of 3 minutes. 4. The winning team is that which first reaches the maximum score of 45 touches, or that which has scored the greatest number of touches after the expiration of regulation time. 5. If at the end of regulation time for the last bout the scores are equal, the match continues for a deciding touch, with a maximum time limit of one minute, fought for by the fencers of the last bout in the match. Before the fencing recommences the Referee draws lots to decide who will be the winner if scores are still equal at the end of the extra minute. In épée, during this minute, when double touches occur, points will not be awarded, the score will not change, and the fencers will retain their respective positions on the strip. Veterans",
+    "t.44": "1. At the expiration of the regulation fencing time, the clock must automatically set off a loud audible signal, and automatically cut off the scoring apparatus, without canceling touches registered before the disconnection. The bout stops with the audible signal. 2. If the clock is not linked to the scoring apparatus, the timekeeper must shout “Halt” (or operate a sound signal) which stops the bout; in this case, even a “coup lancé” is not valid. 3. Should there be a failure of the clock or an error by the timekeeper, the Referee must estimate how much fencing time is left. 4. When the wireless apparatus is used, no touches registered after the end of fencing time will be awarded, even if a light is showing on the wireless apparatus. Injuries or other medical reason, withdrawal of a competitor",
+    "t.80": "The Referee must, on the other hand, take into account possible failures of the electrical equipment, in particular: The Referee must annul a touch just awarded as a result of a touch signaled as on the valid target (colored lamp) if it is established, by tests made under their personal supervision, before the bout has effectively recommenced (the command “Fence”) and without any of the equipment in use having been changed (cf. t.35.2/d): — either that a touch registered as “valid” against the competitor against whom the touch has been awarded can be made without there being in fact a valid touch; — or that a “non-valid” touch made by the fencer against whom the touch was awarded is not registered by the apparatus; — or that a “valid” touch made by the fencer against whom the touch was awarded does not cause any touch either valid or non-valid to be registered; — or that the registration of touches made by the competitor against whom the touch was awarded does not remain recorded on the apparatus.",
+    "t.81": "On the other hand, when the Referee has decided that a touch made by a competitor has priority, this touch shall not be annulled if subsequently it is found that a valid touch made by the opponent is registered as non-valid or that the weapon of the fencer against whom the touch was awarded is permanently registering a non-valid touch. Validity or Priority of the Touch Preface",
+    "t.94": "The Referee must take note of possible failures of the electrical equipment and must annul the last touch registered in the following circumstances: 1. If a touch made on the guard of the competitor against whom the touch was registered or on the conductive strip causes the apparatus to register a touch; However, the fact that the épée of a competitor has large or small areas of insulation formed by oxidation, by glue, paint or any other material on any part of the weapon, on which the opponent’s hits can cause a hit to be signaled, or that the electric tip is badly fixed to the end of the blade so that it can be unscrewed or tightened by hand, cannot justify the annulment of hits registered against that competitor. 2. If a touch properly made by the competitor against whom the touch was registered does not cause the apparatus to register a touch; 3. If the apparatus fortuitously registers a touch on the side of the competitor against whom the touch was registered, for example, after a beat on the blade, by any movements of their opponent, or as a result of any cause other than a properly made touch; 4. If the registering of a touch made by the competitor against whom the touch was registered is annulled by a subsequent touch made by their opponent. 5. Special cases: — If a double touch is registered and one touch is valid and the other is not valid (such as a touch made on some surface other than on the opponent (cf. t.93.1) or a touch made after leaving the strip (cf. t.33ss), only the valid touch is scored. — If a double touch is registered by an established touch and a doubtful touch (failure of the electrical apparatus, cf. t.93) the fencer who has made the established touch may choose to accept the double touch or ask to have it annulled.",
+    "t.99": "1. The Referee must take into account any possible malfunctions in the electrical equipment; in particular the Referee must annul a touch just awarded in accordance with a signal from the apparatus if it can be established, by tests carried out under the Referee’s attentive supervision, before the bout has effectively re-started and with no changes having been made to the equipment (cf. t.47.2.d): — that a touch made by the fencer judged to have been touched does not cause the apparatus to register; — that a touch made by the fencer judged to have been touched does not remain fixed on the apparatus; — that the signal of a touch against the fencer judged to have been touched can be produced either without there having been in fact a valid touch, or by a touch on the weapon or on a non-valid surface. 2. If the sabre of the fencer judged to have been touched does not conform with Article m.24.6-8 (insulation of the interior and exterior of the guard, of the handle and of the pommel), there will be no annulment, even if a touch on the weapon causes a signal to register. Validity or priority of the touch Preface",
+    "t.60": "Both in team and individual events, only the fencer on the strip has the right to request a video review",
+    "t.61": "1. In the individual events, the fencer has: — in pools, one possible appeal during each bout (cf. o.105, zonal qualification events for Olympic Games). — in direct elimination bouts, two possible appeals. Should the Referee agree with the fencer who appealed for the video refereeing, the latter is entitled to retain the right of appeal. 2. In team events, the fencers have one possible right to appeal to the video refereeing per bout and they are entitled to retain this right should the Referee agree with the appeal. 3. In the case of an appeal for video refereeing, the Referee will walk over to the video consultant, they will watch the video together and after having analyzed the action, the Referee will give the final decision. 4. At the finals of the Olympic Games and at the finals of the Senior, Junior and Cadet World Championships, the replays of an action under review must be shown on a screen so as to be visible to the spectators.",
+    "t.62": "1. There shall only be a maximum of 4 repetitions of the action. The referee can choose to review the action in real time or in slow motion, at any speed the Referee wishes. 2. At all weapons and at any time, the Referee may consult the monitor before making a decision. 3. If the fencers’ scores are equal at the end of the match, for the decisive touch, the Referee must use the video refereeing before even giving their decision. 4. The video consultant may at any time request that the Referee use the video refereeing. 5. Once the Referee, together with the video consultant, has analyzed the action, whether it is: — at the Referee’s initiative; — at the request of the athlete; — in case of a tied score, before the decisive touch; — at the video consultant’s request the decision given by the Referee is final and no other review of the same action can be requested. 6. Each time the referee consults the video, whether on their own initiative, following an appeal or at the suggestion of the video-consultant, the opinions of the referee and the video-consultant must be recorded on the match sheet.",
+    "t.96": "1. The sabre is a weapon for thrusting and cutting with the cutting edge, the flat and the back of the blade. 2. All touches made with the cutting edge, the flat or the back of the blade are counted as good (cuts and back-cuts). 3. It is forbidden to score a touch with the guard. Any touches registered by hitting with the guard must be annulled, the fencer at fault being penalized as specified in Articles t.158- 162, t.165, t.170, for the offenses of the 1st group. 4. Touches through the blade, that is to say those which touch the valid target and the sabre of the opponent at the same time, are valid whenever they arrive clearly on the target. 5. Placing the weapon on the strip at any time to straighten it is forbidden. Any breaking of this rule will be punished according to Articles t.158-162, t.165, t.170, for the offenses of the 1st group. THE TARGET",
+    "t.97": "1. Only touches which arrive on the target are counted as valid. The target comprises any part of the body above a horizontal line drawn between the tops of the hip bones and then horizontally around the fencer’s trunk (see Figure 6). 2. In sabre, it is forbidden to protect the target area or to substitute another part of the body for the target area by covering it (cf. t.158-162, t.165, t.170); any touch scored by the fencer at fault is annulled. If, during the fencing phrase, there is protection or substitution of a valid surface, the fencer at fault will be penalized as specified for offenses of the 1st group (cf. t.29).",
+    "t.77": "1. The valid target in foil excludes the limbs and the head. It is confined to the trunk, the upper limit being the collar up to 6 cm above the prominences of the collar bones; at the sides to the seams of the sleeves, which should cross the head of the humerus; and the lower limit following a horizontal line across the back joining the tops of the hip bones, then by straight lines to the junction of the lines of the groin. It also includes the part of the bib beneath a horizontal line 1.5 to 2 cm below the chin which, in any case, may not be lower than the line of the shoulders (see Figure 4). 2. In foil, only touches which arrive on the valid target are counted. Figure 4. Valid target in foil This diagram is for guidance purposes only. In case of any doubt, the wording of the appropriate text takes precedence. Touches off the target",
+    "t.56.7": "When a competitor against whom a touch has been registered has broken their blade, the touch must be annulled unless the breaking of the blade has occurred clearly after the touch has been registered.",
+    "t.56.8": "The Referee must pay particular attention to touches which are not registered or which are registered abnormally. Should such defects be repeated, the Referee must ask a member of the SEMI Commission or an expert technician on duty to verify that the equipment conforms to the Rules.",
+    "t.56.9": "The Referee must ensure that nothing is altered in the competitor’s equipment or in the whole of the electrical apparatus before the expert carries out the check.",
+    "t.56.10": "Touch made during or after a fall must be annulled.",
+    "t.95.2": "If a competitor tears the conductive strip by a touch made on the ground and, at the same time, the apparatus registers a touch against their opponent, the touch must be annulled.",
+    "t.22.6": "After the scoring of a valid touch the competitors are put on guard in the middle of the strip.",
+    "t.22.7": "If no touch is awarded they are replaced in the position that they occupied when the bout was interrupted.",
+    "t.22.8": "At the beginning of each period (in a direct elimination bout) and of any additional minute of fencing time, the fencers are placed on guard in the middle of the strip.",
+    "USA sabre guard guidance": "A fencer should be penalized for inadequate technique or care, such that their bell guard makes contact with their opponent’s mask; however, a fencer should not be penalized if the contact is primarily the result of their opponent's action.",
+    "USA sabre guard scoring": "In this case, the fencer whose bell guard has scored a touch has violated t.96.3 and should be penalized accordingly (1st group)."
   },
   "cases": [
     {
@@ -98,6 +123,11 @@
       "caveat": "Touch validity during the exit is a separate question. One foot and both feet off have different rules; foil and sabre still apply their conventions.",
       "diagram": "boundary",
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
+      "related_cases": [
+        "rear-exit",
+        "boundary-touch",
+        "restart-position"
+      ],
       "sort": 0
     },
     {
@@ -144,6 +174,10 @@
       "caveat": "The illustration shows the passing distinction only. It assumes no other fault and does not judge priority.",
       "diagram": "passing",
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
+      "related_cases": [
+        "halt",
+        "boundary-touch"
+      ],
       "sort": 1
     },
     {
@@ -194,6 +228,11 @@
       "caveat": "Disagreeing with what the referee saw is a point-of-fact issue. Equipment tests or a specific misapplication of a rule raise different questions.",
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
+      "related_cases": [
+        "epee-insulated-guard",
+        "epee-strip-torn",
+        "intermittent-fault"
+      ],
       "sort": 2
     },
     {
@@ -249,6 +288,11 @@
       "caveat": "Annulment cancels a registered touch. It does not award an unregistered touch or recreate an assumed double.",
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
+      "related_cases": [
+        "epee-spurious-light",
+        "intermittent-fault",
+        "broken-blade"
+      ],
       "sort": 3
     },
     {
@@ -262,7 +306,8 @@
       "conditions": [
         "The whole body, clothing and equipment are target in épée. Hits must still satisfy the validity rules.",
         "If one registered touch is valid and the other is invalid, only the valid touch scores. Equipment-failure doubles have their own treatment in t.94.5.",
-        "If a fencer is completely off the side with both feet, only the opponent remaining on the strip with at least one foot can have a valid hit under t.33.4."
+        "If a fencer is completely off the side with both feet, only the opponent remaining on the strip with at least one foot can have a valid hit under t.33.4.",
+        "At 4–4 in a five-touch pool, and during the deciding extra minute, explicit USA exceptions exclude doubles. Check the score and phase before applying the ordinary rule."
       ],
       "questions": [
         "Did the apparatus register both touches?",
@@ -272,7 +317,10 @@
         "t.91",
         "t.92",
         "t.94.5",
-        "t.33.4"
+        "t.33.4",
+        "t.38",
+        "t.40",
+        "t.41"
       ],
       "search_terms": [
         "double touch",
@@ -283,9 +331,15 @@
         "right of way",
         "priority"
       ],
-      "caveat": "This entry covers touch validity. Final-score and time-limit outcomes are outside this first collection.",
+      "caveat": "This general entry does not establish a regulation DE finishing-double rule at 14–14 or rules for every modified format.",
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
+      "related_cases": [
+        "pool-four-all",
+        "overtime",
+        "epee-doubtful-double",
+        "boundary-touch"
+      ],
       "sort": 4
     },
     {
@@ -326,6 +380,11 @@
       "caveat": "Expiration of fencing time is a separate cutoff under t.44. Do not apply the already-started movement exception to the final buzzer.",
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
+      "related_cases": [
+        "time-expired",
+        "fall",
+        "boundary-touch"
+      ],
       "sort": 5
     },
     {
@@ -462,6 +521,956 @@
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call.",
       "sort": 9
+    },
+    {
+      "id": "rear-exit",
+      "title": "Crossed the rear line — one foot or both?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "Crossing the rear limit completely, with both feet, awards a touch against the fencer who went off. One foot alone is not that automatic rear-exit touch.",
+      "conditions": [
+        "t.34 requires both feet completely beyond the rear limit. Identify the actual line, not the end of conductive runoff.",
+        "An involuntary boundary crossing caused by an accident, such as jostling, has the t.36 exception.",
+        "A side exit can lead to a rear-line touch after the required retreat; that is a separate repositioning route."
+      ],
+      "questions": [
+        "Were both feet completely beyond the rear line?",
+        "Was there an accidental cause, such as jostling?",
+        "Was this a rear exit or a side-exit retreat?"
+      ],
+      "articles": [
+        "t.34",
+        "t.36",
+        "t.35.2"
+      ],
+      "search_terms": [
+        "stepped off back",
+        "rear line",
+        "back edge",
+        "both feet behind",
+        "one foot behind",
+        "end line",
+        "rear exit"
+      ],
+      "caveat": "The boundary touch does not settle every accompanying action. Check timing and other applicable faults.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "side-exit",
+        "boundary-touch"
+      ],
+      "sort": 10
+    },
+    {
+      "id": "boundary-touch",
+      "title": "Hit while leaving the side — can it count?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "One foot off and both feet off have different touch-validity rules. For épée, after both feet leave, only the fencer still on the strip can score with a simple immediate action.",
+      "conditions": [
+        "The referee calls Halt once one or both feet are completely off the side.",
+        "With only one foot off, the departing fencer’s touch can be valid if the action started before Halt.",
+        "With both feet off, the departing fencer’s later actions are annulled. A received touch can still count if it results from a simple, immediate action.",
+        "For épée, only the opponent remaining with at least one foot on the strip can score in that situation, even with two lights. Foil and sabre still apply their conventions."
+      ],
+      "questions": [
+        "Was one foot off or were both feet off?",
+        "When did the action start relative to Halt?",
+        "Which fencer made the touch?",
+        "Was the received action simple and immediate?"
+      ],
+      "articles": [
+        "t.33",
+        "t.23.3"
+      ],
+      "search_terms": [
+        "one foot off",
+        "both feet off",
+        "hit leaving strip",
+        "off strip double",
+        "touch outside boundary"
+      ],
+      "caveat": "The ground lost after a side exit is a separate question from validity of the touch.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "side-exit",
+        "rear-exit",
+        "halt"
+      ],
+      "sort": 11
+    },
+    {
+      "id": "fall",
+      "title": "A touch during or after a fall",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "t.56.10 requires annulment of a touch made during or after a fall. A touch already made before the fall is a different timing question.",
+      "conditions": [
+        "Identify when the touch was made relative to the fall, rather than assuming the light alone establishes the sequence.",
+        "An already-started action after an ordinary Halt does not override the specific fall rule.",
+        "Ask the referee to explain the observed sequence; disagreement about that sequence is a point-of-fact issue."
+      ],
+      "questions": [
+        "Was the touch before, during or after the fall?",
+        "What sequence did the referee establish?"
+      ],
+      "articles": [
+        "t.56.10",
+        "t.23.3",
+        "t.172.1"
+      ],
+      "search_terms": [
+        "fell down",
+        "falling",
+        "fell while hit",
+        "touch after fall",
+        "slipped and hit"
+      ],
+      "caveat": "This entry explains touch validity, not injury treatment or every penalty for an abnormal action.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "halt"
+      ],
+      "sort": 12
+    },
+    {
+      "id": "broken-blade",
+      "title": "My blade broke and the opponent scored",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Equipment & lights",
+      "summary": "If the fencer who received the registered touch has a broken blade, annulment is required unless the break clearly happened after registration.",
+      "conditions": [
+        "t.56.7 applies to the fencer against whom the touch was registered.",
+        "A break clearly after registration does not cancel that touch under this clause.",
+        "Preserve the equipment and request immediate referee-supervised examination. The general t.56 timing and preservation limits still matter.",
+        "Annulment cancels the opponent’s touch; it does not award an unregistered hit."
+      ],
+      "questions": [
+        "Whose blade broke?",
+        "Did it clearly break after the touch registered?",
+        "Was the setup preserved and has fencing restarted?"
+      ],
+      "articles": [
+        "t.56.7",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.54.2"
+      ],
+      "search_terms": [
+        "broken blade",
+        "blade snapped",
+        "weapon broke",
+        "snapped epee",
+        "snapped foil",
+        "snapped sabre"
+      ],
+      "caveat": "A broken blade on the other side is not automatically the same annulment situation.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "intermittent-fault"
+      ],
+      "sort": 13
+    },
+    {
+      "id": "intermittent-fault",
+      "title": "It only failed once during the equipment test",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Equipment & lights",
+      "summary": "A fault does not have to repeat on every test. It must appear without doubt at least once during referee-supervised testing.",
+      "conditions": [
+        "Keep the equipment unchanged and test immediately after the stop.",
+        "Only the last touch is eligible, and only if the fencer who received it was disadvantaged by the failure.",
+        "Use the specific annulment conditions for the selected weapon; a demonstrated fault is not automatically a point for the testing fencer.",
+        "Repeated abnormal registrations require expert examination under t.56.8–9, with nothing altered before the check."
+      ],
+      "questions": [
+        "Was a fault demonstrated without doubt in supervised tests?",
+        "Which fencer was disadvantaged?",
+        "Was anything changed, or had fencing restarted?"
+      ],
+      "articles": [
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.56.6",
+        "t.56.8",
+        "t.56.9"
+      ],
+      "search_terms": [
+        "intermittent fault",
+        "failed once",
+        "works sometimes",
+        "only one test failed",
+        "repeated equipment faults"
+      ],
+      "caveat": "A normal test does not prove where a previous point landed or reconstruct an unregistered touch.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "floor-touch",
+        "foil-equipment",
+        "sabre-equipment"
+      ],
+      "sort": 14
+    },
+    {
+      "id": "epee-spurious-light",
+      "title": "Épée light from a beat or movement, without a hit",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Equipment & lights",
+      "summary": "A demonstrated spurious registration can require annulment of the opponent’s last touch. The fault must be established under the supervised-test rules.",
+      "conditions": [
+        "t.94.3 covers a light against the disadvantaged fencer from a beat, opponent movement, or another cause that is not a properly made touch.",
+        "t.94.4 separately covers a fencer’s registration being cancelled by the opponent’s subsequent touch.",
+        "Preserve the setup and test immediately; the general last-touch and no-restart limits apply."
+      ],
+      "questions": [
+        "Did supervised tests demonstrate a light without a proper touch?",
+        "Was one registration suppressed by a subsequent touch?",
+        "Was the receiving fencer disadvantaged?"
+      ],
+      "articles": [
+        "t.94",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.56.6"
+      ],
+      "search_terms": [
+        "light from beat",
+        "false registration",
+        "spurious light",
+        "light without hit",
+        "second hit erased first",
+        "suppressed light"
+      ],
+      "caveat": "This is an épée equipment rule. Foil and sabre have different annulment lists.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "missing-light",
+        "intermittent-fault"
+      ],
+      "sort": 15
+    },
+    {
+      "id": "epee-insulated-guard",
+      "title": "An épée guard lights up, but it has paint or oxidation",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Equipment & lights",
+      "summary": "A guard or conductive-strip hit registering can support annulment, but t.94.1 excludes insulation on the épée and a tip that can be tightened or unscrewed by hand.",
+      "conditions": [
+        "The general guard/strip registration condition and its stated equipment exceptions must be read together.",
+        "Oxidation, glue, paint or other insulating material on the receiving fencer’s épée cannot justify annulment of touches against that fencer.",
+        "The same clause excludes a badly fixed tip that can be unscrewed or tightened by hand.",
+        "Do not adjust the tip or clean the guard before the referee decides; testing and preservation still matter."
+      ],
+      "questions": [
+        "What surface caused the test light?",
+        "Was insulation, paint, glue or oxidation on the épée involved?",
+        "Was the tip loose enough to turn by hand?"
+      ],
+      "articles": [
+        "t.94",
+        "t.56.2",
+        "t.56.3"
+      ],
+      "search_terms": [
+        "paint on guard",
+        "oxidized guard",
+        "rusty bell guard",
+        "glue on epee",
+        "loose tip",
+        "tip unscrewed"
+      ],
+      "caveat": "An excluded reason for annulment does not make the equipment compliant or settle any separate equipment penalty.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "floor-touch",
+        "intermittent-fault"
+      ],
+      "sort": 16
+    },
+    {
+      "id": "epee-strip-torn",
+      "title": "The point tore the conductive strip and a light appeared",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Equipment & lights",
+      "summary": "If a ground touch tears the conductive strip and at the same time registers against the opponent, t.95.2 requires annulment.",
+      "conditions": [
+        "The rule describes tearing the strip with a touch on the ground, together with a registration against the opponent.",
+        "Establish that sequence; not every damaged area or floor light proves this happened.",
+        "Preserve the setup and raise the issue immediately under the general t.56 limits."
+      ],
+      "questions": [
+        "Did the point tear the conductive strip?",
+        "Did a light against the opponent register at the same time?"
+      ],
+      "articles": [
+        "t.95.2",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4"
+      ],
+      "search_terms": [
+        "torn strip",
+        "ripped piste",
+        "point tore strip",
+        "hole in conductive strip"
+      ],
+      "caveat": "A floor touch without this tearing sequence is covered by the ordinary ground-touch and equipment rules.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "floor-touch"
+      ],
+      "sort": 17
+    },
+    {
+      "id": "epee-doubtful-double",
+      "title": "One épée touch is established and the other is doubtful",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Target & scoring",
+      "summary": "t.94.5 distinguishes a known invalid touch from a doubtful touch caused by apparatus failure. An established/doubtful double has a specific choice for the fencer who made the established touch.",
+      "conditions": [
+        "With one valid and one invalid touch, only the valid touch is scored.",
+        "With one established touch and one doubtful touch due to apparatus failure, the fencer who made the established touch may accept the double or ask to have it annulled.",
+        "Do not turn an observed invalid floor touch into the different apparatus-failure situation.",
+        "Any equipment annulment must respect the general testing and preservation requirements."
+      ],
+      "questions": [
+        "Is the second touch known invalid or doubtful because of an apparatus failure?",
+        "Which fencer made the established touch?",
+        "What choice did that fencer make?"
+      ],
+      "articles": [
+        "t.94",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4"
+      ],
+      "search_terms": [
+        "doubtful double",
+        "one doubtful touch",
+        "accept the double",
+        "established touch"
+      ],
+      "caveat": "This provision does not let either fencer cancel any ordinary double they dislike.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "epee-double",
+        "floor-touch"
+      ],
+      "sort": 18
+    },
+    {
+      "id": "pool-four-all",
+      "title": "Épée pool at 4–4 — why did the double not count?",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Score & time",
+      "summary": "In an ordinary five-touch épée pool bout at 4–4, double touches do not count. The fencers keep their positions and fence for a deciding touch up to the time limit.",
+      "conditions": [
+        "t.38.1.b supplies the explicit exception to the usual épée double rule.",
+        "The score stays 4–4 after a double, and the fencers retain their positions.",
+        "If time expires tied, the deciding extra minute has its own drawn-priority procedure and also excludes doubles."
+      ],
+      "questions": [
+        "Is this a five-touch pool bout?",
+        "Was the score 4–4?",
+        "Was this regulation time or the extra minute?"
+      ],
+      "articles": [
+        "t.38",
+        "t.92"
+      ],
+      "search_terms": [
+        "4 4 double",
+        "four all",
+        "pool deciding touch",
+        "pool double at four",
+        "five five pool"
+      ],
+      "caveat": "This entry does not establish a finishing-double rule for DE bouts or modified formats.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "overtime",
+        "epee-double"
+      ],
+      "sort": 19
+    },
+    {
+      "id": "overtime",
+      "title": "Tied when time expires — priority and the extra minute",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Score & time",
+      "summary": "A tied bout goes to a deciding touch with a maximum extra minute. Lots are drawn first to choose the winner if the tie remains at the end.",
+      "conditions": [
+        "The ordinary pool and DE rules describe a deciding touch, not an extra minute that must always run in full.",
+        "Drawn priority is the fallback winner if the score remains tied; it is different from foil/sabre priority in a fencing phrase.",
+        "In épée, doubles in this minute award no points, do not change the score, and leave the fencers in their positions.",
+        "The standard team relay uses the last relay’s fencers for the deciding extra minute."
+      ],
+      "questions": [
+        "Was the score tied at the end of regulation time?",
+        "Who received drawn priority before restarting?",
+        "Was there a single valid deciding touch or an épée double?"
+      ],
+      "articles": [
+        "t.38",
+        "t.40",
+        "t.41"
+      ],
+      "search_terms": [
+        "overtime",
+        "extra minute",
+        "priority minute",
+        "draw lots",
+        "coin toss",
+        "double in overtime",
+        "tied at time"
+      ],
+      "caveat": "Non-combativity has separate current rules in the penalty companion; this entry does not replace that audit.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "pool-four-all",
+        "time-expired",
+        "team-relay"
+      ],
+      "sort": 20
+    },
+    {
+      "id": "time-expired",
+      "title": "The touch arrived at the final buzzer",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Score & time",
+      "summary": "Expiration of fencing time is a specific cutoff. The ordinary exception for a movement already begun before Halt cannot be carried over to the final buzzer.",
+      "conditions": [
+        "A linked clock stops the bout with its audible signal and cuts off registration without cancelling touches already registered.",
+        "If the clock is not linked, the timekeeper’s Halt or sound signal stops the bout; even an already launched hit is not valid under t.44.2.",
+        "With wireless apparatus, a registration after time expires is not awarded even if a light is showing.",
+        "The referee estimates remaining time if the clock fails or the timekeeper errs."
+      ],
+      "questions": [
+        "Was the clock linked to the scoring apparatus?",
+        "Did the registration occur before the time cutoff?",
+        "Was there a clock or timekeeper failure?"
+      ],
+      "articles": [
+        "t.44",
+        "t.23.3"
+      ],
+      "search_terms": [
+        "final buzzer",
+        "time ran out",
+        "after buzzer",
+        "clock expired",
+        "timekeeper halt",
+        "hit at zero"
+      ],
+      "caveat": "Distinguish the observed timing from a rule-application question. A visible light alone does not settle the sequence.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "halt",
+        "overtime"
+      ],
+      "sort": 21
+    },
+    {
+      "id": "restart-position",
+      "title": "Where do we restart after a touch or a stop?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "After a valid touch, fencers restart in the middle. With no touch awarded, they normally return to where the bout stopped; periods and the extra minute start in the middle.",
+      "conditions": [
+        "t.22.6–8 describe the ordinary restart positions.",
+        "Side exits and passing have specific repositioning rules; do not apply the general rule over those exceptions.",
+        "At a pool 4–4 or extra-minute épée double, the USA notes expressly preserve the fencers’ positions."
+      ],
+      "questions": [
+        "Was a touch awarded?",
+        "Was this a new period or extra minute?",
+        "Was the stop caused by an exit or passing?"
+      ],
+      "articles": [
+        "t.22.6",
+        "t.22.7",
+        "t.22.8",
+        "t.22.9",
+        "t.28.1",
+        "t.38",
+        "t.40"
+      ],
+      "search_terms": [
+        "restart position",
+        "back to middle",
+        "where on guard",
+        "keep position",
+        "replaced on guard"
+      ],
+      "caveat": "Correct on-guard distance and special boundary provisions remain relevant.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "side-exit",
+        "passing",
+        "pool-four-all"
+      ],
+      "sort": 22
+    },
+    {
+      "id": "team-relay",
+      "title": "Team relay ended early — how does the next score work?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Score & time",
+      "summary": "In the standard 45-touch team relay, scores carry over. The next relay aims for its scheduled cumulative target, even if the preceding relay timed out below its target.",
+      "conditions": [
+        "Relays target 5, 10, 15 and so on, with a maximum of three minutes per relay.",
+        "If a relay times out below its target, the next pair inherits that score and fences toward the next scheduled target.",
+        "A valid final relay touch plus an additional penalty touch can take the relay past its usual increment.",
+        "The match ends at 45 or with the higher score after regulation time; a tied final relay uses the deciding extra minute."
+      ],
+      "questions": [
+        "Which relay is starting?",
+        "What score carried over?",
+        "Did the previous relay end by time or target?",
+        "Was a penalty touch awarded together with the final hit?"
+      ],
+      "articles": [
+        "t.41"
+      ],
+      "search_terms": [
+        "team relay",
+        "relay carryover",
+        "team score carries",
+        "next relay target",
+        "penalty beyond target"
+      ],
+      "caveat": "This describes the standard relay format, not every local team adaptation.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "overtime",
+        "time-expired"
+      ],
+      "sort": 23
+    },
+    {
+      "id": "foil-equipment",
+      "title": "Foil did not register correctly during the test",
+      "weapons": [
+        "foil"
+      ],
+      "category": "Equipment & lights",
+      "summary": "Foil has its own annulment list: a demonstrated false colored hit, missing off-target registration, missing valid registration, or a registration that does not remain recorded can cancel the just-awarded touch.",
+      "conditions": [
+        "t.80 requires tests under the referee’s supervision before fencing restarts and without changing the equipment.",
+        "A valid hit registering white instead of colored is not the same as no registration; t.81 gives a separate priority-related exception.",
+        "The general last-touch, disadvantage, preservation and testing rules in t.56 still apply.",
+        "Annulment does not award a touch that never registered."
+      ],
+      "questions": [
+        "Which registration failed: colored, white, none, or retention on the box?",
+        "Had the referee awarded priority?",
+        "Was the setup preserved before the tests?"
+      ],
+      "articles": [
+        "t.80",
+        "t.81",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.54.2"
+      ],
+      "search_terms": [
+        "foil equipment test",
+        "foil missing light",
+        "foil false colored light",
+        "white light missing",
+        "foil registration lost"
+      ],
+      "caveat": "Do not apply épée’s body-cord exception or sabre’s insulation exception to foil by analogy.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "foil-equipment-exception",
+        "intermittent-fault"
+      ],
+      "sort": 24
+    },
+    {
+      "id": "foil-equipment-exception",
+      "title": "My foil valid target registered white — cancel their hit?",
+      "weapons": [
+        "foil"
+      ],
+      "category": "Equipment & lights",
+      "summary": "Once the referee has decided a touch has priority, t.81 says it is not annulled merely because the opponent’s valid touch registers off-target, or the opponent’s weapon permanently registers off-target.",
+      "conditions": [
+        "This is the specific t.81 exception, after the priority decision.",
+        "A colored target hit registering white differs from a valid hit producing no registration at all under t.80.",
+        "Establish the actual demonstrated fault and the priority decision before comparing the clauses."
+      ],
+      "questions": [
+        "Was the awarded touch found to have priority?",
+        "Did the opponent’s valid touch register white, or not register at all?",
+        "Was the weapon permanently showing off-target?"
+      ],
+      "articles": [
+        "t.81",
+        "t.80"
+      ],
+      "search_terms": [
+        "valid foil hit white",
+        "colored hit shows white",
+        "permanent white light",
+        "foil stuck white"
+      ],
+      "caveat": "The apparatus fault does not itself decide priority or establish what happened in the earlier phrase.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "foil-equipment",
+        "foil-two-lights"
+      ],
+      "sort": 25
+    },
+    {
+      "id": "sabre-equipment",
+      "title": "Sabre light missing, disappearing, or false",
+      "weapons": [
+        "sabre"
+      ],
+      "category": "Equipment & lights",
+      "summary": "Sabre has its own annulment list for missing registration, a light that does not stay fixed, and false registration without a valid hit or from a weapon/non-valid surface.",
+      "conditions": [
+        "Tests must be referee-supervised, before fencing effectively restarts, with no equipment changes.",
+        "t.99.2 excludes annulment for a weapon-hit light when the receiving fencer’s sabre fails its required guard, handle or pommel insulation.",
+        "The general last-touch, disadvantage and preservation limits apply.",
+        "A cancelled opponent’s touch is not a point for a missing registration."
+      ],
+      "questions": [
+        "Which fault was demonstrated during supervised tests?",
+        "Did a weapon hit cause the signal?",
+        "Did the sabre meet its insulation requirements?"
+      ],
+      "articles": [
+        "t.99",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.54.2"
+      ],
+      "search_terms": [
+        "sabre equipment test",
+        "saber missing light",
+        "sabre light disappears",
+        "saber false light"
+      ],
+      "caveat": "These conditions are weapon-specific. The box cannot establish priority.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "sabre-guard-insulation",
+        "intermittent-fault"
+      ],
+      "sort": 26
+    },
+    {
+      "id": "sabre-guard-insulation",
+      "title": "A sabre weapon hit lights up — insulation exception",
+      "weapons": [
+        "sabre"
+      ],
+      "category": "Equipment & lights",
+      "summary": "If the fencer who received the touch has a sabre that fails the required guard, handle or pommel insulation, t.99.2 denies annulment even if hitting that weapon produces a signal.",
+      "conditions": [
+        "The exception applies to the sabre of the fencer judged to have been touched.",
+        "Identify whether this is a weapon-hit signal and whether the required insulation conforms.",
+        "Do not confuse an opponent hitting the weapon with using a guard to score on the opponent."
+      ],
+      "questions": [
+        "Whose sabre failed the insulation requirement?",
+        "Did a hit on that weapon cause registration?"
+      ],
+      "articles": [
+        "t.99"
+      ],
+      "search_terms": [
+        "sabre guard insulation",
+        "saber pommel insulation",
+        "hit sabre weapon",
+        "handle insulation"
+      ],
+      "caveat": "An excluded annulment reason does not approve the equipment or resolve a separate penalty.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "sabre-equipment",
+        "sabre-guard-contact"
+      ],
+      "sort": 27
+    },
+    {
+      "id": "sabre-guard-contact",
+      "title": "Sabre bell guard contacted the mask or scored a light",
+      "weapons": [
+        "sabre"
+      ],
+      "category": "Target & scoring",
+      "summary": "A light from scoring with the guard is annulled under t.96.3. Official domestic guidance separately addresses guard follow-through to the mask and who caused the contact.",
+      "conditions": [
+        "Scoring with the guard violates t.96.3, regardless of which valid target surface produced the light.",
+        "February 2025 USA guidance treats careless guard follow-through contacting the mask as a first-group infraction; who caused the contact matters.",
+        "The guidance distinguishes severe, dangerous or violent guard blows from incidental contact. Different penalty rules apply.",
+        "This interpretation is sabre-specific. It does not automatically apply the mask-follow-through treatment to incidental contact elsewhere or to foil/épée."
+      ],
+      "questions": [
+        "Did the guard itself score the light?",
+        "Was there follow-through to the mask?",
+        "Which fencer caused the contact?",
+        "Was the contact dangerous or forceful?"
+      ],
+      "articles": [
+        "t.96",
+        "USA sabre guard guidance",
+        "USA sabre guard scoring"
+      ],
+      "search_terms": [
+        "sabre bell guard",
+        "saber guard mask",
+        "guard scored light",
+        "bell guard follow through"
+      ],
+      "caveat": "Contact severity and responsibility are referee judgments. Use the penalty companion for the applicable group and repeat-offense consequences.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "sabre-guard-insulation"
+      ],
+      "sort": 28
+    },
+    {
+      "id": "official-video",
+      "title": "Can I request official video review?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Review & records",
+      "summary": "Where official video refereeing is in use, only the fencer on the strip can request review. Its allocations and finality differ from an ordinary rule-application appeal.",
+      "conditions": [
+        "t.61 permits one possible request per pool bout, two per individual DE bout, and one per team relay bout.",
+        "If the referee agrees with the request, the right is retained.",
+        "The referee and video consultant analyze the action; after their review, no further review of the same action can be requested under t.62.5.",
+        "Availability is event-specific. A private phone video does not establish a right to official review."
+      ],
+      "questions": [
+        "Does this event provide official video?",
+        "Is this pool, DE or a team relay?",
+        "How many review requests remain?",
+        "Has this action already been reviewed?"
+      ],
+      "articles": [
+        "t.60",
+        "t.61",
+        "t.62"
+      ],
+      "search_terms": [
+        "video review",
+        "official replay",
+        "video appeal",
+        "challenge video",
+        "phone recording"
+      ],
+      "caveat": "This guide does not give universal domestic video availability or decide whether a request will succeed.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [],
+      "sort": 29
+    },
+    {
+      "id": "scoresheet-correction",
+      "title": "The pool scoresheet has the wrong score",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Review & records",
+      "summary": "A recorded-score correction goes to the Bout Committee under the Athlete Handbook’s scoresheet procedure. It is different from appealing the referee’s touch decision.",
+      "conditions": [
+        "Raise the problem during the pool or the regular review period before DE.",
+        "If both fencers agree, the sheet is changed. If they disagree, the bout-by-bout listing and referee consultation are relevant.",
+        "Before submission, the referee may not change the sheet without both fencers present.",
+        "If agreement cannot be reached in the review period, the recorded score stands. Deliberations do not extend that period.",
+        "For this scoresheet procedure, fencer/spectator video and photos are not valid score documents."
+      ],
+      "questions": [
+        "Is the recorded score wrong, rather than the touch decision disputed?",
+        "Are both fencers present and do they agree?",
+        "Is the bout-by-bout listing complete?",
+        "Is the review period still open?"
+      ],
+      "articles": [
+        "USA scoresheet correction",
+        "USA scoresheet evidence",
+        "USA scoresheet deadline"
+      ],
+      "search_terms": [
+        "wrong scoresheet",
+        "wrong pool score",
+        "recorded score incorrect",
+        "score entered backwards",
+        "pool sheet correction"
+      ],
+      "caveat": "The excerpted source contains the publisher typo “phots.” The restriction described here is specific to score documents.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "official-video"
+      ],
+      "sort": 30
+    },
+    {
+      "id": "foil-target",
+      "title": "Foil target — does the mask, arm or leg count?",
+      "weapons": [
+        "foil"
+      ],
+      "category": "Target & scoring",
+      "summary": "Foil valid target is the defined trunk area plus the specified lower portion of the bib. Limbs and the head are excluded; the entire mask is not valid target.",
+      "conditions": [
+        "t.77 defines the exact trunk and bib boundaries; use its wording and diagram for edge cases.",
+        "Only hits on valid target count. Ordinary off-target hits stop the phrase under t.78.",
+        "Target substitution or covering is a different situation and is not decided by this basic target map."
+      ],
+      "questions": [
+        "What surface was actually hit?",
+        "Was it the valid bib portion or another part of the mask?"
+      ],
+      "articles": [
+        "t.77",
+        "t.78"
+      ],
+      "search_terms": [
+        "foil target",
+        "foil mask target",
+        "foil bib",
+        "arm in foil",
+        "leg in foil"
+      ],
+      "caveat": "A light does not alone settle validity or priority.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "foil-off-target",
+        "foil-two-lights"
+      ],
+      "sort": 31
+    },
+    {
+      "id": "sabre-target",
+      "title": "Sabre target — what about hands, arms and legs?",
+      "weapons": [
+        "sabre"
+      ],
+      "category": "Target & scoring",
+      "summary": "Sabre valid target is above the horizontal line around the tops of the hip bones. Ordinary non-valid contact does not stop the phrase.",
+      "conditions": [
+        "t.97 defines target by that horizontal line, not by whatever surface happens to produce a light.",
+        "Hands, arms and head are above the boundary; feet and legs are outside the ordinary target.",
+        "Covering or substituting non-valid target for valid target has separate rules under t.97.2.",
+        "Scoring with the guard is separately prohibited under t.96.3."
+      ],
+      "questions": [
+        "Where was the hit relative to the hip-bone line?",
+        "Was valid target covered or substituted?",
+        "Was the blade or guard used?"
+      ],
+      "articles": [
+        "t.97",
+        "t.98",
+        "t.96"
+      ],
+      "search_terms": [
+        "sabre target",
+        "saber target",
+        "sabre hand",
+        "saber arm",
+        "hip line target"
+      ],
+      "caveat": "Conventions still decide priority; a target map cannot decide a two-light action.",
+      "diagram": null,
+      "review_note": "Reviewed retrieval terms describe a situation, not a ruling. Check the weapon, facts and stated scope.",
+      "related_cases": [
+        "sabre-off-target",
+        "sabre-two-lights",
+        "sabre-guard-contact"
+      ],
+      "sort": 32
     }
   ],
   "source_details": {
@@ -507,6 +1516,16 @@
       "column_end": 62,
       "title": "USA Fencing Athlete Handbook · 2026–27; September 27, 2026 revision",
       "url": "https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt46a0168c9377fc1b/USA%20Fencing%20Athlete%20Handbook%202026-27#page=83"
+    },
+    "USA sabre guard guidance": {
+      "source": "usa-referee-faq",
+      "title": "Referee FAQs and Guidelines | USA Fencing · Live page; embedded bell-guard note February 2025",
+      "url": "https://www.usafencing.org/Referee-faq-and-guidelines"
+    },
+    "USA sabre guard scoring": {
+      "source": "usa-referee-faq",
+      "title": "Referee FAQs and Guidelines | USA Fencing · Live page; embedded bell-guard note February 2025",
+      "url": "https://www.usafencing.org/Referee-faq-and-guidelines"
     }
   },
   "official_url": "https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt0f86b976c72458f2/690baa8337acae1b6b5ac0d3/2025-11_USA_Fencing_Rules.pdf"

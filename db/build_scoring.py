@@ -18,14 +18,14 @@ def build():
         detail = data.get("source_details", {}).get(ref)
         if detail:
             source = catalog[detail["source"]]
-            pages = (ROOT / source["extracted_path"]).read_text().split("\f")
-            page = pages[detail["page"]-1]
+            raw_source = (ROOT / source["extracted_path"]).read_text()
+            page = raw_source.split("\f")[detail["page"]-1] if "page" in detail else raw_source
             if "column_start" in detail:
                 page = "\n".join(line[detail["column_start"]:detail.get("column_end")] for line in page.split("\n"))
             page = re.sub(r"(?<=\w)-[ \t]*\n[ \t]*(?=\w)", "", page)
             body = normalized(page)
             detail["title"] = source["title"] + " · " + source["version"]
-            detail["url"] = source["url"] + "#page=" + str(detail["page"])
+            detail["url"] = source["url"] + ("#page=" + str(detail["page"]) if "page" in detail else "")
         else:
             match = re.match(r"[tom]\.\d+", ref)
             body = articles.get(match.group() if match else ref, "")
@@ -46,6 +46,11 @@ def build():
         if set(case["articles"]) - set(data["sources"]):
             raise ValueError(f"Missing source: {case['id']}")
         case["sort"] = sort
+    for case in data["cases"]:
+        for target in case.get("related_cases", []):
+            other = next((c for c in data["cases"] if c["id"] == target), None)
+            if other is None or not set(case["weapons"]) & set(other["weapons"]):
+                raise ValueError(f"Invalid related situation: {case['id']} -> {target}")
     data["official_url"] = "https://assets.contentstack.io/v3/assets/blteb7d012fc7ebef7f/blt0f86b976c72458f2/690baa8337acae1b6b5ac0d3/2025-11_USA_Fencing_Rules.pdf"
     target = ROOT / "site/scoring/data/cases.json"
     target.parent.mkdir(parents=True, exist_ok=True)
