@@ -240,6 +240,21 @@
       "capture_method": "Rendered main-content text and links from official page; no scripts, ads or page chrome",
       "sha256": "97f0dac8d94452fcf3bdfd468657b7d75abd37962573c12f15bece2c9b9bd039",
       "extracted_sha256": "7b3bbaa0dd18ddc741adc5637bf20b111ee49307904e02e781b37272e6572177"
+    },
+    {
+      "id": "usa-epee-finishing-example-2024-09-10",
+      "title": "Team USA Earns Key Victories on Final Day of Individual Competition",
+      "publisher": "USA Fencing",
+      "version": "September 10, 2024",
+      "url": "https://www.usafencing.org/news/2024/september/10/team-usa-earns-key-victories-on-final-day-of-individual-competition",
+      "path": "research/sources/usa-fencing/usa-epee-finishing-example-2024-09-10.json",
+      "extracted_path": "research/extracted/usa-epee-finishing-example-2024-09-10.txt",
+      "scope": "Official competition reporting corroborates an épée double at 14–14 not counting. This is a selected athlete quotation, not normative rule wording or a rule change.",
+      "authority": "corroborating competition report",
+      "verified_on": "2026-09-30",
+      "capture_method": "selected corroborating excerpt; not a full article capture",
+      "sha256": "57b81358121262fb9a8652a61939579881860aa0a08a56415c65f5eb7d5b98ac",
+      "extracted_sha256": "4c89e016b46adf04842bbffe2e2a32fe489eb7a39949945ca9a2ee174f0c08f6"
     }
   ]
 }

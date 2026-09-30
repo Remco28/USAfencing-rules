@@ -6,7 +6,7 @@
   const query=q=>{const i=document.querySelector('#search');i.value=q;i.dispatchEvent(new Event('input',{bubbles:true}))};
   const first=()=>document.querySelector('.case-card')?.getAttribute('href');
   location.hash='/';await settle();weapon('epee');query('');
-  check(document.querySelectorAll('.case-card').length===22,'22 épée situations');
+  check(document.querySelectorAll('.case-card').length===62,'62 épée situations');
   check(!document.querySelector('#category-filter').open,'filters initially collapsed');
   check(document.querySelector('#category-filter summary').textContent.includes('All categories'),'filter summary shows selection');
   check(!document.querySelector('#focus-search') && document.querySelectorAll('.bottom-nav a').length===3,'no redundant Search navigation');
@@ -36,6 +36,10 @@
   check(document.querySelector('#screen').textContent.includes('Correct the recorded score'),'scoresheet route separate');
   weapon('epee');query('ran past');await settle();document.querySelector('.case-card').click();await settle();
   document.querySelector('[data-step="2"]').click();check(document.querySelector('#diagram-caption').textContent.includes('A’s touch made after passing is annulled'),'passing example role distinction');
+  query('14 14');await settle();check(first()==='#/case/de-final-double','14–14 finishing double retrieved');
+  document.querySelector('.case-card').click();await settle();
+  check(document.querySelector('#screen').textContent.includes('score stays 14–14'),'finishing double cancels points');
+  check(document.querySelector('#screen').textContent.includes('not a standalone rule amendment'),'corroborating report identified');
   query('4 4 double');await settle();check(first()==='#/case/pool-four-all','pool finishing double retrieved');
   document.querySelector('.case-card').click();await settle();
   check(document.querySelector('#screen').textContent.includes('score stays 4–4'),'pool exception explained');
@@ -61,7 +65,11 @@
   check(document.documentElement.scrollWidth<=innerWidth,'no horizontal overflow');
   await navigator.serviceWorker.ready;
   check((await navigator.serviceWorker.getRegistrations()).some(r=>r.scope.endsWith('/scoring/')),'scoring worker scope');
-  const cache=await caches.open('fencing-scoring-v7');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
-  query('');await settle();
+  const cache=await caches.open('fencing-scoring-v9');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
+  location.hash='/coverage';await settle();
+  check(document.querySelectorAll('.coverage-topic').length>30,'coverage map shown for selected weapon');
+  check(document.querySelector('[data-coverage="partial"]'),'partial coverage is explicit');
+  weapon('foil');check(document.querySelector('#screen').textContent.includes('Written conventions'),'priority scope visible in coverage');
+  weapon('epee');query('');await settle();
   return {passed:passed.length,checks:passed};
 })()

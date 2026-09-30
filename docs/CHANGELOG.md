@@ -62,3 +62,23 @@ Expanded from 10 to 33 bounded situations, with 73 validated source excerpts. Ad
 ### Scoring flow polish — September 30, 2026
 
 Collapsed category filters into a compact disclosure that always names the active selection. Tightened the browse introduction so the first result appears sooner on phones. Kept search and weapon selection pinned. Added an explicit reload notice when a new offline guide is installed, without interrupting reading or discarding open notes automatically. This flow pass is separate from rule corrections and content expansion.
+
+
+## Comprehensive scoring inventory — September 30, 2026
+
+Expanded from 33 to 82 situations (62 épée, 63 foil and 63 sabre views) with
+141 validated excerpts. Added movement/contact/grip cases, electrical timing and
+point tests, domestic formats and pool ordering, withdrawal/medical procedure,
+written foil/sabre conventions and established 14–14 épée practice. Reused the
+completed October non-combativity audit without repeating that research.
+
+Added a weapon-specific coverage page mapping all 69 practical inventory topics.
+It distinguishes bounded explanations from partial topics and does not equate
+article extraction with complete rule interpretation. Archived a labeled selected
+official competition-report excerpt to corroborate 14–14 practice; the explicit
+pinned-rulebook citation remains a documented gap. Earlier gap descriptions above
+refer to their release checkpoints.
+
+Added complete case/weapon rendering checks, empty/fabricated source rejection
+fixtures and a standalone coverage-review feedback round. Updated current scope
+and maintenance documentation rather than leaving the 33-case status in place.

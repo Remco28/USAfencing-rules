@@ -8,10 +8,10 @@ The app retrieves reference information; it does not issue rulings.
 ## Scoring companion
 
 [Fencing Scoring](https://penalties.teamremco.org/scoring/) shares this repository
-and research. Its expanded collection covers 33 situations across the three weapons,
+and research. Its expanded collection covers 82 situations across the three weapons,
 including movement, equipment, score/time and review questions, with épée in most detail. Weapon selection is remembered; entries
 explain conditions, source wording and review procedure without automatic rulings.
-See [scoring scope, audit and maintenance](docs/SCORING.md). Both guides link to each other.
+There are 141 source excerpts and an explicit [coverage map](https://penalties.teamremco.org/scoring/#/coverage); the guide does not claim to explain every rulebook provision. See [scoring scope, audit and maintenance](docs/SCORING.md). Both guides link to each other.
 
 ## Current behavior
 

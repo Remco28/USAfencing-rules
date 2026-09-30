@@ -7,74 +7,74 @@ Each article link goes to the complete raw heading-bounded excerpt, with origina
 | Topic | Weapons | Priority | Status |
 |---|---|---|---|
 | [Where do fencers restart?](#on-guard) | epee, foil, sabre | high | implemented-bounded |
-| [Touch before Fence or after Halt](#fence-halt) | epee, foil, sabre | high | existing-partial |
+| [Touch before Fence or after Halt](#fence-halt) | epee, foil, sabre | high | implemented-bounded |
 | [Touch as time expires](#time-expiry) | epee, foil, sabre | high | implemented-bounded |
-| [Close distance and blades that cannot be used](#close-quarters) | epee, foil, sabre | high | candidate |
-| [Contact to avoid a hit versus ordinary contact](#contact-intent) | epee, foil, sabre | high | candidate |
-| [Passed opponent and turning hit](#passing) | epee, foil, sabre | high | existing |
-| [Ducked or touched the strip with a hand or knee](#ducking) | epee, foil, sabre | high | candidate |
-| [Turned the back on the opponent](#back-turn) | epee, foil, sabre | medium | candidate |
-| [Non-weapon hand, arm or electrical equipment](#free-hand) | epee, foil, sabre | medium | candidate |
+| [Close distance and blades that cannot be used](#close-quarters) | epee, foil, sabre | high | implemented-bounded |
+| [Contact to avoid a hit versus ordinary contact](#contact-intent) | epee, foil, sabre | high | implemented-bounded |
+| [Passed opponent and turning hit](#passing) | epee, foil, sabre | high | implemented-bounded |
+| [Ducked or touched the strip with a hand or knee](#ducking) | epee, foil, sabre | high | implemented-bounded |
+| [Turned the back on the opponent](#back-turn) | epee, foil, sabre | medium | implemented-bounded |
+| [Non-weapon hand, arm or electrical equipment](#free-hand) | epee, foil, sabre | medium | implemented-bounded |
 | [One foot off the side](#side-one-foot) | epee, foil, sabre | high | implemented-bounded |
 | [Both feet off the side](#side-both-feet) | epee, foil, sabre | high | implemented-bounded |
-| [Side exit near the rear line](#side-ground) | epee, foil, sabre | high | existing |
+| [Side exit near the rear line](#side-ground) | epee, foil, sabre | high | implemented-bounded |
 | [Crossed the rear line](#rear-exit) | epee, foil, sabre | high | implemented-bounded |
-| [Left the side to avoid a hit](#avoid-exit) | epee, foil, sabre | medium | candidate |
-| [Forced or accidental boundary exit](#accidental-exit) | epee, foil, sabre | high | candidate |
-| [Pool score, tied time and deciding hit](#pool-ending) | epee, foil, sabre | high | candidate |
-| [DE score and tie at regulation time](#de-ending) | epee, foil, sabre | high | candidate |
-| [Double at the winning score](#epee-final-double) | epee | high | needs-resolution |
+| [Left the side to avoid a hit](#avoid-exit) | epee, foil, sabre | medium | implemented-bounded |
+| [Forced or accidental boundary exit](#accidental-exit) | epee, foil, sabre | high | implemented-bounded |
+| [Pool score, tied time and deciding hit](#pool-ending) | epee, foil, sabre | high | implemented-bounded |
+| [DE score and tie at regulation time](#de-ending) | epee, foil, sabre | high | implemented-bounded |
+| [Double at the winning score](#epee-final-double) | epee | high | implemented-partial |
 | [Épée doubles in the extra minute](#epee-extra-minute) | epee | high | implemented-bounded |
 | [Team relay target, time and carryover](#team-relay) | epee, foil, sabre | high | implemented-bounded |
 | [Relay-ending hit and additional penalty hit](#team-penalty-limit) | epee, foil, sabre | high | implemented-bounded |
-| [Wrong relay order or substitution](#team-order) | epee, foil, sabre | medium | candidate |
-| [Veteran and youth format exceptions](#veterans-youth) | epee, foil, sabre | high | candidate |
+| [Wrong relay order or substitution](#team-order) | epee, foil, sabre | medium | implemented-bounded |
+| [Veteran and youth format exceptions](#veterans-youth) | epee, foil, sabre | high | implemented-partial |
 | [Clock failed or remaining time questioned](#timing-error) | epee, foil, sabre | medium | implemented-bounded |
-| [Injury, cramp and withdrawal](#injury-break) | epee, foil, sabre | low | candidate |
-| [Lamp registration versus legal validity](#registered-light) | epee, foil, sabre | high | candidate |
-| [Touched floor or another object](#objects-floor) | epee, foil, sabre | high | candidate |
-| [Épée floor hit and grounded-strip testing](#floor-test) | epee | high | existing |
-| [Which touch can equipment tests cancel?](#last-touch-fault) | epee, foil, sabre | high | candidate |
-| [Preserve equipment and test immediately](#preserve-test) | epee, foil, sabre | high | candidate |
+| [Injury, cramp and withdrawal](#injury-break) | epee, foil, sabre | low | implemented-partial |
+| [Lamp registration versus legal validity](#registered-light) | epee, foil, sabre | high | implemented-bounded |
+| [Touched floor or another object](#objects-floor) | epee, foil, sabre | high | implemented-bounded |
+| [Épée floor hit and grounded-strip testing](#floor-test) | epee | high | implemented-bounded |
+| [Which touch can equipment tests cancel?](#last-touch-fault) | epee, foil, sabre | high | implemented-bounded |
+| [Preserve equipment and test immediately](#preserve-test) | epee, foil, sabre | high | implemented-bounded |
 | [Blade broke during the touch](#broken-blade) | epee, foil, sabre | high | implemented-bounded |
 | [Touch during or after a fall](#falls) | epee, foil, sabre | high | implemented-bounded |
-| [Dropped weapon before Halt](#dropped-weapon) | epee, foil, sabre | high | candidate |
-| [Épée body, clothing and equipment target](#epee-target) | epee | high | candidate |
-| [Registered valid double versus invalid/doubtful double](#epee-double) | epee | high | existing-partial |
-| [Guard hit caused a light](#epee-guard) | epee | high | candidate |
-| [Proper touch failed to register](#epee-no-light) | epee | high | existing-partial |
+| [Dropped weapon before Halt](#dropped-weapon) | epee, foil, sabre | high | implemented-bounded |
+| [Épée body, clothing and equipment target](#epee-target) | epee | high | implemented-bounded |
+| [Registered valid double versus invalid/doubtful double](#epee-double) | epee | high | implemented-bounded |
+| [Guard hit caused a light](#epee-guard) | epee | high | implemented-bounded |
+| [Proper touch failed to register](#epee-no-light) | epee | high | implemented-bounded |
 | [Light from a beat or equipment movement](#epee-spurious) | epee | high | implemented-bounded |
 | [First light disappeared after second hit](#epee-suppressed) | epee | medium | implemented-bounded |
-| [Unplugged connection and retaining device](#plug-location) | epee | high | existing |
+| [Unplugged connection and retaining device](#plug-location) | epee | high | implemented-bounded |
 | [Épée point tore the conductive strip](#torn-strip) | epee | medium | implemented-bounded |
-| [Foil target and white light](#foil-target) | foil | high | existing-partial |
-| [Covered or substituted foil target](#foil-substitution) | foil | high | candidate |
+| [Foil target and white light](#foil-target) | foil | high | implemented-bounded |
+| [Covered or substituted foil target](#foil-substitution) | foil | high | implemented-bounded |
 | [Foil false colored light or missing registration](#foil-equipment) | foil | high | implemented-bounded |
-| [Attack, preparation, riposte and fencing time](#priority-glossary) | foil, sabre | high | candidate |
-| [Foil simple, compound and advance attacks](#foil-attack) | foil | medium | candidate |
-| [Point in line and failed blade search](#line) | foil, sabre | medium | candidate |
-| [Beat on weak versus strong blade](#beats) | foil, sabre | medium | candidate |
-| [Immediate riposte and delayed renewal](#riposte) | foil, sabre | medium | candidate |
-| [Stop hit during compound attack](#stop-hit) | foil, sabre | medium | candidate |
-| [Simultaneous attacks versus faulty double](#simultaneous) | foil, sabre | medium | candidate |
+| [Attack, preparation, riposte and fencing time](#priority-glossary) | foil, sabre | high | implemented-partial |
+| [Foil simple, compound and advance attacks](#foil-attack) | foil | medium | implemented-partial |
+| [Point in line and failed blade search](#line) | foil, sabre | medium | implemented-partial |
+| [Beat on weak versus strong blade](#beats) | foil, sabre | medium | implemented-partial |
+| [Immediate riposte and delayed renewal](#riposte) | foil, sabre | medium | implemented-partial |
+| [Stop hit during compound attack](#stop-hit) | foil, sabre | medium | implemented-partial |
+| [Simultaneous attacks versus faulty double](#simultaneous) | foil, sabre | medium | implemented-partial |
 | [Sabre target and ordinary off-target](#sabre-target) | sabre | high | implemented-bounded |
 | [Guard scoring and follow-through mask contact](#sabre-guard) | sabre | high | implemented-bounded |
-| [Sabre through-blade hit and whip-over](#sabre-through-blade) | sabre | medium | candidate |
+| [Sabre through-blade hit and whip-over](#sabre-through-blade) | sabre | medium | implemented-bounded |
 | [Sabre equipment fault and insulation exception](#sabre-equipment) | sabre | high | implemented-bounded |
-| [Sabre attack, forward crossing and priority](#sabre-attack) | sabre | medium | candidate |
-| [Passed equipment check versus a fault during fencing](#prebout-check) | epee, foil, sabre | medium | candidate |
-| [Foil/épée tip weight, travel and body-cord tests](#tip-tests) | epee, foil, sabre | medium | candidate |
-| [Conductive strip, runoff and guard grounding](#grounding) | epee, foil, sabre | high | candidate |
-| [Electrical lockout and contact sensitivity](#box-timing) | epee, foil, sabre | high | candidate |
-| [Conductive bib used in épée](#equipment-target-mask) | epee | high | candidate |
-| [Point without a physical registered hit](#penalty-touch) | epee, foil, sabre | medium | candidate |
-| [Non-combativity changes score and ends a bout](#passivity) | epee, foil, sabre | high | reuse-completed-audit |
-| [Final salute and reopening a completed bout](#end-bout) | epee, foil, sabre | high | candidate |
+| [Sabre attack, forward crossing and priority](#sabre-attack) | sabre | medium | implemented-partial |
+| [Passed equipment check versus a fault during fencing](#prebout-check) | epee, foil, sabre | medium | implemented-partial |
+| [Foil/épée tip weight, travel and body-cord tests](#tip-tests) | epee, foil, sabre | medium | implemented-partial |
+| [Conductive strip, runoff and guard grounding](#grounding) | epee, foil, sabre | high | implemented-bounded |
+| [Electrical lockout and contact sensitivity](#box-timing) | epee, foil, sabre | high | implemented-bounded |
+| [Conductive bib used in épée](#equipment-target-mask) | epee | high | implemented-bounded |
+| [Point without a physical registered hit](#penalty-touch) | epee, foil, sabre | medium | implemented-bounded |
+| [Non-combativity changes score and ends a bout](#passivity) | epee, foil, sabre | high | implemented-bounded |
+| [Final salute and reopening a completed bout](#end-bout) | epee, foil, sabre | high | implemented-bounded |
 | [Rule-application protest versus point of fact](#review-rule) | epee, foil, sabre | high | implemented-bounded |
 | [Official video request, allocation and finality](#official-video) | epee, foil, sabre | high | implemented-bounded |
 | [Wrong recorded score or disputed scoresheet](#recorded-score) | epee, foil, sabre | high | implemented-bounded |
-| [Victories, indicator and touches scored](#pool-ranking) | epee, foil, sabre | low | candidate |
-| [Withdrawal/exclusion effects on pool results](#classification) | epee, foil, sabre | low | candidate |
+| [Victories, indicator and touches scored](#pool-ranking) | epee, foil, sabre | low | implemented-bounded |
+| [Withdrawal/exclusion effects on pool results](#classification) | epee, foil, sabre | low | implemented-partial |
 
 <a id="on-guard"></a>
 ## Where do fencers restart?
@@ -360,7 +360,7 @@ Publication limit: Confirm the complete clauses, current domestic applicability 
 <a id="epee-final-double"></a>
 ## Double at the winning score
 
-Pool 4–4 and DE tied final-score situations need their explicit end-of-bout rules, not a universal both-lights-each-scores summary.
+The standard individual épée 14–14 finishing double does not count, as confirmed by the user and corroborated in official USA competition reporting. Pool 4–4 and extra-minute exceptions have explicit USA clauses.
 
 Facts to establish: Pool, DE or team? Actual winning target? Regulation or overtime?
 
@@ -371,8 +371,9 @@ Sources:
 - [t.38](../articles/usa-rules-2025-11/t.38.txt) · PDF pp. 30–31; extract lines 1018–1046
 - [t.40](../articles/usa-rules-2025-11/t.40.txt) · PDF pp. 31–32; extract lines 1056–1073
 - [t.92](../articles/usa-rules-2025-11/t.92.txt) · PDF pp. 54–55; extract lines 1893–1899
+- [Team USA Earns Key Victories on Final Day of Individual Competition](../extracted/usa-epee-finishing-example-2024-09-10.txt) · captured 2026-09-30
 
-Publication limit: Pool 4–4 and extra-minute doubles have explicit USA exceptions and can be published. No collected clause explicitly resolves a regulation DE double at 14–14; o.79 concerns withdrawal, not double touches. Do not invent a DE finishing rule or extrapolate youth formats.
+Publication limit: Standard 14–14 practice is included and corroborated by an official report. An explicit 14–14 clause has not been located in the pinned rulebook; modified finishing targets and team 44–44 are not inferred.
 
 <a id="epee-extra-minute"></a>
 ## Épée doubles in the extra minute

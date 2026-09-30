@@ -1,143 +1,119 @@
 # Scoring companion
 
-The companion lives at `penalties.teamremco.org/scoring/`. Both guides are authored
-in this repository and published by the same Pages workflow. No additional domain,
-deployment repository, backend or paid hosting is required.
+The guide lives at https://penalties.teamremco.org/scoring/. Both guides share
+this repository, source library and GitHub Pages deployment.
 
-## Experience and current collection
+## Current scope
 
-The default is épée. Weapon choice stays visible and is remembered in browser
-localStorage. Search stays visible, categories are collapsed into a disclosure showing the active selection, and
-each card leads to a short explanation, applicable conditions, source excerpts,
-optional fact notes and the review procedure. Notes never compute a verdict.
-Direct links use `#/case/<id>`; selected weapon is explicit even for shared cases.
-A link to a different weapon's case offers a deliberate weapon switch.
+The collection has **82 situations and 141 validated source excerpts**. Shared
+entries give 62 épée, 63 foil and 63 sabre uses. Weapon choice is remembered;
+search stays visible and category filters start collapsed. Each explanation
+states conditions, questions to establish, source wording and related situations.
+Optional fact notes describe uncertainty; they never compute a verdict.
 
-Thirty-three reviewed situations cover 22 épée, 19 foil and 20 sabre uses; shared
-entries count for each weapon. The four original examples remain, with additional
-movement, equipment, score/time and review cases. Detailed borderline priority,
-regulation DE 14–14 finishing doubles and adapted youth/veteran formats remain
-outside published coverage rather than being inferred from nearby clauses.
+The [coverage map](https://penalties.teamremco.org/scoring/#/coverage) maps every
+topic in our 69-topic practical research inventory. This is **not a claim that
+every rulebook provision or possible fencing situation is explained**.
 
-The distinct navy/blue interface uses bounded diagrams for boundaries and passing.
-Diagrams do not establish facts, resolve priority or replace rule wording.
+| Weapon | Inventory topics | Bounded explanations | Partial coverage |
+|---|---:|---:|---:|
+| Épée | 54 | 48 | 6 |
+| Foil | 52 | 40 | 12 |
+| Sabre | 53 | 41 | 12 |
 
-## Sources and audit
+“Bounded” means the listed situation and stated conditions are explained; it is
+not independent referee certification. A partial topic identifies what remains
+outside its explanation. See [the maintained map](../research/scoring/COVERAGE.md).
+Topic counts and case counts measure different things; many cases share a topic.
 
-Domestic source: preserved November 2025 USA Fencing rulebook and
-`research/extracted/usa-rules-2025-11.txt`. USA Fencing's official rules page still identifies that edition
-as its current full rulebook (checked September 30, 2026). The completed
-October-update audit is shared at `RULE-UPDATES-2026-10.md`; those findings are not
-rediscovered or silently extrapolated to every international change.
+Épée limits include modified finishing targets/team 44–44, all local/age-specific
+adaptations, medical diagnosis and staffing exceptions, complete equipment
+inspection/certification, every electrical test, and all qualification/rating or
+disciplinary systems. Basic foil/sabre written conventions are included, but
+borderline visual priority judgments are not a complete interpretation curriculum.
 
-Authored data: `db/scoring_cases.json`. Each situation has reviewed vocabulary,
-source references, conditions, questions, scope caveats and applicable weapons.
-Source excerpts are selected verbatim passages, not complete articles.
-`db/build_scoring.py` requires every excerpt to occur in the cited base article
-of the preserved USA source and validates IDs, weapon coverage and required fields.
-It exports `site/scoring/data/cases.json`. Do not edit the generated file.
+## Finishing doubles and source distinctions
 
-Original cases retained below; expanded coverage is listed in the September 30 section.
+Standard épée 14–14 doubles are annulled; the score stays 14–14. This established
+practice was confirmed by the user and corroborated by an official USA Fencing
+competition report. We archived only the relevant 22-word report excerpt. It is
+labeled **corroborating competition report**, not a rule amendment. An explicit
+14–14 provision has not been located in the pinned rulebook; that is a citation
+gap, not uncertainty about the included standard practice. Do not infer modified
+targets or team 44–44 from it. Pool 4–4 and deciding-extra-minute doubles have
+their separately quoted provisions in t.38/t.40/t.41.
 
-| Situation | Sources | Distinction preserved |
-|---|---|---|
-| Side exit | t.22.9, t.33.1, t.34–36 | Side exit costs ground; both feet beyond rear line matters; attack-start and accidental-exit exception. |
-| Passing | t.23.3, t.27.2, t.28.1–2, t.101.5 | Passing fencer vs passed fencer; immediate vs later touch; sabre crossing restriction. |
-| Floor light | t.54–56, t.91, t.93–94 | Foot vs ground; observed location vs demonstrated fault; successful grounding test does not prove original location. |
-| Missing light | t.28.3, t.47.2.d, t.54.2, t.56, t.94.2, t.95.1, m.55.4 | Precise plug location; retaining-device exception; post-hit reel tear-out; annulment cannot create a missing point. |
-| Épée double | t.33.4, t.91–92, t.94.5 | Both registered touches must be valid; boundary exceptions. |
-| Halt | t.23.3–4, t.28.2, t.33.4, t.55.1 | Already-started movement vs new action; specific stop conditions still apply. |
-| Foil white light | t.77.2, t.78 | Ordinary off-target stops the phrase; covering/substitution not covered by this basic case. |
-| Foil two lights | t.54.2, t.82 | Registration vs conventions; detailed priority not yet covered. |
-| Sabre two lights | t.54.2, t.100 | Registration vs conventions; detailed priority not yet covered. |
-| Sabre off target | t.98 | Ordinary off-target does not stop the phrase; other stopping faults can. |
-| Review route | t.172–175, t.56 | Facts vs definite rule; individual fencer/team captain; immediate request; Head Referee screening and domestic Bout Committee review; stay hooked timing; separate score correction. |
+The unsupported o.79 citation was removed earlier: that article is about
+withdrawal. Current content does not cite it for finishing doubles.
 
-Important: clause matching and software tests validate provenance and behavior,
-not every interpretation. Human referee review remains valuable. Future rule
-revisions should trigger a targeted comparison of these clauses, explanations
-and vocabulary. FIE text is a comparison source, not automatic USA authority.
+## Sources and maintenance
 
-## Search, cache and verification
+Authored content lives in `db/scoring_cases.json`; generated browser data is
+`site/scoring/data/cases.json`. Do not edit the generated file. The pinned library
+has 16 sources: seven PDFs, eight official webpage captures and one selected
+competition-report excerpt. [The catalog](../research/SOURCE-CATALOG.md) records
+editions, publisher URLs, authority, scope and hashes.
 
-Both guides use `site/search.js`; scoring maps its titles and summaries into the
-existing index shape. Reviewed aliases stay with their scoring case. Weapon and
-category filters are strict. Related matches are labeled. See `SEARCH.md` for
-ranking, typo and citation behavior. New synonyms need concrete examples and a
-retrieval test; they must not broaden a rule's scope.
+Use domestic sources and verified USA adoption for USA events. FIE editions are
+comparison material, not automatic domestic authority. Reuse the completed
+[October update audit](RULE-UPDATES-2026-10.md); the non-combativity case reuses
+its reviewed individual/team guidance and labels its October 1 effective date.
+Historical November t.124 wording must not silently replace current guidance.
 
-Scoring registers `scoring/sw.js` with `/scoring/` scope and a separate
-`fencing-scoring-*` cache. The parent worker excludes companion requests and
-does not delete scoring caches. The companion excludes penalty requests, and
-only shares the search script. Both guides can work offline after their own
-complete online visit. External official PDF links require a connection.
+`db/build_scoring.py` checks every excerpt against the pinned article or declared
+source/page/column range. It rejoins layout line-end hyphens and ignores whitespace;
+it does not rewrite passages. It rejects empty/fabricated quotes, missing sources,
+invalid related-case links and unmapped topic/weapon combinations. Source details
+show document title, edition, authority and physical PDF page where available.
+Exact text matching validates provenance, **not the interpretation of the rule**.
+
+Add a case only after checking its clause, exceptions, weapon applicability and
+event scope. Add reviewed everyday search terms and a retrieval example. Map the
+case to its inventory topic, preserving partial limits. For revisions, archive a
+new version and source ID, then compare affected content; builds never auto-fetch.
+
+## Procedure and interface
+
+Equipment testing, official video, rule-application protest and scoresheet
+correction are separate routes. The newer domestic Operations Manual describes
+Head Referee screening and full Bout Committee appellate review. The guide also
+shows the November t.174 wording and asks officials to identify the event's
+applicable procedure. It does not promise a right to overturn a factual call.
+
+Cases link at `#/case/<id>` and the coverage map at `#/coverage`. Weapon scope is
+strict; a direct link to another weapon offers an explicit switch. Search uses
+the shared local engine and reviewed aliases; see [SEARCH.md](SEARCH.md).
+The navy/blue companion links back to the penalty guide. Diagrams explain bounded
+examples, not observed facts or priority judgments.
+
+The `/scoring/` worker has its own `fencing-scoring-*` cache; both guides preserve
+each other's scope and caches. After a complete online visit, the guide, search,
+coverage map and excerpts work offline. Official PDF links require a connection.
+Research archives remain outside the Pages artifact.
+
+## Verification and human review
 
 ```sh
+python3 research/build_inventory.py --check
+python3 tests/source_extraction.py
 python3 db/build_db.py
+python3 tests/scoring_sources.py
 python3 db/build_scoring.py
 node tests/search.test.cjs
 node tests/scoring.test.cjs
 python3 -m http.server 8000 --directory site
 agent-browser open http://localhost:8000/scoring/
 agent-browser eval --stdin < tests/scoring-browser.js
+agent-browser eval --stdin < tests/scoring-all-cases-browser.js
 ```
 
-Review with `human_feedback/round-2026-10-scoring/index.html`. Export the feedback
-ZIP before closing and put it beside the guide. Questions include misleading
-conditions, missing vocabulary, weapon selection, fast lookup and review wording.
+The exhaustive browser sweep checks every case in each applicable weapon view,
+source rendering, related links and expanded-panel overflow. Source rejection
+fixtures check provenance failures. Neither these checks nor inventory mapping
+certifies all interpretations. Independent referee review and concrete missing
+or misleading searches remain useful.
 
-## Release validation — September 30, 2026
-
-- 41 scoring excerpts match their cited base articles in the stored USA rulebook.
-- 22 scoring retrieval examples, strict weapon exclusions, exact-subsection
-  negatives and content nonmutation pass; all 36 penalty retrieval examples pass.
-- 22 scoring browser assertions and 28 penalty browser assertions pass at 320px
-  and 1280px. Checked weapon persistence, cross-weapon deep links, source details,
-  fact notes, passing stages, search from a detail and no horizontal overflow.
-- Both complete browser suites pass with the dedicated HTTP server stopped,
-  proving actual offline data, search and source/diagram availability. Official
-  PDF links remain online-only. Both scoped service workers coexist.
-- Rebuilding the penalty database leaves its checked-in data unchanged.
-- The shared domain has an approved certificate and enforced HTTPS; `/scoring/`
-  needs no DNS changes.
-
-These checks do not certify every explanation as an official interpretation.
-Human review of the conditions and procedural wording is part of this release.
-
-## Research phase
-
-The shared [source library](../research/README.md) now has pinned publisher
-documents, complete extracts and a cited [scenario inventory](../research/scoring/INVENTORY.md).
-Read [research findings](../research/scoring/FINDINGS.md) before expanding content.
-In particular, the 2026–27 Operations Manual gives a more detailed domestic
-on-strip protest route than the original guide's blanket Head Referee wording.
-The guide now identifies both source wordings and the domestic route, without claiming an undocumented universal precedence. Event officials identify the applicable procedure.
-
-
-Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Operations Manual and Athlete Handbook alongside the November rulebook. Equipment tests, video, rule application and scoresheet correction are separate. The penalty t.117 extraction collision is fixed with a source-boundary regression check. The unsupported o.79 finishing-double citation was removed; regulation DE 14–14 remains an explicit research gap.
-
-Domestic procedural excerpts now include document title, edition and PDF page. The builder checks pinned article boundaries and, for two-column domestic documents, explicitly selected column ranges with line-end hyphens rejoined. Every excerpt is validated offline before export.
-
-## September 30 expansion
-
-The collection adds rear/side touch validity, falls, broken blades, intermittent
-faults, épée spurious/insulated-guard/torn-strip/doubtful-double cases, pool 4–4
-and extra-minute exceptions, clock expiration, restart positions, team relay
-carryover, foil/sabre equipment distinctions, target boundaries, sabre guard
-guidance, official video and scoresheet correction. There are 73 pinned excerpts.
-Nearby cases link by authored IDs and stay within the selected weapon.
-
-The source builder validates excerpts from indexed rulebook articles and explicitly
-selected domestic columns or archived official webpage text, and rejects missing
-sources and invalid related-case links. The research catalog remains outside
-Pages/offline packaging. Retrieval coverage adds one scenario per new case and
-weapon-exception negatives; browser coverage exercises related links, category
-filtering, domestic document pages and score/time distinctions.
-
-Use `human_feedback/round-2026-09-30-scoring-expansion/index.html` for this review
-round. Answers stay in the open page until ZIP export. Priority interpretation and
-other listed research gaps remain a targeted next phase.
-
-Flow polish: categories start collapsed and retain their selection label; search and weapon stay visible. A newly installed worker offers an explicit reload notice instead of interrupting the current reading session. Reloading clears the optional in-page fact notes, as ordinary page reload does.
-
-Final expansion validation: 46 scoring retrieval examples, 36 penalty retrieval examples, six negative source/link rejection checks, t.117 regression, and 39 scoring browser checks at phone and desktop widths. Scoring works after offline reload; penalty browser regression passes 28 checks. The published bundle includes 73 validated excerpts.
+Open `human_feedback/round-2026-09-30-scoring-coverage/index.html` directly in a
+browser. Try any useful scenarios, add screenshots if helpful, and **export the
+ZIP before closing**. Put the ZIP beside the guide. Nothing is uploaded or saved
+to the repository by the form.

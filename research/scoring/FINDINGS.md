@@ -1,9 +1,25 @@
 # Scoring research findings — September 30, 2026
 
-Research phase complete for the collected library. This is a cited inventory and
-decision aid, not a complete referee interpretation audit or automatic ruling
-system. The current app content has not been expanded in this phase. The small
-navigation change was saved separately as `2d82293`.
+## Current reconciliation and publication status
+
+The guide now publishes 82 cases with 141 validated excerpts. All 69 practical
+inventory topics have case/procedure mappings and stated limits; see
+[COVERAGE.md](COVERAGE.md). Mapping is not a claim that every rulebook provision
+or every action is interpreted. Épée has 54 inventory topics: 48 bounded, six partial.
+
+Standard 14–14 doubles are included as established practice, confirmed by the
+user and corroborated by a labeled official competition-report excerpt. The
+remaining gap is an explicit clause in the pinned edition, not whether the
+standard double counts. Modified targets/team 44–44 are not inferred.
+Domestic Head Referee/Bout Committee procedure and the t.117 extraction collision
+have been reconciled. Written foil/sabre conventions and listed domestic formats
+are now included with explicit limits; borderline visual judgments remain partial.
+
+## Historical findings from the research phase
+
+The findings below record why the original ten-case collection needed expansion
+and reconciliation. References to unimplemented candidates or gaps describe that
+research checkpoint. The coverage map and current app supersede those status claims.
 
 ## What the library supports
 

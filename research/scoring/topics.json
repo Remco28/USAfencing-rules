@@ -40,7 +40,15 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "restart-position",
+          "restore-distance"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "fence-halt",
@@ -71,8 +79,17 @@
         "before fence"
       ],
       "priority": "high",
-      "status": "existing-partial",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "halt",
+          "dropped-weapon",
+          "before-fence"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "time-expiry",
@@ -107,7 +124,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "time-expired"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "close-quarters",
@@ -143,8 +167,15 @@
         "body contact"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "close-quarters"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "contact-intent",
@@ -181,8 +212,16 @@
         "body check"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Share reviewed consequences with the penalty guide; do not infer intent from the search phrase."
+      "status": "implemented-bounded",
+      "publication_limit": "Share reviewed consequences with the penalty guide; do not infer intent from the search phrase.",
+      "coverage": {
+        "case_ids": [
+          "intentional-contact",
+          "restore-distance"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "passing",
@@ -219,8 +258,15 @@
         "behind opponent"
       ],
       "priority": "high",
-      "status": "existing",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "passing"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "ducking",
@@ -252,8 +298,15 @@
         "fell down"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "ducking"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "back-turn",
@@ -284,8 +337,15 @@
         "spun around"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "turning-back"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "free-hand",
@@ -317,8 +377,18 @@
         "held wire"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Penalty guide already covers much of this; link shared information rather than creating conflicting copies."
+      "status": "implemented-bounded",
+      "publication_limit": "Penalty guide already covers much of this; link shared information rather than creating conflicting copies.",
+      "coverage": {
+        "case_ids": [
+          "free-hand",
+          "grab-cord",
+          "weapon-hand",
+          "judge-assistance"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "side-one-foot",
@@ -351,7 +421,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "boundary-touch"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "side-both-feet",
@@ -380,7 +457,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "boundary-touch"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "side-ground",
@@ -422,8 +506,15 @@
         "lost ground"
       ],
       "priority": "high",
-      "status": "existing",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "side-exit"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "rear-exit",
@@ -451,7 +542,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "rear-exit"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "avoid-exit",
@@ -482,8 +580,15 @@
         "ran off side"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "avoid-exit"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "accidental-exit",
@@ -518,8 +623,15 @@
         "forced out"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "accidental-exit"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "pool-ending",
@@ -561,8 +673,17 @@
         "priority minute"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "pool-ending",
+          "pool-four-all",
+          "overtime"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "de-ending",
@@ -603,8 +724,16 @@
         "overtime"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "de-format",
+          "overtime"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-final-double",
@@ -624,9 +753,13 @@
         {
           "source": "usa-rules-2025-11",
           "locator": "t.92"
+        },
+        {
+          "source": "usa-epee-finishing-example-2024-09-10",
+          "locator": "page"
         }
       ],
-      "finding": "Pool 4–4 and DE tied final-score situations need their explicit end-of-bout rules, not a universal both-lights-each-scores summary.",
+      "finding": "The standard individual épée 14–14 finishing double does not count, as confirmed by the user and corroborated in official USA competition reporting. Pool 4–4 and extra-minute exceptions have explicit USA clauses.",
       "facts": [
         "Pool, DE or team?",
         "Actual winning target?",
@@ -639,8 +772,16 @@
         "winning double"
       ],
       "priority": "high",
-      "status": "needs-resolution",
-      "publication_limit": "Pool 4–4 and extra-minute doubles have explicit USA exceptions and can be published. No collected clause explicitly resolves a regulation DE double at 14–14; o.79 concerns withdrawal, not double touches. Do not invent a DE finishing rule or extrapolate youth formats."
+      "status": "implemented-partial",
+      "publication_limit": "Standard 14–14 practice is included and corroborated by an official report. An explicit 14–14 clause has not been located in the pinned rulebook; modified finishing targets and team 44–44 are not inferred.",
+      "coverage": {
+        "case_ids": [
+          "de-final-double",
+          "pool-four-all"
+        ],
+        "level": "partial",
+        "note": "Standard 14–14 practice is included and corroborated by an official report. An explicit 14–14 clause has not been located in the pinned rulebook; modified finishing targets and team 44–44 are not inferred."
+      }
     },
     {
       "id": "epee-extra-minute",
@@ -674,7 +815,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "overtime"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "team-relay",
@@ -708,7 +856,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "team-relay"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "team-penalty-limit",
@@ -740,7 +895,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "team-relay"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "team-order",
@@ -768,8 +930,15 @@
         "team order"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "International and domestic team formats differ; use current domestic event format before applying o.99 wholesale."
+      "status": "implemented-bounded",
+      "publication_limit": "International and domestic team formats differ; use current domestic event format before applying o.99 wholesale.",
+      "coverage": {
+        "case_ids": [
+          "team-order"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "veterans-youth",
@@ -814,8 +983,17 @@
         "short bout"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "ten-touch-format",
+          "y8-format",
+          "local-formats"
+        ],
+        "level": "partial",
+        "note": "Listed domestic ten-touch and developmental formats are explained. Every local adaptation and age-specific regulation is not independently audited."
+      }
     },
     {
       "id": "timing-error",
@@ -852,7 +1030,15 @@
       ],
       "priority": "medium",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "ask-time",
+          "time-expired"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "injury-break",
@@ -880,8 +1066,16 @@
         "withdrawal"
       ],
       "priority": "low",
-      "status": "candidate",
-      "publication_limit": "Keep score consequences separate from medical advice; handbook withdrawal classification is its own topic."
+      "status": "implemented-partial",
+      "publication_limit": "Keep score consequences separate from medical advice; handbook withdrawal classification is its own topic.",
+      "coverage": {
+        "case_ids": [
+          "medical-pause",
+          "withdrawal-results"
+        ],
+        "level": "partial",
+        "note": "Bout procedure and withdrawal are explained; medical diagnosis/treatment and all event staffing exceptions are outside this guide."
+      }
     },
     {
       "id": "registered-light",
@@ -924,8 +1118,15 @@
         "ref saw touch"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "unregistered-touch"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "objects-floor",
@@ -958,8 +1159,17 @@
         "false touch"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "object-touch",
+          "floor-touch",
+          "intentional-false-signal"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "floor-test",
@@ -1009,8 +1219,16 @@
         "strip fault"
       ],
       "priority": "high",
-      "status": "existing",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "floor-touch",
+          "judge-assistance"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "last-touch-fault",
@@ -1038,8 +1256,15 @@
         "replay bout"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "intermittent-fault"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "preserve-test",
@@ -1081,8 +1306,16 @@
         "cannot test"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "intermittent-fault",
+          "impossible-tests"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "broken-blade",
@@ -1110,7 +1343,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "broken-blade"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "falls",
@@ -1147,7 +1387,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "fall"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "dropped-weapon",
@@ -1182,8 +1429,15 @@
         "disarmed"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "dropped-weapon"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-target",
@@ -1218,8 +1472,15 @@
         "clothing"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "epee-target"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-double",
@@ -1249,8 +1510,16 @@
         "both lights"
       ],
       "priority": "high",
-      "status": "existing-partial",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "epee-double",
+          "epee-doubtful-double"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-guard",
@@ -1277,8 +1546,15 @@
         "loose tip"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "epee-insulated-guard"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-no-light",
@@ -1316,8 +1592,16 @@
         "tip not working"
       ],
       "priority": "high",
-      "status": "existing-partial",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "missing-light",
+          "unregistered-touch"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-spurious",
@@ -1347,7 +1631,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "epee-spurious-light"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "epee-suppressed",
@@ -1376,7 +1667,14 @@
       ],
       "priority": "medium",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "epee-spurious-light"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "plug-location",
@@ -1415,8 +1713,15 @@
         "unplugged"
       ],
       "priority": "high",
-      "status": "existing",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "missing-light"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "torn-strip",
@@ -1442,7 +1747,14 @@
       ],
       "priority": "medium",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "epee-strip-torn"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "foil-target",
@@ -1477,8 +1789,16 @@
         "off target"
       ],
       "priority": "high",
-      "status": "existing-partial",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "foil-target",
+          "foil-off-target"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "foil-substitution",
@@ -1511,8 +1831,15 @@
         "white awarded"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "foil-covered-target"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "foil-equipment",
@@ -1548,7 +1875,15 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "foil-equipment",
+          "foil-equipment-exception"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "priority-glossary",
@@ -1608,8 +1943,15 @@
         "preparation"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Written definitions are source-backed; modern borderline action classification needs current referee interpretation rather than a mechanical rule engine."
+      "status": "implemented-partial",
+      "publication_limit": "Written definitions are source-backed; modern borderline action classification needs current referee interpretation rather than a mechanical rule engine.",
+      "coverage": {
+        "case_ids": [
+          "priority-glossary"
+        ],
+        "level": "partial",
+        "note": "Written definitions are included; they cannot establish the actions observed in a particular phrase."
+      }
     },
     {
       "id": "foil-attack",
@@ -1639,8 +1981,15 @@
         "attack preparation"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Do not turn written text into an automatic ruling on a contested video; obtain current official interpretation for borderline preparation."
+      "status": "implemented-partial",
+      "publication_limit": "Do not turn written text into an automatic ruling on a contested video; obtain current official interpretation for borderline preparation.",
+      "coverage": {
+        "case_ids": [
+          "foil-attack"
+        ],
+        "level": "partial",
+        "note": "Written conventions are included. Borderline current visual interpretation is not independently certified."
+      }
     },
     {
       "id": "line",
@@ -1682,8 +2031,15 @@
         "derobement"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "point-in-line"
+        ],
+        "level": "partial",
+        "note": "Written prerequisites are included. The referee establishes timing, continuity and actual deflection."
+      }
     },
     {
       "id": "beats",
@@ -1714,8 +2070,15 @@
         "near guard"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "blade-beat"
+        ],
+        "level": "partial",
+        "note": "Written foible/forte distinction is included. Blade-contact classification remains a referee judgment."
+      }
     },
     {
       "id": "riposte",
@@ -1759,8 +2122,15 @@
         "redoublement"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "immediate-riposte"
+        ],
+        "level": "partial",
+        "note": "Written immediate-riposte conditions are included. Observed immediacy and the full sequence must be established."
+      }
     },
     {
       "id": "stop-hit",
@@ -1798,8 +2168,15 @@
         "counterattack in time"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "stop-hit"
+        ],
+        "level": "partial",
+        "note": "Written compound-attack timing is included. The guide does not measure fencing time from lights or a video."
+      }
     },
     {
       "id": "simultaneous",
@@ -1829,8 +2206,15 @@
         "two lights"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "simultaneous-attacks"
+        ],
+        "level": "partial",
+        "note": "Written distinction is included. Two lights do not establish simultaneous conception and execution."
+      }
     },
     {
       "id": "sabre-target",
@@ -1865,7 +2249,15 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "sabre-target",
+          "sabre-off-target"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "sabre-guard",
@@ -1910,7 +2302,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Use the detailed February 2025 referee FAQ; it explicitly limits this interpretation to domestic sabre and does not license applying it to épée/foil."
+      "publication_limit": "Use the detailed February 2025 referee FAQ; it explicitly limits this interpretation to domestic sabre and does not license applying it to épée/foil.",
+      "coverage": {
+        "case_ids": [
+          "sabre-guard-contact"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "sabre-through-blade",
@@ -1944,8 +2343,15 @@
         "blade contact"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Read Appendix B C together with t.96.4; do not infer registration solely from a spectator’s view."
+      "status": "implemented-bounded",
+      "publication_limit": "Read Appendix B C together with t.96.4; do not infer registration solely from a spectator’s view.",
+      "coverage": {
+        "case_ids": [
+          "sabre-through-blade"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "sabre-equipment",
@@ -1979,7 +2385,15 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "sabre-equipment",
+          "sabre-guard-insulation"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "sabre-attack",
@@ -2026,8 +2440,15 @@
         "attack in preparation"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "The official source library does not provide a complete current visual priority curriculum; detailed borderline classification remains a referee-review gap."
+      "status": "implemented-partial",
+      "publication_limit": "The official source library does not provide a complete current visual priority curriculum; detailed borderline classification remains a referee-review gap.",
+      "coverage": {
+        "case_ids": [
+          "sabre-attack"
+        ],
+        "level": "partial",
+        "note": "Written conventions and crossing restriction are included. Borderline current visual interpretation is not independently certified."
+      }
     },
     {
       "id": "prebout-check",
@@ -2099,8 +2520,15 @@
         "inspection mark"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "t.72 and t.20 updates are already audited; reuse docs/RULE-UPDATES-2026-10.md. USA clothing exceptions require domestic notes."
+      "status": "implemented-partial",
+      "publication_limit": "t.72 and t.20 updates are already audited; reuse docs/RULE-UPDATES-2026-10.md. USA clothing exceptions require domestic notes.",
+      "coverage": {
+        "case_ids": [
+          "prebout-check"
+        ],
+        "level": "partial",
+        "note": "Initial checks and later faults are distinguished. This is not a complete inspection/homologation checklist."
+      }
     },
     {
       "id": "tip-tests",
@@ -2157,8 +2585,16 @@
         "bodycord test"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-partial",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "tip-test",
+          "sabre-guard-insulation"
+        ],
+        "level": "partial",
+        "note": "Point force/travel and insulation are explained. Not every resistance, certification or apparatus test is reproduced."
+      }
     },
     {
       "id": "grounding",
@@ -2212,8 +2648,16 @@
         "piste resistance"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "grounding-runoff",
+          "floor-touch"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "box-timing",
@@ -2249,8 +2693,15 @@
         "double window"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Use the Appendix B entries in the source inventory; never equate an electrical timing band with foil/sabre fencing-time priority."
+      "status": "implemented-bounded",
+      "publication_limit": "Use the Appendix B entries in the source inventory; never equate an electrical timing band with foil/sabre fencing-time priority.",
+      "coverage": {
+        "case_ids": [
+          "box-timing"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "equipment-target-mask",
@@ -2287,8 +2738,15 @@
         "grounded bib"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "conductive-bib"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "penalty-touch",
@@ -2343,8 +2801,15 @@
         "penalty hit"
       ],
       "priority": "medium",
-      "status": "candidate",
-      "publication_limit": "Reuse the established penalty data and current passivity update rather than duplicate progression logic in scoring."
+      "status": "implemented-bounded",
+      "publication_limit": "Reuse the established penalty data and current passivity update rather than duplicate progression logic in scoring.",
+      "coverage": {
+        "case_ids": [
+          "penalty-touch"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "passivity",
@@ -2376,8 +2841,15 @@
         "p black"
       ],
       "priority": "high",
-      "status": "reuse-completed-audit",
-      "publication_limit": "Do not re-research. Reference docs/RULE-UPDATES-2026-10.md and db rule_updates; suppress historical progression as current."
+      "status": "implemented-bounded",
+      "publication_limit": "Do not re-research. Reference docs/RULE-UPDATES-2026-10.md and db rule_updates; suppress historical progression as current.",
+      "coverage": {
+        "case_ids": [
+          "non-combativity"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "end-bout",
@@ -2408,8 +2880,15 @@
         "restart match"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "bout-finished"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "review-rule",
@@ -2472,7 +2951,15 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Published guide shows t.174 beside the domestic Head Referee screening / full Bout Committee route and stay-hooked deadline. Event officials identify the applicable event procedure; no undocumented precedence claim."
+      "publication_limit": "Published guide shows t.174 beside the domestic Head Referee screening / full Bout Committee route and stay-hooked deadline. Event officials identify the applicable event procedure; no undocumented precedence claim.",
+      "coverage": {
+        "case_ids": [
+          "phrase-explanation"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation.",
+        "route": "review"
+      }
     },
     {
       "id": "official-video",
@@ -2522,7 +3009,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "official-video"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "recorded-score",
@@ -2565,7 +3059,14 @@
       ],
       "priority": "high",
       "status": "implemented-bounded",
-      "publication_limit": "Use handbook pp.82–83 and Operations Manual p.18; personal video/photo evidence is not accepted as score documentation in the handbook procedure."
+      "publication_limit": "Use handbook pp.82–83 and Operations Manual p.18; personal video/photo evidence is not accepted as score documentation in the handbook procedure.",
+      "coverage": {
+        "case_ids": [
+          "scoresheet-correction"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "pool-ranking",
@@ -2594,8 +3095,16 @@
         "v m"
       ],
       "priority": "low",
-      "status": "candidate",
-      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing."
+      "status": "implemented-bounded",
+      "publication_limit": "Confirm the complete clauses, current domestic applicability and wording before publishing.",
+      "coverage": {
+        "case_ids": [
+          "pool-ranking",
+          "qualifying-cutoff"
+        ],
+        "level": "bounded",
+        "note": "A bounded explanation covers the listed situation and stated conditions; it is not a certification of every variation."
+      }
     },
     {
       "id": "classification",
@@ -2634,8 +3143,15 @@
         "black card pool"
       ],
       "priority": "low",
-      "status": "candidate",
-      "publication_limit": "Handbook distinctions and current passivity rules must be read together; do not apply a historical generic black-card paragraph to P-black."
+      "status": "implemented-partial",
+      "publication_limit": "Handbook distinctions and current passivity rules must be read together; do not apply a historical generic black-card paragraph to P-black.",
+      "coverage": {
+        "case_ids": [
+          "withdrawal-results"
+        ],
+        "level": "partial",
+        "note": "Medical-withdrawal/bout outcomes are explained and exclusions distinguished. All ratings, qualification and disciplinary systems are not modeled."
+      }
     }
   ]
 }

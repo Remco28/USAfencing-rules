@@ -19,8 +19,9 @@ with tempfile.TemporaryDirectory(prefix="scoring-validation-") as directory:
         (target / "db/scoring_cases.json").write_text(json.dumps(data))
         builder.build()
     run(original)
-    assert len(json.loads((target / "site/scoring/data/cases.json").read_text())["cases"]) == 33
+    assert len(json.loads((target / "site/scoring/data/cases.json").read_text())["cases"]) == 82
     for label, mutate in [
+        ("empty source quote", lambda d: d["sources"].update({"t.56.7": ""})),
         ("fabricated rule quote", lambda d: d["sources"].update({"t.56.7": "All broken blades award a touch to the owner."})),
         ("fabricated domestic quote", lambda d: d["sources"].update({"USA protest timing": "A parent may appeal at any time after unhooking."})),
         ("wrong domestic page", lambda d: d["source_details"]["USA on-strip protest"].update({"page": 4})),
@@ -36,4 +37,4 @@ with tempfile.TemporaryDirectory(prefix="scoring-validation-") as directory:
             pass
         else:
             raise AssertionError(label)
-print("Scoring sources: valid build and six false-source/link rejection checks passed")
+print("Scoring sources: valid build and seven false-source/link rejection checks passed")

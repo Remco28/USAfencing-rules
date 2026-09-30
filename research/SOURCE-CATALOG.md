@@ -19,6 +19,7 @@ Pinned official documents and rendered page captures. Source hashes and legacy f
 | `usa-weapon-drop-2025-09-11` | September 11, 2025; effective August 1, 2025 | official announcement | [Rule t.56.11 Adopted: Intentional Weapon Drop During Action Is a Red Card \| USA Fencing](sources/usa-fencing/usa-weapon-drop-2025-09-11.json) |
 | `usa-adoption-2026-09-20` | September 20, 2026; effective October 1, 2026 | official announcement | [P-Yellow Card Eliminated at USA Fencing Events Beginning Oct. 1 \| USA Fencing](sources/usa-fencing/usa-adoption-2026-09-20.json) |
 | `fie-rules-directory` | Live directory captured September 30, 2026 | official directory | [FIE Competition Rules - International Fencing Federation](sources/fie/fie-rules-directory.json) |
+| `usa-epee-finishing-example-2024-09-10` | September 10, 2024 | corroborating competition report | [Team USA Earns Key Victories on Final Day of Individual Competition](sources/usa-fencing/usa-epee-finishing-example-2024-09-10.json) |
 
 ## usa-rules-2025-11
 
@@ -169,3 +170,13 @@ Publisher: FIE. Verified/captured: 2026-09-30.
 [Publisher source](https://fie.org/documents/rules) · [Complete text](extracted/fie-rules-directory.txt)
 
 Capture: Rendered main-content text and links from official page; no scripts, ads or page chrome.
+
+## usa-epee-finishing-example-2024-09-10
+
+Official competition reporting corroborates an épée double at 14–14 not counting. This is a selected athlete quotation, not normative rule wording or a rule change.
+
+Publisher: USA Fencing. Verified/captured: 2026-09-30.
+
+[Publisher source](https://www.usafencing.org/news/2024/september/10/team-usa-earns-key-victories-on-final-day-of-individual-competition) · [Selected excerpt](extracted/usa-epee-finishing-example-2024-09-10.txt)
+
+Capture: selected corroborating excerpt; not a full article capture.

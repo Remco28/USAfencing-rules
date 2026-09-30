@@ -19,6 +19,7 @@ research/
   pages/<source-id>/        generated full-page domestic context extracts
   scoring/topics.json      authored findings, facts, draft vocabulary and limits
   scoring/INVENTORY.md      generated readable topic inventory
+  scoring/COVERAGE.md       published case mappings and explicit scope limits
   scoring/FINDINGS.md       interpretation issues, product implications and gaps
   build_inventory.py       offline provenance validation and deterministic generation
 ```
@@ -89,12 +90,15 @@ from article boundaries using the pinned document layout.
 
 ## Collected sources
 
-There are 15 pinned sources: seven PDFs and eight official webpage captures.
+There are 16 pinned sources: seven PDFs, eight official webpage captures, and
+one explicitly labeled 22-word competition-report excerpt. The latter corroborates
+standard 14–14 épée practice; it is not a rule amendment or a full article capture.
 The practical inventory has 69 topics with facts and draft search phrases. The
 article index includes all 178 USA technical articles plus material and
 organization context and international comparison articles. Complete extracts
 also preserve subjects outside the companion scope. Read `scoring/FINDINGS.md`
-for the remaining interpretation and legacy extraction issues.
+for interpretation context, and [COVERAGE.md](scoring/COVERAGE.md) for current
+published coverage and limits.
 
 ## Human research review
 
@@ -103,7 +107,7 @@ browser to review findings, missing situations, vocabulary and next priorities.
 Export the ZIP before closing; answers and screenshots stay only in the open
 page until export. Put the ZIP beside its HTML guide.
 
-Validation for this phase: all original PDF/extract bytes preserved; 717 article
+Historical validation for the initial research-only phase: all original PDF/extract bytes preserved; 717 article
 records (including all USA and FIE technical articles, all 60 FIE material and
 119 FIE organization articles) indexed; 69 topic citations and 20 context pages
 checked; 302 local documentation links resolve. Both app data rebuilds and

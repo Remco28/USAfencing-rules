@@ -125,11 +125,24 @@ def build(check=False):
     outputs={RESEARCH/'scoring/INVENTORY.md':'\n'.join(markdown)+'\n',RESEARCH/'article-index.json':json.dumps(dict(schema=1,articles=[{k:v for k,v in r.items() if k!='text'} for r in records]),ensure_ascii=False,indent=2)+'\n'}
     def table(text):
         return text.replace("|", "\\|")
+    if all("coverage" in topic for topic in topics):
+        rows = ["# Scoring coverage map", "", "This maps the 69-topic practical inventory, not every rulebook provision. Bounded entries explain defined situations; partial entries retain explicit limits. Having all source text is not independent referee certification.", "", "| Weapon | Inventory topics | Bounded | Partial |", "|---|---:|---:|---:|"]
+        for weapon in ["epee", "foil", "sabre"]:
+            group = [t for t in topics if weapon in t["weapons"]]
+            rows.append(f"| {weapon} | {len(group)} | {sum(t['coverage']['level']=='bounded' for t in group)} | {sum(t['coverage']['level']=='partial' for t in group)} |")
+        for topic in topics:
+            c = topic["coverage"]
+            rows.extend(["", "## " + topic["title"], "", "Weapons: " + ", ".join(topic["weapons"]) + ". Coverage: **" + c["level"] + "**.", "", c["note"], ""])
+            for id in c["case_ids"]:
+                rows.append(f"- [{id}](https://penalties.teamremco.org/scoring/#/case/{id})")
+            if c.get("route"):
+                rows.append(f"- [Review procedure](https://penalties.teamremco.org/scoring/#/{c['route']})")
+        outputs[RESEARCH / "scoring/COVERAGE.md"] = "\n".join(rows) + "\n"
     source_lines=["# Source catalog", "", "Pinned official documents and rendered page captures. Source hashes and legacy filenames are in `sources.json`.", "", "| Source ID | Edition / date | Authority | Local document |", "|---|---|---|---|"]
     for source in sources.values():
         source_lines.append(f"| `{source['id']}` | {source['version']} | {source['authority']} | [{table(source['title'])}]({source['path'].removeprefix('research/')}) |")
     for source in sources.values():
-        source_lines.extend(["",f"## {source['id']}","",source['scope'],"",f"Publisher: {source['publisher']}. Verified/captured: {source['verified_on']}.","",f"[Publisher source]({source['url']}) · [Complete text]({source['extracted_path'].removeprefix('research/')})", "",f"Capture: {source['capture_method']}."])
+        source_lines.extend(["",f"## {source['id']}","",source['scope'],"",f"Publisher: {source['publisher']}. Verified/captured: {source['verified_on']}.","",f"[Publisher source]({source['url']}) · [{'Selected excerpt' if source['capture_method'].startswith('selected') else 'Complete text'}]({source['extracted_path'].removeprefix('research/')})", "",f"Capture: {source['capture_method']}."])
     outputs[RESEARCH/'SOURCE-CATALOG.md']='\n'.join(source_lines)+'\n'
     for r in records:
         outputs[RESEARCH/'articles'/r['source']/(r['ref']+'.txt')]=r['text'].strip()+'\n'
