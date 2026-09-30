@@ -26,3 +26,12 @@ feedback round. Details and maintenance procedure: [SEARCH.md](SEARCH.md).
 The November 2025 source transcription remains distinct from current guidance.
 Primary-source October research is complete; see RULE-UPDATES-2026-10.md.
 Human review continues; automated checks do not replace readability feedback.
+
+## Scoring companion — September 30, 2026
+
+Added `/scoring/` in the shared repository and Pages artifact. Ten situations
+cover the four requested épée examples and a small foil/sabre starter collection.
+Distinct blue interface, remembered weapon, compact search, bounded diagrams,
+optional fact notes, exact source validation, review procedure and reciprocal
+links. Separate service-worker scopes protect each guide’s cached content.
+See `SCORING.md` for coverage, audit and maintenance.

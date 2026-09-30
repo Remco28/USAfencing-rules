@@ -264,3 +264,5 @@ details.entry-note p { margin: 0 0 9px; color: #46534b; font-size: .74rem; }
 .related-heading { grid-column: 1 / -1; margin: 10px 0 0; }
 .related-heading h2 { margin: 0; font-size: 1.05rem; }
 .related-heading p { margin: 5px 0; color: var(--muted); font-size: .82rem; }
+
+@media(max-width:720px){.source-header-link{display:none}}

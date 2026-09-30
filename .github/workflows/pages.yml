@@ -28,8 +28,12 @@ jobs:
       - name: Rebuild and verify reference data
         run: |
           python3 db/build_db.py
-          git diff --exit-code -- site/data
+          python3 db/build_scoring.py
+          git diff --exit-code -- site/data site/scoring/data
           node tests/search.test.cjs
+          node tests/scoring.test.cjs
+          node --check site/scoring/app.js
+          node --check site/scoring/sw.js
           node --check site/app.js
           node --check site/search.js
           node --check site/sw.js

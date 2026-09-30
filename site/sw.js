@@ -1,5 +1,5 @@
 /* Offline support: cache the app shell + data + figures on first visit. */
-var CACHE = "fencing-penalties-v10";
+var CACHE = "fencing-penalties-v11";
 var CORE = [
   "./",
   "index.html",
@@ -30,7 +30,8 @@ self.addEventListener("activate", function (e) {
   }).then(function () { return self.clients.claim(); }));
 });
 self.addEventListener("fetch", function (e) {
-  if (e.request.method !== "GET" || new URL(e.request.url).origin !== location.origin) return;
+  var requestURL = new URL(e.request.url);
+  if (e.request.method !== "GET" || requestURL.origin !== location.origin || requestURL.pathname.startsWith(new URL("scoring/", self.registration.scope).pathname)) return;
   e.respondWith(
     caches.match(e.request).then(function (hit) {
       var net = fetch(e.request).then(function (res) {

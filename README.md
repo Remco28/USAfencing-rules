@@ -5,6 +5,14 @@ understand the card and its consequences, and open the cited rule when needed.
 Readers do not need the external penalty sheet or its note-number conventions.
 The app retrieves reference information; it does not issue rulings.
 
+## Scoring companion
+
+[Fencing Scoring](https://penalties.teamremco.org/scoring/) shares this repository
+and research. Its first collection covers 10 situations across the three weapons,
+with épée equipment cases in most detail. Weapon selection is remembered; entries
+explain conditions, source wording and review procedure without automatic rulings.
+See [scoring scope, audit and maintenance](docs/SCORING.md). Both guides link to each other.
+
 ## Current behavior
 
 - Browse 41 situations, with category shortcuts and clearly explained groups.
@@ -29,7 +37,9 @@ https://penalties.teamremco.org once DNS is configured. See [deployment setup](d
 
 ```sh
 python3 db/build_db.py
+python3 db/build_scoring.py
 node tests/search.test.cjs
+node tests/scoring.test.cjs
 python3 -m http.server 8000 --directory site
 ```
 
@@ -83,6 +93,7 @@ must not silently be presented as current where they conflict with an update.
 ## Human review
 
 - Existing app review: `human_feedback/round-2026-10-beginner-guide/index.html`.
+- Scoring review: `human_feedback/round-2026-10-scoring/index.html`.
 - Search review: `human_feedback/round-2026-10-search/index.html`.
 
 Open the form, try the described checks, attach or paste screenshots if helpful,

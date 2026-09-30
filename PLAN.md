@@ -15,6 +15,9 @@
 6. Rebuild data, check retrieval examples and negative cases, verify browser flows
    and maintain standalone human feedback forms.
 
+7. Add the `/scoring/` companion in the same repository: 10 verified situations,
+   remembered weapon, source-backed conditions, fact notes and review procedure.
+
 ## Current human review
 
 Try natural descriptions, ambiguous equipment words and misspellings. Report
@@ -26,6 +29,13 @@ from actual examples; matching is not a ruling or universal language understandi
 
 - Process human feedback and add verified aliases with regression examples.
 - Compare new official revisions and update only affected guidance/vocabulary.
-- GitHub Pages deployment is configured for penalties.teamremco.org; complete DNS and HTTPS provisioning, then verify the custom-domain site.
+- GitHub Pages serves penalties.teamremco.org with approved HTTPS; both guides deploy together.
 
 Implementation and maintenance details: docs/SEARCH.md. Saved changes: docs/CHANGELOG.md.
+
+## Scoring follow-up
+
+Review the first collection using `human_feedback/round-2026-10-scoring/index.html`.
+Use real searches and referee feedback to expand verified cases. Detailed foil and
+sabre priority, final-score/time outcomes and complete video procedure remain
+outside the initial scope; add them only with a clause audit and retrieval tests.

@@ -1,0 +1,450 @@
+{
+  "version": 1,
+  "source_date": "November 2025",
+  "audited_on": "2026-09-30",
+  "sources": {
+    "t.22.9": "If a fencer crosses the lateral boundaries of the strip, with one or both feet, the fencer must be placed on guard at the correct distance, even if this means that the fencer is placed behind the rear line and thus causes a touch to be awarded against themself",
+    "t.23.3": "As soon as the order “Halt” has been given, a competitor may not start a new action; only the movement which has begun before the order was given remains valid.",
+    "t.23.4": "If a competitor stops before the word “Halt,” and is touched, the touch is valid.",
+    "t.27.2": "It is forbidden to turn one’s back on one’s opponent during the bout.",
+    "t.28.1": "When a fencer goes completely past the opponent during a bout, the Referee must immediately call “Halt” and replace the competitors in the positions which they occupied before the passing took place.",
+    "t.28.2": "When touches are made as a fencer passes the opponent, the touch made immediately is valid; a touch made after passing the opponent by the competitor who has made the passing movement is annulled, but the touch made immediately, even when turning around, by the competitor who has been subjected to the offensive action, is valid.",
+    "t.28.3": "If during a bout a fencer who has made a flèche attack has a touch registered against and continues to run beyond the extreme limit of the strip sufficiently far to cause the reel or the connecting line to the reel to be torn out, the touch which they received will not be annulled",
+    "t.33.1": "When a competitor crosses one of the lateral boundaries of the strip with one or both feet completely off the strip, the Referee must immediately call “Halt.”",
+    "t.33.4": "If one of the competitors leaves the strip with both feet, only a touch made by the fencer who remains on the strip with at least one foot, and at épée only, can be counted valid, even in the case of a double touch. For foil and sabre the convention must be applied.",
+    "t.34": "Should a competitor cross the rear limit of the strip completely—i.e., with both feet—a touch will be scored against him.",
+    "t.35.1": "If a competitor crosses one of the lateral boundaries of the strip with one or two feet, they must retreat one meter from the point where they left the strip, and if they go off the strip during an attack, must return to the position occupied when they started their attack and then retreat a further meter",
+    "t.35.2": "If the exercise of this penalty places a competitor with both feet beyond the rear limit of the strip, that competitor is considered as having been touched.",
+    "t.36": "A competitor who involuntarily crosses one of the boundaries of the strip as the result of any accidental cause (such as jostling) incurs no penalty whatever.",
+    "t.47.2.d": "The referee will prevent the competitors from hindering the tests by unplugging or changing their equipment prematurely.",
+    "t.54.2": "Under no circumstances can the Referee declare a competitor to be touched unless the touch has been properly registered by the apparatus (except as provided for in Articles t.79 or when a penalty touch has been awarded).",
+    "t.55.1": "The Referee will disregard touches which are registered as a result of actions: — started before the word “Fence” or after the word “Halt” (cf. t.23.1/3); — which are made on any object other than the opponent or their equipment.",
+    "t.56.1": "Only the last touch made before the fault was established can be annulled and then only if it is the competitor against whom the hit was registered who is placed at a disadvantage by the failure.",
+    "t.56.2": "The failure must be established by tests made immediately after the bout was stopped, under the supervision of the Referee and without changing anything whatever of the equipment in use.",
+    "t.56.3": "A competitor who makes any modification in or who changes their equipment without being asked by the Referee to do so, before the Referee has given their decision, loses all right to the annulment of the touch.",
+    "t.56.4": "If the bout has effectively recommenced, a competitor cannot claim the annulment of a touch awarded against themself before the said recommencement of the bout.",
+    "t.56.6": "It is not necessary that the failure found should repeat itself each time a test is made; but it is essential that the fault should be manifested to the Referee without the possibility of doubt at least once during the tests made by the Referee or under their supervision.",
+    "t.77.2": "In foil, only touches which arrive on the valid target are counted.",
+    "t.78": "A touch which is made on a part of the body other than the target (whether directly or as a result of a parry) or which arrives following a fencing fault or after going over the lateral boundary of the strip with both feet, is not counted as a valid touch, but it stops the phrase and therefore annuls all touches which are scored thereafter",
+    "t.82": "The Referee alone decides as to the validity or the priority of the touch by applying the following basic rules which are the conventions applicable to foil fencing.",
+    "t.91": "In épée the target includes the whole of the fencer’s body including clothing and equipment.",
+    "t.92": "When both competitors are touched, and the apparatus registers both these touches as valid, there is a double touch, that is to say a touch is scored for each competitor.",
+    "t.93": "In arriving at a judgment, the Referee will disregard touches which are registered as a result of actions caused by the meeting of the points of the épées or by a touch made on the ground where it is not insulated.",
+    "t.94.1": "If a touch made on the guard of the competitor against whom the touch was registered or on the conductive strip causes the apparatus to register a touch;",
+    "t.94.2": "If a touch properly made by the competitor against whom the touch was registered does not cause the apparatus to register a touch;",
+    "t.94.5": "If a double touch is registered and one touch is valid and the other is not valid (such as a touch made on some surface other than on the opponent (cf. t.93.1) or a touch made after leaving the strip (cf. t.33ss), only the valid touch is scored.",
+    "t.95.1": "If the incidents mentioned in Article t.94 occur as a result of the competitor’s bodycord being unplugged (either near the hand or at the back of the fencer), they cannot justify the annulment of the touch registered. However, if the safety device prescribed by Article m.55.4 is missing or not functioning, the touch should be annulled if the plug at the fencers’ back has become unplugged.",
+    "t.98": "A touch which arrives on a non-valid part of the target is not counted as a touch; it is not registered by the apparatus, it does not stop the fencing phrase and does not annul any subsequent touches.",
+    "t.100": "The Referee alone decides as to the validity or the priority of the touch by applying the following basic rules which are the conventions applicable to sabre fencing.",
+    "t.101.5": "The flèche and any forward movement in which the rear foot completely passes the front foot is forbidden.",
+    "t.172.1": "No appeal can be made against the decision of the Referee regarding a point of fact, except as permitted in o.105 and t.60-63 for video refereeing",
+    "t.172.2": "But if the Referee is ignorant of or misunderstands a definite rule, or applies it in a manner contrary to the Rules, an appeal on this matter may be entertained.",
+    "t.173": "This appeal must be made: 1. in individual events, by the fencer; 2. in team events, by the fencer or the team captain. This appeal should be made courteously but without formality, and should be made verbally to the Referee immediately and before any decision is made regarding a subsequent touch.",
+    "t.174": "If the Referee maintains their opinion, the Head Referee has authority to settle an appeal",
+    "t.175": "Complaints and protests which are not concerned with a referee’s decision must be made in writing without delay; they must be addressed to the Bout Committee.",
+    "m.55.4": "The socket which terminates the reel cable, and is designed to receive the plug of the bodycord at the fencer’s back, must include a safety device",
+    "t.35.3": "A competitor who crosses one of the lateral boundaries of the strip with one or both feet— e.g., when making a flèche—to avoid being touched will be penalized as specified in Articles t.158-162, t.165, t.170, for the offenses of the 1st group. Any touch made by the offending fencer is annulled."
+  },
+  "cases": [
+    {
+      "id": "side-exit",
+      "title": "Stepped off the side — why did the opponent get a point?",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "A side exit costs ground. If the required retreat puts both feet beyond the rear line, a touch is awarded against the fencer who left.",
+      "conditions": [
+        "One or both feet completely off the side triggers Halt. The normal retreat is one meter from the exit point.",
+        "If the fencer left during an attack, they return to where the attack started, then retreat one meter. Restoring the correct on-guard distance also matters.",
+        "A touch from this repositioning requires both feet beyond the rear line. A side exit by itself does not automatically give the opponent a point.",
+        "An involuntary exit caused by an accident, such as jostling, has an exception under t.36. Leaving to avoid a touch has a separate penalty."
+      ],
+      "questions": [
+        "Where did the fencer leave the side?",
+        "Was the exit during an attack, and where did that attack start?",
+        "Would the required repositioning put both feet beyond the rear line?",
+        "Was there an accidental cause such as jostling?"
+      ],
+      "articles": [
+        "t.22.9",
+        "t.33.1",
+        "t.34",
+        "t.35.1",
+        "t.35.2",
+        "t.35.3",
+        "t.36"
+      ],
+      "search_terms": [
+        "side of strip",
+        "stepped off side",
+        "out of bounds",
+        "off piste",
+        "one meter",
+        "one metre",
+        "lost ground",
+        "back line",
+        "end of strip",
+        "opponent got point"
+      ],
+      "caveat": "Touch validity during the exit is a separate question. One foot and both feet off have different rules; foil and sabre still apply their conventions.",
+      "diagram": "boundary",
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "passing",
+      "title": "Passed the opponent, turned, and hit",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "Who passed whom matters. A hit made after passing by the fencer who went past is annulled. The opponent who was passed may make an immediate hit, even while turning.",
+      "conditions": [
+        "The referee calls Halt as soon as a fencer goes completely past the opponent.",
+        "A touch made immediately as the passing happens can be valid. A later hit by the fencer who passed cannot.",
+        "The fencer who was passed may hit immediately, even while turning. This exception does not give either fencer unlimited time to start a new action.",
+        "Turning the back is separately prohibited. Foil and sabre also require their weapon conventions; sabre forbids the flèche and forward crossing of the feet."
+      ],
+      "questions": [
+        "Which fencer went completely past the other?",
+        "Was the touch immediate as they passed, or made afterwards?",
+        "Was it the passing fencer or the fencer who was passed who hit?",
+        "Had a new action begun after Halt?"
+      ],
+      "articles": [
+        "t.28.1",
+        "t.28.2",
+        "t.27.2",
+        "t.23.3",
+        "t.101.5"
+      ],
+      "search_terms": [
+        "fleche",
+        "flèche",
+        "ran past",
+        "went past",
+        "passed opponent",
+        "turn around",
+        "turned around",
+        "hit behind",
+        "hit after passing",
+        "riposte after passing"
+      ],
+      "caveat": "The illustration shows the passing distinction only. It assumes no other fault and does not judge priority.",
+      "diagram": "passing",
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "floor-touch",
+      "title": "The light came on, but the point hit the floor",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Equipment & lights",
+      "summary": "A light is evidence of registration. A touch on the ground where it is not insulated is disregarded; an equipment fault is a separate route to annulment.",
+      "conditions": [
+        "A foot is valid épée target. The floor is not the opponent. The referee must establish what was touched; the apparatus cannot identify the location.",
+        "If referee-supervised tests show a touch on the conductive strip registers a light, t.94.1 requires annulment of the last touch, subject to t.56.",
+        "If testing shows the strip is grounded and does not reproduce a fault, that test does not prove the original point landed on the foot or on the floor.",
+        "A fault need not repeat every time, but it must be demonstrated without doubt at least once during the supervised tests. Preserve the equipment and test immediately."
+      ],
+      "questions": [
+        "Did the referee establish a floor hit or a hit on the opponent?",
+        "Did a supervised test make a touch on the conductive strip register?",
+        "Was anything unplugged, adjusted or changed before testing?",
+        "Had fencing restarted before annulment was requested?"
+      ],
+      "articles": [
+        "t.91",
+        "t.54.2",
+        "t.55.1",
+        "t.93",
+        "t.94.1",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.56.6"
+      ],
+      "search_terms": [
+        "floor",
+        "ground",
+        "foot touch",
+        "hit floor not foot",
+        "grounded strip",
+        "grounding",
+        "false light",
+        "light on floor",
+        "point on piste",
+        "strip test"
+      ],
+      "caveat": "Disagreeing with what the referee saw is a point-of-fact issue. Equipment tests or a specific misapplication of a rule raise different questions.",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "missing-light",
+      "title": "My touch did not register — a plug was disconnected",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Equipment & lights",
+      "summary": "The precise connection matters. An established equipment failure can justify cancelling the opponent’s last touch; an unplugged body cord has a specific exception.",
+      "conditions": [
+        "A properly made touch that does not register can trigger t.94.2, subject to immediate supervised tests and the t.56 limits. A missing light cannot simply be converted into a point.",
+        "If the body cord is unplugged at the weapon or at the fencer’s back, that normally does not justify annulment.",
+        "At the back connection, a missing or nonfunctioning retaining safety device is an exception: t.95.1 says the touch should be annulled when that plug comes out.",
+        "A connecting cable unplugged at the reel or scoring apparatus is a different location. It needs the general equipment-failure tests; do not assume every unplugged connection is a body-cord exception.",
+        "A fencer who runs on after receiving a hit and tears out the reel or connecting line cannot use that later disconnection to annul the hit under t.28.3."
+      ],
+      "questions": [
+        "Which plug came out: weapon, fencer’s back, reel, or apparatus?",
+        "If at the back, was the retaining safety device present and working?",
+        "Was the failure established in immediate referee-supervised tests?",
+        "Was the connection lost during the action or after the registered touch?",
+        "Was the fencer disadvantaged by the failure, and has fencing restarted?"
+      ],
+      "articles": [
+        "t.54.2",
+        "t.94.2",
+        "t.95.1",
+        "m.55.4",
+        "t.56.1",
+        "t.56.2",
+        "t.56.3",
+        "t.56.4",
+        "t.47.2.d",
+        "t.28.3"
+      ],
+      "search_terms": [
+        "double but one light",
+        "no light",
+        "missing light",
+        "touch did not register",
+        "reel disconnected",
+        "unplugged reel",
+        "plug came out",
+        "disconnected scoring reel",
+        "body cord unplugged",
+        "bodycord",
+        "broken clip",
+        "retaining clip",
+        "socket",
+        "cable fault"
+      ],
+      "caveat": "Annulment cancels a registered touch. It does not award an unregistered touch or recreate an assumed double.",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "epee-double",
+      "title": "Both lights came on — does each fencer score?",
+      "weapons": [
+        "epee"
+      ],
+      "category": "Target & scoring",
+      "summary": "In épée, two registered valid touches give each fencer a touch. Both lights alone do not override rules that make one touch invalid.",
+      "conditions": [
+        "The whole body, clothing and equipment are target in épée. Hits must still satisfy the validity rules.",
+        "If one registered touch is valid and the other is invalid, only the valid touch scores. Equipment-failure doubles have their own treatment in t.94.5.",
+        "If a fencer is completely off the side with both feet, only the opponent remaining on the strip with at least one foot can have a valid hit under t.33.4."
+      ],
+      "questions": [
+        "Did the apparatus register both touches?",
+        "Were both touches valid, rather than a floor hit, late hit or boundary exception?"
+      ],
+      "articles": [
+        "t.91",
+        "t.92",
+        "t.94.5",
+        "t.33.4"
+      ],
+      "search_terms": [
+        "double touch",
+        "two lights",
+        "both lights",
+        "simultaneous",
+        "both score",
+        "right of way",
+        "priority"
+      ],
+      "caveat": "This entry covers touch validity. Final-score and time-limit outcomes are outside this first collection.",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "halt",
+      "title": "A touch landed after “Halt”",
+      "weapons": [
+        "epee",
+        "foil",
+        "sabre"
+      ],
+      "category": "Strip & movement",
+      "summary": "After Halt, no new action may start. A movement already begun may remain valid, but other stopping rules can still invalidate the touch.",
+      "conditions": [
+        "Check when the action began, rather than only when the light appeared.",
+        "Passing, leaving the strip and other specific rules can annul a touch even if the action began before Halt.",
+        "A fencer who stops before the referee calls Halt can still receive a valid touch."
+      ],
+      "questions": [
+        "Did the movement begin before Halt?",
+        "Was there a specific stop condition, such as passing or leaving the strip?"
+      ],
+      "articles": [
+        "t.23.3",
+        "t.23.4",
+        "t.55.1",
+        "t.28.2",
+        "t.33.4"
+      ],
+      "search_terms": [
+        "after halt",
+        "late touch",
+        "ref said stop",
+        "stopped fencing",
+        "after stop",
+        "before fence",
+        "light after halt"
+      ],
+      "caveat": "",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "foil-off-target",
+      "title": "A white light came on in foil",
+      "weapons": [
+        "foil"
+      ],
+      "category": "Target & scoring",
+      "summary": "A normal off-target foil touch does not score, but it stops the phrase and annuls touches made afterwards.",
+      "conditions": [
+        "Only touches on valid foil target count. A normal hit to the arm, leg or head is off target.",
+        "The off-target touch stops the phrase; the order of the touches matters.",
+        "Covering or substituting non-valid target has special rules in t.79. This entry describes an ordinary off-target touch."
+      ],
+      "questions": [
+        "Was the light an ordinary off-target indication?",
+        "Did the other touch arrive before or after the off-target touch?"
+      ],
+      "articles": [
+        "t.77.2",
+        "t.78"
+      ],
+      "search_terms": [
+        "white light",
+        "off target",
+        "arm hit",
+        "leg hit",
+        "foil white",
+        "no point white"
+      ],
+      "caveat": "",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "foil-two-lights",
+      "title": "Two colored lights in foil — who scores?",
+      "weapons": [
+        "foil"
+      ],
+      "category": "Target & scoring",
+      "summary": "Foil applies its conventions to decide validity and priority. Two colored lights do not give a point to each fencer.",
+      "conditions": [
+        "The referee analyzes the fencing phrase and applies the foil conventions, including attack, parry and riposte.",
+        "Lights establish registration; the referee still decides which touch is valid under those conventions.",
+        "This first collection explains why priority matters. It does not yet break down every attack and counterattack case."
+      ],
+      "questions": [
+        "What phrase did the referee describe?",
+        "Is the question about their observation, or a specific rule applied to that observation?"
+      ],
+      "articles": [
+        "t.82",
+        "t.54.2"
+      ],
+      "search_terms": [
+        "two lights",
+        "both lights",
+        "double touch",
+        "right of way",
+        "priority",
+        "counterattack",
+        "attack parry riposte"
+      ],
+      "caveat": "Open the official foil conventions t.83–89 for the full priority rules.",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "sabre-two-lights",
+      "title": "Two lights in sabre — who scores?",
+      "weapons": [
+        "sabre"
+      ],
+      "category": "Target & scoring",
+      "summary": "Sabre applies its conventions to decide validity and priority. Two lights do not give a point to each fencer.",
+      "conditions": [
+        "The referee analyzes the fencing phrase and applies the sabre conventions.",
+        "The apparatus records touches; it does not decide attack, parry, riposte or priority.",
+        "This first collection explains why priority matters. It does not yet break down every attack and counterattack case."
+      ],
+      "questions": [
+        "What phrase did the referee describe?",
+        "Is the question about their observation, or a specific rule applied to that observation?"
+      ],
+      "articles": [
+        "t.100",
+        "t.54.2"
+      ],
+      "search_terms": [
+        "two lights",
+        "both lights",
+        "double touch",
+        "right of way",
+        "priority",
+        "counterattack",
+        "attack parry riposte"
+      ],
+      "caveat": "Open the official sabre conventions t.101–106 for the full priority rules.",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    },
+    {
+      "id": "sabre-off-target",
+      "title": "A sabre hit landed on the leg",
+      "weapons": [
+        "sabre"
+      ],
+      "category": "Target & scoring",
+      "summary": "An ordinary sabre touch off target does not score, does not register, and does not stop the phrase.",
+      "conditions": [
+        "The ordinary off-target rule is different from foil’s white-light stop.",
+        "Other rules, such as a fencing fault or going completely off the side, may still stop the phrase and invalidate subsequent touches."
+      ],
+      "questions": [
+        "Was the hit off target, with no other stopping condition?"
+      ],
+      "articles": [
+        "t.98"
+      ],
+      "search_terms": [
+        "leg hit",
+        "off target",
+        "below waist",
+        "hit thigh",
+        "no light leg",
+        "sabre target"
+      ],
+      "caveat": "",
+      "diagram": null,
+      "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
+    }
+  ]
+}

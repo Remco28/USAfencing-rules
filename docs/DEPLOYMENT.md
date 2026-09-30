@@ -2,6 +2,7 @@
 
 Repository: https://github.com/Remco28/USAfencing-rules (public).
 Custom domain: https://penalties.teamremco.org.
+Scoring companion: https://penalties.teamremco.org/scoring/ (same artifact and domain).
 Pages settings: https://github.com/Remco28/USAfencing-rules/settings/pages.
 Deployment workflow: `.github/workflows/pages.yml`.
 
@@ -56,3 +57,11 @@ and offline reload. All relative asset paths support the custom-domain root.
 The workflow uses official Pages actions and uploads a static artifact. See
 [custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 and [custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+The workflow also validates scoring data and retrieval checks. `/scoring/` has
+its own narrowly scoped worker/cache; relative links connect the two guides. No
+additional DNS entry is needed. After release, test both guides and visit each
+online before testing offline. See [scoring audit](SCORING.md).
+
+Verified September 30, 2026: the custom-domain certificate is approved and HTTPS
+is enforced. DNS/HTTPS setup is complete for the shared domain.
