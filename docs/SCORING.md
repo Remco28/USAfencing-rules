@@ -112,3 +112,8 @@ In particular, the 2026–27 Operations Manual gives a more detailed domestic
 on-strip protest route than the original guide's blanket Head Referee wording.
 That procedure needs reconciliation and revision; the original release checks
 validated the implementation, not completeness of procedural interpretation.
+
+
+Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Operations Manual and Athlete Handbook alongside the November rulebook. Equipment tests, video, rule application and scoresheet correction are separate. The penalty t.117 extraction collision is fixed with a source-boundary regression check. The unsupported o.79 finishing-double citation was removed; regulation DE 14–14 remains an explicit research gap.
+
+Domestic procedural excerpts now include document title, edition and PDF page. The builder checks pinned article boundaries and, for two-column domestic documents, explicitly selected column ranges with line-end hyphens rejoined. Every excerpt is validated offline before export.

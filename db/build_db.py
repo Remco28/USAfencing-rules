@@ -385,7 +385,7 @@ def parse_rules_articles(path):
     for i, raw in enumerate(lines, start=1):
         line = raw.strip()
         m = HEADING_RE.match(line)
-        if m and len(line) < 14:
+        if m and len(line) < 14 and not (m.group(1) == "t" and (line in articles or line == cur)):
             flush()
             cur = line
             order.append(cur)

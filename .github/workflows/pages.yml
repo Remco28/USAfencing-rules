@@ -28,6 +28,7 @@ jobs:
       - name: Rebuild and verify reference data
         run: |
           python3 research/build_inventory.py --check
+          python3 tests/source_extraction.py
           python3 db/build_db.py
           python3 db/build_scoring.py
           git diff --exit-code -- site/data site/scoring/data

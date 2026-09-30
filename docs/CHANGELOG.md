@@ -49,3 +49,6 @@ archived official guidance/directory pages, and indexed complete source articles
 with page/line locators. Added a practical scoring-topic inventory, draft search
 terms, publication limits and findings, including a domestic appeal-route issue
 to resolve before the next content pass. Runtime rule/case data is unchanged.
+
+
+Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Operations Manual and Athlete Handbook alongside the November rulebook. Equipment tests, video, rule application and scoresheet correction are separate. The penalty t.117 extraction collision is fixed with a source-boundary regression check. The unsupported o.79 finishing-double citation was removed; regulation DE 14–14 remains an explicit research gap.

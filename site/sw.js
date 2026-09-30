@@ -1,5 +1,5 @@
 /* Offline support: cache the app shell + data + figures on first visit. */
-var CACHE = "fencing-penalties-v11";
+var CACHE = "fencing-penalties-v12";
 var CORE = [
   "./",
   "index.html",

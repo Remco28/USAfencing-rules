@@ -624,10 +624,6 @@
         {
           "source": "usa-rules-2025-11",
           "locator": "t.92"
-        },
-        {
-          "source": "usa-rules-2025-11",
-          "locator": "o.79"
         }
       ],
       "finding": "Pool 4–4 and DE tied final-score situations need their explicit end-of-bout rules, not a universal both-lights-each-scores summary.",
@@ -643,8 +639,8 @@
         "winning double"
       ],
       "priority": "high",
-      "status": "candidate",
-      "publication_limit": "Include 10-touch/youth variants only after format-specific source confirmation; do not infer every adapted score rule by analogy."
+      "status": "needs-resolution",
+      "publication_limit": "Pool 4–4 and extra-minute doubles have explicit USA exceptions and can be published. No collected clause explicitly resolves a regulation DE double at 14–14; o.79 concerns withdrawal, not double touches. Do not invent a DE finishing rule or extrapolate youth formats."
     },
     {
       "id": "epee-extra-minute",

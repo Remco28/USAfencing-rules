@@ -25,15 +25,18 @@
   weapon('sabre');query('leg hit');check(first()==='#/case/sabre-off-target','sabre off-target');
   check(localStorage.getItem('fencing-scoring-weapon')==='sabre','weapon saved');
   location.hash='/review';await settle();
-  check(document.querySelector('#screen').textContent.includes('Head Referee'),'November rulebook review text present; domestic procedure gap documented');
+  check(document.querySelector('#screen').textContent.includes('Head Referee'),'Head Referee identifies domestic reviewability');
   check(document.querySelector('#screen').textContent.includes('the fencer or team captain'),'correct requesters');
+  check(document.querySelector('#screen').textContent.includes('full Bout Committee'),'domestic appellate route');
+  check(document.querySelector('#screen').textContent.includes('Stay hooked up'),'domestic timing');
+  check(document.querySelector('#screen').textContent.includes('Correct the recorded score'),'scoresheet route separate');
   weapon('epee');query('ran past');await settle();document.querySelector('.case-card').click();await settle();
   document.querySelector('[data-step="2"]').click();check(document.querySelector('#diagram-caption').textContent.includes('A’s touch made after passing is annulled'),'passing example role distinction');
   check(document.querySelector('.companion').getAttribute('href')==='../','reciprocal penalty link');
   check(document.documentElement.scrollWidth<=innerWidth,'no horizontal overflow');
   await navigator.serviceWorker.ready;
   check((await navigator.serviceWorker.getRegistrations()).some(r=>r.scope.endsWith('/scoring/')),'scoring worker scope');
-  const cache=await caches.open('fencing-scoring-v3');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
+  const cache=await caches.open('fencing-scoring-v4');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
   query('');await settle();
   return {passed:passed.length,checks:passed};
 })()

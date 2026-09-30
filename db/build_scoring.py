@@ -10,16 +10,27 @@ def normalized(text):
 
 def build():
     data = json.loads((ROOT / "db/scoring_cases.json").read_text())
-    text = (ROOT / "research/extracted/usa-rules-2025-11.txt").read_text()
-    # Printed headers are extraction artifacts, not rule wording.
-    text = re.sub(r"USA Fencing Rules for Competition[^\n]*", "", text)
-    articles = {}
-    for match in re.finditer(r"^([tom]\.\d+)\s*\n(.*?)(?=^[tom]\.\d+\s*$|\Z)", text, re.M | re.S):
-        articles[match[1]] = normalized(match[2])
+    catalog = {s["id"]: s for s in json.loads((ROOT / "research/sources.json").read_text())["sources"]}
+    records = json.loads((ROOT / "research/article-index.json").read_text())["articles"]
+    raw = (ROOT / catalog["usa-rules-2025-11"]["extracted_path"]).read_text().split("\n")
+    articles = {r["ref"]: normalized(re.sub(r"USA Fencing Rules for Competition[^\n]*", "", "\n".join(raw[r["line_start"]-1:r["line_end"]]))) for r in records if r["source"] == "usa-rules-2025-11"}
     for ref, quote in data["sources"].items():
-        base = re.match(r"[tom]\.\d+", ref).group()
-        if normalized(quote) not in articles.get(base, ""):
-            raise ValueError(f"Source excerpt does not match shared rulebook: {ref}")
+        detail = data.get("source_details", {}).get(ref)
+        if detail:
+            source = catalog[detail["source"]]
+            pages = (ROOT / source["extracted_path"]).read_text().split("\f")
+            page = pages[detail["page"]-1]
+            if "column_start" in detail:
+                page = "\n".join(line[detail["column_start"]:detail.get("column_end")] for line in page.split("\n"))
+            page = re.sub(r"(?<=\w)-[ \t]*\n[ \t]*(?=\w)", "", page)
+            body = normalized(page)
+            detail["title"] = source["title"] + " · " + source["version"]
+            detail["url"] = source["url"] + "#page=" + str(detail["page"])
+        else:
+            match = re.match(r"[tom]\.\d+", ref)
+            body = articles.get(match.group() if match else ref, "")
+        if normalized(quote) not in body:
+            raise ValueError(f"Source excerpt does not match pinned document: {ref}")
     ids = set()
     for sort, case in enumerate(data["cases"]):
         if case["id"] in ids or not re.fullmatch(r"[a-z0-9-]+", case["id"]):

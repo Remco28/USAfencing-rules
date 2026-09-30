@@ -62,7 +62,7 @@ outcome into every youth/veteran variant.
 Sources: [t.38](../articles/usa-rules-2025-11/t.38.txt),
 [t.40](../articles/usa-rules-2025-11/t.40.txt),
 [t.41](../articles/usa-rules-2025-11/t.41.txt),
-[o.79](../articles/usa-rules-2025-11/o.79.txt),
+
 [domestic format context](../sources/usa-fencing/2026-27-athlete-handbook-2026-09-27.pdf#page=41).
 
 ### Timing at Halt differs from timing at the buzzer
@@ -201,3 +201,19 @@ The research index has the correct article at source line 2217. Repair the legac
 builder's article-boundary handling in a focused correction pass; do not confuse
 source hash/rebuild consistency with correct article selection. This phase leaves
 published rule/case content unchanged, so the issue is explicitly retained here.
+
+## Implementation reconciliation — September 30, 2026
+
+The companion now distinguishes explanation, equipment testing, official video,
+rule-application protest and scoresheet correction. It cites the domestic manual’s
+Head Referee screening / full Bout Committee review and stay-hooked timing beside
+t.174’s older wording. Event officials identify the applicable route; the guide
+does not silently claim the two texts say the same thing. The handbook supplies
+the separate scoresheet route. This resolves the publication gap by exposing scope
+and source wording, without inventing precedence or contacting officials.
+
+The legacy t.117 collision is repaired and regression-tested against the real
+article. A research citation to o.79 for finishing doubles was incorrect: that
+article concerns withdrawal. It has been removed. Pool 4–4 and extra-minute rules
+are supported; the collected texts do not explicitly settle regulation DE 14–14
+doubles. That narrower question remains unpublished pending authoritative guidance.

@@ -43,7 +43,13 @@
     "t.174": "If the Referee maintains their opinion, the Head Referee has authority to settle an appeal",
     "t.175": "Complaints and protests which are not concerned with a referee’s decision must be made in writing without delay; they must be addressed to the Bout Committee.",
     "m.55.4": "The socket which terminates the reel cable, and is designed to receive the plug of the bodycord at the fencer’s back, must include a safety device",
-    "t.35.3": "A competitor who crosses one of the lateral boundaries of the strip with one or both feet— e.g., when making a flèche—to avoid being touched will be penalized as specified in Articles t.158-162, t.165, t.170, for the offenses of the 1st group. Any touch made by the offending fencer is annulled."
+    "t.35.3": "A competitor who crosses one of the lateral boundaries of the strip with one or both feet— e.g., when making a flèche—to avoid being touched will be penalized as specified in Articles t.158-162, t.165, t.170, for the offenses of the 1st group. Any touch made by the offending fencer is annulled.",
+    "USA on-strip protest": "Initially, the head referee will determine if the protest is valid and reviewable. For points of fact, the decision of the referee is final. For other protest, the full Bout Committee will convene at the strip.",
+    "USA protest timing": "Once the fencer unhooks, or continues to fence an additional touch, there is no longer an opportunity for a protest.",
+    "USA appellate decision": "After deliberation, the decision of the Bout Committee is final and there is no further appeal permitted. There is no appeal of the Bout Committee when it is the appellate body for a referee decision.",
+    "USA scoresheet correction": "If both fencers agree, the scoresheet will be changed",
+    "USA scoresheet evidence": "Fencer or spectator submitted video or phots are not valid score documents and will not be used by the bout committee.",
+    "USA scoresheet deadline": "If consensus cannot be achieved prior to the end of the standard review period, the score recorded stands and no further protests will be considered."
   },
   "cases": [
     {
@@ -150,7 +156,8 @@
         "A foot is valid épée target. The floor is not the opponent. The referee must establish what was touched; the apparatus cannot identify the location.",
         "If referee-supervised tests show a touch on the conductive strip registers a light, t.94.1 requires annulment of the last touch, subject to t.56.",
         "If testing shows the strip is grounded and does not reproduce a fault, that test does not prove the original point landed on the foot or on the floor.",
-        "A fault need not repeat every time, but it must be demonstrated without doubt at least once during the supervised tests. Preserve the equipment and test immediately."
+        "A fault need not repeat every time, but it must be demonstrated without doubt at least once during the supervised tests. Preserve the equipment and test immediately.",
+        "Check the event and the surface: the domestic Operations Manual permits local/division qualifier strips without grounding. A successful grounding test describes the tested setup; it does not determine where the earlier point landed."
       ],
       "questions": [
         "Did the referee establish a floor hit or a hit on the opponent?",
@@ -311,7 +318,7 @@
         "before fence",
         "light after halt"
       ],
-      "caveat": "",
+      "caveat": "Expiration of fencing time is a separate cutoff under t.44. Do not apply the already-started movement exception to the final buzzer.",
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
     },
@@ -446,5 +453,38 @@
       "diagram": null,
       "review_note": "Vocabulary describes ways to find this situation; it does not establish facts or decide the call."
     }
-  ]
+  ],
+  "source_details": {
+    "USA on-strip protest": {
+      "source": "usa-operations-2026-27",
+      "page": 15,
+      "column_start": 60
+    },
+    "USA protest timing": {
+      "source": "usa-operations-2026-27",
+      "page": 15,
+      "column_start": 60
+    },
+    "USA appellate decision": {
+      "source": "usa-operations-2026-27",
+      "page": 15,
+      "column_start": 60
+    },
+    "USA scoresheet correction": {
+      "source": "usa-handbook-2026-27-09-27",
+      "page": 82,
+      "column_start": 63
+    },
+    "USA scoresheet evidence": {
+      "source": "usa-handbook-2026-27-09-27",
+      "page": 82,
+      "column_start": 63
+    },
+    "USA scoresheet deadline": {
+      "source": "usa-handbook-2026-27-09-27",
+      "page": 83,
+      "column_start": 0,
+      "column_end": 62
+    }
+  }
 }

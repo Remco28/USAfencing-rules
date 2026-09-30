@@ -140,3 +140,6 @@ line positions are unchanged. Existing `rules.txt:<lines>` source pointers mean
 `research/extracted/usa-rules-2025-11.txt`. Builder input paths were updated;
 this organization change must leave all penalty and scoring runtime exports
 unchanged. `build/fig-*.png` remains the legacy extracted image staging area.
+
+
+Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Operations Manual and Athlete Handbook alongside the November rulebook. Equipment tests, video, rule application and scoresheet correction are separate. The penalty t.117 extraction collision is fixed with a source-boundary regression check. The unsupported o.79 finishing-double citation was removed; regulation DE 14–14 remains an explicit research gap.

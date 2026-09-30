@@ -23,7 +23,7 @@ Each article link goes to the complete raw heading-bounded excerpt, with origina
 | [Forced or accidental boundary exit](#accidental-exit) | epee, foil, sabre | high | candidate |
 | [Pool score, tied time and deciding hit](#pool-ending) | epee, foil, sabre | high | candidate |
 | [DE score and tie at regulation time](#de-ending) | epee, foil, sabre | high | candidate |
-| [Double at the winning score](#epee-final-double) | epee | high | candidate |
+| [Double at the winning score](#epee-final-double) | epee | high | needs-resolution |
 | [Épée doubles in the extra minute](#epee-extra-minute) | epee | high | candidate |
 | [Team relay target, time and carryover](#team-relay) | epee, foil, sabre | high | candidate |
 | [Relay-ending hit and additional penalty hit](#team-penalty-limit) | epee, foil, sabre | high | candidate |
@@ -371,9 +371,8 @@ Sources:
 - [t.38](../articles/usa-rules-2025-11/t.38.txt) · PDF pp. 30–31; extract lines 1018–1046
 - [t.40](../articles/usa-rules-2025-11/t.40.txt) · PDF pp. 31–32; extract lines 1056–1073
 - [t.92](../articles/usa-rules-2025-11/t.92.txt) · PDF pp. 54–55; extract lines 1893–1899
-- [o.79](../articles/usa-rules-2025-11/o.79.txt) · PDF pp. 113–113; extract lines 4028–4036
 
-Publication limit: Include 10-touch/youth variants only after format-specific source confirmation; do not infer every adapted score rule by analogy.
+Publication limit: Pool 4–4 and extra-minute doubles have explicit USA exceptions and can be published. No collected clause explicitly resolves a regulation DE double at 14–14; o.79 concerns withdrawal, not double touches. Do not invent a DE finishing rule or extrapolate youth formats.
 
 <a id="epee-extra-minute"></a>
 ## Épée doubles in the extra minute
