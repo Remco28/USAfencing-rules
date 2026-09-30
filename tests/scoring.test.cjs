@@ -53,3 +53,7 @@ assert(data.cases.find(c=>c.id==='non-combativity').conditions.includes('Individ
 console.log('All inventory topic/weapon mappings and finishing-double/source distinctions passed.');
 
 assert(hits('withdrawal result').slice(0,2).some(h=>h.offense.id==='withdrawal-results'),'withdrawal result is readily retrieved');
+
+assert.deepEqual(hits('fencing time').map(h=>h.offense.id).sort(),['ask-time','priority-glossary'],'reviewed phrase preserves both distinct meanings');
+for(const q of ['fencing','time','fencing times','the and please']) assert.equal(hits(q).length,0,'unreviewed filler query: '+q);
+console.log('Reviewed all-filler phrase and no-fallback negatives passed.');

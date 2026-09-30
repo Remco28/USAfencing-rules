@@ -51,7 +51,7 @@
       (update.individual || []).concat(update.team || [], update.notes || []).forEach(function (text) { add(text, 2); });
       (offense.effects || []).forEach(function (effect) { add(effect.title + " " + effect.text, 1); });
       Object.keys(weights).forEach(function (word) { frequency[word] = (frequency[word] || 0) + 1; vocabulary.add(word); });
-      return { offense: offense, weights: weights, phrases: phrases };
+      return { offense: offense, weights: weights, phrases: phrases, reviewedPhrases: (offense.search_terms || []).map(normalize) };
     });
     return { rows: rows, frequency: frequency, vocabulary: vocabulary };
   }
@@ -61,7 +61,15 @@
     var citations = query.toLowerCase().match(/\b[tom]\.\d+(?:\.\d+)*(?:\.?[a-z])?\b/g) || [];
     var remainder = query.replace(/\b[tom]\.\d+(?:\.\d+)*(?:\.?[a-z])?\b/gi, " ");
     var words = Array.from(new Set(tokens(remainder)));
-    if (!words.length && !citations.length) return [];
+    if (!words.length && !citations.length) {
+      // Preserve an explicitly reviewed phrase such as "fencing time" even
+      // when every word is normally filler. No fuzzy or context fallback.
+      var reviewedQuery = normalize(query);
+      if (reviewedQuery.split(/\s+/).length < 2) return [];
+      return index.rows.filter(function (row) { return row.reviewedPhrases.includes(reviewedQuery); }).map(function (row) {
+        return { offense: row.offense, score: 12, related: false, matched: [] };
+      }).sort(function (a, b) { return a.offense.sort - b.offense.sort; });
+    }
     var queryPhrase = phrase(remainder);
     return index.rows.map(function (row) {
       if (!citations.every(function (ref) {

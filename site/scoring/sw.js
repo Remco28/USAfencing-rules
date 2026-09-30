@@ -1,5 +1,5 @@
 /* The companion owns only /scoring/ and its own cache. */
-var CACHE = 'fencing-scoring-v9';
+var CACHE = 'fencing-scoring-v10';
 var CORE = ['./','index.html','styles.css','app.js','favicon.svg','data/cases.json','../search.js'];
 self.addEventListener('install', function (event) {
   event.waitUntil(caches.open(CACHE).then(function (cache) { return cache.addAll(CORE); }).then(function () { return self.skipWaiting(); }));

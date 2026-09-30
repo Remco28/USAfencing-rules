@@ -71,7 +71,7 @@
     if (!data) return;
     var current = route();
     syncControls();
-    document.querySelectorAll('[data-nav]').forEach(function (a) { if ((a.dataset.nav === 'home' && !current) || a.dataset.nav === current) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+    document.querySelectorAll('[data-nav]').forEach(function (a) { if ((a.dataset.nav === 'home' && !current) || a.dataset.nav === current || (a.dataset.nav === 'about' && current === 'coverage')) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
     if (!current) results();
     else if (current === 'review') review();
     else if (current === 'about') about();

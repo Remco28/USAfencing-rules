@@ -42,7 +42,9 @@ retrieval aids, including ambiguous phrases such as “disconnected cord.”
   as related. Citation identifiers never receive typo correction.
 - Card/group/weapon filters remain strict, even if they hide a relevant result.
 - Empty queries browse all filtered entries. Unknown or filler-only queries have
-  no results. Search never falls back to returning every offense.
+  no results, except an exact multiword phrase explicitly present in reviewed aliases
+  (for example, scoring’s “fencing time”). That exception does not match context,
+  partial phrases or typos. Search never falls back to returning every offense.
 
 `site/search.js` is dependency-free browser JavaScript, also callable from Node.
 The index is built once after data loads; search runs locally and makes no LLM,

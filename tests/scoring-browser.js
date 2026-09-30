@@ -36,6 +36,9 @@
   check(document.querySelector('#screen').textContent.includes('Correct the recorded score'),'scoresheet route separate');
   weapon('epee');query('ran past');await settle();document.querySelector('.case-card').click();await settle();
   document.querySelector('[data-step="2"]').click();check(document.querySelector('#diagram-caption').textContent.includes('A’s touch made after passing is annulled'),'passing example role distinction');
+  query('fencing time');await settle();
+  check(!!document.querySelector('[href="#/case/priority-glossary"]'),'fencing-time concept retrieved');
+  check(!!document.querySelector('[href="#/case/ask-time"]'),'clock-time meaning also retrieved');
   query('14 14');await settle();check(first()==='#/case/de-final-double','14–14 finishing double retrieved');
   document.querySelector('.case-card').click();await settle();
   check(document.querySelector('#screen').textContent.includes('score stays 14–14'),'finishing double cancels points');
@@ -65,7 +68,7 @@
   check(document.documentElement.scrollWidth<=innerWidth,'no horizontal overflow');
   await navigator.serviceWorker.ready;
   check((await navigator.serviceWorker.getRegistrations()).some(r=>r.scope.endsWith('/scoring/')),'scoring worker scope');
-  const cache=await caches.open('fencing-scoring-v9');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
+  const cache=await caches.open('fencing-scoring-v10');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
   location.hash='/coverage';await settle();
   check(document.querySelectorAll('.coverage-topic').length>30,'coverage map shown for selected weapon');
   check(document.querySelector('[data-coverage="partial"]'),'partial coverage is explicit');

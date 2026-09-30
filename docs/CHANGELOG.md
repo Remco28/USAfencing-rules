@@ -82,3 +82,13 @@ refer to their release checkpoints.
 Added complete case/weapon rendering checks, empty/fabricated source rejection
 fixtures and a standalone coverage-review feedback round. Updated current scope
 and maintenance documentation rather than leaving the 33-case status in place.
+
+
+## Reviewed phrase search flow — September 30, 2026
+
+Preserved exact multiword reviewed aliases when all their words are normally
+ignored as filler. “Fencing time” now finds the clock and action-duration meanings;
+generic filler, context-only matches and unreviewed variants still return nothing.
+Filters and rule content are unchanged. Kept About highlighted on its coverage
+subpage and updated both offline caches. This search/flow change is separate from
+the comprehensive content commit.

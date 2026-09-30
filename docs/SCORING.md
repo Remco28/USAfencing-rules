@@ -117,3 +117,20 @@ Open `human_feedback/round-2026-09-30-scoring-coverage/index.html` directly in a
 browser. Try any useful scenarios, add screenshots if helpful, and **export the
 ZIP before closing**. Put the ZIP beside the guide. Nothing is uploaded or saved
 to the repository by the form.
+
+
+### Comprehensive release checks — September 30, 2026
+
+- All 141 excerpts pass pinned-source validation; seven negative fixtures reject
+  false/empty quotes, wrong pages, missing sources and invalid related links.
+- All 95 scoring retrieval examples and 36 penalty examples pass, with additional
+  weapon/citation boundaries and reviewed-phrase/no-fallback checks.
+- All 188 applicable case/weapon views render matching titles, summaries and
+  source text, valid related links and expanded panels without overflow at 375px.
+- The 47 scoring browser checks pass at 375px and 1280px, and after offline reload.
+  The 28 penalty browser checks pass at both widths and after offline reload.
+- The standalone review form opens locally with seven scenarios and no external
+  assets; ZIP export contains readable answers, structured data and round metadata.
+
+These results establish software behavior and excerpt provenance, not complete
+rule interpretation accuracy or official referee endorsement.

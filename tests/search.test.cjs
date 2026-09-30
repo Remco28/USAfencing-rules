@@ -59,3 +59,12 @@ assert.equal(search.rank(index,'').length,41);
 const snapshot=JSON.stringify(offenses); search.rank(index,'touching body cord twice'); assert.equal(JSON.stringify(offenses),snapshot);
 const start=performance.now();for(let n=0;n<100;n++)search.rank(index,'touching body crod');
 console.log(JSON.stringify({exampleSearches:cases.length,negativeAndIntegrityChecks:'passed',averageMsPerSearch:(performance.now()-start)/100}));
+
+const reviewedPhraseIndex=search.create([
+ {id:'reviewed',sort:1,articles:[],search_terms:['fencing time']},
+ {id:'context-only',sort:2,articles:[],one_liner:'fencing time'}
+],{});
+assert.deepEqual(search.rank(reviewedPhraseIndex,'FENCING TIME').map(h=>h.offense.id),['reviewed']);
+for(const q of ['fencing','time','fencing times','the and please']) assert.equal(search.rank(reviewedPhraseIndex,q).length,0);
+assert.equal(search.rank(index,'fencing time').length,0,'phrase does not invent a penalty match');
+console.log('Only explicitly reviewed all-filler phrases match; context and generic filler do not.');
