@@ -7,7 +7,7 @@ deployment repository, backend or paid hosting is required.
 ## Experience and current collection
 
 The default is épée. Weapon choice stays visible and is remembered in browser
-localStorage. Search stays visible, categories occupy a small optional row, and
+localStorage. Search stays visible, categories are collapsed into a disclosure showing the active selection, and
 each card leads to a short explanation, applicable conditions, source excerpts,
 optional fact notes and the review procedure. Notes never compute a verdict.
 Direct links use `#/case/<id>`; selected weapon is explicit even for shared cases.
@@ -124,7 +124,7 @@ The collection adds rear/side touch validity, falls, broken blades, intermittent
 faults, épée spurious/insulated-guard/torn-strip/doubtful-double cases, pool 4–4
 and extra-minute exceptions, clock expiration, restart positions, team relay
 carryover, foil/sabre equipment distinctions, target boundaries, sabre guard
-guidance, official video and scoresheet correction. There are 72 pinned excerpts.
+guidance, official video and scoresheet correction. There are 73 pinned excerpts.
 Nearby cases link by authored IDs and stay within the selected weapon.
 
 The source builder validates excerpts from indexed rulebook articles and explicitly
@@ -137,3 +137,7 @@ filtering, domestic document pages and score/time distinctions.
 Use `human_feedback/round-2026-09-30-scoring-expansion/index.html` for this review
 round. Answers stay in the open page until ZIP export. Priority interpretation and
 other listed research gaps remain a targeted next phase.
+
+Flow polish: categories start collapsed and retain their selection label; search and weapon stay visible. A newly installed worker offers an explicit reload notice instead of interrupting the current reading session. Reloading clears the optional in-page fact notes, as ordinary page reload does.
+
+Final expansion validation: 46 scoring retrieval examples, 36 penalty retrieval examples, six negative source/link rejection checks, t.117 regression, and 39 scoring browser checks at phone and desktop widths. Scoring works after offline reload; penalty browser regression passes 28 checks. The published bundle includes 73 validated excerpts.

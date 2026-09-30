@@ -7,11 +7,15 @@
   const first=()=>document.querySelector('.case-card')?.getAttribute('href');
   location.hash='/';await settle();weapon('epee');query('');
   check(document.querySelectorAll('.case-card').length===22,'22 épée situations');
+  check(!document.querySelector('#category-filter').open,'filters initially collapsed');
+  check(document.querySelector('#category-filter summary').textContent.includes('All categories'),'filter summary shows selection');
+  check(!document.querySelector('#focus-search') && document.querySelectorAll('.bottom-nav a').length===3,'no redundant Search navigation');
   query('hit floor not foot');check(first()==='#/case/floor-touch','floor lookup');
   document.querySelector('.case-card').click();await settle();
   check(document.querySelector('h1').textContent.includes('floor'),'floor detail route');
   check(document.querySelector('#screen').textContent.includes('does not prove'),'successful test is not proof of location');
   check(document.querySelectorAll('blockquote').length>=8,'source wording bundled');
+  check(document.querySelector('#screen').textContent.includes('USA local/division grounding'),'domestic grounding source bundled');
   let s=document.querySelector('[data-fact]');s.value='unclear';s.dispatchEvent(new Event('change',{bubbles:true}));
   check(document.querySelector('#fact-status').textContent.includes('1 unclear'),'fact notes descriptive');
   document.querySelector('[data-clear-facts]').click();check(!s.value,'clear fact notes');
@@ -45,14 +49,19 @@
   check(document.querySelector('#screen').textContent.includes('Athlete Handbook'),'domestic source edition visible');
   check(document.querySelector('.rule-link').href.includes('#page=82'),'domestic source points to physical PDF page');
   location.hash='/';await settle();query('');
+  document.querySelector('#category-filter').open=true;await settle();
   document.querySelector('[data-category="Score & time"]').click();
+  document.querySelector('#category-filter').open=false;await settle();
+  check(document.querySelector('#category-filter summary').textContent.includes('Score & time'),'active filter stays visible while collapsed');
   check(Array.from(document.querySelectorAll('.case-card .tag')).every(e=>e.textContent==='Score & time'),'category strictly limits results');
+  document.querySelector('#category-filter').open=true;await settle();
   document.querySelector('[data-category="All"]').click();
+  document.querySelector('#category-filter').open=false;await settle();
   check(document.querySelector('.companion').getAttribute('href')==='../','reciprocal penalty link');
   check(document.documentElement.scrollWidth<=innerWidth,'no horizontal overflow');
   await navigator.serviceWorker.ready;
   check((await navigator.serviceWorker.getRegistrations()).some(r=>r.scope.endsWith('/scoring/')),'scoring worker scope');
-  const cache=await caches.open('fencing-scoring-v5');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
+  const cache=await caches.open('fencing-scoring-v7');check(await cache.match(new URL('data/cases.json',location.href).href),'scoring data cached');
   query('');await settle();
   return {passed:passed.length,checks:passed};
 })()

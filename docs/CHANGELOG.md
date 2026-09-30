@@ -56,4 +56,9 @@ Reconciliation (2026-09-30): domestic review routes now cite the 2026–27 Opera
 
 ### Scoring expansion — September 30, 2026
 
-Expanded from 10 to 33 bounded situations, with 72 validated source excerpts. Added movement, weapon-specific equipment exceptions, score/time, official video and scoresheet cases. Added weapon-aware links between related explanations and source title/edition/page labels. Updated retrieval and browser checks. Regulation DE finishing doubles, adapted formats and borderline priority remain documented gaps.
+Expanded from 10 to 33 bounded situations, with 73 validated source excerpts. Added movement, weapon-specific equipment exceptions, score/time, official video and scoresheet cases. Added weapon-aware links between related explanations and source title/edition/page labels. Updated retrieval and browser checks. Regulation DE finishing doubles, adapted formats and borderline priority remain documented gaps.
+
+
+### Scoring flow polish — September 30, 2026
+
+Collapsed category filters into a compact disclosure that always names the active selection. Tightened the browse introduction so the first result appears sooner on phones. Kept search and weapon selection pinned. Added an explicit reload notice when a new offline guide is installed, without interrupting reading or discarding open notes automatically. This flow pass is separate from rule corrections and content expansion.

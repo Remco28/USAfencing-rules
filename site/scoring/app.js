@@ -1,7 +1,7 @@
 /* Bounded, source-backed reference retrieval. No automated rulings. */
 (function () {
   "use strict";
-  var data, index, weapon = "epee", category = "All", query = "", homeScroll = 0, lastRoute = "", facts = {}, diagramStep = 0;
+  var data, index, weapon = "epee", category = "All", query = "", homeScroll = 0, lastRoute = "", facts = {}, diagramStep = 0, filtersOpen = false;
   var labels = { epee: "Épée", foil: "Foil", sabre: "Sabre" };
   var screen = document.getElementById("screen"), input = document.getElementById("search");
   try { var saved = localStorage.getItem("fencing-scoring-weapon"); if (labels[saved]) weapon = saved; } catch (_) {}
@@ -19,7 +19,7 @@
     var count = available.length;
     var ranked = PenaltySearch.rank(index, query).filter(function (hit) { return hit.offense.weapons.includes(weapon) && (category === "All" || hit.offense.category === category); });
     var categories = ["All", "Strip & movement", "Equipment & lights", "Target & scoring", "Score & time", "Review & records"].filter(function (name) { return name === "All" || available.some(function (c) { return c.category === name; }); });
-    screen.innerHTML = '<p class="eyebrow">USA Fencing · ' + labels[weapon] + '</p><h1>Understand the touch.</h1><p class="intro-copy">Find the rule behind what happened.</p><p class="scope">Unofficial reference · Find situations by weapon, then check the conditions.</p><div class="categories" role="group" aria-label="Situation category">' + categories.map(function (c) { return '<button type="button" data-category="' + esc(c) + '" aria-pressed="' + (c === category) + '">' + esc(c) + '</button>'; }).join("") + '</div><p class="status" role="status" aria-live="polite">' + ranked.length + ' situation' + (ranked.length === 1 ? "" : "s") + (query ? ' for “' + esc(query) + '”' : '') + '</p>' + (ranked.length ? '<div class="results">' + ranked.map(function (hit) {
+    screen.innerHTML = '<p class="eyebrow">USA Fencing · ' + labels[weapon] + '</p><div class="browse-intro"><h1>Understand the touch.</h1><p class="intro-copy">Find the rule behind what happened.</p><p class="scope">Unofficial reference · Check the conditions.</p></div><details class="filter-panel" id="category-filter"' + (filtersOpen ? ' open' : '') + '><summary>Filter situations <span>' + esc(category === 'All' ? 'All categories' : category) + '</span></summary><div class="categories" role="group" aria-label="Situation category">' + categories.map(function (c) { return '<button type="button" data-category="' + esc(c) + '" aria-pressed="' + (c === category) + '">' + esc(c) + '</button>'; }).join("") + '</div></details><p class="status" role="status" aria-live="polite">' + ranked.length + ' situation' + (ranked.length === 1 ? "" : "s") + (query ? ' for “' + esc(query) + '”' : '') + '</p>' + (ranked.length ? '<div class="results">' + ranked.map(function (hit) {
       var c = hit.offense;
       return '<a class="case-card" href="#/case/' + c.id + '"><span class="tag">' + esc(c.category) + '</span>' + (hit.related ? '<span class="related">Related situation · check the conditions</span>' : '') + '<h2>' + esc(c.title) + '</h2><p>' + esc(c.summary) + '</p><span class="refs">' + esc(c.articles.slice(0, 3).join(' · ')) + ' <span aria-hidden="true">→</span></span></a>';
     }).join("") + '</div>' : '<div class="empty"><h2>No matching situation in this collection</h2><p>Try a shorter description, check your selected weapon, or clear the category. A missing result does not mean there is no rule.</p><button class="button" type="button" data-reset>Show all ' + labels[weapon] + ' situations</button><p style="margin-top:15px">' + ruleLink('') + '</p></div>');
@@ -98,8 +98,17 @@
     var step = e.target.closest('[data-step]'); if (step) { diagramStep = Number(step.dataset.step); updateDiagram(); }
     var clear = e.target.closest('[data-clear-facts]'); if (clear) { Object.keys(facts).filter(function (k) { return k.startsWith(clear.dataset.clearFacts + '-'); }).forEach(function (k) { delete facts[k]; }); document.querySelectorAll('[data-fact]').forEach(function (s) { s.value=''; }); updateFactStatus(); }
   });
+  document.addEventListener('toggle', function(e) { if(e.target.id === 'category-filter') filtersOpen = e.target.open; }, true);
   document.addEventListener('change', function (e) { if (e.target.dataset.fact) { facts[e.target.dataset.fact] = e.target.value; updateFactStatus(); } });
   window.addEventListener('hashchange', render);
+  var hadController = 'serviceWorker' in navigator && !!navigator.serviceWorker.controller;
+  if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('controllerchange', function() {
+    if (!hadController || document.getElementById('guide-update')) return;
+    var notice = document.createElement('div'); notice.id = 'guide-update'; notice.className = 'guide-update'; notice.setAttribute('role','status');
+    notice.innerHTML = '<span>Updated guide available</span><button type="button">Reload guide</button>';
+    notice.querySelector('button').addEventListener('click', function() { location.reload(); });
+    document.body.appendChild(notice);
+  });
   fetch('data/cases.json').then(function (r) { if (!r.ok) throw new Error('Reference unavailable'); return r.json(); }).then(function (d) {
     data = d;
     var entries = data.cases.map(function (c) { return Object.assign({},c,{one_liner:c.title,offense_official:c.title,explainer:c.summary}); });

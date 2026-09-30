@@ -9,3 +9,16 @@ main{max-width:1050px;margin:0 auto;padding:32px 16px 108px;min-height:70vh}.eye
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 
 main:focus{outline:none}
+
+/* Compact browsing controls keep the first answer closer on a phone. */
+.browse-intro h1{font-size:clamp(1.75rem,4vw,2.4rem);margin-bottom:9px}
+.browse-intro .intro-copy{margin-bottom:7px}
+.browse-intro .scope{margin:0 0 18px;font-size:.78rem}
+.filter-panel{background:white;border:1px solid var(--line);border-radius:9px}
+.filter-panel>summary{display:list-item;padding:11px 14px;font-size:.85rem;font-weight:650;min-height:46px}
+.filter-panel>summary span{float:right;color:var(--blue);font-size:.78rem;font-weight:500;max-width:55%;text-align:right}
+.filter-panel .categories{padding:0 14px 12px;margin:5px 0 0}
+.related-cases li{margin-bottom:9px}
+.guide-update{position:fixed;bottom:75px;left:50%;transform:translateX(-50%);z-index:15;display:flex;align-items:center;gap:14px;background:var(--navy);color:white;padding:9px 14px;border-radius:9px;box-shadow:0 4px 18px #102b4830;max-width:calc(100% - 24px);font-size:.85rem}
+.guide-update button{border:1px solid #a7bfd5;border-radius:6px;background:transparent;color:white;padding:7px 10px;white-space:nowrap}
+@media(max-width:700px){main{padding-top:20px}.browse-intro h1{font-size:1.75rem}.browse-intro .scope{margin-bottom:14px}.filter-panel>summary span{font-size:.75rem}.guide-update{width:calc(100% - 24px);justify-content:space-between}}
