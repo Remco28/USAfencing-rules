@@ -124,3 +124,15 @@ Actions deployments use that setting. Enable Enforce HTTPS when GitHub finishes
 issuing the certificate. [Deployment and recovery](docs/DEPLOYMENT.md).
 
 The September 30 scoring expansion contains 33 reviewed situations (22 épée, 19 foil, 20 sabre, shared entries counted by weapon). Domestic review guidance is reconciled with current operations and handbook sources. See `human_feedback/round-2026-09-30-scoring-expansion/index.html` for this round’s portable review form; export its ZIP before closing.
+
+## License
+
+Copyright Team Remco (https://teamremco.org).
+
+Free to use, and free to build on for your own use. You may use, copy and change this for personal, educational and other noncommercial purposes under the [PolyForm Noncommercial License 1.0.0](LICENSE.md).
+
+Commercial use needs permission. If you'd like to use this commercially, [open an issue](https://github.com/Remco28/USAfencing-rules/issues) and we can talk.
+
+Rule text, excerpts, diagrams and other material from the USA Fencing rulebook belong to USA Fencing and are not covered by this license. This is an unofficial reference.
+
+Third-party libraries keep their own licenses.
